@@ -3,3 +3,6 @@
 
 # pycharm
 .idea
+
+#Mac DSStore
+.DS_Store
