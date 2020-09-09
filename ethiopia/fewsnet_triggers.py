@@ -47,7 +47,6 @@ def load_popdata(
         df_pop[pop_adm1c] = df_pop[pop_adm1c].apply(
             lambda x: get_new_name(x, admin1_mapping)
         )
-    print("Total population: ", df_pop.Total.sum())
     return df_pop
 
 
@@ -68,7 +67,10 @@ def create_histpopdict(
 def get_adjusted(row, perc_dict):
     year = str(row["date"].year)
     adjustment = perc_dict[year]
-    return row["Total"] * adjustment
+    if pd.isna(row["Total"]):
+        return row["Total"]
+    else:
+        return int(row["Total"] * adjustment)
 
 
 def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
@@ -91,7 +93,7 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
     )
     if df_ipcp[df_ipcp.date == df_ipcp.date.max()].Total.sum() != df_pop.Total.sum():
         warnings.warn(
-            "Population data merged with IPC doesn't match the original population numbers"
+            f"Population data merged with IPC doesn't match the original population numbers. Original:{df_pop.Total.sum()}, Merged:{df_ipcp[df_ipcp.date == df_ipcp.date.max()].Total.sum()}"
         )
 
     # add columns with population in each IPC level for CS, ML1 and ML2
@@ -108,7 +110,10 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
 def aggr_admin1(df, adm1c):
     cols_ipc = [f"{s}_{l}" for s in ["CS", "ML1", "ML2"] for l in range(1, 6)]
     df_adm = (
-        df[["date", adm1c] + cols_ipc].groupby(["date", adm1c]).agg("sum").reset_index()
+        df[["date", "Total", "adjusted_population", adm1c] + cols_ipc]
+        .groupby(["date", adm1c])
+        .agg("sum")
+        .reset_index()
     )
     df_adm["total_pop"] = df_adm[[f"CS_{i}" for i in range(1, 6)]].sum(axis=1)
 
@@ -139,21 +144,34 @@ def get_trigger_increase(row, level, perc):
 
 
 def main():
-    cs_path = (
-        "Data/EA_FewsNet/FewsNetAdmin2/ethiopia_admin2_fewsnet_20090701_20191001_CS.csv"
-    )
-    ml1_path = "Data/EA_FewsNet/FewsNetAdmin2/ethiopia_admin2_fewsnet_20090701_20191001_ML1.csv"
-    ml2_path = "Data/EA_FewsNet/FewsNetAdmin2/ethiopia_admin2_fewsnet_20090701_20191001_ML2.csv"
+    fnfolder = "Data/EA_FewsNet/FewsNetAdmin2/"  # OldShp/
+    cs_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_CS.csv"
+    ml1_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML1.csv"
+    ml2_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML2.csv"
     pop_path = "Data/eth_admpop_adm2_2020.csv"
     pop_adm2c = "admin2Name_en"
     pop_adm1c = "admin1Name_en"
-    ipc_adm1c = "ADM1_EN"
-    ipc_adm2c = "ADM2_EN"
+    ipc_adm1c = "ADM1_EN"  # "ADMIN1"
+    ipc_adm2c = "ADM2_EN"  # "ADMIN2"
     # mapping from population data to ipc data in Admin2 names (so names that don't correspond)
     admin2_mapping = {
         "Etang Special": "Etang Special woreda",
         "Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)",
     }
+
+    # admin2_mapping = {'Zone 1 (Awsi Rasu)': 'Awusi', 'Zone 2 (Kilbet Rasu)': 'Kilbati', 'Zone 3 (Gabi Rasu)': 'Gabi',
+    #                   'Zone 4  (Fantana Rasu)': 'Fanti', 'Zone 5 (Hari Rasu)': 'Khari', 'Central': 'Central Tigray',
+    #                   'Eastern': 'East Tigray', 'North Western': 'Northwest Tigray',
+    #                   'South Eastern': 'Southeast Tigray',
+    #                   'Western': 'West Tigray', 'Southern': 'South Tigray', 'Mejenger': 'Mezhenger', 'Nuwer':
+    #                       'Nuer', 'Etang Special': 'Itang', 'Agnewak': 'Agniwak', 'Dire Dawa rural': 'Dire Dawa',
+    #                   'Dire Dawa urban': 'Dire Dawa', 'North Wello': 'North Wollo', 'Wag Hamra': 'Wag Himra',
+    #                   'Liban': 'Liben', 'Siti': 'Sitti', 'Shabelle': 'Shebelle', 'Doolo': 'Dollo',
+    #                   'Mao Komo': 'Mao-Komo',
+    #                   'Halaba Special': 'Alaba', 'Gamo': 'Gamo Gofa', 'Gofa': 'Gamo Gofa', 'Guraghe': 'Gurage',
+    #                   'Kefa': 'Keffa', 'Dawuro': 'Dawro', 'Ilu Aba Bora': 'Ilubabor'}
+    #
+    # admin1_mapping = {'SNNP': 'SNNPR'}
 
     df_allipc = merge_ipcstatus(cs_path, ml1_path, ml2_path, ipc_adm1c, ipc_adm2c)
     df_pop = load_popdata(pop_path, pop_adm1c, pop_adm2c, admin2_mapping=admin2_mapping)
