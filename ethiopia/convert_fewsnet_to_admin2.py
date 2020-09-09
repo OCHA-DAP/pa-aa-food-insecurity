@@ -87,19 +87,62 @@ def main():
     Saves a CSV to file and returns the dataframe.
     """
 
-    DATES = ["200907", "200910"]
-    #  ,'201001','201004','201007','201010','201101', '201104', '201107', '201110',
-    # '201201', '201204', '201207', '201210', '201301', '201304', '201307', '201310', '201401', '201404', '201407',
-    # '201410', '201501', '201504', '201507', '201510', '201602', '201606','201610',
-    # '201706', '201710', '201802', '201806', '201810', '201812','201902', '201906', '201910']
+    DATES = [
+        "200907",
+        "200910",
+        "201001",
+        "201004",
+        "201007",
+        "201010",
+        "201101",
+        "201104",
+        "201107",
+        "201110",
+        "201201",
+        "201204",
+        "201207",
+        "201210",
+        "201301",
+        "201304",
+        "201307",
+        "201310",
+        "201401",
+        "201404",
+        "201407",
+        "201410",
+        "201501",
+        "201504",
+        "201507",
+        "201510",
+        "201602",
+        "201606",
+        "201610",
+        "201706",
+        "201710",
+        "201802",
+        "201806",
+        "201810",
+        "201812",
+        "201902",
+        "201906",
+        "201910",
+    ]
     STATUS_LIST = ["CS", "ML1", "ML2"]
     COUNTRY = "ethiopia"
     PATH = "Data/EA_FewsNET/FewsNetRaw/"
-    PATH_RESULT = "Data/EA_FewsNet/FewsNetAdmin2/"
-    ADMIN2_SHP = "Data/ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"  # 'ET_Admin2_2014/ET_Admin2_2014.shp'
+    PATH_RESULT = "Data/EA_FewsNet/FewsNetAdmin2/"  # OldShp/"
+    ADMIN2_SHP = "Data/ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"  # 'Data/ET_Admin2_2014/ET_Admin2_2014.shp'
 
     for STATUS in STATUS_LIST:
-        df = gen_csml1m2(PATH, ADMIN2_SHP, STATUS, DATES)
+        df = gen_csml1m2(
+            PATH,
+            ADMIN2_SHP,
+            STATUS,
+            DATES,
+            adm0c="ADM0_EN",
+            adm1c="ADM1_EN",
+            adm2c="ADM2_EN",
+        )
         df.to_csv(
             PATH_RESULT
             + COUNTRY
