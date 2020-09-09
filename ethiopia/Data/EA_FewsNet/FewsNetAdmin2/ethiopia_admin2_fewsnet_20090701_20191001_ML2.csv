@@ -67,6 +67,7 @@
 6284,2011-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 4230,2011-07-01,3.0,Ethiopia,Somali,Korahe
 6292,2011-07-01,2.0,Ethiopia,Amhara,North Gondar
+6294,2011-07-01,2.0,Ethiopia,Oromia,North Shewa
 6296,2011-07-01,2.0,Ethiopia,Tigray,North Western
 6300,2011-07-01,2.0,Ethiopia,SNNP,Siltie
 5731,2011-07-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -157,6 +158,7 @@
 6575,2009-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 539,2009-07-01,4.0,Ethiopia,Somali,Korahe
 6584,2009-07-01,2.0,Ethiopia,Amhara,North Gondar
+6586,2009-07-01,2.0,Ethiopia,Oromia,North Shewa
 6588,2009-07-01,2.0,Ethiopia,Tigray,North Western
 6592,2009-07-01,2.0,Ethiopia,SNNP,Siltie
 6468,2009-07-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -247,6 +249,7 @@
 211,2010-10-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 212,2010-10-01,3.0,Ethiopia,Somali,Korahe
 107,2010-10-01,2.0,Ethiopia,Amhara,North Gondar
+109,2010-10-01,2.0,Ethiopia,Oromia,North Shewa
 111,2010-10-01,2.0,Ethiopia,Tigray,North Western
 115,2010-10-01,2.0,Ethiopia,SNNP,Siltie
 6364,2010-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -337,6 +340,7 @@
 2224,2013-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 2227,2013-07-01,2.0,Ethiopia,Somali,Korahe
 2233,2013-07-01,2.0,Ethiopia,Amhara,North Gondar
+2235,2013-07-01,2.0,Ethiopia,Oromia,North Shewa
 2237,2013-07-01,2.0,Ethiopia,Tigray,North Western
 2242,2013-07-01,2.0,Ethiopia,SNNP,Siltie
 4884,2013-07-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -427,6 +431,7 @@
 2666,2011-04-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 160,2011-04-01,4.0,Ethiopia,Somali,Korahe
 5066,2011-04-01,2.0,Ethiopia,Amhara,North Gondar
+5068,2011-04-01,2.0,Ethiopia,Oromia,North Shewa
 5070,2011-04-01,2.0,Ethiopia,Tigray,North Western
 5074,2011-04-01,2.0,Ethiopia,SNNP,Siltie
 6833,2011-04-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -517,6 +522,7 @@
 6685,2009-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 360,2009-10-01,3.0,Ethiopia,Somali,Korahe
 6692,2009-10-01,2.0,Ethiopia,Amhara,North Gondar
+6694,2009-10-01,2.0,Ethiopia,Oromia,North Shewa
 6696,2009-10-01,2.0,Ethiopia,Tigray,North Western
 6700,2009-10-01,2.0,Ethiopia,SNNP,Siltie
 6523,2009-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -607,6 +613,7 @@
 2732,2012-01-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 2735,2012-01-01,3.0,Ethiopia,Somali,Korahe
 3730,2012-01-01,2.0,Ethiopia,Amhara,North Gondar
+6219,2012-01-01,1.0,Ethiopia,Oromia,North Shewa
 3734,2012-01-01,2.0,Ethiopia,Tigray,North Western
 3738,2012-01-01,2.0,Ethiopia,SNNP,Siltie
 6230,2012-01-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -697,6 +704,7 @@
 3420,2011-10-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 256,2011-10-01,4.0,Ethiopia,Somali,Korahe
 7360,2011-10-01,2.0,Ethiopia,Amhara,North Gondar
+6162,2011-10-01,1.0,Ethiopia,Oromia,North Shewa
 7364,2011-10-01,2.0,Ethiopia,Tigray,North Western
 7367,2011-10-01,2.0,Ethiopia,SNNP,Siltie
 6173,2011-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -787,6 +795,7 @@
 5213,2011-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 272,2011-01-01,4.0,Ethiopia,Somali,Korahe
 5219,2011-01-01,2.0,Ethiopia,Amhara,North Gondar
+5221,2011-01-01,2.0,Ethiopia,Oromia,North Shewa
 5223,2011-01-01,2.0,Ethiopia,Tigray,North Western
 5228,2011-01-01,2.0,Ethiopia,SNNP,Siltie
 6884,2011-01-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -877,6 +886,7 @@
 488,2018-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 307,2018-10-01,2.0,Ethiopia,Somali,Korahe
 497,2018-10-01,1.0,Ethiopia,Amhara,North Gondar
+499,2018-10-01,1.0,Ethiopia,Oromia,North Shewa
 501,2018-10-01,1.0,Ethiopia,Tigray,North Western
 318,2018-10-01,2.0,Ethiopia,SNNP,Siltie
 513,2018-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -967,6 +977,7 @@
 6756,2010-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 419,2010-01-01,3.0,Ethiopia,Somali,Korahe
 6764,2010-01-01,2.0,Ethiopia,Amhara,North Gondar
+6766,2010-01-01,2.0,Ethiopia,Oromia,North Shewa
 6768,2010-01-01,2.0,Ethiopia,Tigray,North Western
 432,2010-01-01,3.0,Ethiopia,SNNP,Siltie
 6417,2010-01-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1057,6 +1068,7 @@
 568,2012-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 571,2012-07-01,2.0,Ethiopia,Somali,Korahe
 3893,2012-07-01,2.0,Ethiopia,Amhara,North Gondar
+3895,2012-07-01,2.0,Ethiopia,Oromia,North Shewa
 5993,2012-07-01,1.0,Ethiopia,Tigray,North Western
 3902,2012-07-01,2.0,Ethiopia,SNNP,Siltie
 6004,2012-07-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1147,6 +1159,7 @@
 4082,2014-07-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 2406,2014-07-01,2.0,Ethiopia,Somali,Korahe
 2412,2014-07-01,2.0,Ethiopia,Amhara,North Gondar
+4093,2014-07-01,1.0,Ethiopia,Oromia,North Shewa
 4095,2014-07-01,1.0,Ethiopia,Tigray,North Western
 4101,2014-07-01,1.0,Ethiopia,SNNP,Siltie
 4105,2014-07-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1237,6 +1250,7 @@
 7043,2012-10-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 4278,2012-10-01,3.0,Ethiopia,Somali,Korahe
 650,2012-10-01,2.0,Ethiopia,Amhara,North Gondar
+652,2012-10-01,2.0,Ethiopia,Oromia,North Shewa
 654,2012-10-01,2.0,Ethiopia,Tigray,North Western
 658,2012-10-01,2.0,Ethiopia,SNNP,Siltie
 4938,2012-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1270,7 +1284,7 @@
 1261,2014-10-01,1.0,Ethiopia,Oromia,Finfine Special
 767,2014-10-01,2.0,Ethiopia,Somali,Jarar
 774,2014-10-01,2.0,Ethiopia,Tigray,Mekele Special
-1288,2014-10-01,1.0,Ethiopia,Oromia,North Shewa
+778,2014-10-01,2.0,Ethiopia,Amhara,North Shewa
 779,2014-10-01,2.0,Ethiopia,Amhara,North Wello
 1291,2014-10-01,1.0,Ethiopia,Gambela,Nuwer
 1293,2014-10-01,1.0,Ethiopia,Addis Ababa,Region 14
@@ -1327,6 +1341,7 @@
 1277,2014-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 771,2014-10-01,2.0,Ethiopia,Somali,Korahe
 777,2014-10-01,2.0,Ethiopia,Amhara,North Gondar
+1288,2014-10-01,1.0,Ethiopia,Oromia,North Shewa
 1290,2014-10-01,1.0,Ethiopia,Tigray,North Western
 1297,2014-10-01,1.0,Ethiopia,SNNP,Siltie
 1303,2014-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1417,6 +1432,7 @@
 3816,2012-04-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 824,2012-04-01,3.0,Ethiopia,Somali,Korahe
 3823,2012-04-01,2.0,Ethiopia,Amhara,North Gondar
+3825,2012-04-01,2.0,Ethiopia,Oromia,North Shewa
 3827,2012-04-01,2.0,Ethiopia,Tigray,North Western
 3832,2012-04-01,2.0,Ethiopia,SNNP,Siltie
 5942,2012-04-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1507,6 +1523,7 @@
 1684,2017-06-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 860,2017-06-01,4.0,Ethiopia,Somali,Korahe
 5443,2017-06-01,1.0,Ethiopia,Amhara,North Gondar
+5445,2017-06-01,1.0,Ethiopia,Oromia,North Shewa
 5447,2017-06-01,1.0,Ethiopia,Tigray,North Western
 5453,2017-06-01,1.0,Ethiopia,SNNP,Siltie
 5459,2017-06-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1597,6 +1614,7 @@
 3119,2015-01-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 886,2015-01-01,2.0,Ethiopia,Somali,Korahe
 3128,2015-01-01,1.0,Ethiopia,Amhara,North Gondar
+3130,2015-01-01,1.0,Ethiopia,Oromia,North Shewa
 3132,2015-01-01,1.0,Ethiopia,Tigray,North Western
 3139,2015-01-01,1.0,Ethiopia,SNNP,Siltie
 3145,2015-01-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1687,6 +1705,7 @@
 5857,2019-06-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 3662,2019-06-01,2.0,Ethiopia,Somali,Korahe
 5866,2019-06-01,1.0,Ethiopia,Amhara,North Gondar
+5868,2019-06-01,1.0,Ethiopia,Oromia,North Shewa
 5870,2019-06-01,1.0,Ethiopia,Tigray,North Western
 5876,2019-06-01,1.0,Ethiopia,SNNP,Siltie
 5881,2019-06-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1777,6 +1796,7 @@
 2092,2018-02-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 7587,2018-02-01,99.0,Ethiopia,Somali,Korahe
 1003,2018-02-01,3.0,Ethiopia,Amhara,North Gondar
+5372,2018-02-01,1.0,Ethiopia,Oromia,North Shewa
 5373,2018-02-01,1.0,Ethiopia,Tigray,North Western
 2104,2018-02-01,2.0,Ethiopia,SNNP,Siltie
 5385,2018-02-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1867,6 +1887,7 @@
 2156,2017-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 3618,2017-10-01,4.0,Ethiopia,Somali,Korahe
 2161,2017-10-01,2.0,Ethiopia,Amhara,North Gondar
+5308,2017-10-01,1.0,Ethiopia,Oromia,North Shewa
 5310,2017-10-01,1.0,Ethiopia,Tigray,North Western
 2168,2017-10-01,2.0,Ethiopia,SNNP,Siltie
 5322,2017-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -1957,6 +1978,7 @@
 2522,2019-02-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 2525,2019-02-01,2.0,Ethiopia,Somali,Korahe
 2531,2019-02-01,2.0,Ethiopia,Amhara,North Gondar
+2811,2019-02-01,1.0,Ethiopia,Oromia,North Shewa
 2813,2019-02-01,1.0,Ethiopia,Tigray,North Western
 2820,2019-02-01,1.0,Ethiopia,SNNP,Siltie
 2825,2019-02-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2047,6 +2069,7 @@
 1204,2019-10-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 2598,2019-10-01,2.0,Ethiopia,Somali,Korahe
 2604,2019-10-01,2.0,Ethiopia,Amhara,North Gondar
+5791,2019-10-01,1.0,Ethiopia,Oromia,North Shewa
 5793,2019-10-01,1.0,Ethiopia,Tigray,North Western
 2612,2019-10-01,2.0,Ethiopia,SNNP,Siltie
 5806,2019-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2080,7 +2103,7 @@
 5566,2015-04-01,1.0,Ethiopia,Oromia,Finfine Special
 1369,2015-04-01,2.0,Ethiopia,Somali,Jarar
 1376,2015-04-01,2.0,Ethiopia,Tigray,Mekele Special
-5589,2015-04-01,1.0,Ethiopia,Oromia,North Shewa
+5588,2015-04-01,1.0,Ethiopia,Amhara,North Shewa
 1970,2015-04-01,2.0,Ethiopia,Amhara,North Wello
 5591,2015-04-01,1.0,Ethiopia,Gambela,Nuwer
 5592,2015-04-01,1.0,Ethiopia,Addis Ababa,Region 14
@@ -2137,6 +2160,7 @@
 1371,2015-04-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 1373,2015-04-01,2.0,Ethiopia,Somali,Korahe
 5587,2015-04-01,1.0,Ethiopia,Amhara,North Gondar
+5589,2015-04-01,1.0,Ethiopia,Oromia,North Shewa
 5590,2015-04-01,1.0,Ethiopia,Tigray,North Western
 5595,2015-04-01,1.0,Ethiopia,SNNP,Siltie
 5600,2015-04-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2227,6 +2251,7 @@
 2956,2016-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 4576,2016-10-01,3.0,Ethiopia,Somali,Korahe
 1441,2016-10-01,2.0,Ethiopia,Amhara,North Gondar
+2966,2016-10-01,1.0,Ethiopia,Oromia,North Shewa
 2968,2016-10-01,1.0,Ethiopia,Tigray,North Western
 1448,2016-10-01,2.0,Ethiopia,SNNP,Siltie
 2979,2016-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2317,6 +2342,7 @@
 3036,2016-06-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 1491,2016-06-01,2.0,Ethiopia,Somali,Korahe
 1496,2016-06-01,2.0,Ethiopia,Amhara,North Gondar
+3047,2016-06-01,1.0,Ethiopia,Oromia,North Shewa
 3049,2016-06-01,1.0,Ethiopia,Tigray,North Western
 3055,2016-06-01,1.0,Ethiopia,SNNP,Siltie
 3060,2016-06-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2407,6 +2433,7 @@
 5514,2014-04-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 1544,2014-04-01,2.0,Ethiopia,Somali,Korahe
 7451,2014-04-01,3.0,Ethiopia,Amhara,North Gondar
+1911,2014-04-01,2.0,Ethiopia,Oromia,North Shewa
 5525,2014-04-01,1.0,Ethiopia,Tigray,North Western
 5530,2014-04-01,1.0,Ethiopia,SNNP,Siltie
 5534,2014-04-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2497,6 +2524,7 @@
 7486,2013-10-01,3.0,Ethiopia,SNNP,Kembata Tibaro
 2346,2013-10-01,2.0,Ethiopia,Somali,Korahe
 4813,2013-10-01,1.0,Ethiopia,Amhara,North Gondar
+1606,2013-10-01,2.0,Ethiopia,Oromia,North Shewa
 1608,2013-10-01,2.0,Ethiopia,Tigray,North Western
 1612,2013-10-01,2.0,Ethiopia,SNNP,Siltie
 4825,2013-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2587,6 +2615,7 @@
 1746,2015-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 1641,2015-07-01,1.0,Ethiopia,Somali,Korahe
 5658,2015-07-01,1.0,Ethiopia,Amhara,North Gondar
+5660,2015-07-01,1.0,Ethiopia,Oromia,North Shewa
 5662,2015-07-01,1.0,Ethiopia,Tigray,North Western
 7133,2015-07-01,2.0,Ethiopia,SNNP,Siltie
 5673,2015-07-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2677,6 +2706,7 @@
 1806,2015-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 1807,2015-10-01,2.0,Ethiopia,Somali,Korahe
 3276,2015-10-01,1.0,Ethiopia,Amhara,North Gondar
+1814,2015-10-01,2.0,Ethiopia,Oromia,North Shewa
 3279,2015-10-01,1.0,Ethiopia,Tigray,North Western
 4723,2015-10-01,3.0,Ethiopia,SNNP,Siltie
 3289,2015-10-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2767,6 +2797,7 @@
 2881,2018-06-01,1.0,Ethiopia,SNNP,Kembata Tibaro
 7165,2018-06-01,3.0,Ethiopia,Somali,Korahe
 2890,2018-06-01,1.0,Ethiopia,Amhara,North Gondar
+2892,2018-06-01,1.0,Ethiopia,Oromia,North Shewa
 2894,2018-06-01,1.0,Ethiopia,Tigray,North Western
 2901,2018-06-01,1.0,Ethiopia,SNNP,Siltie
 2907,2018-06-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2857,6 +2888,7 @@
 4175,2010-04-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 2022,2010-04-01,3.0,Ethiopia,Somali,Korahe
 2029,2010-04-01,3.0,Ethiopia,Amhara,North Gondar
+2031,2010-04-01,3.0,Ethiopia,Oromia,North Shewa
 4187,2010-04-01,2.0,Ethiopia,Tigray,North Western
 2038,2010-04-01,3.0,Ethiopia,SNNP,Siltie
 6938,2010-04-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -2947,6 +2979,7 @@
 2290,2016-02-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 3203,2016-02-01,1.0,Ethiopia,Somali,Korahe
 7209,2016-02-01,3.0,Ethiopia,Amhara,North Gondar
+7211,2016-02-01,3.0,Ethiopia,Oromia,North Shewa
 2296,2016-02-01,2.0,Ethiopia,Tigray,North Western
 7217,2016-02-01,3.0,Ethiopia,SNNP,Siltie
 3223,2016-02-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -3037,6 +3070,7 @@
 4012,2014-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 4015,2014-01-01,2.0,Ethiopia,Somali,Korahe
 7306,2014-01-01,3.0,Ethiopia,Amhara,North Gondar
+3537,2014-01-01,2.0,Ethiopia,Oromia,North Shewa
 3338,2014-01-01,1.0,Ethiopia,Tigray,North Western
 4026,2014-01-01,2.0,Ethiopia,SNNP,Siltie
 3347,2014-01-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -3127,6 +3161,7 @@
 3958,2013-04-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 3476,2013-04-01,2.0,Ethiopia,Somali,Korahe
 3587,2013-04-01,3.0,Ethiopia,Amhara,North Gondar
+3480,2013-04-01,2.0,Ethiopia,Oromia,North Shewa
 3966,2013-04-01,2.0,Ethiopia,Tigray,North Western
 3595,2013-04-01,3.0,Ethiopia,SNNP,Siltie
 6118,2013-04-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -3217,6 +3252,7 @@
 4385,2013-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 4388,2013-01-01,2.0,Ethiopia,Somali,Korahe
 6050,2013-01-01,1.0,Ethiopia,Amhara,North Gondar
+4393,2013-01-01,2.0,Ethiopia,Oromia,North Shewa
 4772,2013-01-01,2.0,Ethiopia,Tigray,North Western
 4986,2013-01-01,3.0,Ethiopia,SNNP,Siltie
 6063,2013-01-01,1.0,Ethiopia,Oromia,South West Shewa
@@ -3307,6 +3343,7 @@
 4460,2018-12-01,99.0,Ethiopia,SNNP,Kembata Tibaro
 4463,2018-12-01,99.0,Ethiopia,Somali,Korahe
 4471,2018-12-01,99.0,Ethiopia,Amhara,North Gondar
+4473,2018-12-01,99.0,Ethiopia,Oromia,North Shewa
 4475,2018-12-01,99.0,Ethiopia,Tigray,North Western
 4482,2018-12-01,99.0,Ethiopia,SNNP,Siltie
 4488,2018-12-01,99.0,Ethiopia,Oromia,South West Shewa
@@ -3397,6 +3434,7 @@
 5136,2010-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
 4523,2010-07-01,3.0,Ethiopia,Somali,Korahe
 5144,2010-07-01,2.0,Ethiopia,Amhara,North Gondar
+5146,2010-07-01,2.0,Ethiopia,Oromia,North Shewa
 5148,2010-07-01,2.0,Ethiopia,Tigray,North Western
 5154,2010-07-01,2.0,Ethiopia,SNNP,Siltie
 6997,2010-07-01,1.0,Ethiopia,Oromia,South West Shewa
