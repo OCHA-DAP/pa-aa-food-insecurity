@@ -101,7 +101,9 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
         for level in [1, 2, 3, 4, 5]:
             ipc_id = "{}_{}".format(status, level)
             df_ipcp[ipc_id] = np.where(
-                df_ipcp[status] == level, df_ipcp["adjusted_population"], 0
+                df_ipcp[status] == level,
+                df_ipcp["adjusted_population"],
+                (np.where(df_ipcp[status] == 99, np.nan, 0)),
             )
 
     return df_ipcp
@@ -112,10 +114,13 @@ def aggr_admin1(df, adm1c):
     df_adm = (
         df[["date", "Total", "adjusted_population", adm1c] + cols_ipc]
         .groupby(["date", adm1c])
-        .agg("sum")
+        .agg(lambda x: np.nan if x.isnull().all() else x.sum())
         .reset_index()
     )
-    df_adm["total_pop"] = df_adm[[f"CS_{i}" for i in range(1, 6)]].sum(axis=1)
+    for status in ["CS", "ML1", "ML2"]:
+        df_adm[f"pop_{status}"] = df_adm[[f"{status}_{i}" for i in range(1, 6)]].sum(
+            axis=1, min_count=1
+        )
 
     return df_adm
 
@@ -123,9 +128,9 @@ def aggr_admin1(df, adm1c):
 def get_trigger(row, status, level, perc):
     # range till 6 cause 5 is max level
     cols = [f"{status}_{l}" for l in range(level, 6)]
-    if row["total_pop"] == 0:
-        return 0
-    if row[cols].sum() >= row["total_pop"] / (100 / perc):
+    if np.isnan(row[f"pop_{status}"]):
+        return np.nan
+    if row[cols].sum() >= row[f"pop_{status}"] / (100 / perc):
         return 1
     else:
         return 0
@@ -135,7 +140,9 @@ def get_trigger_increase(row, level, perc):
     # range till 6 cause 5 is max level
     cols_ml1 = [f"ML1_{l}" for l in range(level, 6)]
     cols_cs = [f"CS_{l}" for l in range(level, 6)]
-    if row["total_pop"] == 0 or row[cols_ml1].sum() == 0:
+    if row[["pop_CS", "pop_ML1"]].isnull().values.any():
+        return np.nan
+    if row[cols_ml1].sum() == 0:
         return 0
     if row[cols_ml1].sum() >= row[cols_cs].sum() * (1 + (perc / 100)):
         return 1
@@ -178,9 +185,9 @@ def main():
     df_ipcpop = merge_ipcpop(
         df_allipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c
     )
-    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_population.csv")
+    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_population_test.csv")
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
-    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_population.csv")
+    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_population_test.csv")
 
 
 if __name__ == "__main__":
