@@ -1,10 +1,4 @@
-import geopandas as gpd
-import shapefile as shp
-import matplotlib.pyplot as plt
 import pandas as pd
-import rtree
-import seaborn as sns
-import matplotlib
 import numpy as np
 import warnings
 
@@ -29,6 +23,7 @@ def merge_ipcstatus(cs_path, ml1_path, ml2_path, adm1c, adm2c):
         ml2[["date", adm1c, adm2c, "ML2"]], on=[adm1c, adm2c, "date"], how="left"
     )
     df_ipc["date"] = pd.to_datetime(df_ipc["date"])
+    df_ipc["date"] = df_ipc["date"].dt.date
     return df_ipc
 
 
@@ -60,7 +55,12 @@ def create_histpopdict(
         str(i)
         for i in range(df_data["date"].min().year, df_data["date"].max().year + 1)
     ]
-    df_histpopc = df_histpopc[data_years]
+    y_nothist = np.setdiff1d(data_years, df_histpopc.index)
+    y_hist = np.setdiff1d(data_years, y_nothist)
+    df_histpopc = df_histpopc[y_hist]
+    for y in y_nothist:
+        df_histpopc[y] = df_histpopc[df_histpopc.index.max()]
+
     return df_histpopc.to_dict()
 
 
@@ -103,8 +103,11 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
             df_ipcp[ipc_id] = np.where(
                 df_ipcp[status] == level,
                 df_ipcp["adjusted_population"],
-                (np.where(df_ipcp[status] == 99, np.nan, 0)),
+                (np.where(df_ipcp[status] == np.nan, np.nan, 0)),
             )
+        df_ipcp[f"pop_{status}"] = df_ipcp[[f"{status}_{i}" for i in range(1, 6)]].sum(
+            axis=1, min_count=1
+        )
 
     return df_ipcp
 
@@ -158,8 +161,8 @@ def main():
     pop_path = "Data/eth_admpop_adm2_2020.csv"
     pop_adm2c = "admin2Name_en"
     pop_adm1c = "admin1Name_en"
-    ipc_adm1c = "ADM1_EN"  # "ADMIN1"
-    ipc_adm2c = "ADM2_EN"  # "ADMIN2"
+    ipc_adm1c = "ADM1_EN"  # "ADMIN1" #
+    ipc_adm2c = "ADM2_EN"  # "ADMIN2" #
     # mapping from population data to ipc data in Admin2 names (so names that don't correspond)
     admin2_mapping = {
         "Etang Special": "Etang Special woreda",
@@ -181,13 +184,15 @@ def main():
     # admin1_mapping = {'SNNP': 'SNNPR'}
 
     df_allipc = merge_ipcstatus(cs_path, ml1_path, ml2_path, ipc_adm1c, ipc_adm2c)
-    df_pop = load_popdata(pop_path, pop_adm1c, pop_adm2c, admin2_mapping=admin2_mapping)
+    df_pop = load_popdata(
+        pop_path, pop_adm1c, pop_adm2c, admin2_mapping=admin2_mapping
+    )  # ,admin1_mapping=admin1_mapping)
     df_ipcpop = merge_ipcpop(
         df_allipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c
     )
-    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_population_test.csv")
+    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_population.csv")
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
-    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_population_test.csv")
+    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_population.csv")
 
 
 if __name__ == "__main__":
