@@ -2,6 +2,14 @@
 
 Drought-related food insecurity in Chad, Somalia and Ethiopia. 
 
+### Adding a new country
+1. Make sure the regional FewsNet data is included in Data/FewsNetRaw. Can be downloaded from https://fews.net/fews-data/333
+2. Create the folder structure "country_name" -- "Data" -- "FewsNetAdmin2", "FewsNetPopulation"
+3. Download a shapefile of the regional boundaries and place this directory/file in "country_name" -- "Data" . Can use the one provided by FewsNet (https://fews.net/fews-data/334) or often also availble from UN OCHA (search on data.humdata.org)
+4. Download regional population data for one year. Often available by UN OCHA on data.humdata.org
+5. Adjust the variables in `convert_fewsnet_to_admin2.py` to the country and run the code
+6. Adjust the variables in `fewsnet_triggers.py` to the country and run the code. Check manually that all the admin regions are correctly mapped
+7. Do your analysis based on the output files (work in progress)
 
 ## Ethiopia
 Required data
