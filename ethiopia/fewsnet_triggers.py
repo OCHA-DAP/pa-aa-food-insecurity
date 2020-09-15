@@ -103,7 +103,7 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
             df_ipcp[ipc_id] = np.where(
                 df_ipcp[status] == level,
                 df_ipcp["adjusted_population"],
-                (np.where(df_ipcp[status] == np.nan, np.nan, 0)),
+                (np.where(np.isnan(df_ipcp[status]), np.nan, 0)),
             )
         df_ipcp[f"pop_{status}"] = df_ipcp[[f"{status}_{i}" for i in range(1, 6)]].sum(
             axis=1, min_count=1
@@ -155,9 +155,9 @@ def get_trigger_increase(row, level, perc):
 
 def main():
     fnfolder = "Data/EA_FewsNet/FewsNetAdmin2/"  # OldShp/
-    cs_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_CS.csv"
-    ml1_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML1.csv"
-    ml2_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML2.csv"
+    cs_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_CSnan.csv"
+    ml1_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML1nan.csv"
+    ml2_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML2nan.csv"
     pop_path = "Data/eth_admpop_adm2_2020.csv"
     pop_adm2c = "admin2Name_en"
     pop_adm1c = "admin1Name_en"
@@ -190,9 +190,9 @@ def main():
     df_ipcpop = merge_ipcpop(
         df_allipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c
     )
-    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_population.csv")
+    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_populationnan.csv")
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
-    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_population.csv")
+    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_populationnan.csv")
 
 
 if __name__ == "__main__":

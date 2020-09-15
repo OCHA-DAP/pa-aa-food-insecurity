@@ -58,6 +58,9 @@ def return_max_cs(date, df, dfadcol, status, adm0c, adm1c, adm2c):
         & (df[adm1c] == dfadcol[adm1c])
         & (df[adm2c] == dfadcol[adm2c])
     ]
+    # if there are nan (=0) values we prefer to take the non-nan values, even if those represent a smaller area
+    if len(sub[sub[status] != 0]) > 0:
+        sub = sub[sub[status] != 0]
     mx = sub["area"].max()
     row = sub[["date", adm0c, adm1c, adm2c, status]].loc[sub["area"] == mx]
     return row
@@ -183,6 +186,7 @@ def main():
             + df.date.max().strftime("%Y%m%d")
             + "_"
             + STATUS
+            + "nan"
             + ".csv"
         )
 
