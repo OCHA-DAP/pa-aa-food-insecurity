@@ -28,7 +28,7 @@ def merge_ipcstatus(cs_path, ml1_path, ml2_path, adm1c, adm2c):
 
 
 def load_popdata(
-    pop_path, pop_adm1c, pop_adm2c, admin2_mapping=None, admin1_mapping=None
+    pop_path, pop_adm1c, pop_adm2c, pop_col, admin2_mapping=None, admin1_mapping=None
 ):
     # import population data (not clear where data comes from)
     df_pop = pd.read_csv(pop_path)
@@ -42,6 +42,7 @@ def load_popdata(
         df_pop[pop_adm1c] = df_pop[pop_adm1c].apply(
             lambda x: get_new_name(x, admin1_mapping)
         )
+    df_pop.rename(columns={pop_col: "Total"}, inplace=True)
     return df_pop
 
 
@@ -154,21 +155,31 @@ def get_trigger_increase(row, level, perc):
 
 
 def main():
-    fnfolder = "Data/EA_FewsNet/FewsNetAdmin2/"  # OldShp/
-    cs_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_CSnan.csv"
-    ml1_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML1nan.csv"
-    ml2_path = f"{fnfolder}ethiopia_admin2_fewsnet_20090701_20191001_ML2nan.csv"
-    pop_path = "Data/eth_admpop_adm2_2020.csv"
-    pop_adm2c = "admin2Name_en"
-    pop_adm1c = "admin1Name_en"
+    COUNTRY = "malawi"  # "ethiopia"
+    RESULT_FOLDER = f"{COUNTRY}/Data/FewsNetPopulation/"
+    fnfolder = f"{COUNTRY}/Data/FewsNetAdmin2/"
+    START_DATE = "20090701"
+    END_DATE = "20191001"
+    cs_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_CS.csv"
+    ml1_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML1.csv"
+    ml2_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML2.csv"
+
+    POP_FILE = "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"  # "eth_admpop_adm2_2020.csv"
+    POP_PATH = f"{COUNTRY}/Data/{POP_FILE}"
+    pop_adm1c = "ADM1_EN"  # "admin1Name_en"
+    pop_adm2c = "ADM2_EN32"  # "admin2Name_en"
     ipc_adm1c = "ADM1_EN"  # "ADMIN1" #
     ipc_adm2c = "ADM2_EN"  # "ADMIN2" #
+    POP_COL = "p2019pop"  # "Total"
     # mapping from population data to ipc data in Admin2 names (so names that don't correspond)
-    admin2_mapping = {
-        "Etang Special": "Etang Special woreda",
-        "Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)",
-    }
+    # admin2_mapping = {
+    #     "Etang Special": "Etang Special woreda",
+    #     "Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)",
+    # }
+    admin2_mapping = None
+    admin1_mapping = None
 
+    # Ethiopia other shapefile
     # admin2_mapping = {'Zone 1 (Awsi Rasu)': 'Awusi', 'Zone 2 (Kilbet Rasu)': 'Kilbati', 'Zone 3 (Gabi Rasu)': 'Gabi',
     #                   'Zone 4  (Fantana Rasu)': 'Fanti', 'Zone 5 (Hari Rasu)': 'Khari', 'Central': 'Central Tigray',
     #                   'Eastern': 'East Tigray', 'North Western': 'Northwest Tigray',
@@ -185,14 +196,19 @@ def main():
 
     df_allipc = merge_ipcstatus(cs_path, ml1_path, ml2_path, ipc_adm1c, ipc_adm2c)
     df_pop = load_popdata(
-        pop_path, pop_adm1c, pop_adm2c, admin2_mapping=admin2_mapping
-    )  # ,admin1_mapping=admin1_mapping)
+        POP_PATH,
+        pop_adm1c,
+        pop_adm2c,
+        POP_COL,
+        admin2_mapping=admin2_mapping,
+        admin1_mapping=admin1_mapping,
+    )
     df_ipcpop = merge_ipcpop(
         df_allipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c
     )
-    df_ipcpop.to_csv("Data/ethiopia_admin2_fewsnet_populationnan.csv")
+    df_ipcpop.to_csv(f"{RESULT_FOLDER}{COUNTRY}_admin2_fewsnet_population.csv")
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
-    df_adm1.to_csv("Data/ethiopia_admin1_fewsnet_populationnan.csv")
+    df_adm1.to_csv(f"{RESULT_FOLDER}{COUNTRY}_admin1_fewsnet_population.csv")
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ import os
 import numpy as np
 
 
-def shapefiles_to_df(path, status, dates, region="East-Africa", regionabb="EA"):
+def shapefiles_to_df(path, status, dates, region, regionabb):
     """
     Compile the shapefiles to a dataframe
     """
@@ -91,8 +91,10 @@ def gen_csml1m2(
     adm0c="ADM0_EN",
     adm1c="ADM1_EN",
     adm2c="ADM2_EN",
+    region="east-africa",
+    regionabb="EA",
 ):
-    df_ipc = shapefiles_to_df(ipc_path, status, dates)
+    df_ipc = shapefiles_to_df(ipc_path, status, dates, region, regionabb)
     overlap = merge_admin2(df_ipc, bound_path, status, adm0c, adm1c, adm2c)
     # replace other values than 1-5 by 0 (these are 99,88,66 and indicate missing values, nature areas or lakes)
     overlap.loc[overlap[status] >= 5, status] = 0
@@ -127,7 +129,7 @@ def main():
         "201110",
         "201201",
         "201204",
-        "201207",
+        # "201207", #no data for Malawi
         "201210",
         "201301",
         "201304",
@@ -162,20 +164,25 @@ def main():
         # "202008"
     ]
     STATUS_LIST = ["CS", "ML1", "ML2"]
-    COUNTRY = "ethiopia"
-    PATH = "Data/EA_FewsNET/FewsNetRaw/"
-    PATH_RESULT = "Data/EA_FewsNet/FewsNetAdmin2/"  # OldShp/"
-    ADMIN2_SHP = "Data/ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"  # 'Data/ET_Admin2_2014/ET_Admin2_2014.shp'
+    COUNTRY = "malawi"  # "ethiopia"
+    REGION = "southern-africa"  # "east-africa"
+    REGIONCODE = "SA"  # "EA"
+    PATH = "Data/FewsNetRaw/"
+    PATH_RESULT = f"{COUNTRY}/Data/FewsNetAdmin2/"  # OldShp/"
+    ADMIN2_SHP = "mwi_adm_nso_20181016_shp/mwi_admbnda_adm2_nso_20181016.shp"  # "ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp" # 'ET_Admin2_2014/ET_Admin2_2014.shp'
+    ADMIN2_PATH = f"{COUNTRY}/Data/{ADMIN2_SHP}"
 
     for STATUS in STATUS_LIST:
         df = gen_csml1m2(
             PATH,
-            ADMIN2_SHP,
+            ADMIN2_PATH,
             STATUS,
             DATES,
             adm0c="ADM0_EN",
             adm1c="ADM1_EN",
             adm2c="ADM2_EN",
+            region=REGION,
+            regionabb=REGIONCODE,
         )
         df.to_csv(
             PATH_RESULT
@@ -186,7 +193,6 @@ def main():
             + df.date.max().strftime("%Y%m%d")
             + "_"
             + STATUS
-            + "nan"
             + ".csv"
         )
 
