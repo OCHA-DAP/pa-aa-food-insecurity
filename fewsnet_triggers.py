@@ -11,6 +11,17 @@ def get_new_name(name, n_dict):
 
 
 def merge_ipcstatus(cs_path, ml1_path, ml2_path, adm1c, adm2c):
+    """
+    Args:
+        cs_path: path to file with fewsnet data for current situation (CS)
+        ml1_path: path to file with fewsnet data for short-term forecast (ML1)
+        ml2_path: path to file with fewsnet data for long-term forecast (ML2)
+        adm1c: column name of the admin1 level name, in fewsnet data
+        adm2c: column name of the admin2 level name, in fewsnet data
+
+    Returns:
+        df_ipc: dataframe with the cs, ml1 and ml2 data combined
+    """
     cs = pd.read_csv(cs_path, index_col=0)
     ml1 = pd.read_csv(ml1_path, index_col=0)
     ml2 = pd.read_csv(ml2_path, index_col=0)
@@ -84,10 +95,9 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
 
     # dict to indicate relative increase in population over the years
     pop_dict = create_histpopdict(df_ipcp)
-    # estimate percentage of population at given year in relation to 2020 estimate
-    perc_dict = {
-        k: v / pop_dict[str(df_ipcp["date"].max().year)] for k, v in pop_dict.items()
-    }
+    # estimate percentage of population at given year in relation to the national population given by the subnational population file
+    pop_tot_subn = df_ipcp[df_ipcp.date == df_ipcp.date.unique()[0]]["Total"].sum()
+    perc_dict = {k: v / pop_tot_subn for k, v in pop_dict.items()}
 
     df_ipcp["adjusted_population"] = df_ipcp.apply(
         lambda x: get_adjusted(x, perc_dict), axis=1
@@ -155,28 +165,28 @@ def get_trigger_increase(row, level, perc):
 
 
 def main():
-    COUNTRY = "malawi"  # "ethiopia"
+    COUNTRY = "ethiopia"  # "malawi"  #
     RESULT_FOLDER = f"{COUNTRY}/Data/FewsNetPopulation/"
     fnfolder = f"{COUNTRY}/Data/FewsNetAdmin2/"
     START_DATE = "20090701"
-    END_DATE = "20191001"
+    END_DATE = "20200801"
     cs_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_CS.csv"
     ml1_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML1.csv"
     ml2_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML2.csv"
 
-    POP_FILE = "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"  # "eth_admpop_adm2_2020.csv"
+    POP_FILE = "eth_admpop_adm2_2020.csv"  # "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"  #
     POP_PATH = f"{COUNTRY}/Data/{POP_FILE}"
-    pop_adm1c = "ADM1_EN"  # "admin1Name_en"
-    pop_adm2c = "ADM2_EN32"  # "admin2Name_en"
+    pop_adm1c = "admin1Name_en"  # "ADM1_EN"  #
+    pop_adm2c = "admin2Name_en"  # "ADM2_EN32"  #
     ipc_adm1c = "ADM1_EN"  # "ADMIN1" #
     ipc_adm2c = "ADM2_EN"  # "ADMIN2" #
-    POP_COL = "p2019pop"  # "Total"
+    POP_COL = "Total"  # "p2019pop"  #
     # mapping from population data to ipc data in Admin2 names (so names that don't correspond)
-    # admin2_mapping = {
-    #     "Etang Special": "Etang Special woreda",
-    #     "Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)",
-    # }
-    admin2_mapping = None
+    admin2_mapping = {
+        "Etang Special": "Etang Special woreda",
+        "Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)",
+    }
+    # admin2_mapping = None
     admin1_mapping = None
 
     # Ethiopia other shapefile
@@ -206,9 +216,13 @@ def main():
     df_ipcpop = merge_ipcpop(
         df_allipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c
     )
-    df_ipcpop.to_csv(f"{RESULT_FOLDER}{COUNTRY}_admin2_fewsnet_population.csv")
+    df_ipcpop.to_csv(
+        f"{RESULT_FOLDER}{COUNTRY}_admin2_fewsnet_population_{START_DATE}_{END_DATE}.csv"
+    )
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
-    df_adm1.to_csv(f"{RESULT_FOLDER}{COUNTRY}_admin1_fewsnet_population.csv")
+    df_adm1.to_csv(
+        f"{RESULT_FOLDER}{COUNTRY}_admin1_fewsnet_population_{START_DATE}_{END_DATE}.csv"
+    )
 
 
 if __name__ == "__main__":
