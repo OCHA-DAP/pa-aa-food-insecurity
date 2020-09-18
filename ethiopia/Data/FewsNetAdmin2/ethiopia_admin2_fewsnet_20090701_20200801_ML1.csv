@@ -1,0 +1,3641 @@
+,date,ML1,ADM0_EN,ADM1_EN,ADM2_EN
+75,2009-07-01,4.0,Ethiopia,Somali,Afder
+1,2009-07-01,3.0,Ethiopia,Gambela,Agnewak
+2,2009-07-01,3.0,Ethiopia,SNNP,Alle
+3,2009-07-01,3.0,Ethiopia,SNNP,Amaro
+4,2009-07-01,3.0,Ethiopia,Oromia,Arsi
+5,2009-07-01,3.0,Ethiopia,Oromia,Bale
+5183,2009-07-01,1.0,Ethiopia,SNNP,Basketo
+5184,2009-07-01,1.0,Ethiopia,SNNP,Bench Maji
+8,2009-07-01,3.0,Ethiopia,Oromia,Borena
+5186,2009-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+10,2009-07-01,3.0,Ethiopia,SNNP,Burji
+5237,2009-07-01,2.0,Ethiopia,Tigray,Central
+5187,2009-07-01,1.0,Ethiopia,Amhara,Central Gondar
+13,2009-07-01,3.0,Ethiopia,Somali,Daawa
+5239,2009-07-01,2.0,Ethiopia,SNNP,Dawuro
+15,2009-07-01,3.0,Ethiopia,SNNP,Derashe
+5240,2009-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5189,2009-07-01,1.0,Ethiopia,Amhara,East Gojam
+18,2009-07-01,3.0,Ethiopia,Oromia,East Hararge
+5190,2009-07-01,1.0,Ethiopia,Oromia,East Shewa
+5191,2009-07-01,1.0,Ethiopia,Oromia,East Wellega
+21,2009-07-01,3.0,Ethiopia,Tigray,Eastern
+82,2009-07-01,4.0,Ethiopia,Somali,Erer
+23,2009-07-01,3.0,Ethiopia,Gambela,Etang Special woreda
+24,2009-07-01,3.0,Ethiopia,Somali,Fafan
+25,2009-07-01,3.0,Ethiopia,SNNP,Gamo
+26,2009-07-01,3.0,Ethiopia,SNNP,Gedeo
+5250,2009-07-01,2.0,Ethiopia,SNNP,Gofa
+28,2009-07-01,3.0,Ethiopia,Oromia,Guji
+29,2009-07-01,3.0,Ethiopia,SNNP,Guraghe
+30,2009-07-01,3.0,Ethiopia,SNNP,Hadiya
+31,2009-07-01,3.0,Ethiopia,SNNP,Halaba Special
+5252,2009-07-01,2.0,Ethiopia,Harari,Harari
+5200,2009-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+84,2009-07-01,4.0,Ethiopia,Somali,Jarar
+5201,2009-07-01,1.0,Ethiopia,Oromia,Jimma
+5202,2009-07-01,1.0,Ethiopia,SNNP,Kefa
+5204,2009-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+38,2009-07-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+39,2009-07-01,3.0,Ethiopia,SNNP,Konso
+5205,2009-07-01,1.0,Ethiopia,SNNP,Konta Special
+86,2009-07-01,4.0,Ethiopia,Somali,Liban
+5208,2009-07-01,1.0,Ethiopia,Gambela,Mejenger
+43,2009-07-01,3.0,Ethiopia,Tigray,Mekele Special
+5261,2009-07-01,2.0,Ethiopia,SNNP,Mirab Omo
+87,2009-07-01,4.0,Ethiopia,Somali,Nogob
+46,2009-07-01,3.0,Ethiopia,Amhara,North Gondar
+5263,2009-07-01,2.0,Ethiopia,Amhara,North Shewa
+48,2009-07-01,3.0,Ethiopia,Amhara,North Wello
+5266,2009-07-01,2.0,Ethiopia,Tigray,North Western
+50,2009-07-01,3.0,Ethiopia,Gambela,Nuwer
+51,2009-07-01,3.0,Ethiopia,Amhara,Oromia
+89,2009-07-01,4.0,Ethiopia,Somali,Shabelle
+53,2009-07-01,3.0,Ethiopia,SNNP,Sidama
+54,2009-07-01,3.0,Ethiopia,SNNP,Siltie
+55,2009-07-01,3.0,Ethiopia,Somali,Siti
+56,2009-07-01,3.0,Ethiopia,Tigray,South Eastern
+5218,2009-07-01,1.0,Ethiopia,Amhara,South Gondar
+58,2009-07-01,3.0,Ethiopia,SNNP,South Omo
+59,2009-07-01,3.0,Ethiopia,Amhara,South Wello
+5221,2009-07-01,1.0,Ethiopia,Oromia,South West Shewa
+61,2009-07-01,3.0,Ethiopia,Tigray,Southern
+62,2009-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+63,2009-07-01,3.0,Ethiopia,Oromia,West Arsi
+64,2009-07-01,3.0,Ethiopia,Oromia,West Guji
+65,2009-07-01,3.0,Ethiopia,Oromia,West Hararge
+5227,2009-07-01,1.0,Ethiopia,Oromia,West Wellega
+5228,2009-07-01,1.0,Ethiopia,Tigray,Western
+68,2009-07-01,3.0,Ethiopia,SNNP,Wolayita
+5229,2009-07-01,1.0,Ethiopia,SNNP,Yem Special
+5283,2009-07-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+71,2009-07-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+5284,2009-07-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+73,2009-07-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+74,2009-07-01,3.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+80,2009-07-01,4.0,Ethiopia,Somali,Doolo
+85,2009-07-01,4.0,Ethiopia,Somali,Korahe
+5193,2009-07-01,1.0,Ethiopia,Oromia,Finfine Special
+5215,2009-07-01,1.0,Ethiopia,Addis Ababa,Region 14
+5223,2009-07-01,1.0,Ethiopia,Amhara,West Gojam
+5241,2009-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5199,2009-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5207,2009-07-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+5264,2009-07-01,2.0,Ethiopia,Oromia,North Shewa
+5279,2009-07-01,2.0,Ethiopia,Oromia,West Shewa
+5180,2009-07-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+5203,2009-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5209,2009-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5216,2009-07-01,1.0,Ethiopia,SNNP,Sheka
+5224,2009-07-01,1.0,Ethiopia,Amhara,West Gondar
+5181,2009-07-01,1.0,Ethiopia,Amhara,Awi
+107,2009-10-01,3.0,Ethiopia,Somali,Afder
+108,2009-10-01,3.0,Ethiopia,Gambela,Agnewak
+109,2009-10-01,3.0,Ethiopia,SNNP,Alle
+110,2009-10-01,3.0,Ethiopia,SNNP,Amaro
+5344,2009-10-01,2.0,Ethiopia,Oromia,Arsi
+111,2009-10-01,3.0,Ethiopia,Oromia,Bale
+5292,2009-10-01,1.0,Ethiopia,SNNP,Basketo
+5293,2009-10-01,1.0,Ethiopia,SNNP,Bench Maji
+113,2009-10-01,3.0,Ethiopia,Oromia,Borena
+5295,2009-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+114,2009-10-01,3.0,Ethiopia,SNNP,Burji
+5350,2009-10-01,2.0,Ethiopia,Tigray,Central
+5296,2009-10-01,1.0,Ethiopia,Amhara,Central Gondar
+115,2009-10-01,3.0,Ethiopia,Somali,Daawa
+5352,2009-10-01,2.0,Ethiopia,SNNP,Dawuro
+116,2009-10-01,3.0,Ethiopia,SNNP,Derashe
+5354,2009-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5298,2009-10-01,1.0,Ethiopia,Amhara,East Gojam
+5357,2009-10-01,2.0,Ethiopia,Oromia,East Hararge
+5358,2009-10-01,2.0,Ethiopia,Oromia,East Shewa
+5300,2009-10-01,1.0,Ethiopia,Oromia,East Wellega
+5360,2009-10-01,2.0,Ethiopia,Tigray,Eastern
+119,2009-10-01,3.0,Ethiopia,Somali,Erer
+120,2009-10-01,3.0,Ethiopia,Gambela,Etang Special woreda
+5362,2009-10-01,2.0,Ethiopia,Somali,Fafan
+5364,2009-10-01,2.0,Ethiopia,SNNP,Gamo
+5365,2009-10-01,2.0,Ethiopia,SNNP,Gedeo
+5366,2009-10-01,2.0,Ethiopia,SNNP,Gofa
+123,2009-10-01,3.0,Ethiopia,Oromia,Guji
+5368,2009-10-01,2.0,Ethiopia,SNNP,Guraghe
+5369,2009-10-01,2.0,Ethiopia,SNNP,Hadiya
+5370,2009-10-01,2.0,Ethiopia,SNNP,Halaba Special
+5371,2009-10-01,2.0,Ethiopia,Harari,Harari
+5309,2009-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+125,2009-10-01,3.0,Ethiopia,Somali,Jarar
+5310,2009-10-01,1.0,Ethiopia,Oromia,Jimma
+5311,2009-10-01,1.0,Ethiopia,SNNP,Kefa
+5313,2009-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+5376,2009-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+126,2009-10-01,3.0,Ethiopia,SNNP,Konso
+5314,2009-10-01,1.0,Ethiopia,SNNP,Konta Special
+128,2009-10-01,3.0,Ethiopia,Somali,Liban
+5317,2009-10-01,1.0,Ethiopia,Gambela,Mejenger
+5381,2009-10-01,2.0,Ethiopia,Tigray,Mekele Special
+5382,2009-10-01,2.0,Ethiopia,SNNP,Mirab Omo
+131,2009-10-01,3.0,Ethiopia,Somali,Nogob
+5383,2009-10-01,2.0,Ethiopia,Amhara,North Gondar
+5384,2009-10-01,2.0,Ethiopia,Amhara,North Shewa
+5386,2009-10-01,2.0,Ethiopia,Amhara,North Wello
+5387,2009-10-01,2.0,Ethiopia,Tigray,North Western
+132,2009-10-01,3.0,Ethiopia,Gambela,Nuwer
+5389,2009-10-01,2.0,Ethiopia,Amhara,Oromia
+133,2009-10-01,3.0,Ethiopia,Somali,Shabelle
+5390,2009-10-01,2.0,Ethiopia,SNNP,Sidama
+5391,2009-10-01,2.0,Ethiopia,SNNP,Siltie
+5392,2009-10-01,2.0,Ethiopia,Somali,Siti
+5393,2009-10-01,2.0,Ethiopia,Tigray,South Eastern
+5394,2009-10-01,2.0,Ethiopia,Amhara,South Gondar
+5395,2009-10-01,2.0,Ethiopia,SNNP,South Omo
+5396,2009-10-01,2.0,Ethiopia,Amhara,South Wello
+5331,2009-10-01,1.0,Ethiopia,Oromia,South West Shewa
+5398,2009-10-01,2.0,Ethiopia,Tigray,Southern
+5399,2009-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+5400,2009-10-01,2.0,Ethiopia,Oromia,West Arsi
+5401,2009-10-01,2.0,Ethiopia,Oromia,West Guji
+5402,2009-10-01,2.0,Ethiopia,Oromia,West Hararge
+5337,2009-10-01,1.0,Ethiopia,Oromia,West Wellega
+5338,2009-10-01,1.0,Ethiopia,Tigray,Western
+5405,2009-10-01,2.0,Ethiopia,SNNP,Wolayita
+5339,2009-10-01,1.0,Ethiopia,SNNP,Yem Special
+5407,2009-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+5408,2009-10-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+5409,2009-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+5410,2009-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+5411,2009-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+117,2009-10-01,3.0,Ethiopia,Somali,Doolo
+127,2009-10-01,3.0,Ethiopia,Somali,Korahe
+5302,2009-10-01,1.0,Ethiopia,Oromia,Finfine Special
+5325,2009-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+5333,2009-10-01,1.0,Ethiopia,Amhara,West Gojam
+5355,2009-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5308,2009-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5316,2009-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+5385,2009-10-01,2.0,Ethiopia,Oromia,North Shewa
+5403,2009-10-01,2.0,Ethiopia,Oromia,West Shewa
+5289,2009-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+5312,2009-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5318,2009-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5326,2009-10-01,1.0,Ethiopia,SNNP,Sheka
+5334,2009-10-01,1.0,Ethiopia,Amhara,West Gondar
+5290,2009-10-01,1.0,Ethiopia,Amhara,Awi
+142,2010-01-01,3.0,Ethiopia,Somali,Afder
+211,2010-01-01,4.0,Ethiopia,Gambela,Agnewak
+144,2010-01-01,3.0,Ethiopia,SNNP,Alle
+145,2010-01-01,3.0,Ethiopia,SNNP,Amaro
+5467,2010-01-01,2.0,Ethiopia,Oromia,Arsi
+147,2010-01-01,3.0,Ethiopia,Oromia,Bale
+5417,2010-01-01,1.0,Ethiopia,SNNP,Basketo
+5418,2010-01-01,1.0,Ethiopia,SNNP,Bench Maji
+148,2010-01-01,3.0,Ethiopia,Oromia,Borena
+5420,2010-01-01,1.0,Ethiopia,Oromia,Buno Bedele
+149,2010-01-01,3.0,Ethiopia,SNNP,Burji
+5475,2010-01-01,2.0,Ethiopia,Tigray,Central
+5421,2010-01-01,1.0,Ethiopia,Amhara,Central Gondar
+151,2010-01-01,3.0,Ethiopia,Somali,Daawa
+5478,2010-01-01,2.0,Ethiopia,SNNP,Dawuro
+153,2010-01-01,3.0,Ethiopia,SNNP,Derashe
+154,2010-01-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5423,2010-01-01,1.0,Ethiopia,Amhara,East Gojam
+158,2010-01-01,3.0,Ethiopia,Oromia,East Hararge
+5481,2010-01-01,2.0,Ethiopia,Oromia,East Shewa
+5425,2010-01-01,1.0,Ethiopia,Oromia,East Wellega
+160,2010-01-01,3.0,Ethiopia,Tigray,Eastern
+161,2010-01-01,3.0,Ethiopia,Somali,Erer
+218,2010-01-01,4.0,Ethiopia,Gambela,Etang Special woreda
+162,2010-01-01,3.0,Ethiopia,Somali,Fafan
+5487,2010-01-01,2.0,Ethiopia,SNNP,Gamo
+5488,2010-01-01,2.0,Ethiopia,SNNP,Gedeo
+5489,2010-01-01,2.0,Ethiopia,SNNP,Gofa
+166,2010-01-01,3.0,Ethiopia,Oromia,Guji
+5491,2010-01-01,2.0,Ethiopia,SNNP,Guraghe
+5492,2010-01-01,2.0,Ethiopia,SNNP,Hadiya
+169,2010-01-01,3.0,Ethiopia,SNNP,Halaba Special
+170,2010-01-01,3.0,Ethiopia,Harari,Harari
+5434,2010-01-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+172,2010-01-01,3.0,Ethiopia,Somali,Jarar
+5435,2010-01-01,1.0,Ethiopia,Oromia,Jimma
+5436,2010-01-01,1.0,Ethiopia,SNNP,Kefa
+5498,2010-01-01,2.0,Ethiopia,Benishangul Gumz,Kemashi
+5499,2010-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+174,2010-01-01,3.0,Ethiopia,SNNP,Konso
+5439,2010-01-01,1.0,Ethiopia,SNNP,Konta Special
+176,2010-01-01,3.0,Ethiopia,Somali,Liban
+5442,2010-01-01,1.0,Ethiopia,Gambela,Mejenger
+178,2010-01-01,3.0,Ethiopia,Tigray,Mekele Special
+5505,2010-01-01,2.0,Ethiopia,SNNP,Mirab Omo
+180,2010-01-01,3.0,Ethiopia,Somali,Nogob
+5506,2010-01-01,2.0,Ethiopia,Amhara,North Gondar
+5507,2010-01-01,2.0,Ethiopia,Amhara,North Shewa
+184,2010-01-01,3.0,Ethiopia,Amhara,North Wello
+5510,2010-01-01,2.0,Ethiopia,Tigray,North Western
+229,2010-01-01,4.0,Ethiopia,Gambela,Nuwer
+5512,2010-01-01,2.0,Ethiopia,Amhara,Oromia
+188,2010-01-01,3.0,Ethiopia,Somali,Shabelle
+5513,2010-01-01,2.0,Ethiopia,SNNP,Sidama
+190,2010-01-01,3.0,Ethiopia,SNNP,Siltie
+231,2010-01-01,4.0,Ethiopia,Somali,Siti
+192,2010-01-01,3.0,Ethiopia,Tigray,South Eastern
+5517,2010-01-01,2.0,Ethiopia,Amhara,South Gondar
+5518,2010-01-01,2.0,Ethiopia,SNNP,South Omo
+5519,2010-01-01,2.0,Ethiopia,Amhara,South Wello
+5455,2010-01-01,1.0,Ethiopia,Oromia,South West Shewa
+234,2010-01-01,4.0,Ethiopia,Tigray,Southern
+235,2010-01-01,4.0,Ethiopia,Amhara,Wag Hamra
+5456,2010-01-01,1.0,Ethiopia,Oromia,West Arsi
+5524,2010-01-01,2.0,Ethiopia,Oromia,West Guji
+201,2010-01-01,3.0,Ethiopia,Oromia,West Hararge
+5461,2010-01-01,1.0,Ethiopia,Oromia,West Wellega
+5462,2010-01-01,1.0,Ethiopia,Tigray,Western
+5529,2010-01-01,2.0,Ethiopia,SNNP,Wolayita
+5463,2010-01-01,1.0,Ethiopia,SNNP,Yem Special
+236,2010-01-01,4.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+206,2010-01-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+207,2010-01-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+208,2010-01-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+209,2010-01-01,3.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+216,2010-01-01,4.0,Ethiopia,Somali,Doolo
+222,2010-01-01,4.0,Ethiopia,Somali,Korahe
+5427,2010-01-01,1.0,Ethiopia,Oromia,Finfine Special
+5449,2010-01-01,1.0,Ethiopia,Addis Ababa,Region 14
+5457,2010-01-01,1.0,Ethiopia,Amhara,West Gojam
+155,2010-01-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5433,2010-01-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5503,2010-01-01,2.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+5508,2010-01-01,2.0,Ethiopia,Oromia,North Shewa
+202,2010-01-01,3.0,Ethiopia,Oromia,West Shewa
+5468,2010-01-01,2.0,Ethiopia,Benishangul Gumz,Asosa
+5437,2010-01-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5443,2010-01-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5450,2010-01-01,1.0,Ethiopia,SNNP,Sheka
+5458,2010-01-01,1.0,Ethiopia,Amhara,West Gondar
+5415,2010-01-01,1.0,Ethiopia,Amhara,Awi
+241,2010-04-01,2.0,Ethiopia,Somali,Afder
+319,2010-04-01,3.0,Ethiopia,Gambela,Agnewak
+320,2010-04-01,3.0,Ethiopia,SNNP,Alle
+321,2010-04-01,3.0,Ethiopia,SNNP,Amaro
+5536,2010-04-01,1.0,Ethiopia,Oromia,Arsi
+246,2010-04-01,2.0,Ethiopia,Oromia,Bale
+5540,2010-04-01,1.0,Ethiopia,SNNP,Basketo
+5541,2010-04-01,1.0,Ethiopia,SNNP,Bench Maji
+249,2010-04-01,2.0,Ethiopia,Oromia,Borena
+5543,2010-04-01,1.0,Ethiopia,Oromia,Buno Bedele
+326,2010-04-01,3.0,Ethiopia,SNNP,Burji
+327,2010-04-01,3.0,Ethiopia,Tigray,Central
+5545,2010-04-01,1.0,Ethiopia,Amhara,Central Gondar
+253,2010-04-01,2.0,Ethiopia,Somali,Daawa
+254,2010-04-01,2.0,Ethiopia,SNNP,Dawuro
+329,2010-04-01,3.0,Ethiopia,SNNP,Derashe
+256,2010-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5547,2010-04-01,1.0,Ethiopia,Amhara,East Gojam
+332,2010-04-01,3.0,Ethiopia,Oromia,East Hararge
+333,2010-04-01,3.0,Ethiopia,Oromia,East Shewa
+5549,2010-04-01,1.0,Ethiopia,Oromia,East Wellega
+334,2010-04-01,3.0,Ethiopia,Tigray,Eastern
+335,2010-04-01,3.0,Ethiopia,Somali,Erer
+336,2010-04-01,3.0,Ethiopia,Gambela,Etang Special woreda
+264,2010-04-01,2.0,Ethiopia,Somali,Fafan
+266,2010-04-01,2.0,Ethiopia,SNNP,Gamo
+267,2010-04-01,2.0,Ethiopia,SNNP,Gedeo
+268,2010-04-01,2.0,Ethiopia,SNNP,Gofa
+5554,2010-04-01,1.0,Ethiopia,Oromia,Guji
+270,2010-04-01,2.0,Ethiopia,SNNP,Guraghe
+271,2010-04-01,2.0,Ethiopia,SNNP,Hadiya
+342,2010-04-01,3.0,Ethiopia,SNNP,Halaba Special
+343,2010-04-01,3.0,Ethiopia,Harari,Harari
+5558,2010-04-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+345,2010-04-01,3.0,Ethiopia,Somali,Jarar
+5559,2010-04-01,1.0,Ethiopia,Oromia,Jimma
+5560,2010-04-01,1.0,Ethiopia,SNNP,Kefa
+5562,2010-04-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+280,2010-04-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+347,2010-04-01,3.0,Ethiopia,SNNP,Konso
+5563,2010-04-01,1.0,Ethiopia,SNNP,Konta Special
+284,2010-04-01,2.0,Ethiopia,Somali,Liban
+5565,2010-04-01,1.0,Ethiopia,Gambela,Mejenger
+351,2010-04-01,3.0,Ethiopia,Tigray,Mekele Special
+288,2010-04-01,2.0,Ethiopia,SNNP,Mirab Omo
+353,2010-04-01,3.0,Ethiopia,Somali,Nogob
+290,2010-04-01,2.0,Ethiopia,Amhara,North Gondar
+355,2010-04-01,3.0,Ethiopia,Amhara,North Shewa
+356,2010-04-01,3.0,Ethiopia,Amhara,North Wello
+294,2010-04-01,2.0,Ethiopia,Tigray,North Western
+358,2010-04-01,3.0,Ethiopia,Gambela,Nuwer
+359,2010-04-01,3.0,Ethiopia,Amhara,Oromia
+297,2010-04-01,2.0,Ethiopia,Somali,Shabelle
+299,2010-04-01,2.0,Ethiopia,SNNP,Sidama
+300,2010-04-01,2.0,Ethiopia,SNNP,Siltie
+301,2010-04-01,2.0,Ethiopia,Somali,Siti
+364,2010-04-01,3.0,Ethiopia,Tigray,South Eastern
+5575,2010-04-01,1.0,Ethiopia,Amhara,South Gondar
+303,2010-04-01,2.0,Ethiopia,SNNP,South Omo
+304,2010-04-01,2.0,Ethiopia,Amhara,South Wello
+5578,2010-04-01,1.0,Ethiopia,Oromia,South West Shewa
+369,2010-04-01,3.0,Ethiopia,Tigray,Southern
+400,2010-04-01,4.0,Ethiopia,Amhara,Wag Hamra
+5579,2010-04-01,1.0,Ethiopia,Oromia,West Arsi
+5582,2010-04-01,1.0,Ethiopia,Oromia,West Guji
+373,2010-04-01,3.0,Ethiopia,Oromia,West Hararge
+5585,2010-04-01,1.0,Ethiopia,Oromia,West Wellega
+5586,2010-04-01,1.0,Ethiopia,Tigray,Western
+312,2010-04-01,2.0,Ethiopia,SNNP,Wolayita
+5587,2010-04-01,1.0,Ethiopia,SNNP,Yem Special
+314,2010-04-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+377,2010-04-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+315,2010-04-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+379,2010-04-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+317,2010-04-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+331,2010-04-01,3.0,Ethiopia,Somali,Doolo
+348,2010-04-01,3.0,Ethiopia,Somali,Korahe
+5551,2010-04-01,1.0,Ethiopia,Oromia,Finfine Special
+5572,2010-04-01,1.0,Ethiopia,Addis Ababa,Region 14
+5580,2010-04-01,1.0,Ethiopia,Amhara,West Gojam
+257,2010-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5557,2010-04-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+285,2010-04-01,2.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+292,2010-04-01,2.0,Ethiopia,Oromia,North Shewa
+309,2010-04-01,2.0,Ethiopia,Oromia,West Shewa
+245,2010-04-01,2.0,Ethiopia,Benishangul Gumz,Asosa
+5561,2010-04-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5566,2010-04-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5573,2010-04-01,1.0,Ethiopia,SNNP,Sheka
+5581,2010-04-01,1.0,Ethiopia,Amhara,West Gondar
+5538,2010-04-01,1.0,Ethiopia,Amhara,Awi
+404,2010-07-01,2.0,Ethiopia,Somali,Afder
+485,2010-07-01,3.0,Ethiopia,Gambela,Agnewak
+406,2010-07-01,2.0,Ethiopia,SNNP,Alle
+5589,2010-07-01,1.0,Ethiopia,SNNP,Amaro
+408,2010-07-01,2.0,Ethiopia,Oromia,Arsi
+410,2010-07-01,2.0,Ethiopia,Oromia,Bale
+411,2010-07-01,2.0,Ethiopia,SNNP,Basketo
+5595,2010-07-01,1.0,Ethiopia,SNNP,Bench Maji
+413,2010-07-01,2.0,Ethiopia,Oromia,Borena
+5597,2010-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+414,2010-07-01,2.0,Ethiopia,SNNP,Burji
+493,2010-07-01,3.0,Ethiopia,Tigray,Central
+5599,2010-07-01,1.0,Ethiopia,Amhara,Central Gondar
+416,2010-07-01,2.0,Ethiopia,Somali,Daawa
+417,2010-07-01,2.0,Ethiopia,SNNP,Dawuro
+418,2010-07-01,2.0,Ethiopia,SNNP,Derashe
+496,2010-07-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5601,2010-07-01,1.0,Ethiopia,Amhara,East Gojam
+499,2010-07-01,3.0,Ethiopia,Oromia,East Hararge
+500,2010-07-01,3.0,Ethiopia,Oromia,East Shewa
+5604,2010-07-01,1.0,Ethiopia,Oromia,East Wellega
+501,2010-07-01,3.0,Ethiopia,Tigray,Eastern
+502,2010-07-01,3.0,Ethiopia,Somali,Erer
+503,2010-07-01,3.0,Ethiopia,Gambela,Etang Special woreda
+427,2010-07-01,2.0,Ethiopia,Somali,Fafan
+506,2010-07-01,3.0,Ethiopia,SNNP,Gamo
+430,2010-07-01,2.0,Ethiopia,SNNP,Gedeo
+508,2010-07-01,3.0,Ethiopia,SNNP,Gofa
+5610,2010-07-01,1.0,Ethiopia,Oromia,Guji
+433,2010-07-01,2.0,Ethiopia,SNNP,Guraghe
+434,2010-07-01,2.0,Ethiopia,SNNP,Hadiya
+512,2010-07-01,3.0,Ethiopia,SNNP,Halaba Special
+5613,2010-07-01,1.0,Ethiopia,Harari,Harari
+5615,2010-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+438,2010-07-01,2.0,Ethiopia,Somali,Jarar
+5616,2010-07-01,1.0,Ethiopia,Oromia,Jimma
+5617,2010-07-01,1.0,Ethiopia,SNNP,Kefa
+5619,2010-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+443,2010-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+444,2010-07-01,2.0,Ethiopia,SNNP,Konso
+445,2010-07-01,2.0,Ethiopia,SNNP,Konta Special
+447,2010-07-01,2.0,Ethiopia,Somali,Liban
+520,2010-07-01,3.0,Ethiopia,Gambela,Mejenger
+521,2010-07-01,3.0,Ethiopia,Tigray,Mekele Special
+5624,2010-07-01,1.0,Ethiopia,SNNP,Mirab Omo
+452,2010-07-01,2.0,Ethiopia,Somali,Nogob
+524,2010-07-01,3.0,Ethiopia,Amhara,North Gondar
+525,2010-07-01,3.0,Ethiopia,Amhara,North Shewa
+527,2010-07-01,3.0,Ethiopia,Amhara,North Wello
+456,2010-07-01,2.0,Ethiopia,Tigray,North Western
+529,2010-07-01,3.0,Ethiopia,Gambela,Nuwer
+458,2010-07-01,2.0,Ethiopia,Amhara,Oromia
+459,2010-07-01,2.0,Ethiopia,Somali,Shabelle
+461,2010-07-01,2.0,Ethiopia,SNNP,Sidama
+535,2010-07-01,3.0,Ethiopia,SNNP,Siltie
+463,2010-07-01,2.0,Ethiopia,Somali,Siti
+537,2010-07-01,3.0,Ethiopia,Tigray,South Eastern
+538,2010-07-01,3.0,Ethiopia,Amhara,South Gondar
+465,2010-07-01,2.0,Ethiopia,SNNP,South Omo
+466,2010-07-01,2.0,Ethiopia,Amhara,South Wello
+5636,2010-07-01,1.0,Ethiopia,Oromia,South West Shewa
+542,2010-07-01,3.0,Ethiopia,Tigray,Southern
+543,2010-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+5637,2010-07-01,1.0,Ethiopia,Oromia,West Arsi
+472,2010-07-01,2.0,Ethiopia,Oromia,West Guji
+546,2010-07-01,3.0,Ethiopia,Oromia,West Hararge
+5642,2010-07-01,1.0,Ethiopia,Oromia,West Wellega
+5643,2010-07-01,1.0,Ethiopia,Tigray,Western
+477,2010-07-01,2.0,Ethiopia,SNNP,Wolayita
+5644,2010-07-01,1.0,Ethiopia,SNNP,Yem Special
+479,2010-07-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+550,2010-07-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+481,2010-07-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+552,2010-07-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+483,2010-07-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+420,2010-07-01,2.0,Ethiopia,Somali,Doolo
+446,2010-07-01,2.0,Ethiopia,Somali,Korahe
+5606,2010-07-01,1.0,Ethiopia,Oromia,Finfine Special
+531,2010-07-01,3.0,Ethiopia,Addis Ababa,Region 14
+5638,2010-07-01,1.0,Ethiopia,Amhara,West Gojam
+8634,2010-07-01,,Ethiopia,Dire Dawa,Dire Dawa urban
+5614,2010-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5621,2010-07-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+454,2010-07-01,2.0,Ethiopia,Oromia,North Shewa
+474,2010-07-01,2.0,Ethiopia,Oromia,West Shewa
+409,2010-07-01,2.0,Ethiopia,Benishangul Gumz,Asosa
+5618,2010-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5623,2010-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5630,2010-07-01,1.0,Ethiopia,SNNP,Sheka
+5639,2010-07-01,1.0,Ethiopia,Amhara,West Gondar
+5592,2010-07-01,1.0,Ethiopia,Amhara,Awi
+554,2010-10-01,2.0,Ethiopia,Somali,Afder
+5648,2010-10-01,1.0,Ethiopia,Gambela,Agnewak
+556,2010-10-01,2.0,Ethiopia,SNNP,Alle
+557,2010-10-01,2.0,Ethiopia,SNNP,Amaro
+5649,2010-10-01,1.0,Ethiopia,Oromia,Arsi
+559,2010-10-01,2.0,Ethiopia,Oromia,Bale
+560,2010-10-01,2.0,Ethiopia,SNNP,Basketo
+5653,2010-10-01,1.0,Ethiopia,SNNP,Bench Maji
+561,2010-10-01,2.0,Ethiopia,Oromia,Borena
+5654,2010-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+562,2010-10-01,2.0,Ethiopia,SNNP,Burji
+563,2010-10-01,2.0,Ethiopia,Tigray,Central
+5655,2010-10-01,1.0,Ethiopia,Amhara,Central Gondar
+565,2010-10-01,2.0,Ethiopia,Somali,Daawa
+566,2010-10-01,2.0,Ethiopia,SNNP,Dawuro
+567,2010-10-01,2.0,Ethiopia,SNNP,Derashe
+568,2010-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5657,2010-10-01,1.0,Ethiopia,Amhara,East Gojam
+572,2010-10-01,2.0,Ethiopia,Oromia,East Hararge
+573,2010-10-01,2.0,Ethiopia,Oromia,East Shewa
+5659,2010-10-01,1.0,Ethiopia,Oromia,East Wellega
+575,2010-10-01,2.0,Ethiopia,Tigray,Eastern
+638,2010-10-01,3.0,Ethiopia,Somali,Erer
+5660,2010-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+578,2010-10-01,2.0,Ethiopia,Somali,Fafan
+580,2010-10-01,2.0,Ethiopia,SNNP,Gamo
+581,2010-10-01,2.0,Ethiopia,SNNP,Gedeo
+582,2010-10-01,2.0,Ethiopia,SNNP,Gofa
+583,2010-10-01,2.0,Ethiopia,Oromia,Guji
+584,2010-10-01,2.0,Ethiopia,SNNP,Guraghe
+585,2010-10-01,2.0,Ethiopia,SNNP,Hadiya
+586,2010-10-01,2.0,Ethiopia,SNNP,Halaba Special
+587,2010-10-01,2.0,Ethiopia,Harari,Harari
+5668,2010-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+589,2010-10-01,2.0,Ethiopia,Somali,Jarar
+5669,2010-10-01,1.0,Ethiopia,Oromia,Jimma
+5670,2010-10-01,1.0,Ethiopia,SNNP,Kefa
+5672,2010-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+592,2010-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+593,2010-10-01,2.0,Ethiopia,SNNP,Konso
+5673,2010-10-01,1.0,Ethiopia,SNNP,Konta Special
+596,2010-10-01,2.0,Ethiopia,Somali,Liban
+5675,2010-10-01,1.0,Ethiopia,Gambela,Mejenger
+597,2010-10-01,2.0,Ethiopia,Tigray,Mekele Special
+5677,2010-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+646,2010-10-01,3.0,Ethiopia,Somali,Nogob
+600,2010-10-01,2.0,Ethiopia,Amhara,North Gondar
+601,2010-10-01,2.0,Ethiopia,Amhara,North Shewa
+648,2010-10-01,3.0,Ethiopia,Amhara,North Wello
+604,2010-10-01,2.0,Ethiopia,Tigray,North Western
+605,2010-10-01,2.0,Ethiopia,Gambela,Nuwer
+606,2010-10-01,2.0,Ethiopia,Amhara,Oromia
+650,2010-10-01,3.0,Ethiopia,Somali,Shabelle
+608,2010-10-01,2.0,Ethiopia,SNNP,Sidama
+609,2010-10-01,2.0,Ethiopia,SNNP,Siltie
+610,2010-10-01,2.0,Ethiopia,Somali,Siti
+611,2010-10-01,2.0,Ethiopia,Tigray,South Eastern
+612,2010-10-01,2.0,Ethiopia,Amhara,South Gondar
+613,2010-10-01,2.0,Ethiopia,SNNP,South Omo
+614,2010-10-01,2.0,Ethiopia,Amhara,South Wello
+5690,2010-10-01,1.0,Ethiopia,Oromia,South West Shewa
+616,2010-10-01,2.0,Ethiopia,Tigray,Southern
+617,2010-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+5691,2010-10-01,1.0,Ethiopia,Oromia,West Arsi
+619,2010-10-01,2.0,Ethiopia,Oromia,West Guji
+659,2010-10-01,3.0,Ethiopia,Oromia,West Hararge
+5697,2010-10-01,1.0,Ethiopia,Oromia,West Wellega
+5698,2010-10-01,1.0,Ethiopia,Tigray,Western
+623,2010-10-01,2.0,Ethiopia,SNNP,Wolayita
+5699,2010-10-01,1.0,Ethiopia,SNNP,Yem Special
+625,2010-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+626,2010-10-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+627,2010-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+628,2010-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+629,2010-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+635,2010-10-01,3.0,Ethiopia,Somali,Doolo
+644,2010-10-01,3.0,Ethiopia,Somali,Korahe
+5661,2010-10-01,1.0,Ethiopia,Oromia,Finfine Special
+5683,2010-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+5692,2010-10-01,1.0,Ethiopia,Amhara,West Gojam
+569,2010-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5667,2010-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5674,2010-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+602,2010-10-01,2.0,Ethiopia,Oromia,North Shewa
+621,2010-10-01,2.0,Ethiopia,Oromia,West Shewa
+5650,2010-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+5671,2010-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5676,2010-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5684,2010-10-01,1.0,Ethiopia,SNNP,Sheka
+5693,2010-10-01,1.0,Ethiopia,Amhara,West Gondar
+5651,2010-10-01,1.0,Ethiopia,Amhara,Awi
+667,2011-01-01,3.0,Ethiopia,Somali,Afder
+5752,2011-01-01,2.0,Ethiopia,Gambela,Agnewak
+5753,2011-01-01,2.0,Ethiopia,SNNP,Alle
+5754,2011-01-01,2.0,Ethiopia,SNNP,Amaro
+5755,2011-01-01,2.0,Ethiopia,Oromia,Arsi
+672,2011-01-01,3.0,Ethiopia,Oromia,Bale
+5758,2011-01-01,2.0,Ethiopia,SNNP,Basketo
+5705,2011-01-01,1.0,Ethiopia,SNNP,Bench Maji
+674,2011-01-01,3.0,Ethiopia,Oromia,Borena
+5706,2011-01-01,1.0,Ethiopia,Oromia,Buno Bedele
+5761,2011-01-01,2.0,Ethiopia,SNNP,Burji
+5762,2011-01-01,2.0,Ethiopia,Tigray,Central
+5707,2011-01-01,1.0,Ethiopia,Amhara,Central Gondar
+676,2011-01-01,3.0,Ethiopia,Somali,Daawa
+5764,2011-01-01,2.0,Ethiopia,SNNP,Dawuro
+5765,2011-01-01,2.0,Ethiopia,SNNP,Derashe
+5766,2011-01-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5709,2011-01-01,1.0,Ethiopia,Amhara,East Gojam
+678,2011-01-01,3.0,Ethiopia,Oromia,East Hararge
+5770,2011-01-01,2.0,Ethiopia,Oromia,East Shewa
+5711,2011-01-01,1.0,Ethiopia,Oromia,East Wellega
+5771,2011-01-01,2.0,Ethiopia,Tigray,Eastern
+679,2011-01-01,3.0,Ethiopia,Somali,Erer
+5772,2011-01-01,2.0,Ethiopia,Gambela,Etang Special woreda
+5773,2011-01-01,2.0,Ethiopia,Somali,Fafan
+5775,2011-01-01,2.0,Ethiopia,SNNP,Gamo
+5776,2011-01-01,2.0,Ethiopia,SNNP,Gedeo
+5777,2011-01-01,2.0,Ethiopia,SNNP,Gofa
+683,2011-01-01,3.0,Ethiopia,Oromia,Guji
+5779,2011-01-01,2.0,Ethiopia,SNNP,Guraghe
+5780,2011-01-01,2.0,Ethiopia,SNNP,Hadiya
+5781,2011-01-01,2.0,Ethiopia,SNNP,Halaba Special
+5782,2011-01-01,2.0,Ethiopia,Harari,Harari
+5720,2011-01-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+685,2011-01-01,3.0,Ethiopia,Somali,Jarar
+5721,2011-01-01,1.0,Ethiopia,Oromia,Jimma
+5722,2011-01-01,1.0,Ethiopia,SNNP,Kefa
+5724,2011-01-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+5788,2011-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+5789,2011-01-01,2.0,Ethiopia,SNNP,Konso
+5725,2011-01-01,1.0,Ethiopia,SNNP,Konta Special
+690,2011-01-01,3.0,Ethiopia,Somali,Liban
+5792,2011-01-01,2.0,Ethiopia,Gambela,Mejenger
+5793,2011-01-01,2.0,Ethiopia,Tigray,Mekele Special
+5729,2011-01-01,1.0,Ethiopia,SNNP,Mirab Omo
+692,2011-01-01,3.0,Ethiopia,Somali,Nogob
+5795,2011-01-01,2.0,Ethiopia,Amhara,North Gondar
+5796,2011-01-01,2.0,Ethiopia,Amhara,North Shewa
+5798,2011-01-01,2.0,Ethiopia,Amhara,North Wello
+5799,2011-01-01,2.0,Ethiopia,Tigray,North Western
+695,2011-01-01,3.0,Ethiopia,Gambela,Nuwer
+5801,2011-01-01,2.0,Ethiopia,Amhara,Oromia
+696,2011-01-01,3.0,Ethiopia,Somali,Shabelle
+5803,2011-01-01,2.0,Ethiopia,SNNP,Sidama
+5804,2011-01-01,2.0,Ethiopia,SNNP,Siltie
+5805,2011-01-01,2.0,Ethiopia,Somali,Siti
+5806,2011-01-01,2.0,Ethiopia,Tigray,South Eastern
+5807,2011-01-01,2.0,Ethiopia,Amhara,South Gondar
+699,2011-01-01,3.0,Ethiopia,SNNP,South Omo
+5809,2011-01-01,2.0,Ethiopia,Amhara,South Wello
+5742,2011-01-01,1.0,Ethiopia,Oromia,South West Shewa
+5811,2011-01-01,2.0,Ethiopia,Tigray,Southern
+5812,2011-01-01,2.0,Ethiopia,Amhara,Wag Hamra
+5813,2011-01-01,2.0,Ethiopia,Oromia,West Arsi
+5814,2011-01-01,2.0,Ethiopia,Oromia,West Guji
+704,2011-01-01,3.0,Ethiopia,Oromia,West Hararge
+5749,2011-01-01,1.0,Ethiopia,Oromia,West Wellega
+5750,2011-01-01,1.0,Ethiopia,Tigray,Western
+5819,2011-01-01,2.0,Ethiopia,SNNP,Wolayita
+5751,2011-01-01,1.0,Ethiopia,SNNP,Yem Special
+705,2011-01-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+706,2011-01-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+5823,2011-01-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+5824,2011-01-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+5825,2011-01-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+677,2011-01-01,3.0,Ethiopia,Somali,Doolo
+689,2011-01-01,3.0,Ethiopia,Somali,Korahe
+5713,2011-01-01,1.0,Ethiopia,Oromia,Finfine Special
+5735,2011-01-01,1.0,Ethiopia,Addis Ababa,Region 14
+5744,2011-01-01,1.0,Ethiopia,Amhara,West Gojam
+5767,2011-01-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5719,2011-01-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5791,2011-01-01,2.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+5797,2011-01-01,2.0,Ethiopia,Oromia,North Shewa
+5748,2011-01-01,1.0,Ethiopia,Oromia,West Shewa
+5702,2011-01-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+5723,2011-01-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5728,2011-01-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5736,2011-01-01,1.0,Ethiopia,SNNP,Sheka
+5745,2011-01-01,1.0,Ethiopia,Amhara,West Gondar
+5703,2011-01-01,1.0,Ethiopia,Amhara,Awi
+712,2011-04-01,3.0,Ethiopia,Somali,Afder
+5876,2011-04-01,2.0,Ethiopia,Gambela,Agnewak
+714,2011-04-01,3.0,Ethiopia,SNNP,Alle
+715,2011-04-01,3.0,Ethiopia,SNNP,Amaro
+5879,2011-04-01,2.0,Ethiopia,Oromia,Arsi
+717,2011-04-01,3.0,Ethiopia,Oromia,Bale
+5830,2011-04-01,1.0,Ethiopia,SNNP,Basketo
+5831,2011-04-01,1.0,Ethiopia,SNNP,Bench Maji
+719,2011-04-01,3.0,Ethiopia,Oromia,Borena
+5832,2011-04-01,1.0,Ethiopia,Oromia,Buno Bedele
+720,2011-04-01,3.0,Ethiopia,SNNP,Burji
+5884,2011-04-01,2.0,Ethiopia,Tigray,Central
+5833,2011-04-01,1.0,Ethiopia,Amhara,Central Gondar
+723,2011-04-01,3.0,Ethiopia,Somali,Daawa
+5886,2011-04-01,2.0,Ethiopia,SNNP,Dawuro
+725,2011-04-01,3.0,Ethiopia,SNNP,Derashe
+5888,2011-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5835,2011-04-01,1.0,Ethiopia,Amhara,East Gojam
+728,2011-04-01,3.0,Ethiopia,Oromia,East Hararge
+5892,2011-04-01,2.0,Ethiopia,Oromia,East Shewa
+5837,2011-04-01,1.0,Ethiopia,Oromia,East Wellega
+5894,2011-04-01,2.0,Ethiopia,Tigray,Eastern
+780,2011-04-01,4.0,Ethiopia,Somali,Erer
+5895,2011-04-01,2.0,Ethiopia,Gambela,Etang Special woreda
+732,2011-04-01,3.0,Ethiopia,Somali,Fafan
+733,2011-04-01,3.0,Ethiopia,SNNP,Gamo
+734,2011-04-01,3.0,Ethiopia,SNNP,Gedeo
+735,2011-04-01,3.0,Ethiopia,SNNP,Gofa
+736,2011-04-01,3.0,Ethiopia,Oromia,Guji
+5902,2011-04-01,2.0,Ethiopia,SNNP,Guraghe
+738,2011-04-01,3.0,Ethiopia,SNNP,Hadiya
+5904,2011-04-01,2.0,Ethiopia,SNNP,Halaba Special
+740,2011-04-01,3.0,Ethiopia,Harari,Harari
+5846,2011-04-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+782,2011-04-01,4.0,Ethiopia,Somali,Jarar
+5847,2011-04-01,1.0,Ethiopia,Oromia,Jimma
+5848,2011-04-01,1.0,Ethiopia,SNNP,Kefa
+5850,2011-04-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+744,2011-04-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+745,2011-04-01,3.0,Ethiopia,SNNP,Konso
+5851,2011-04-01,1.0,Ethiopia,SNNP,Konta Special
+747,2011-04-01,3.0,Ethiopia,Somali,Liban
+5915,2011-04-01,2.0,Ethiopia,Gambela,Mejenger
+5916,2011-04-01,2.0,Ethiopia,Tigray,Mekele Special
+5855,2011-04-01,1.0,Ethiopia,SNNP,Mirab Omo
+785,2011-04-01,4.0,Ethiopia,Somali,Nogob
+5919,2011-04-01,2.0,Ethiopia,Amhara,North Gondar
+5920,2011-04-01,2.0,Ethiopia,Amhara,North Shewa
+5922,2011-04-01,2.0,Ethiopia,Amhara,North Wello
+5923,2011-04-01,2.0,Ethiopia,Tigray,North Western
+754,2011-04-01,3.0,Ethiopia,Gambela,Nuwer
+5925,2011-04-01,2.0,Ethiopia,Amhara,Oromia
+786,2011-04-01,4.0,Ethiopia,Somali,Shabelle
+5927,2011-04-01,2.0,Ethiopia,SNNP,Sidama
+5928,2011-04-01,2.0,Ethiopia,SNNP,Siltie
+759,2011-04-01,3.0,Ethiopia,Somali,Siti
+5930,2011-04-01,2.0,Ethiopia,Tigray,South Eastern
+5931,2011-04-01,2.0,Ethiopia,Amhara,South Gondar
+762,2011-04-01,3.0,Ethiopia,SNNP,South Omo
+5933,2011-04-01,2.0,Ethiopia,Amhara,South Wello
+5867,2011-04-01,1.0,Ethiopia,Oromia,South West Shewa
+5935,2011-04-01,2.0,Ethiopia,Tigray,Southern
+765,2011-04-01,3.0,Ethiopia,Amhara,Wag Hamra
+5937,2011-04-01,2.0,Ethiopia,Oromia,West Arsi
+5938,2011-04-01,2.0,Ethiopia,Oromia,West Guji
+5939,2011-04-01,2.0,Ethiopia,Oromia,West Hararge
+5873,2011-04-01,1.0,Ethiopia,Oromia,West Wellega
+5874,2011-04-01,1.0,Ethiopia,Tigray,Western
+769,2011-04-01,3.0,Ethiopia,SNNP,Wolayita
+5875,2011-04-01,1.0,Ethiopia,SNNP,Yem Special
+771,2011-04-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+772,2011-04-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+773,2011-04-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+774,2011-04-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+775,2011-04-01,3.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+778,2011-04-01,4.0,Ethiopia,Somali,Doolo
+783,2011-04-01,4.0,Ethiopia,Somali,Korahe
+5839,2011-04-01,1.0,Ethiopia,Oromia,Finfine Special
+5860,2011-04-01,1.0,Ethiopia,Addis Ababa,Region 14
+5869,2011-04-01,1.0,Ethiopia,Amhara,West Gojam
+5889,2011-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5845,2011-04-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+5914,2011-04-01,2.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+5921,2011-04-01,2.0,Ethiopia,Oromia,North Shewa
+5940,2011-04-01,2.0,Ethiopia,Oromia,West Shewa
+5880,2011-04-01,2.0,Ethiopia,Benishangul Gumz,Asosa
+5849,2011-04-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5854,2011-04-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5861,2011-04-01,1.0,Ethiopia,SNNP,Sheka
+5870,2011-04-01,1.0,Ethiopia,Amhara,West Gondar
+5828,2011-04-01,1.0,Ethiopia,Amhara,Awi
+787,2011-07-01,3.0,Ethiopia,Somali,Afder
+6011,2011-07-01,2.0,Ethiopia,Gambela,Agnewak
+789,2011-07-01,3.0,Ethiopia,SNNP,Alle
+790,2011-07-01,3.0,Ethiopia,SNNP,Amaro
+791,2011-07-01,3.0,Ethiopia,Oromia,Arsi
+854,2011-07-01,4.0,Ethiopia,Oromia,Bale
+5963,2011-07-01,1.0,Ethiopia,SNNP,Basketo
+5964,2011-07-01,1.0,Ethiopia,SNNP,Bench Maji
+855,2011-07-01,4.0,Ethiopia,Oromia,Borena
+5965,2011-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+795,2011-07-01,3.0,Ethiopia,SNNP,Burji
+6018,2011-07-01,2.0,Ethiopia,Tigray,Central
+5966,2011-07-01,1.0,Ethiopia,Amhara,Central Gondar
+856,2011-07-01,4.0,Ethiopia,Somali,Daawa
+6020,2011-07-01,2.0,Ethiopia,SNNP,Dawuro
+800,2011-07-01,3.0,Ethiopia,SNNP,Derashe
+6022,2011-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+5968,2011-07-01,1.0,Ethiopia,Amhara,East Gojam
+803,2011-07-01,3.0,Ethiopia,Oromia,East Hararge
+6026,2011-07-01,2.0,Ethiopia,Oromia,East Shewa
+5970,2011-07-01,1.0,Ethiopia,Oromia,East Wellega
+6028,2011-07-01,2.0,Ethiopia,Tigray,Eastern
+859,2011-07-01,4.0,Ethiopia,Somali,Erer
+6029,2011-07-01,2.0,Ethiopia,Gambela,Etang Special woreda
+808,2011-07-01,3.0,Ethiopia,Somali,Fafan
+809,2011-07-01,3.0,Ethiopia,SNNP,Gamo
+810,2011-07-01,3.0,Ethiopia,SNNP,Gedeo
+811,2011-07-01,3.0,Ethiopia,SNNP,Gofa
+812,2011-07-01,3.0,Ethiopia,Oromia,Guji
+6036,2011-07-01,2.0,Ethiopia,SNNP,Guraghe
+814,2011-07-01,3.0,Ethiopia,SNNP,Hadiya
+815,2011-07-01,3.0,Ethiopia,SNNP,Halaba Special
+816,2011-07-01,3.0,Ethiopia,Harari,Harari
+5979,2011-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+817,2011-07-01,3.0,Ethiopia,Somali,Jarar
+5980,2011-07-01,1.0,Ethiopia,Oromia,Jimma
+5981,2011-07-01,1.0,Ethiopia,SNNP,Kefa
+5983,2011-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+820,2011-07-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+821,2011-07-01,3.0,Ethiopia,SNNP,Konso
+5984,2011-07-01,1.0,Ethiopia,SNNP,Konta Special
+824,2011-07-01,3.0,Ethiopia,Somali,Liban
+6048,2011-07-01,2.0,Ethiopia,Gambela,Mejenger
+6049,2011-07-01,2.0,Ethiopia,Tigray,Mekele Special
+5988,2011-07-01,1.0,Ethiopia,SNNP,Mirab Omo
+866,2011-07-01,4.0,Ethiopia,Somali,Nogob
+6052,2011-07-01,2.0,Ethiopia,Amhara,North Gondar
+6053,2011-07-01,2.0,Ethiopia,Amhara,North Shewa
+6055,2011-07-01,2.0,Ethiopia,Amhara,North Wello
+6056,2011-07-01,2.0,Ethiopia,Tigray,North Western
+831,2011-07-01,3.0,Ethiopia,Gambela,Nuwer
+6058,2011-07-01,2.0,Ethiopia,Amhara,Oromia
+868,2011-07-01,4.0,Ethiopia,Somali,Shabelle
+834,2011-07-01,3.0,Ethiopia,SNNP,Sidama
+6061,2011-07-01,2.0,Ethiopia,SNNP,Siltie
+836,2011-07-01,3.0,Ethiopia,Somali,Siti
+6063,2011-07-01,2.0,Ethiopia,Tigray,South Eastern
+6064,2011-07-01,2.0,Ethiopia,Amhara,South Gondar
+838,2011-07-01,3.0,Ethiopia,SNNP,South Omo
+6066,2011-07-01,2.0,Ethiopia,Amhara,South Wello
+6001,2011-07-01,1.0,Ethiopia,Oromia,South West Shewa
+839,2011-07-01,3.0,Ethiopia,Tigray,Southern
+840,2011-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+841,2011-07-01,3.0,Ethiopia,Oromia,West Arsi
+842,2011-07-01,3.0,Ethiopia,Oromia,West Guji
+843,2011-07-01,3.0,Ethiopia,Oromia,West Hararge
+6008,2011-07-01,1.0,Ethiopia,Oromia,West Wellega
+6009,2011-07-01,1.0,Ethiopia,Tigray,Western
+844,2011-07-01,3.0,Ethiopia,SNNP,Wolayita
+6010,2011-07-01,1.0,Ethiopia,SNNP,Yem Special
+846,2011-07-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+847,2011-07-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+848,2011-07-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+849,2011-07-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+850,2011-07-01,3.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+857,2011-07-01,4.0,Ethiopia,Somali,Doolo
+863,2011-07-01,4.0,Ethiopia,Somali,Korahe
+5972,2011-07-01,1.0,Ethiopia,Oromia,Finfine Special
+5994,2011-07-01,1.0,Ethiopia,Addis Ababa,Region 14
+6004,2011-07-01,1.0,Ethiopia,Amhara,West Gojam
+6023,2011-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+5978,2011-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6047,2011-07-01,2.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+6054,2011-07-01,2.0,Ethiopia,Oromia,North Shewa
+6073,2011-07-01,2.0,Ethiopia,Oromia,West Shewa
+6014,2011-07-01,2.0,Ethiopia,Benishangul Gumz,Asosa
+5982,2011-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+5987,2011-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+5995,2011-07-01,1.0,Ethiopia,SNNP,Sheka
+6005,2011-07-01,1.0,Ethiopia,Amhara,West Gondar
+5962,2011-07-01,1.0,Ethiopia,Amhara,Awi
+876,2011-10-01,3.0,Ethiopia,Somali,Afder
+6093,2011-10-01,1.0,Ethiopia,Gambela,Agnewak
+878,2011-10-01,3.0,Ethiopia,SNNP,Alle
+879,2011-10-01,3.0,Ethiopia,SNNP,Amaro
+6094,2011-10-01,1.0,Ethiopia,Oromia,Arsi
+882,2011-10-01,3.0,Ethiopia,Oromia,Bale
+6157,2011-10-01,2.0,Ethiopia,SNNP,Basketo
+6098,2011-10-01,1.0,Ethiopia,SNNP,Bench Maji
+883,2011-10-01,3.0,Ethiopia,Oromia,Borena
+6099,2011-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+884,2011-10-01,3.0,Ethiopia,SNNP,Burji
+6159,2011-10-01,2.0,Ethiopia,Tigray,Central
+6100,2011-10-01,1.0,Ethiopia,Amhara,Central Gondar
+885,2011-10-01,3.0,Ethiopia,Somali,Daawa
+6101,2011-10-01,1.0,Ethiopia,SNNP,Dawuro
+886,2011-10-01,3.0,Ethiopia,SNNP,Derashe
+6164,2011-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6102,2011-10-01,1.0,Ethiopia,Amhara,East Gojam
+6166,2011-10-01,2.0,Ethiopia,Oromia,East Hararge
+6103,2011-10-01,1.0,Ethiopia,Oromia,East Shewa
+6104,2011-10-01,1.0,Ethiopia,Oromia,East Wellega
+6168,2011-10-01,2.0,Ethiopia,Tigray,Eastern
+890,2011-10-01,3.0,Ethiopia,Somali,Erer
+6105,2011-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+6171,2011-10-01,2.0,Ethiopia,Somali,Fafan
+6173,2011-10-01,2.0,Ethiopia,SNNP,Gamo
+6174,2011-10-01,2.0,Ethiopia,SNNP,Gedeo
+6175,2011-10-01,2.0,Ethiopia,SNNP,Gofa
+894,2011-10-01,3.0,Ethiopia,Oromia,Guji
+6111,2011-10-01,1.0,Ethiopia,SNNP,Guraghe
+6178,2011-10-01,2.0,Ethiopia,SNNP,Hadiya
+6179,2011-10-01,2.0,Ethiopia,SNNP,Halaba Special
+6180,2011-10-01,2.0,Ethiopia,Harari,Harari
+6114,2011-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+895,2011-10-01,3.0,Ethiopia,Somali,Jarar
+6115,2011-10-01,1.0,Ethiopia,Oromia,Jimma
+6116,2011-10-01,1.0,Ethiopia,SNNP,Kefa
+6118,2011-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+6185,2011-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+897,2011-10-01,3.0,Ethiopia,SNNP,Konso
+6119,2011-10-01,1.0,Ethiopia,SNNP,Konta Special
+899,2011-10-01,3.0,Ethiopia,Somali,Liban
+6121,2011-10-01,1.0,Ethiopia,Gambela,Mejenger
+6189,2011-10-01,2.0,Ethiopia,Tigray,Mekele Special
+6123,2011-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+903,2011-10-01,3.0,Ethiopia,Somali,Nogob
+6192,2011-10-01,2.0,Ethiopia,Amhara,North Gondar
+6125,2011-10-01,1.0,Ethiopia,Amhara,North Shewa
+6195,2011-10-01,2.0,Ethiopia,Amhara,North Wello
+6196,2011-10-01,2.0,Ethiopia,Tigray,North Western
+6197,2011-10-01,2.0,Ethiopia,Gambela,Nuwer
+6198,2011-10-01,2.0,Ethiopia,Amhara,Oromia
+906,2011-10-01,3.0,Ethiopia,Somali,Shabelle
+6199,2011-10-01,2.0,Ethiopia,SNNP,Sidama
+6200,2011-10-01,2.0,Ethiopia,SNNP,Siltie
+6201,2011-10-01,2.0,Ethiopia,Somali,Siti
+6202,2011-10-01,2.0,Ethiopia,Tigray,South Eastern
+6203,2011-10-01,2.0,Ethiopia,Amhara,South Gondar
+910,2011-10-01,3.0,Ethiopia,SNNP,South Omo
+6205,2011-10-01,2.0,Ethiopia,Amhara,South Wello
+6137,2011-10-01,1.0,Ethiopia,Oromia,South West Shewa
+6207,2011-10-01,2.0,Ethiopia,Tigray,Southern
+6208,2011-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+6138,2011-10-01,1.0,Ethiopia,Oromia,West Arsi
+915,2011-10-01,3.0,Ethiopia,Oromia,West Guji
+6212,2011-10-01,2.0,Ethiopia,Oromia,West Hararge
+6144,2011-10-01,1.0,Ethiopia,Oromia,West Wellega
+6145,2011-10-01,1.0,Ethiopia,Tigray,Western
+6215,2011-10-01,2.0,Ethiopia,SNNP,Wolayita
+6147,2011-10-01,1.0,Ethiopia,SNNP,Yem Special
+6217,2011-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+918,2011-10-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+6219,2011-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+6220,2011-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+6221,2011-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+887,2011-10-01,3.0,Ethiopia,Somali,Doolo
+898,2011-10-01,3.0,Ethiopia,Somali,Korahe
+6106,2011-10-01,1.0,Ethiopia,Oromia,Finfine Special
+6130,2011-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+6139,2011-10-01,1.0,Ethiopia,Amhara,West Gojam
+6224,2011-10-01,,Ethiopia,Dire Dawa,Dire Dawa urban
+6113,2011-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6120,2011-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+6126,2011-10-01,1.0,Ethiopia,Oromia,North Shewa
+6143,2011-10-01,1.0,Ethiopia,Oromia,West Shewa
+6095,2011-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6117,2011-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6122,2011-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6131,2011-10-01,1.0,Ethiopia,SNNP,Sheka
+6140,2011-10-01,1.0,Ethiopia,Amhara,West Gondar
+6096,2011-10-01,1.0,Ethiopia,Amhara,Awi
+996,2012-01-01,3.0,Ethiopia,Somali,Afder
+6232,2012-01-01,1.0,Ethiopia,Gambela,Agnewak
+998,2012-01-01,3.0,Ethiopia,SNNP,Alle
+999,2012-01-01,3.0,Ethiopia,SNNP,Amaro
+6233,2012-01-01,1.0,Ethiopia,Oromia,Arsi
+1002,2012-01-01,3.0,Ethiopia,Oromia,Bale
+6237,2012-01-01,1.0,Ethiopia,SNNP,Basketo
+6238,2012-01-01,1.0,Ethiopia,SNNP,Bench Maji
+1004,2012-01-01,3.0,Ethiopia,Oromia,Borena
+6239,2012-01-01,1.0,Ethiopia,Oromia,Buno Bedele
+1005,2012-01-01,3.0,Ethiopia,SNNP,Burji
+933,2012-01-01,2.0,Ethiopia,Tigray,Central
+6240,2012-01-01,1.0,Ethiopia,Amhara,Central Gondar
+1008,2012-01-01,3.0,Ethiopia,Somali,Daawa
+6241,2012-01-01,1.0,Ethiopia,SNNP,Dawuro
+1009,2012-01-01,3.0,Ethiopia,SNNP,Derashe
+938,2012-01-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6242,2012-01-01,1.0,Ethiopia,Amhara,East Gojam
+941,2012-01-01,2.0,Ethiopia,Oromia,East Hararge
+6243,2012-01-01,1.0,Ethiopia,Oromia,East Shewa
+6244,2012-01-01,1.0,Ethiopia,Oromia,East Wellega
+943,2012-01-01,2.0,Ethiopia,Tigray,Eastern
+1014,2012-01-01,3.0,Ethiopia,Somali,Erer
+6245,2012-01-01,1.0,Ethiopia,Gambela,Etang Special woreda
+1015,2012-01-01,3.0,Ethiopia,Somali,Fafan
+948,2012-01-01,2.0,Ethiopia,SNNP,Gamo
+949,2012-01-01,2.0,Ethiopia,SNNP,Gedeo
+950,2012-01-01,2.0,Ethiopia,SNNP,Gofa
+1053,2012-01-01,4.0,Ethiopia,Oromia,Guji
+6251,2012-01-01,1.0,Ethiopia,SNNP,Guraghe
+953,2012-01-01,2.0,Ethiopia,SNNP,Hadiya
+954,2012-01-01,2.0,Ethiopia,SNNP,Halaba Special
+955,2012-01-01,2.0,Ethiopia,Harari,Harari
+6254,2012-01-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1020,2012-01-01,3.0,Ethiopia,Somali,Jarar
+6255,2012-01-01,1.0,Ethiopia,Oromia,Jimma
+6256,2012-01-01,1.0,Ethiopia,SNNP,Kefa
+6258,2012-01-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+959,2012-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+1023,2012-01-01,3.0,Ethiopia,SNNP,Konso
+6259,2012-01-01,1.0,Ethiopia,SNNP,Konta Special
+1026,2012-01-01,3.0,Ethiopia,Somali,Liban
+6261,2012-01-01,1.0,Ethiopia,Gambela,Mejenger
+963,2012-01-01,2.0,Ethiopia,Tigray,Mekele Special
+6263,2012-01-01,1.0,Ethiopia,SNNP,Mirab Omo
+1029,2012-01-01,3.0,Ethiopia,Somali,Nogob
+966,2012-01-01,2.0,Ethiopia,Amhara,North Gondar
+6265,2012-01-01,1.0,Ethiopia,Amhara,North Shewa
+1031,2012-01-01,3.0,Ethiopia,Amhara,North Wello
+970,2012-01-01,2.0,Ethiopia,Tigray,North Western
+971,2012-01-01,2.0,Ethiopia,Gambela,Nuwer
+972,2012-01-01,2.0,Ethiopia,Amhara,Oromia
+1034,2012-01-01,3.0,Ethiopia,Somali,Shabelle
+973,2012-01-01,2.0,Ethiopia,SNNP,Sidama
+974,2012-01-01,2.0,Ethiopia,SNNP,Siltie
+1035,2012-01-01,3.0,Ethiopia,Somali,Siti
+976,2012-01-01,2.0,Ethiopia,Tigray,South Eastern
+977,2012-01-01,2.0,Ethiopia,Amhara,South Gondar
+1038,2012-01-01,3.0,Ethiopia,SNNP,South Omo
+979,2012-01-01,2.0,Ethiopia,Amhara,South Wello
+6277,2012-01-01,1.0,Ethiopia,Oromia,South West Shewa
+981,2012-01-01,2.0,Ethiopia,Tigray,Southern
+1041,2012-01-01,3.0,Ethiopia,Amhara,Wag Hamra
+6278,2012-01-01,1.0,Ethiopia,Oromia,West Arsi
+1043,2012-01-01,3.0,Ethiopia,Oromia,West Guji
+986,2012-01-01,2.0,Ethiopia,Oromia,West Hararge
+6284,2012-01-01,1.0,Ethiopia,Oromia,West Wellega
+6285,2012-01-01,1.0,Ethiopia,Tigray,Western
+989,2012-01-01,2.0,Ethiopia,SNNP,Wolayita
+6287,2012-01-01,1.0,Ethiopia,SNNP,Yem Special
+991,2012-01-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+1046,2012-01-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+993,2012-01-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+994,2012-01-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+995,2012-01-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1011,2012-01-01,3.0,Ethiopia,Somali,Doolo
+1025,2012-01-01,3.0,Ethiopia,Somali,Korahe
+6246,2012-01-01,1.0,Ethiopia,Oromia,Finfine Special
+6270,2012-01-01,1.0,Ethiopia,Addis Ababa,Region 14
+6279,2012-01-01,1.0,Ethiopia,Amhara,West Gojam
+6292,2012-01-01,,Ethiopia,Dire Dawa,Dire Dawa urban
+6253,2012-01-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6260,2012-01-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+6266,2012-01-01,1.0,Ethiopia,Oromia,North Shewa
+6283,2012-01-01,1.0,Ethiopia,Oromia,West Shewa
+6234,2012-01-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6257,2012-01-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6262,2012-01-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6271,2012-01-01,1.0,Ethiopia,SNNP,Sheka
+6280,2012-01-01,1.0,Ethiopia,Amhara,West Gondar
+6235,2012-01-01,1.0,Ethiopia,Amhara,Awi
+1126,2012-04-01,3.0,Ethiopia,Somali,Afder
+6301,2012-04-01,1.0,Ethiopia,Gambela,Agnewak
+1127,2012-04-01,3.0,Ethiopia,SNNP,Alle
+6359,2012-04-01,3.0,Ethiopia,SNNP,Amaro
+1059,2012-04-01,2.0,Ethiopia,Oromia,Arsi
+1131,2012-04-01,3.0,Ethiopia,Oromia,Bale
+6306,2012-04-01,1.0,Ethiopia,SNNP,Basketo
+6307,2012-04-01,1.0,Ethiopia,SNNP,Bench Maji
+1133,2012-04-01,3.0,Ethiopia,Oromia,Borena
+6308,2012-04-01,1.0,Ethiopia,Oromia,Buno Bedele
+6362,2012-04-01,3.0,Ethiopia,SNNP,Burji
+1065,2012-04-01,2.0,Ethiopia,Tigray,Central
+6309,2012-04-01,1.0,Ethiopia,Amhara,Central Gondar
+1136,2012-04-01,3.0,Ethiopia,Somali,Daawa
+6310,2012-04-01,1.0,Ethiopia,SNNP,Dawuro
+1137,2012-04-01,3.0,Ethiopia,SNNP,Derashe
+1068,2012-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6311,2012-04-01,1.0,Ethiopia,Amhara,East Gojam
+1071,2012-04-01,2.0,Ethiopia,Oromia,East Hararge
+6312,2012-04-01,1.0,Ethiopia,Oromia,East Shewa
+6313,2012-04-01,1.0,Ethiopia,Oromia,East Wellega
+1073,2012-04-01,2.0,Ethiopia,Tigray,Eastern
+1144,2012-04-01,3.0,Ethiopia,Somali,Erer
+6314,2012-04-01,1.0,Ethiopia,Gambela,Etang Special woreda
+1145,2012-04-01,3.0,Ethiopia,Somali,Fafan
+6367,2012-04-01,3.0,Ethiopia,SNNP,Gamo
+1079,2012-04-01,2.0,Ethiopia,SNNP,Gedeo
+6369,2012-04-01,3.0,Ethiopia,SNNP,Gofa
+1149,2012-04-01,3.0,Ethiopia,Oromia,Guji
+6319,2012-04-01,1.0,Ethiopia,SNNP,Guraghe
+1083,2012-04-01,2.0,Ethiopia,SNNP,Hadiya
+1084,2012-04-01,2.0,Ethiopia,SNNP,Halaba Special
+1085,2012-04-01,2.0,Ethiopia,Harari,Harari
+6322,2012-04-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1151,2012-04-01,3.0,Ethiopia,Somali,Jarar
+6323,2012-04-01,1.0,Ethiopia,Oromia,Jimma
+6324,2012-04-01,1.0,Ethiopia,SNNP,Kefa
+6326,2012-04-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+6373,2012-04-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+6374,2012-04-01,3.0,Ethiopia,SNNP,Konso
+6328,2012-04-01,1.0,Ethiopia,SNNP,Konta Special
+1157,2012-04-01,3.0,Ethiopia,Somali,Liban
+6330,2012-04-01,1.0,Ethiopia,Gambela,Mejenger
+1093,2012-04-01,2.0,Ethiopia,Tigray,Mekele Special
+6332,2012-04-01,1.0,Ethiopia,SNNP,Mirab Omo
+1160,2012-04-01,3.0,Ethiopia,Somali,Nogob
+1095,2012-04-01,2.0,Ethiopia,Amhara,North Gondar
+1096,2012-04-01,2.0,Ethiopia,Amhara,North Shewa
+6378,2012-04-01,3.0,Ethiopia,Amhara,North Wello
+1099,2012-04-01,2.0,Ethiopia,Tigray,North Western
+1100,2012-04-01,2.0,Ethiopia,Gambela,Nuwer
+1101,2012-04-01,2.0,Ethiopia,Amhara,Oromia
+1164,2012-04-01,3.0,Ethiopia,Somali,Shabelle
+1103,2012-04-01,2.0,Ethiopia,SNNP,Sidama
+1104,2012-04-01,2.0,Ethiopia,SNNP,Siltie
+1167,2012-04-01,3.0,Ethiopia,Somali,Siti
+1106,2012-04-01,2.0,Ethiopia,Tigray,South Eastern
+1107,2012-04-01,2.0,Ethiopia,Amhara,South Gondar
+1169,2012-04-01,3.0,Ethiopia,SNNP,South Omo
+1109,2012-04-01,2.0,Ethiopia,Amhara,South Wello
+6345,2012-04-01,1.0,Ethiopia,Oromia,South West Shewa
+1111,2012-04-01,2.0,Ethiopia,Tigray,Southern
+6387,2012-04-01,3.0,Ethiopia,Amhara,Wag Hamra
+6346,2012-04-01,1.0,Ethiopia,Oromia,West Arsi
+1173,2012-04-01,3.0,Ethiopia,Oromia,West Guji
+1116,2012-04-01,2.0,Ethiopia,Oromia,West Hararge
+6352,2012-04-01,1.0,Ethiopia,Oromia,West Wellega
+6353,2012-04-01,1.0,Ethiopia,Tigray,Western
+6390,2012-04-01,3.0,Ethiopia,SNNP,Wolayita
+8760,2012-04-01,1.0,Ethiopia,SNNP,Yem Special
+1175,2012-04-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+1176,2012-04-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1123,2012-04-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1124,2012-04-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1125,2012-04-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1139,2012-04-01,3.0,Ethiopia,Somali,Doolo
+1156,2012-04-01,3.0,Ethiopia,Somali,Korahe
+6315,2012-04-01,1.0,Ethiopia,Oromia,Finfine Special
+6338,2012-04-01,1.0,Ethiopia,Addis Ababa,Region 14
+6347,2012-04-01,1.0,Ethiopia,Amhara,West Gojam
+6394,2012-04-01,,Ethiopia,Dire Dawa,Dire Dawa urban
+6321,2012-04-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6329,2012-04-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+1097,2012-04-01,2.0,Ethiopia,Oromia,North Shewa
+6351,2012-04-01,1.0,Ethiopia,Oromia,West Shewa
+6303,2012-04-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6325,2012-04-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6331,2012-04-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6339,2012-04-01,1.0,Ethiopia,SNNP,Sheka
+6348,2012-04-01,1.0,Ethiopia,Amhara,West Gondar
+6304,2012-04-01,1.0,Ethiopia,Amhara,Awi
+1262,2012-07-01,3.0,Ethiopia,Somali,Afder
+6403,2012-07-01,1.0,Ethiopia,Gambela,Agnewak
+1263,2012-07-01,3.0,Ethiopia,SNNP,Alle
+1264,2012-07-01,3.0,Ethiopia,SNNP,Amaro
+1183,2012-07-01,2.0,Ethiopia,Oromia,Arsi
+1267,2012-07-01,3.0,Ethiopia,Oromia,Bale
+1186,2012-07-01,2.0,Ethiopia,SNNP,Basketo
+6408,2012-07-01,1.0,Ethiopia,SNNP,Bench Maji
+1248,2012-07-01,2.0,Ethiopia,Oromia,Borena
+6409,2012-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+1270,2012-07-01,3.0,Ethiopia,SNNP,Burji
+1188,2012-07-01,2.0,Ethiopia,Tigray,Central
+6410,2012-07-01,1.0,Ethiopia,Amhara,Central Gondar
+1273,2012-07-01,3.0,Ethiopia,Somali,Daawa
+6411,2012-07-01,1.0,Ethiopia,SNNP,Dawuro
+1275,2012-07-01,3.0,Ethiopia,SNNP,Derashe
+6462,2012-07-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6412,2012-07-01,1.0,Ethiopia,Amhara,East Gojam
+6464,2012-07-01,3.0,Ethiopia,Oromia,East Hararge
+6413,2012-07-01,1.0,Ethiopia,Oromia,East Shewa
+6414,2012-07-01,1.0,Ethiopia,Oromia,East Wellega
+1195,2012-07-01,2.0,Ethiopia,Tigray,Eastern
+1279,2012-07-01,3.0,Ethiopia,Somali,Erer
+6415,2012-07-01,1.0,Ethiopia,Gambela,Etang Special woreda
+6468,2012-07-01,3.0,Ethiopia,Somali,Fafan
+1281,2012-07-01,3.0,Ethiopia,SNNP,Gamo
+6470,2012-07-01,3.0,Ethiopia,SNNP,Gedeo
+1282,2012-07-01,3.0,Ethiopia,SNNP,Gofa
+1254,2012-07-01,2.0,Ethiopia,Oromia,Guji
+1203,2012-07-01,2.0,Ethiopia,SNNP,Guraghe
+1285,2012-07-01,3.0,Ethiopia,SNNP,Hadiya
+6475,2012-07-01,3.0,Ethiopia,SNNP,Halaba Special
+6476,2012-07-01,3.0,Ethiopia,Harari,Harari
+6423,2012-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1287,2012-07-01,3.0,Ethiopia,Somali,Jarar
+6424,2012-07-01,1.0,Ethiopia,Oromia,Jimma
+6425,2012-07-01,1.0,Ethiopia,SNNP,Kefa
+6427,2012-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+1290,2012-07-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+1291,2012-07-01,3.0,Ethiopia,SNNP,Konso
+6428,2012-07-01,1.0,Ethiopia,SNNP,Konta Special
+1294,2012-07-01,3.0,Ethiopia,Somali,Liban
+6430,2012-07-01,1.0,Ethiopia,Gambela,Mejenger
+1212,2012-07-01,2.0,Ethiopia,Tigray,Mekele Special
+6432,2012-07-01,1.0,Ethiopia,SNNP,Mirab Omo
+1295,2012-07-01,3.0,Ethiopia,Somali,Nogob
+1213,2012-07-01,2.0,Ethiopia,Amhara,North Gondar
+1214,2012-07-01,2.0,Ethiopia,Amhara,North Shewa
+1297,2012-07-01,3.0,Ethiopia,Amhara,North Wello
+1217,2012-07-01,2.0,Ethiopia,Tigray,North Western
+6437,2012-07-01,1.0,Ethiopia,Gambela,Nuwer
+1219,2012-07-01,2.0,Ethiopia,Amhara,Oromia
+1298,2012-07-01,3.0,Ethiopia,Somali,Shabelle
+6493,2012-07-01,3.0,Ethiopia,SNNP,Sidama
+6494,2012-07-01,3.0,Ethiopia,SNNP,Siltie
+6495,2012-07-01,3.0,Ethiopia,Somali,Siti
+1224,2012-07-01,2.0,Ethiopia,Tigray,South Eastern
+1225,2012-07-01,2.0,Ethiopia,Amhara,South Gondar
+6497,2012-07-01,3.0,Ethiopia,SNNP,South Omo
+1304,2012-07-01,3.0,Ethiopia,Amhara,South Wello
+6444,2012-07-01,1.0,Ethiopia,Oromia,South West Shewa
+1229,2012-07-01,2.0,Ethiopia,Tigray,Southern
+1306,2012-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+1231,2012-07-01,2.0,Ethiopia,Oromia,West Arsi
+1260,2012-07-01,2.0,Ethiopia,Oromia,West Guji
+6504,2012-07-01,3.0,Ethiopia,Oromia,West Hararge
+6450,2012-07-01,1.0,Ethiopia,Oromia,West Wellega
+6451,2012-07-01,1.0,Ethiopia,Tigray,Western
+1310,2012-07-01,3.0,Ethiopia,SNNP,Wolayita
+6452,2012-07-01,1.0,Ethiopia,SNNP,Yem Special
+6507,2012-07-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+1240,2012-07-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1241,2012-07-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1242,2012-07-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1243,2012-07-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1276,2012-07-01,3.0,Ethiopia,Somali,Doolo
+1293,2012-07-01,3.0,Ethiopia,Somali,Korahe
+6416,2012-07-01,1.0,Ethiopia,Oromia,Finfine Special
+6438,2012-07-01,1.0,Ethiopia,Addis Ababa,Region 14
+6446,2012-07-01,1.0,Ethiopia,Amhara,West Gojam
+8655,2012-07-01,,Ethiopia,Dire Dawa,Dire Dawa urban
+6422,2012-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6429,2012-07-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+6487,2012-07-01,3.0,Ethiopia,Oromia,North Shewa
+1235,2012-07-01,2.0,Ethiopia,Oromia,West Shewa
+6405,2012-07-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6426,2012-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6431,2012-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6439,2012-07-01,1.0,Ethiopia,SNNP,Sheka
+6447,2012-07-01,1.0,Ethiopia,Amhara,West Gondar
+6406,2012-07-01,1.0,Ethiopia,Amhara,Awi
+1383,2012-10-01,2.0,Ethiopia,Somali,Afder
+6511,2012-10-01,1.0,Ethiopia,Gambela,Agnewak
+1384,2012-10-01,2.0,Ethiopia,SNNP,Alle
+1385,2012-10-01,2.0,Ethiopia,SNNP,Amaro
+6512,2012-10-01,1.0,Ethiopia,Oromia,Arsi
+1387,2012-10-01,2.0,Ethiopia,Oromia,Bale
+6516,2012-10-01,1.0,Ethiopia,SNNP,Basketo
+6517,2012-10-01,1.0,Ethiopia,SNNP,Bench Maji
+1389,2012-10-01,2.0,Ethiopia,Oromia,Borena
+6518,2012-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+1390,2012-10-01,2.0,Ethiopia,SNNP,Burji
+1322,2012-10-01,2.0,Ethiopia,Tigray,Central
+6520,2012-10-01,1.0,Ethiopia,Amhara,Central Gondar
+1391,2012-10-01,2.0,Ethiopia,Somali,Daawa
+6521,2012-10-01,1.0,Ethiopia,SNNP,Dawuro
+1393,2012-10-01,2.0,Ethiopia,SNNP,Derashe
+1325,2012-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6522,2012-10-01,1.0,Ethiopia,Amhara,East Gojam
+1328,2012-10-01,2.0,Ethiopia,Oromia,East Hararge
+6523,2012-10-01,1.0,Ethiopia,Oromia,East Shewa
+6524,2012-10-01,1.0,Ethiopia,Oromia,East Wellega
+1452,2012-10-01,3.0,Ethiopia,Tigray,Eastern
+1397,2012-10-01,2.0,Ethiopia,Somali,Erer
+6526,2012-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+1398,2012-10-01,2.0,Ethiopia,Somali,Fafan
+1399,2012-10-01,2.0,Ethiopia,SNNP,Gamo
+1336,2012-10-01,2.0,Ethiopia,SNNP,Gedeo
+1401,2012-10-01,2.0,Ethiopia,SNNP,Gofa
+1402,2012-10-01,2.0,Ethiopia,Oromia,Guji
+6531,2012-10-01,1.0,Ethiopia,SNNP,Guraghe
+1404,2012-10-01,2.0,Ethiopia,SNNP,Hadiya
+1341,2012-10-01,2.0,Ethiopia,SNNP,Halaba Special
+1342,2012-10-01,2.0,Ethiopia,Harari,Harari
+6534,2012-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1406,2012-10-01,2.0,Ethiopia,Somali,Jarar
+6535,2012-10-01,1.0,Ethiopia,Oromia,Jimma
+6536,2012-10-01,1.0,Ethiopia,SNNP,Kefa
+6538,2012-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+1408,2012-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+1409,2012-10-01,2.0,Ethiopia,SNNP,Konso
+6540,2012-10-01,1.0,Ethiopia,SNNP,Konta Special
+1411,2012-10-01,2.0,Ethiopia,Somali,Liban
+6543,2012-10-01,1.0,Ethiopia,Gambela,Mejenger
+1352,2012-10-01,2.0,Ethiopia,Tigray,Mekele Special
+6545,2012-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+1413,2012-10-01,2.0,Ethiopia,Somali,Nogob
+1354,2012-10-01,2.0,Ethiopia,Amhara,North Gondar
+6547,2012-10-01,1.0,Ethiopia,Amhara,North Shewa
+1436,2012-10-01,3.0,Ethiopia,Amhara,North Wello
+6550,2012-10-01,1.0,Ethiopia,Tigray,North Western
+6551,2012-10-01,1.0,Ethiopia,Gambela,Nuwer
+6552,2012-10-01,1.0,Ethiopia,Amhara,Oromia
+1414,2012-10-01,2.0,Ethiopia,Somali,Shabelle
+1362,2012-10-01,2.0,Ethiopia,SNNP,Sidama
+1363,2012-10-01,2.0,Ethiopia,SNNP,Siltie
+1439,2012-10-01,3.0,Ethiopia,Somali,Siti
+1365,2012-10-01,2.0,Ethiopia,Tigray,South Eastern
+6558,2012-10-01,1.0,Ethiopia,Amhara,South Gondar
+1367,2012-10-01,2.0,Ethiopia,SNNP,South Omo
+1368,2012-10-01,2.0,Ethiopia,Amhara,South Wello
+6561,2012-10-01,1.0,Ethiopia,Oromia,South West Shewa
+1458,2012-10-01,3.0,Ethiopia,Tigray,Southern
+1459,2012-10-01,3.0,Ethiopia,Amhara,Wag Hamra
+6563,2012-10-01,1.0,Ethiopia,Oromia,West Arsi
+1420,2012-10-01,2.0,Ethiopia,Oromia,West Guji
+1374,2012-10-01,2.0,Ethiopia,Oromia,West Hararge
+6569,2012-10-01,1.0,Ethiopia,Oromia,West Wellega
+6570,2012-10-01,1.0,Ethiopia,Tigray,Western
+1422,2012-10-01,2.0,Ethiopia,SNNP,Wolayita
+6572,2012-10-01,1.0,Ethiopia,SNNP,Yem Special
+1445,2012-10-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+1379,2012-10-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1380,2012-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1381,2012-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1382,2012-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1394,2012-10-01,2.0,Ethiopia,Somali,Doolo
+1410,2012-10-01,2.0,Ethiopia,Somali,Korahe
+6527,2012-10-01,1.0,Ethiopia,Oromia,Finfine Special
+6553,2012-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+6564,2012-10-01,1.0,Ethiopia,Amhara,West Gojam
+1326,2012-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6533,2012-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6542,2012-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+1356,2012-10-01,2.0,Ethiopia,Oromia,North Shewa
+6568,2012-10-01,1.0,Ethiopia,Oromia,West Shewa
+6513,2012-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6537,2012-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6544,2012-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6554,2012-10-01,1.0,Ethiopia,SNNP,Sheka
+6565,2012-10-01,1.0,Ethiopia,Amhara,West Gondar
+6514,2012-10-01,1.0,Ethiopia,Amhara,Awi
+1525,2013-01-01,3.0,Ethiopia,Somali,Afder
+6575,2013-01-01,1.0,Ethiopia,Gambela,Agnewak
+1463,2013-01-01,2.0,Ethiopia,SNNP,Alle
+1528,2013-01-01,3.0,Ethiopia,SNNP,Amaro
+6576,2013-01-01,1.0,Ethiopia,Oromia,Arsi
+1466,2013-01-01,2.0,Ethiopia,Oromia,Bale
+6580,2013-01-01,1.0,Ethiopia,SNNP,Basketo
+6581,2013-01-01,1.0,Ethiopia,SNNP,Bench Maji
+1468,2013-01-01,2.0,Ethiopia,Oromia,Borena
+6582,2013-01-01,1.0,Ethiopia,Oromia,Buno Bedele
+1469,2013-01-01,2.0,Ethiopia,SNNP,Burji
+6638,2013-01-01,2.0,Ethiopia,Tigray,Central
+6584,2013-01-01,1.0,Ethiopia,Amhara,Central Gondar
+1535,2013-01-01,3.0,Ethiopia,Somali,Daawa
+6585,2013-01-01,1.0,Ethiopia,SNNP,Dawuro
+1474,2013-01-01,2.0,Ethiopia,SNNP,Derashe
+1538,2013-01-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6586,2013-01-01,1.0,Ethiopia,Amhara,East Gojam
+1591,2013-01-01,3.0,Ethiopia,Oromia,East Hararge
+6587,2013-01-01,1.0,Ethiopia,Oromia,East Shewa
+6588,2013-01-01,1.0,Ethiopia,Oromia,East Wellega
+1593,2013-01-01,3.0,Ethiopia,Tigray,Eastern
+1544,2013-01-01,3.0,Ethiopia,Somali,Erer
+6646,2013-01-01,2.0,Ethiopia,Gambela,Etang Special woreda
+1481,2013-01-01,2.0,Ethiopia,Somali,Fafan
+1546,2013-01-01,3.0,Ethiopia,SNNP,Gamo
+1483,2013-01-01,2.0,Ethiopia,SNNP,Gedeo
+1548,2013-01-01,3.0,Ethiopia,SNNP,Gofa
+1549,2013-01-01,3.0,Ethiopia,Oromia,Guji
+6594,2013-01-01,1.0,Ethiopia,SNNP,Guraghe
+1487,2013-01-01,2.0,Ethiopia,SNNP,Hadiya
+1552,2013-01-01,3.0,Ethiopia,SNNP,Halaba Special
+1553,2013-01-01,3.0,Ethiopia,Harari,Harari
+6597,2013-01-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1489,2013-01-01,2.0,Ethiopia,Somali,Jarar
+6598,2013-01-01,1.0,Ethiopia,Oromia,Jimma
+6599,2013-01-01,1.0,Ethiopia,SNNP,Kefa
+6601,2013-01-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+1492,2013-01-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+1556,2013-01-01,3.0,Ethiopia,SNNP,Konso
+6602,2013-01-01,1.0,Ethiopia,SNNP,Konta Special
+1558,2013-01-01,3.0,Ethiopia,Somali,Liban
+6604,2013-01-01,1.0,Ethiopia,Gambela,Mejenger
+1497,2013-01-01,2.0,Ethiopia,Tigray,Mekele Special
+6606,2013-01-01,1.0,Ethiopia,SNNP,Mirab Omo
+1499,2013-01-01,2.0,Ethiopia,Somali,Nogob
+6659,2013-01-01,2.0,Ethiopia,Amhara,North Gondar
+6608,2013-01-01,1.0,Ethiopia,Amhara,North Shewa
+1565,2013-01-01,3.0,Ethiopia,Amhara,North Wello
+6611,2013-01-01,1.0,Ethiopia,Tigray,North Western
+6664,2013-01-01,2.0,Ethiopia,Gambela,Nuwer
+6665,2013-01-01,2.0,Ethiopia,Amhara,Oromia
+1568,2013-01-01,3.0,Ethiopia,Somali,Shabelle
+1569,2013-01-01,3.0,Ethiopia,SNNP,Sidama
+1570,2013-01-01,3.0,Ethiopia,SNNP,Siltie
+1602,2013-01-01,3.0,Ethiopia,Somali,Siti
+1509,2013-01-01,2.0,Ethiopia,Tigray,South Eastern
+6617,2013-01-01,1.0,Ethiopia,Amhara,South Gondar
+1511,2013-01-01,2.0,Ethiopia,SNNP,South Omo
+1575,2013-01-01,3.0,Ethiopia,Amhara,South Wello
+6620,2013-01-01,1.0,Ethiopia,Oromia,South West Shewa
+1604,2013-01-01,3.0,Ethiopia,Tigray,Southern
+1605,2013-01-01,3.0,Ethiopia,Amhara,Wag Hamra
+6621,2013-01-01,1.0,Ethiopia,Oromia,West Arsi
+1516,2013-01-01,2.0,Ethiopia,Oromia,West Guji
+1606,2013-01-01,3.0,Ethiopia,Oromia,West Hararge
+6627,2013-01-01,1.0,Ethiopia,Oromia,West Wellega
+6628,2013-01-01,1.0,Ethiopia,Tigray,Western
+1582,2013-01-01,3.0,Ethiopia,SNNP,Wolayita
+6630,2013-01-01,1.0,Ethiopia,SNNP,Yem Special
+1520,2013-01-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+1608,2013-01-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1522,2013-01-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1610,2013-01-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1524,2013-01-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1475,2013-01-01,2.0,Ethiopia,Somali,Doolo
+1557,2013-01-01,3.0,Ethiopia,Somali,Korahe
+6590,2013-01-01,1.0,Ethiopia,Oromia,Finfine Special
+6613,2013-01-01,1.0,Ethiopia,Addis Ababa,Region 14
+6622,2013-01-01,1.0,Ethiopia,Amhara,West Gojam
+1539,2013-01-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6650,2013-01-01,2.0,Ethiopia,Oromia,Horo Gudru Wellega
+6603,2013-01-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+6661,2013-01-01,2.0,Ethiopia,Oromia,North Shewa
+6626,2013-01-01,1.0,Ethiopia,Oromia,West Shewa
+6577,2013-01-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6600,2013-01-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6605,2013-01-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6614,2013-01-01,1.0,Ethiopia,SNNP,Sheka
+6623,2013-01-01,1.0,Ethiopia,Amhara,West Gondar
+6578,2013-01-01,1.0,Ethiopia,Amhara,Awi
+1667,2013-04-01,2.0,Ethiopia,Somali,Afder
+6680,2013-04-01,1.0,Ethiopia,Gambela,Agnewak
+1614,2013-04-01,2.0,Ethiopia,SNNP,Alle
+1719,2013-04-01,3.0,Ethiopia,SNNP,Amaro
+6681,2013-04-01,1.0,Ethiopia,Oromia,Arsi
+1722,2013-04-01,3.0,Ethiopia,Oromia,Bale
+6685,2013-04-01,1.0,Ethiopia,SNNP,Basketo
+6686,2013-04-01,1.0,Ethiopia,SNNP,Bench Maji
+1671,2013-04-01,2.0,Ethiopia,Oromia,Borena
+6687,2013-04-01,1.0,Ethiopia,Oromia,Buno Bedele
+1622,2013-04-01,2.0,Ethiopia,SNNP,Burji
+1725,2013-04-01,3.0,Ethiopia,Tigray,Central
+6688,2013-04-01,1.0,Ethiopia,Amhara,Central Gondar
+1727,2013-04-01,3.0,Ethiopia,Somali,Daawa
+6689,2013-04-01,1.0,Ethiopia,SNNP,Dawuro
+1626,2013-04-01,2.0,Ethiopia,SNNP,Derashe
+8256,2013-04-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6690,2013-04-01,1.0,Ethiopia,Amhara,East Gojam
+8258,2013-04-01,3.0,Ethiopia,Oromia,East Hararge
+6691,2013-04-01,1.0,Ethiopia,Oromia,East Shewa
+6692,2013-04-01,1.0,Ethiopia,Oromia,East Wellega
+8260,2013-04-01,3.0,Ethiopia,Tigray,Eastern
+1680,2013-04-01,2.0,Ethiopia,Somali,Erer
+6693,2013-04-01,1.0,Ethiopia,Gambela,Etang Special woreda
+1681,2013-04-01,2.0,Ethiopia,Somali,Fafan
+1735,2013-04-01,3.0,Ethiopia,SNNP,Gamo
+1635,2013-04-01,2.0,Ethiopia,SNNP,Gedeo
+1737,2013-04-01,3.0,Ethiopia,SNNP,Gofa
+1685,2013-04-01,2.0,Ethiopia,Oromia,Guji
+6698,2013-04-01,1.0,Ethiopia,SNNP,Guraghe
+1638,2013-04-01,2.0,Ethiopia,SNNP,Hadiya
+1741,2013-04-01,3.0,Ethiopia,SNNP,Halaba Special
+8266,2013-04-01,3.0,Ethiopia,Harari,Harari
+6701,2013-04-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1687,2013-04-01,2.0,Ethiopia,Somali,Jarar
+6702,2013-04-01,1.0,Ethiopia,Oromia,Jimma
+6703,2013-04-01,1.0,Ethiopia,SNNP,Kefa
+6705,2013-04-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+1743,2013-04-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+1744,2013-04-01,3.0,Ethiopia,SNNP,Konso
+6706,2013-04-01,1.0,Ethiopia,SNNP,Konta Special
+1690,2013-04-01,2.0,Ethiopia,Somali,Liban
+6708,2013-04-01,1.0,Ethiopia,Gambela,Mejenger
+1748,2013-04-01,3.0,Ethiopia,Tigray,Mekele Special
+6710,2013-04-01,1.0,Ethiopia,SNNP,Mirab Omo
+1692,2013-04-01,2.0,Ethiopia,Somali,Nogob
+6711,2013-04-01,1.0,Ethiopia,Amhara,North Gondar
+6712,2013-04-01,1.0,Ethiopia,Amhara,North Shewa
+8269,2013-04-01,3.0,Ethiopia,Amhara,North Wello
+1653,2013-04-01,2.0,Ethiopia,Tigray,North Western
+6715,2013-04-01,1.0,Ethiopia,Gambela,Nuwer
+1756,2013-04-01,3.0,Ethiopia,Amhara,Oromia
+1757,2013-04-01,3.0,Ethiopia,Somali,Shabelle
+1758,2013-04-01,3.0,Ethiopia,SNNP,Sidama
+1759,2013-04-01,3.0,Ethiopia,SNNP,Siltie
+8274,2013-04-01,3.0,Ethiopia,Somali,Siti
+1761,2013-04-01,3.0,Ethiopia,Tigray,South Eastern
+6720,2013-04-01,1.0,Ethiopia,Amhara,South Gondar
+1659,2013-04-01,2.0,Ethiopia,SNNP,South Omo
+8277,2013-04-01,3.0,Ethiopia,Amhara,South Wello
+6723,2013-04-01,1.0,Ethiopia,Oromia,South West Shewa
+8278,2013-04-01,3.0,Ethiopia,Tigray,Southern
+8279,2013-04-01,3.0,Ethiopia,Amhara,Wag Hamra
+6724,2013-04-01,1.0,Ethiopia,Oromia,West Arsi
+1707,2013-04-01,2.0,Ethiopia,Oromia,West Guji
+8281,2013-04-01,3.0,Ethiopia,Oromia,West Hararge
+6730,2013-04-01,1.0,Ethiopia,Oromia,West Wellega
+6731,2013-04-01,1.0,Ethiopia,Tigray,Western
+1770,2013-04-01,3.0,Ethiopia,SNNP,Wolayita
+6732,2013-04-01,1.0,Ethiopia,SNNP,Yem Special
+8282,2013-04-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8283,2013-04-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1713,2013-04-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1714,2013-04-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1715,2013-04-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1676,2013-04-01,2.0,Ethiopia,Somali,Doolo
+1689,2013-04-01,2.0,Ethiopia,Somali,Korahe
+6694,2013-04-01,1.0,Ethiopia,Oromia,Finfine Special
+6716,2013-04-01,1.0,Ethiopia,Addis Ababa,Region 14
+6725,2013-04-01,1.0,Ethiopia,Amhara,West Gojam
+8257,2013-04-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6700,2013-04-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6707,2013-04-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+1694,2013-04-01,2.0,Ethiopia,Oromia,North Shewa
+6729,2013-04-01,1.0,Ethiopia,Oromia,West Shewa
+6682,2013-04-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6704,2013-04-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6709,2013-04-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6717,2013-04-01,1.0,Ethiopia,SNNP,Sheka
+6726,2013-04-01,1.0,Ethiopia,Amhara,West Gondar
+6683,2013-04-01,1.0,Ethiopia,Amhara,Awi
+1876,2013-07-01,3.0,Ethiopia,Somali,Afder
+6734,2013-07-01,1.0,Ethiopia,Gambela,Agnewak
+1778,2013-07-01,2.0,Ethiopia,SNNP,Alle
+1779,2013-07-01,2.0,Ethiopia,SNNP,Amaro
+6735,2013-07-01,1.0,Ethiopia,Oromia,Arsi
+1838,2013-07-01,2.0,Ethiopia,Oromia,Bale
+6739,2013-07-01,1.0,Ethiopia,SNNP,Basketo
+6740,2013-07-01,1.0,Ethiopia,SNNP,Bench Maji
+1784,2013-07-01,2.0,Ethiopia,Oromia,Borena
+6741,2013-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+1786,2013-07-01,2.0,Ethiopia,SNNP,Burji
+1881,2013-07-01,3.0,Ethiopia,Tigray,Central
+6742,2013-07-01,1.0,Ethiopia,Amhara,Central Gondar
+1840,2013-07-01,2.0,Ethiopia,Somali,Daawa
+6743,2013-07-01,1.0,Ethiopia,SNNP,Dawuro
+1791,2013-07-01,2.0,Ethiopia,SNNP,Derashe
+1884,2013-07-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6744,2013-07-01,1.0,Ethiopia,Amhara,East Gojam
+1887,2013-07-01,3.0,Ethiopia,Oromia,East Hararge
+6745,2013-07-01,1.0,Ethiopia,Oromia,East Shewa
+6746,2013-07-01,1.0,Ethiopia,Oromia,East Wellega
+1889,2013-07-01,3.0,Ethiopia,Tigray,Eastern
+1845,2013-07-01,2.0,Ethiopia,Somali,Erer
+6747,2013-07-01,1.0,Ethiopia,Gambela,Etang Special woreda
+1846,2013-07-01,2.0,Ethiopia,Somali,Fafan
+1798,2013-07-01,2.0,Ethiopia,SNNP,Gamo
+1799,2013-07-01,2.0,Ethiopia,SNNP,Gedeo
+1800,2013-07-01,2.0,Ethiopia,SNNP,Gofa
+1801,2013-07-01,2.0,Ethiopia,Oromia,Guji
+6752,2013-07-01,1.0,Ethiopia,SNNP,Guraghe
+1803,2013-07-01,2.0,Ethiopia,SNNP,Hadiya
+1896,2013-07-01,3.0,Ethiopia,SNNP,Halaba Special
+1897,2013-07-01,3.0,Ethiopia,Harari,Harari
+6755,2013-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1851,2013-07-01,2.0,Ethiopia,Somali,Jarar
+6756,2013-07-01,1.0,Ethiopia,Oromia,Jimma
+6757,2013-07-01,1.0,Ethiopia,SNNP,Kefa
+6759,2013-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+1811,2013-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+1812,2013-07-01,2.0,Ethiopia,SNNP,Konso
+6760,2013-07-01,1.0,Ethiopia,SNNP,Konta Special
+1854,2013-07-01,2.0,Ethiopia,Somali,Liban
+6762,2013-07-01,1.0,Ethiopia,Gambela,Mejenger
+1901,2013-07-01,3.0,Ethiopia,Tigray,Mekele Special
+6764,2013-07-01,1.0,Ethiopia,SNNP,Mirab Omo
+1856,2013-07-01,2.0,Ethiopia,Somali,Nogob
+1903,2013-07-01,3.0,Ethiopia,Amhara,North Gondar
+6766,2013-07-01,1.0,Ethiopia,Amhara,North Shewa
+1906,2013-07-01,3.0,Ethiopia,Amhara,North Wello
+1820,2013-07-01,2.0,Ethiopia,Tigray,North Western
+6769,2013-07-01,1.0,Ethiopia,Gambela,Nuwer
+1908,2013-07-01,3.0,Ethiopia,Amhara,Oromia
+1862,2013-07-01,2.0,Ethiopia,Somali,Shabelle
+1823,2013-07-01,2.0,Ethiopia,SNNP,Sidama
+1911,2013-07-01,3.0,Ethiopia,SNNP,Siltie
+1912,2013-07-01,3.0,Ethiopia,Somali,Siti
+1913,2013-07-01,3.0,Ethiopia,Tigray,South Eastern
+6774,2013-07-01,1.0,Ethiopia,Amhara,South Gondar
+1827,2013-07-01,2.0,Ethiopia,SNNP,South Omo
+1915,2013-07-01,3.0,Ethiopia,Amhara,South Wello
+6777,2013-07-01,1.0,Ethiopia,Oromia,South West Shewa
+1917,2013-07-01,3.0,Ethiopia,Tigray,Southern
+1918,2013-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+6778,2013-07-01,1.0,Ethiopia,Oromia,West Arsi
+1830,2013-07-01,2.0,Ethiopia,Oromia,West Guji
+1920,2013-07-01,3.0,Ethiopia,Oromia,West Hararge
+6784,2013-07-01,1.0,Ethiopia,Oromia,West Wellega
+6785,2013-07-01,1.0,Ethiopia,Tigray,Western
+1833,2013-07-01,2.0,Ethiopia,SNNP,Wolayita
+6786,2013-07-01,1.0,Ethiopia,SNNP,Yem Special
+1922,2013-07-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+1923,2013-07-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1873,2013-07-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1874,2013-07-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1875,2013-07-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1842,2013-07-01,2.0,Ethiopia,Somali,Doolo
+1853,2013-07-01,2.0,Ethiopia,Somali,Korahe
+6748,2013-07-01,1.0,Ethiopia,Oromia,Finfine Special
+6770,2013-07-01,1.0,Ethiopia,Addis Ababa,Region 14
+6779,2013-07-01,1.0,Ethiopia,Amhara,West Gojam
+1885,2013-07-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6754,2013-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6761,2013-07-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+1905,2013-07-01,3.0,Ethiopia,Oromia,North Shewa
+6783,2013-07-01,1.0,Ethiopia,Oromia,West Shewa
+6736,2013-07-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6758,2013-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6763,2013-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6771,2013-07-01,1.0,Ethiopia,SNNP,Sheka
+6780,2013-07-01,1.0,Ethiopia,Amhara,West Gondar
+6737,2013-07-01,1.0,Ethiopia,Amhara,Awi
+2006,2013-10-01,3.0,Ethiopia,Somali,Afder
+6788,2013-10-01,1.0,Ethiopia,Gambela,Agnewak
+1928,2013-10-01,2.0,Ethiopia,SNNP,Alle
+1929,2013-10-01,2.0,Ethiopia,SNNP,Amaro
+1930,2013-10-01,2.0,Ethiopia,Oromia,Arsi
+1932,2013-10-01,2.0,Ethiopia,Oromia,Bale
+6793,2013-10-01,1.0,Ethiopia,SNNP,Basketo
+6794,2013-10-01,1.0,Ethiopia,SNNP,Bench Maji
+1934,2013-10-01,2.0,Ethiopia,Oromia,Borena
+6795,2013-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+1935,2013-10-01,2.0,Ethiopia,SNNP,Burji
+1936,2013-10-01,2.0,Ethiopia,Tigray,Central
+6796,2013-10-01,1.0,Ethiopia,Amhara,Central Gondar
+1938,2013-10-01,2.0,Ethiopia,Somali,Daawa
+6797,2013-10-01,1.0,Ethiopia,SNNP,Dawuro
+1940,2013-10-01,2.0,Ethiopia,SNNP,Derashe
+1941,2013-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6798,2013-10-01,1.0,Ethiopia,Amhara,East Gojam
+1945,2013-10-01,2.0,Ethiopia,Oromia,East Hararge
+1946,2013-10-01,2.0,Ethiopia,Oromia,East Shewa
+6800,2013-10-01,1.0,Ethiopia,Oromia,East Wellega
+1947,2013-10-01,2.0,Ethiopia,Tigray,Eastern
+1948,2013-10-01,2.0,Ethiopia,Somali,Erer
+6801,2013-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+1949,2013-10-01,2.0,Ethiopia,Somali,Fafan
+1951,2013-10-01,2.0,Ethiopia,SNNP,Gamo
+1952,2013-10-01,2.0,Ethiopia,SNNP,Gedeo
+1953,2013-10-01,2.0,Ethiopia,SNNP,Gofa
+1954,2013-10-01,2.0,Ethiopia,Oromia,Guji
+6806,2013-10-01,1.0,Ethiopia,SNNP,Guraghe
+1956,2013-10-01,2.0,Ethiopia,SNNP,Hadiya
+1957,2013-10-01,2.0,Ethiopia,SNNP,Halaba Special
+1958,2013-10-01,2.0,Ethiopia,Harari,Harari
+6809,2013-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+1959,2013-10-01,2.0,Ethiopia,Somali,Jarar
+6810,2013-10-01,1.0,Ethiopia,Oromia,Jimma
+6811,2013-10-01,1.0,Ethiopia,SNNP,Kefa
+6813,2013-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+1962,2013-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+1963,2013-10-01,2.0,Ethiopia,SNNP,Konso
+6814,2013-10-01,1.0,Ethiopia,SNNP,Konta Special
+1966,2013-10-01,2.0,Ethiopia,Somali,Liban
+6816,2013-10-01,1.0,Ethiopia,Gambela,Mejenger
+1968,2013-10-01,2.0,Ethiopia,Tigray,Mekele Special
+6818,2013-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+1970,2013-10-01,2.0,Ethiopia,Somali,Nogob
+1971,2013-10-01,2.0,Ethiopia,Amhara,North Gondar
+6820,2013-10-01,1.0,Ethiopia,Amhara,North Shewa
+1974,2013-10-01,2.0,Ethiopia,Amhara,North Wello
+1975,2013-10-01,2.0,Ethiopia,Tigray,North Western
+6823,2013-10-01,1.0,Ethiopia,Gambela,Nuwer
+1976,2013-10-01,2.0,Ethiopia,Amhara,Oromia
+1977,2013-10-01,2.0,Ethiopia,Somali,Shabelle
+1978,2013-10-01,2.0,Ethiopia,SNNP,Sidama
+1979,2013-10-01,2.0,Ethiopia,SNNP,Siltie
+1980,2013-10-01,2.0,Ethiopia,Somali,Siti
+1981,2013-10-01,2.0,Ethiopia,Tigray,South Eastern
+1982,2013-10-01,2.0,Ethiopia,Amhara,South Gondar
+1983,2013-10-01,2.0,Ethiopia,SNNP,South Omo
+1984,2013-10-01,2.0,Ethiopia,Amhara,South Wello
+6831,2013-10-01,1.0,Ethiopia,Oromia,South West Shewa
+1986,2013-10-01,2.0,Ethiopia,Tigray,Southern
+1987,2013-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+6832,2013-10-01,1.0,Ethiopia,Oromia,West Arsi
+1989,2013-10-01,2.0,Ethiopia,Oromia,West Guji
+1990,2013-10-01,2.0,Ethiopia,Oromia,West Hararge
+6838,2013-10-01,1.0,Ethiopia,Oromia,West Wellega
+6839,2013-10-01,1.0,Ethiopia,Tigray,Western
+1993,2013-10-01,2.0,Ethiopia,SNNP,Wolayita
+6840,2013-10-01,1.0,Ethiopia,SNNP,Yem Special
+1995,2013-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+2021,2013-10-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+1997,2013-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+1998,2013-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+1999,2013-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+1943,2013-10-01,2.0,Ethiopia,Somali,Doolo
+1965,2013-10-01,2.0,Ethiopia,Somali,Korahe
+6802,2013-10-01,1.0,Ethiopia,Oromia,Finfine Special
+6824,2013-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+6833,2013-10-01,1.0,Ethiopia,Amhara,West Gojam
+1942,2013-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6808,2013-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6815,2013-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+1973,2013-10-01,2.0,Ethiopia,Oromia,North Shewa
+6837,2013-10-01,1.0,Ethiopia,Oromia,West Shewa
+6790,2013-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6812,2013-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6817,2013-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6825,2013-10-01,1.0,Ethiopia,SNNP,Sheka
+6834,2013-10-01,1.0,Ethiopia,Amhara,West Gondar
+6791,2013-10-01,1.0,Ethiopia,Amhara,Awi
+2172,2014-01-01,2.0,Ethiopia,Somali,Afder
+2024,2014-01-01,1.0,Ethiopia,Gambela,Agnewak
+2025,2014-01-01,1.0,Ethiopia,SNNP,Alle
+2026,2014-01-01,1.0,Ethiopia,SNNP,Amaro
+2027,2014-01-01,1.0,Ethiopia,Oromia,Arsi
+2030,2014-01-01,1.0,Ethiopia,Oromia,Bale
+2031,2014-01-01,1.0,Ethiopia,SNNP,Basketo
+2032,2014-01-01,1.0,Ethiopia,SNNP,Bench Maji
+2033,2014-01-01,1.0,Ethiopia,Oromia,Borena
+2034,2014-01-01,1.0,Ethiopia,Oromia,Buno Bedele
+2035,2014-01-01,1.0,Ethiopia,SNNP,Burji
+2176,2014-01-01,2.0,Ethiopia,Tigray,Central
+2037,2014-01-01,1.0,Ethiopia,Amhara,Central Gondar
+2121,2014-01-01,2.0,Ethiopia,Somali,Daawa
+2039,2014-01-01,1.0,Ethiopia,SNNP,Dawuro
+2040,2014-01-01,1.0,Ethiopia,SNNP,Derashe
+2041,2014-01-01,1.0,Ethiopia,Dire Dawa,Dire Dawa rural
+2043,2014-01-01,1.0,Ethiopia,Amhara,East Gojam
+2044,2014-01-01,1.0,Ethiopia,Oromia,East Hararge
+2045,2014-01-01,1.0,Ethiopia,Oromia,East Shewa
+2046,2014-01-01,1.0,Ethiopia,Oromia,East Wellega
+2181,2014-01-01,2.0,Ethiopia,Tigray,Eastern
+2129,2014-01-01,2.0,Ethiopia,Somali,Erer
+2049,2014-01-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2130,2014-01-01,2.0,Ethiopia,Somali,Fafan
+2052,2014-01-01,1.0,Ethiopia,SNNP,Gamo
+2053,2014-01-01,1.0,Ethiopia,SNNP,Gedeo
+2054,2014-01-01,1.0,Ethiopia,SNNP,Gofa
+2055,2014-01-01,1.0,Ethiopia,Oromia,Guji
+2056,2014-01-01,1.0,Ethiopia,SNNP,Guraghe
+2057,2014-01-01,1.0,Ethiopia,SNNP,Hadiya
+2137,2014-01-01,2.0,Ethiopia,SNNP,Halaba Special
+2059,2014-01-01,1.0,Ethiopia,Harari,Harari
+2061,2014-01-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2138,2014-01-01,2.0,Ethiopia,Somali,Jarar
+2062,2014-01-01,1.0,Ethiopia,Oromia,Jimma
+2063,2014-01-01,1.0,Ethiopia,SNNP,Kefa
+2065,2014-01-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+2066,2014-01-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+2142,2014-01-01,2.0,Ethiopia,SNNP,Konso
+2068,2014-01-01,1.0,Ethiopia,SNNP,Konta Special
+2145,2014-01-01,2.0,Ethiopia,Somali,Liban
+2071,2014-01-01,1.0,Ethiopia,Gambela,Mejenger
+2072,2014-01-01,1.0,Ethiopia,Tigray,Mekele Special
+2074,2014-01-01,1.0,Ethiopia,SNNP,Mirab Omo
+2148,2014-01-01,2.0,Ethiopia,Somali,Nogob
+2076,2014-01-01,1.0,Ethiopia,Amhara,North Gondar
+2077,2014-01-01,1.0,Ethiopia,Amhara,North Shewa
+2079,2014-01-01,1.0,Ethiopia,Amhara,North Wello
+2080,2014-01-01,1.0,Ethiopia,Tigray,North Western
+2081,2014-01-01,1.0,Ethiopia,Gambela,Nuwer
+2082,2014-01-01,1.0,Ethiopia,Amhara,Oromia
+2154,2014-01-01,2.0,Ethiopia,Somali,Shabelle
+2155,2014-01-01,2.0,Ethiopia,SNNP,Sidama
+2156,2014-01-01,2.0,Ethiopia,SNNP,Siltie
+2157,2014-01-01,2.0,Ethiopia,Somali,Siti
+2196,2014-01-01,2.0,Ethiopia,Tigray,South Eastern
+2090,2014-01-01,1.0,Ethiopia,Amhara,South Gondar
+2159,2014-01-01,2.0,Ethiopia,SNNP,South Omo
+2092,2014-01-01,1.0,Ethiopia,Amhara,South Wello
+2093,2014-01-01,1.0,Ethiopia,Oromia,South West Shewa
+2094,2014-01-01,1.0,Ethiopia,Tigray,Southern
+2162,2014-01-01,2.0,Ethiopia,Amhara,Wag Hamra
+2096,2014-01-01,1.0,Ethiopia,Oromia,West Arsi
+2099,2014-01-01,1.0,Ethiopia,Oromia,West Guji
+2100,2014-01-01,1.0,Ethiopia,Oromia,West Hararge
+2102,2014-01-01,1.0,Ethiopia,Oromia,West Wellega
+2103,2014-01-01,1.0,Ethiopia,Tigray,Western
+2104,2014-01-01,1.0,Ethiopia,SNNP,Wolayita
+2105,2014-01-01,1.0,Ethiopia,SNNP,Yem Special
+2167,2014-01-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8631,2014-01-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+2169,2014-01-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+2170,2014-01-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+2171,2014-01-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2125,2014-01-01,2.0,Ethiopia,Somali,Doolo
+2144,2014-01-01,2.0,Ethiopia,Somali,Korahe
+2051,2014-01-01,1.0,Ethiopia,Oromia,Finfine Special
+2083,2014-01-01,1.0,Ethiopia,Addis Ababa,Region 14
+2097,2014-01-01,1.0,Ethiopia,Amhara,West Gojam
+2042,2014-01-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+2060,2014-01-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+2070,2014-01-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+2078,2014-01-01,1.0,Ethiopia,Oromia,North Shewa
+2101,2014-01-01,1.0,Ethiopia,Oromia,West Shewa
+2028,2014-01-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+2064,2014-01-01,1.0,Ethiopia,Oromia,Kelem Wellega
+2073,2014-01-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+2085,2014-01-01,1.0,Ethiopia,SNNP,Sheka
+2098,2014-01-01,1.0,Ethiopia,Amhara,West Gondar
+2029,2014-01-01,1.0,Ethiopia,Amhara,Awi
+2208,2014-04-01,2.0,Ethiopia,Somali,Afder
+6854,2014-04-01,1.0,Ethiopia,Gambela,Agnewak
+2209,2014-04-01,2.0,Ethiopia,SNNP,Alle
+2210,2014-04-01,2.0,Ethiopia,SNNP,Amaro
+6855,2014-04-01,1.0,Ethiopia,Oromia,Arsi
+2276,2014-04-01,2.0,Ethiopia,Oromia,Bale
+6859,2014-04-01,1.0,Ethiopia,SNNP,Basketo
+6860,2014-04-01,1.0,Ethiopia,SNNP,Bench Maji
+2277,2014-04-01,2.0,Ethiopia,Oromia,Borena
+6862,2014-04-01,1.0,Ethiopia,Oromia,Buno Bedele
+2215,2014-04-01,2.0,Ethiopia,SNNP,Burji
+8289,2014-04-01,3.0,Ethiopia,Tigray,Central
+6864,2014-04-01,1.0,Ethiopia,Amhara,Central Gondar
+2217,2014-04-01,2.0,Ethiopia,Somali,Daawa
+6865,2014-04-01,1.0,Ethiopia,SNNP,Dawuro
+2219,2014-04-01,2.0,Ethiopia,SNNP,Derashe
+2282,2014-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6866,2014-04-01,1.0,Ethiopia,Amhara,East Gojam
+2285,2014-04-01,2.0,Ethiopia,Oromia,East Hararge
+6867,2014-04-01,1.0,Ethiopia,Oromia,East Shewa
+6868,2014-04-01,1.0,Ethiopia,Oromia,East Wellega
+8293,2014-04-01,3.0,Ethiopia,Tigray,Eastern
+2225,2014-04-01,2.0,Ethiopia,Somali,Erer
+6869,2014-04-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2226,2014-04-01,2.0,Ethiopia,Somali,Fafan
+2228,2014-04-01,2.0,Ethiopia,SNNP,Gamo
+6871,2014-04-01,1.0,Ethiopia,SNNP,Gedeo
+2230,2014-04-01,2.0,Ethiopia,SNNP,Gofa
+6873,2014-04-01,1.0,Ethiopia,Oromia,Guji
+6874,2014-04-01,1.0,Ethiopia,SNNP,Guraghe
+2233,2014-04-01,2.0,Ethiopia,SNNP,Hadiya
+2234,2014-04-01,2.0,Ethiopia,SNNP,Halaba Special
+2293,2014-04-01,2.0,Ethiopia,Harari,Harari
+6878,2014-04-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2235,2014-04-01,2.0,Ethiopia,Somali,Jarar
+6879,2014-04-01,1.0,Ethiopia,Oromia,Jimma
+6880,2014-04-01,1.0,Ethiopia,SNNP,Kefa
+6882,2014-04-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+2238,2014-04-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+2239,2014-04-01,2.0,Ethiopia,SNNP,Konso
+6883,2014-04-01,1.0,Ethiopia,SNNP,Konta Special
+2242,2014-04-01,2.0,Ethiopia,Somali,Liban
+6886,2014-04-01,1.0,Ethiopia,Gambela,Mejenger
+2297,2014-04-01,2.0,Ethiopia,Tigray,Mekele Special
+6888,2014-04-01,1.0,Ethiopia,SNNP,Mirab Omo
+2244,2014-04-01,2.0,Ethiopia,Somali,Nogob
+8300,2014-04-01,3.0,Ethiopia,Amhara,North Gondar
+6890,2014-04-01,1.0,Ethiopia,Amhara,North Shewa
+2302,2014-04-01,2.0,Ethiopia,Amhara,North Wello
+6892,2014-04-01,1.0,Ethiopia,Tigray,North Western
+6893,2014-04-01,1.0,Ethiopia,Gambela,Nuwer
+2249,2014-04-01,2.0,Ethiopia,Amhara,Oromia
+2250,2014-04-01,2.0,Ethiopia,Somali,Shabelle
+2251,2014-04-01,2.0,Ethiopia,SNNP,Sidama
+2252,2014-04-01,2.0,Ethiopia,SNNP,Siltie
+2253,2014-04-01,2.0,Ethiopia,Somali,Siti
+8307,2014-04-01,3.0,Ethiopia,Tigray,South Eastern
+2255,2014-04-01,2.0,Ethiopia,Amhara,South Gondar
+2256,2014-04-01,2.0,Ethiopia,SNNP,South Omo
+8310,2014-04-01,3.0,Ethiopia,Amhara,South Wello
+6901,2014-04-01,1.0,Ethiopia,Oromia,South West Shewa
+2312,2014-04-01,2.0,Ethiopia,Tigray,Southern
+8312,2014-04-01,3.0,Ethiopia,Amhara,Wag Hamra
+2314,2014-04-01,2.0,Ethiopia,Oromia,West Arsi
+2315,2014-04-01,2.0,Ethiopia,Oromia,West Guji
+2316,2014-04-01,2.0,Ethiopia,Oromia,West Hararge
+6908,2014-04-01,1.0,Ethiopia,Oromia,West Wellega
+6909,2014-04-01,1.0,Ethiopia,Tigray,Western
+2265,2014-04-01,2.0,Ethiopia,SNNP,Wolayita
+6910,2014-04-01,1.0,Ethiopia,SNNP,Yem Special
+2267,2014-04-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8318,2014-04-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+2269,2014-04-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+2270,2014-04-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+2271,2014-04-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2221,2014-04-01,2.0,Ethiopia,Somali,Doolo
+2241,2014-04-01,2.0,Ethiopia,Somali,Korahe
+6870,2014-04-01,1.0,Ethiopia,Oromia,Finfine Special
+6894,2014-04-01,1.0,Ethiopia,Addis Ababa,Region 14
+6903,2014-04-01,1.0,Ethiopia,Amhara,West Gojam
+2283,2014-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6877,2014-04-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6885,2014-04-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+2301,2014-04-01,2.0,Ethiopia,Oromia,North Shewa
+6907,2014-04-01,1.0,Ethiopia,Oromia,West Shewa
+6856,2014-04-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6881,2014-04-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6887,2014-04-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6895,2014-04-01,1.0,Ethiopia,SNNP,Sheka
+6904,2014-04-01,1.0,Ethiopia,Amhara,West Gondar
+6857,2014-04-01,1.0,Ethiopia,Amhara,Awi
+2365,2014-07-01,2.0,Ethiopia,Somali,Afder
+6924,2014-07-01,1.0,Ethiopia,Gambela,Agnewak
+6925,2014-07-01,1.0,Ethiopia,SNNP,Alle
+7891,2014-07-01,1.0,Ethiopia,SNNP,Amaro
+6927,2014-07-01,1.0,Ethiopia,Oromia,Arsi
+2326,2014-07-01,2.0,Ethiopia,Oromia,Bale
+6931,2014-07-01,1.0,Ethiopia,SNNP,Basketo
+6932,2014-07-01,1.0,Ethiopia,SNNP,Bench Maji
+2370,2014-07-01,2.0,Ethiopia,Oromia,Borena
+6933,2014-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+6934,2014-07-01,1.0,Ethiopia,SNNP,Burji
+2424,2014-07-01,3.0,Ethiopia,Tigray,Central
+6936,2014-07-01,1.0,Ethiopia,Amhara,Central Gondar
+2373,2014-07-01,2.0,Ethiopia,Somali,Daawa
+6937,2014-07-01,1.0,Ethiopia,SNNP,Dawuro
+6938,2014-07-01,1.0,Ethiopia,SNNP,Derashe
+2374,2014-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+6939,2014-07-01,1.0,Ethiopia,Amhara,East Gojam
+2378,2014-07-01,2.0,Ethiopia,Oromia,East Hararge
+6940,2014-07-01,1.0,Ethiopia,Oromia,East Shewa
+6941,2014-07-01,1.0,Ethiopia,Oromia,East Wellega
+2428,2014-07-01,3.0,Ethiopia,Tigray,Eastern
+2334,2014-07-01,2.0,Ethiopia,Somali,Erer
+6942,2014-07-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2382,2014-07-01,2.0,Ethiopia,Somali,Fafan
+6944,2014-07-01,1.0,Ethiopia,SNNP,Gamo
+6945,2014-07-01,1.0,Ethiopia,SNNP,Gedeo
+6946,2014-07-01,1.0,Ethiopia,SNNP,Gofa
+2385,2014-07-01,2.0,Ethiopia,Oromia,Guji
+6948,2014-07-01,1.0,Ethiopia,SNNP,Guraghe
+6949,2014-07-01,1.0,Ethiopia,SNNP,Hadiya
+6950,2014-07-01,1.0,Ethiopia,SNNP,Halaba Special
+2386,2014-07-01,2.0,Ethiopia,Harari,Harari
+6952,2014-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2338,2014-07-01,2.0,Ethiopia,Somali,Jarar
+6953,2014-07-01,1.0,Ethiopia,Oromia,Jimma
+6954,2014-07-01,1.0,Ethiopia,SNNP,Kefa
+6956,2014-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+6957,2014-07-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+7898,2014-07-01,1.0,Ethiopia,SNNP,Konso
+6959,2014-07-01,1.0,Ethiopia,SNNP,Konta Special
+2391,2014-07-01,2.0,Ethiopia,Somali,Liban
+6961,2014-07-01,1.0,Ethiopia,Gambela,Mejenger
+2392,2014-07-01,2.0,Ethiopia,Tigray,Mekele Special
+6963,2014-07-01,1.0,Ethiopia,SNNP,Mirab Omo
+2343,2014-07-01,2.0,Ethiopia,Somali,Nogob
+2344,2014-07-01,2.0,Ethiopia,Amhara,North Gondar
+6965,2014-07-01,1.0,Ethiopia,Amhara,North Shewa
+2347,2014-07-01,2.0,Ethiopia,Amhara,North Wello
+6967,2014-07-01,1.0,Ethiopia,Tigray,North Western
+6968,2014-07-01,1.0,Ethiopia,Gambela,Nuwer
+2349,2014-07-01,2.0,Ethiopia,Amhara,Oromia
+2399,2014-07-01,2.0,Ethiopia,Somali,Shabelle
+6971,2014-07-01,1.0,Ethiopia,SNNP,Sidama
+6972,2014-07-01,1.0,Ethiopia,SNNP,Siltie
+2401,2014-07-01,2.0,Ethiopia,Somali,Siti
+2402,2014-07-01,2.0,Ethiopia,Tigray,South Eastern
+6973,2014-07-01,1.0,Ethiopia,Amhara,South Gondar
+2354,2014-07-01,2.0,Ethiopia,SNNP,South Omo
+2355,2014-07-01,2.0,Ethiopia,Amhara,South Wello
+6976,2014-07-01,1.0,Ethiopia,Oromia,South West Shewa
+2406,2014-07-01,2.0,Ethiopia,Tigray,Southern
+2448,2014-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+2408,2014-07-01,2.0,Ethiopia,Oromia,West Arsi
+2409,2014-07-01,2.0,Ethiopia,Oromia,West Guji
+2410,2014-07-01,2.0,Ethiopia,Oromia,West Hararge
+6983,2014-07-01,1.0,Ethiopia,Oromia,West Wellega
+6984,2014-07-01,1.0,Ethiopia,Tigray,Western
+6985,2014-07-01,1.0,Ethiopia,SNNP,Wolayita
+6986,2014-07-01,1.0,Ethiopia,SNNP,Yem Special
+2413,2014-07-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+2453,2014-07-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+2415,2014-07-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+2416,2014-07-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+2417,2014-07-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2376,2014-07-01,2.0,Ethiopia,Somali,Doolo
+2390,2014-07-01,2.0,Ethiopia,Somali,Korahe
+6943,2014-07-01,1.0,Ethiopia,Oromia,Finfine Special
+6969,2014-07-01,1.0,Ethiopia,Addis Ababa,Region 14
+6978,2014-07-01,1.0,Ethiopia,Amhara,West Gojam
+2375,2014-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+6951,2014-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+6960,2014-07-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+2395,2014-07-01,2.0,Ethiopia,Oromia,North Shewa
+6982,2014-07-01,1.0,Ethiopia,Oromia,West Shewa
+6928,2014-07-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+6955,2014-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+6962,2014-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+6970,2014-07-01,1.0,Ethiopia,SNNP,Sheka
+6979,2014-07-01,1.0,Ethiopia,Amhara,West Gondar
+6929,2014-07-01,1.0,Ethiopia,Amhara,Awi
+2541,2014-10-01,2.0,Ethiopia,Somali,Afder
+2456,2014-10-01,1.0,Ethiopia,Gambela,Agnewak
+2457,2014-10-01,1.0,Ethiopia,SNNP,Alle
+2458,2014-10-01,1.0,Ethiopia,SNNP,Amaro
+2459,2014-10-01,1.0,Ethiopia,Oromia,Arsi
+2462,2014-10-01,1.0,Ethiopia,Oromia,Bale
+2463,2014-10-01,1.0,Ethiopia,SNNP,Basketo
+2464,2014-10-01,1.0,Ethiopia,SNNP,Bench Maji
+2548,2014-10-01,2.0,Ethiopia,Oromia,Borena
+2466,2014-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+2467,2014-10-01,1.0,Ethiopia,SNNP,Burji
+2468,2014-10-01,1.0,Ethiopia,Tigray,Central
+2469,2014-10-01,1.0,Ethiopia,Amhara,Central Gondar
+2552,2014-10-01,2.0,Ethiopia,Somali,Daawa
+2470,2014-10-01,1.0,Ethiopia,SNNP,Dawuro
+2471,2014-10-01,1.0,Ethiopia,SNNP,Derashe
+2553,2014-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+2474,2014-10-01,1.0,Ethiopia,Amhara,East Gojam
+8321,2014-10-01,1.0,Ethiopia,Oromia,East Hararge
+2476,2014-10-01,1.0,Ethiopia,Oromia,East Shewa
+2477,2014-10-01,1.0,Ethiopia,Oromia,East Wellega
+2478,2014-10-01,1.0,Ethiopia,Tigray,Eastern
+2559,2014-10-01,2.0,Ethiopia,Somali,Erer
+2480,2014-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2561,2014-10-01,2.0,Ethiopia,Somali,Fafan
+2482,2014-10-01,1.0,Ethiopia,SNNP,Gamo
+2483,2014-10-01,1.0,Ethiopia,SNNP,Gedeo
+2484,2014-10-01,1.0,Ethiopia,SNNP,Gofa
+2563,2014-10-01,2.0,Ethiopia,Oromia,Guji
+2486,2014-10-01,1.0,Ethiopia,SNNP,Guraghe
+2487,2014-10-01,1.0,Ethiopia,SNNP,Hadiya
+2488,2014-10-01,1.0,Ethiopia,SNNP,Halaba Special
+2489,2014-10-01,1.0,Ethiopia,Harari,Harari
+2491,2014-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2566,2014-10-01,2.0,Ethiopia,Somali,Jarar
+2492,2014-10-01,1.0,Ethiopia,Oromia,Jimma
+2493,2014-10-01,1.0,Ethiopia,SNNP,Kefa
+2495,2014-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+2496,2014-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+2497,2014-10-01,1.0,Ethiopia,SNNP,Konso
+2498,2014-10-01,1.0,Ethiopia,SNNP,Konta Special
+2570,2014-10-01,2.0,Ethiopia,Somali,Liban
+2501,2014-10-01,1.0,Ethiopia,Gambela,Mejenger
+2502,2014-10-01,1.0,Ethiopia,Tigray,Mekele Special
+2504,2014-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+2573,2014-10-01,2.0,Ethiopia,Somali,Nogob
+2506,2014-10-01,1.0,Ethiopia,Amhara,North Gondar
+2507,2014-10-01,1.0,Ethiopia,Amhara,North Shewa
+2509,2014-10-01,1.0,Ethiopia,Amhara,North Wello
+2510,2014-10-01,1.0,Ethiopia,Tigray,North Western
+2511,2014-10-01,1.0,Ethiopia,Gambela,Nuwer
+2512,2014-10-01,1.0,Ethiopia,Amhara,Oromia
+2580,2014-10-01,2.0,Ethiopia,Somali,Shabelle
+2516,2014-10-01,1.0,Ethiopia,SNNP,Sidama
+2517,2014-10-01,1.0,Ethiopia,SNNP,Siltie
+2582,2014-10-01,2.0,Ethiopia,Somali,Siti
+2519,2014-10-01,1.0,Ethiopia,Tigray,South Eastern
+2520,2014-10-01,1.0,Ethiopia,Amhara,South Gondar
+2585,2014-10-01,2.0,Ethiopia,SNNP,South Omo
+2522,2014-10-01,1.0,Ethiopia,Amhara,South Wello
+2523,2014-10-01,1.0,Ethiopia,Oromia,South West Shewa
+2524,2014-10-01,1.0,Ethiopia,Tigray,Southern
+2525,2014-10-01,1.0,Ethiopia,Amhara,Wag Hamra
+2526,2014-10-01,1.0,Ethiopia,Oromia,West Arsi
+2590,2014-10-01,2.0,Ethiopia,Oromia,West Guji
+2591,2014-10-01,2.0,Ethiopia,Oromia,West Hararge
+2532,2014-10-01,1.0,Ethiopia,Oromia,West Wellega
+2533,2014-10-01,1.0,Ethiopia,Tigray,Western
+2534,2014-10-01,1.0,Ethiopia,SNNP,Wolayita
+2535,2014-10-01,1.0,Ethiopia,SNNP,Yem Special
+2593,2014-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+2594,2014-10-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+2610,2014-10-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+2596,2014-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+2597,2014-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2555,2014-10-01,2.0,Ethiopia,Somali,Doolo
+2569,2014-10-01,2.0,Ethiopia,Somali,Korahe
+2481,2014-10-01,1.0,Ethiopia,Oromia,Finfine Special
+2513,2014-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+2527,2014-10-01,1.0,Ethiopia,Amhara,West Gojam
+2554,2014-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+2490,2014-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+2500,2014-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+2508,2014-10-01,1.0,Ethiopia,Oromia,North Shewa
+2531,2014-10-01,1.0,Ethiopia,Oromia,West Shewa
+2460,2014-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+2494,2014-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+2503,2014-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+2515,2014-10-01,1.0,Ethiopia,SNNP,Sheka
+2528,2014-10-01,1.0,Ethiopia,Amhara,West Gondar
+2461,2014-10-01,1.0,Ethiopia,Amhara,Awi
+2702,2015-01-01,2.0,Ethiopia,Somali,Afder
+2614,2015-01-01,1.0,Ethiopia,Gambela,Agnewak
+2615,2015-01-01,1.0,Ethiopia,SNNP,Alle
+2616,2015-01-01,1.0,Ethiopia,SNNP,Amaro
+2617,2015-01-01,1.0,Ethiopia,Oromia,Arsi
+2620,2015-01-01,1.0,Ethiopia,Oromia,Bale
+2621,2015-01-01,1.0,Ethiopia,SNNP,Basketo
+2622,2015-01-01,1.0,Ethiopia,SNNP,Bench Maji
+8592,2015-01-01,3.0,Ethiopia,Oromia,Borena
+2624,2015-01-01,1.0,Ethiopia,Oromia,Buno Bedele
+2625,2015-01-01,1.0,Ethiopia,SNNP,Burji
+2626,2015-01-01,1.0,Ethiopia,Tigray,Central
+2627,2015-01-01,1.0,Ethiopia,Amhara,Central Gondar
+2712,2015-01-01,2.0,Ethiopia,Somali,Daawa
+2628,2015-01-01,1.0,Ethiopia,SNNP,Dawuro
+2629,2015-01-01,1.0,Ethiopia,SNNP,Derashe
+2715,2015-01-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+2632,2015-01-01,1.0,Ethiopia,Amhara,East Gojam
+2633,2015-01-01,1.0,Ethiopia,Oromia,East Hararge
+2634,2015-01-01,1.0,Ethiopia,Oromia,East Shewa
+2635,2015-01-01,1.0,Ethiopia,Oromia,East Wellega
+2720,2015-01-01,2.0,Ethiopia,Tigray,Eastern
+2721,2015-01-01,2.0,Ethiopia,Somali,Erer
+2638,2015-01-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2723,2015-01-01,2.0,Ethiopia,Somali,Fafan
+2724,2015-01-01,2.0,Ethiopia,SNNP,Gamo
+2642,2015-01-01,1.0,Ethiopia,SNNP,Gedeo
+2643,2015-01-01,1.0,Ethiopia,SNNP,Gofa
+7002,2015-01-01,2.0,Ethiopia,Oromia,Guji
+2645,2015-01-01,1.0,Ethiopia,SNNP,Guraghe
+2646,2015-01-01,1.0,Ethiopia,SNNP,Hadiya
+2729,2015-01-01,2.0,Ethiopia,SNNP,Halaba Special
+2648,2015-01-01,1.0,Ethiopia,Harari,Harari
+2650,2015-01-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2730,2015-01-01,2.0,Ethiopia,Somali,Jarar
+2651,2015-01-01,1.0,Ethiopia,Oromia,Jimma
+2652,2015-01-01,1.0,Ethiopia,SNNP,Kefa
+2654,2015-01-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+2655,2015-01-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+2656,2015-01-01,1.0,Ethiopia,SNNP,Konso
+2657,2015-01-01,1.0,Ethiopia,SNNP,Konta Special
+2735,2015-01-01,2.0,Ethiopia,Somali,Liban
+2660,2015-01-01,1.0,Ethiopia,Gambela,Mejenger
+2737,2015-01-01,2.0,Ethiopia,Tigray,Mekele Special
+2662,2015-01-01,1.0,Ethiopia,SNNP,Mirab Omo
+2739,2015-01-01,2.0,Ethiopia,Somali,Nogob
+2664,2015-01-01,1.0,Ethiopia,Amhara,North Gondar
+2665,2015-01-01,1.0,Ethiopia,Amhara,North Shewa
+2667,2015-01-01,1.0,Ethiopia,Amhara,North Wello
+2668,2015-01-01,1.0,Ethiopia,Tigray,North Western
+2669,2015-01-01,1.0,Ethiopia,Gambela,Nuwer
+2670,2015-01-01,1.0,Ethiopia,Amhara,Oromia
+2745,2015-01-01,2.0,Ethiopia,Somali,Shabelle
+2674,2015-01-01,1.0,Ethiopia,SNNP,Sidama
+2675,2015-01-01,1.0,Ethiopia,SNNP,Siltie
+2748,2015-01-01,2.0,Ethiopia,Somali,Siti
+2749,2015-01-01,2.0,Ethiopia,Tigray,South Eastern
+2678,2015-01-01,1.0,Ethiopia,Amhara,South Gondar
+7016,2015-01-01,2.0,Ethiopia,SNNP,South Omo
+2680,2015-01-01,1.0,Ethiopia,Amhara,South Wello
+2681,2015-01-01,1.0,Ethiopia,Oromia,South West Shewa
+2754,2015-01-01,2.0,Ethiopia,Tigray,Southern
+8602,2015-01-01,3.0,Ethiopia,Amhara,Wag Hamra
+2756,2015-01-01,2.0,Ethiopia,Oromia,West Arsi
+2687,2015-01-01,1.0,Ethiopia,Oromia,West Guji
+2758,2015-01-01,2.0,Ethiopia,Oromia,West Hararge
+2690,2015-01-01,1.0,Ethiopia,Oromia,West Wellega
+2691,2015-01-01,1.0,Ethiopia,Tigray,Western
+2759,2015-01-01,2.0,Ethiopia,SNNP,Wolayita
+2693,2015-01-01,1.0,Ethiopia,SNNP,Yem Special
+2760,2015-01-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+2761,2015-01-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+7023,2015-01-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+2763,2015-01-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+2764,2015-01-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2717,2015-01-01,2.0,Ethiopia,Somali,Doolo
+2734,2015-01-01,2.0,Ethiopia,Somali,Korahe
+2640,2015-01-01,1.0,Ethiopia,Oromia,Finfine Special
+2671,2015-01-01,1.0,Ethiopia,Addis Ababa,Region 14
+2685,2015-01-01,1.0,Ethiopia,Amhara,West Gojam
+2716,2015-01-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+2649,2015-01-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+2659,2015-01-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+2666,2015-01-01,1.0,Ethiopia,Oromia,North Shewa
+2689,2015-01-01,1.0,Ethiopia,Oromia,West Shewa
+2618,2015-01-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+2653,2015-01-01,1.0,Ethiopia,Oromia,Kelem Wellega
+2661,2015-01-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+2673,2015-01-01,1.0,Ethiopia,SNNP,Sheka
+2686,2015-01-01,1.0,Ethiopia,Amhara,West Gondar
+2619,2015-01-01,1.0,Ethiopia,Amhara,Awi
+2847,2015-04-01,2.0,Ethiopia,Somali,Afder
+2766,2015-04-01,1.0,Ethiopia,Gambela,Agnewak
+2767,2015-04-01,1.0,Ethiopia,SNNP,Alle
+2768,2015-04-01,1.0,Ethiopia,SNNP,Amaro
+2850,2015-04-01,2.0,Ethiopia,Oromia,Arsi
+2772,2015-04-01,1.0,Ethiopia,Oromia,Bale
+2773,2015-04-01,1.0,Ethiopia,SNNP,Basketo
+2774,2015-04-01,1.0,Ethiopia,SNNP,Bench Maji
+8335,2015-04-01,3.0,Ethiopia,Oromia,Borena
+2776,2015-04-01,1.0,Ethiopia,Oromia,Buno Bedele
+2777,2015-04-01,1.0,Ethiopia,SNNP,Burji
+2855,2015-04-01,2.0,Ethiopia,Tigray,Central
+2779,2015-04-01,1.0,Ethiopia,Amhara,Central Gondar
+2856,2015-04-01,2.0,Ethiopia,Somali,Daawa
+2780,2015-04-01,1.0,Ethiopia,SNNP,Dawuro
+2781,2015-04-01,1.0,Ethiopia,SNNP,Derashe
+2857,2015-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+2784,2015-04-01,1.0,Ethiopia,Amhara,East Gojam
+2860,2015-04-01,2.0,Ethiopia,Oromia,East Hararge
+2786,2015-04-01,1.0,Ethiopia,Oromia,East Shewa
+2787,2015-04-01,1.0,Ethiopia,Oromia,East Wellega
+2862,2015-04-01,2.0,Ethiopia,Tigray,Eastern
+2863,2015-04-01,2.0,Ethiopia,Somali,Erer
+2789,2015-04-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2864,2015-04-01,2.0,Ethiopia,Somali,Fafan
+2914,2015-04-01,2.0,Ethiopia,SNNP,Gamo
+2792,2015-04-01,1.0,Ethiopia,SNNP,Gedeo
+2793,2015-04-01,1.0,Ethiopia,SNNP,Gofa
+2916,2015-04-01,2.0,Ethiopia,Oromia,Guji
+2795,2015-04-01,1.0,Ethiopia,SNNP,Guraghe
+2796,2015-04-01,1.0,Ethiopia,SNNP,Hadiya
+2919,2015-04-01,2.0,Ethiopia,SNNP,Halaba Special
+2798,2015-04-01,1.0,Ethiopia,Harari,Harari
+2800,2015-04-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2869,2015-04-01,2.0,Ethiopia,Somali,Jarar
+2801,2015-04-01,1.0,Ethiopia,Oromia,Jimma
+2802,2015-04-01,1.0,Ethiopia,SNNP,Kefa
+2804,2015-04-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+2805,2015-04-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+2806,2015-04-01,1.0,Ethiopia,SNNP,Konso
+2807,2015-04-01,1.0,Ethiopia,SNNP,Konta Special
+2873,2015-04-01,2.0,Ethiopia,Somali,Liban
+2810,2015-04-01,1.0,Ethiopia,Gambela,Mejenger
+2875,2015-04-01,2.0,Ethiopia,Tigray,Mekele Special
+2812,2015-04-01,1.0,Ethiopia,SNNP,Mirab Omo
+2877,2015-04-01,2.0,Ethiopia,Somali,Nogob
+2814,2015-04-01,1.0,Ethiopia,Amhara,North Gondar
+2815,2015-04-01,1.0,Ethiopia,Amhara,North Shewa
+2879,2015-04-01,2.0,Ethiopia,Amhara,North Wello
+2818,2015-04-01,1.0,Ethiopia,Tigray,North Western
+2819,2015-04-01,1.0,Ethiopia,Gambela,Nuwer
+2820,2015-04-01,1.0,Ethiopia,Amhara,Oromia
+2882,2015-04-01,2.0,Ethiopia,Somali,Shabelle
+2824,2015-04-01,1.0,Ethiopia,SNNP,Sidama
+2825,2015-04-01,1.0,Ethiopia,SNNP,Siltie
+2883,2015-04-01,2.0,Ethiopia,Somali,Siti
+2884,2015-04-01,2.0,Ethiopia,Tigray,South Eastern
+2827,2015-04-01,1.0,Ethiopia,Amhara,South Gondar
+2932,2015-04-01,2.0,Ethiopia,SNNP,South Omo
+2829,2015-04-01,1.0,Ethiopia,Amhara,South Wello
+2830,2015-04-01,1.0,Ethiopia,Oromia,South West Shewa
+2888,2015-04-01,2.0,Ethiopia,Tigray,Southern
+8358,2015-04-01,3.0,Ethiopia,Amhara,Wag Hamra
+2936,2015-04-01,2.0,Ethiopia,Oromia,West Arsi
+2836,2015-04-01,1.0,Ethiopia,Oromia,West Guji
+8360,2015-04-01,3.0,Ethiopia,Oromia,West Hararge
+2839,2015-04-01,1.0,Ethiopia,Oromia,West Wellega
+2840,2015-04-01,1.0,Ethiopia,Tigray,Western
+2939,2015-04-01,2.0,Ethiopia,SNNP,Wolayita
+2842,2015-04-01,1.0,Ethiopia,SNNP,Yem Special
+2894,2015-04-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+2895,2015-04-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+8364,2015-04-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+2897,2015-04-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+2898,2015-04-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2859,2015-04-01,2.0,Ethiopia,Somali,Doolo
+2872,2015-04-01,2.0,Ethiopia,Somali,Korahe
+2790,2015-04-01,1.0,Ethiopia,Oromia,Finfine Special
+2821,2015-04-01,1.0,Ethiopia,Addis Ababa,Region 14
+2834,2015-04-01,1.0,Ethiopia,Amhara,West Gojam
+2858,2015-04-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+2799,2015-04-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+2809,2015-04-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+2816,2015-04-01,1.0,Ethiopia,Oromia,North Shewa
+2838,2015-04-01,1.0,Ethiopia,Oromia,West Shewa
+2770,2015-04-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+2803,2015-04-01,1.0,Ethiopia,Oromia,Kelem Wellega
+2811,2015-04-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+2823,2015-04-01,1.0,Ethiopia,SNNP,Sheka
+2835,2015-04-01,1.0,Ethiopia,Amhara,West Gondar
+2771,2015-04-01,1.0,Ethiopia,Amhara,Awi
+2944,2015-07-01,2.0,Ethiopia,Somali,Afder
+7025,2015-07-01,1.0,Ethiopia,Gambela,Agnewak
+2946,2015-07-01,2.0,Ethiopia,SNNP,Alle
+2947,2015-07-01,2.0,Ethiopia,SNNP,Amaro
+2948,2015-07-01,2.0,Ethiopia,Oromia,Arsi
+2950,2015-07-01,2.0,Ethiopia,Oromia,Bale
+7031,2015-07-01,1.0,Ethiopia,SNNP,Basketo
+7032,2015-07-01,1.0,Ethiopia,SNNP,Bench Maji
+3018,2015-07-01,2.0,Ethiopia,Oromia,Borena
+7034,2015-07-01,1.0,Ethiopia,Oromia,Buno Bedele
+2953,2015-07-01,2.0,Ethiopia,SNNP,Burji
+3020,2015-07-01,2.0,Ethiopia,Tigray,Central
+7036,2015-07-01,1.0,Ethiopia,Amhara,Central Gondar
+3021,2015-07-01,2.0,Ethiopia,Somali,Daawa
+7037,2015-07-01,1.0,Ethiopia,SNNP,Dawuro
+2958,2015-07-01,2.0,Ethiopia,SNNP,Derashe
+3023,2015-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7040,2015-07-01,1.0,Ethiopia,Amhara,East Gojam
+2962,2015-07-01,2.0,Ethiopia,Oromia,East Hararge
+7041,2015-07-01,1.0,Ethiopia,Oromia,East Shewa
+7042,2015-07-01,1.0,Ethiopia,Oromia,East Wellega
+3027,2015-07-01,2.0,Ethiopia,Tigray,Eastern
+2965,2015-07-01,2.0,Ethiopia,Somali,Erer
+7043,2015-07-01,1.0,Ethiopia,Gambela,Etang Special woreda
+2967,2015-07-01,2.0,Ethiopia,Somali,Fafan
+7917,2015-07-01,3.0,Ethiopia,SNNP,Gamo
+7046,2015-07-01,1.0,Ethiopia,SNNP,Gedeo
+7047,2015-07-01,1.0,Ethiopia,SNNP,Gofa
+7048,2015-07-01,1.0,Ethiopia,Oromia,Guji
+7049,2015-07-01,1.0,Ethiopia,SNNP,Guraghe
+7050,2015-07-01,1.0,Ethiopia,SNNP,Hadiya
+7921,2015-07-01,3.0,Ethiopia,SNNP,Halaba Special
+3033,2015-07-01,2.0,Ethiopia,Harari,Harari
+7052,2015-07-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+2977,2015-07-01,2.0,Ethiopia,Somali,Jarar
+7053,2015-07-01,1.0,Ethiopia,Oromia,Jimma
+7054,2015-07-01,1.0,Ethiopia,SNNP,Kefa
+7056,2015-07-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+2980,2015-07-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+2981,2015-07-01,2.0,Ethiopia,SNNP,Konso
+7058,2015-07-01,1.0,Ethiopia,SNNP,Konta Special
+3037,2015-07-01,2.0,Ethiopia,Somali,Liban
+7061,2015-07-01,1.0,Ethiopia,Gambela,Mejenger
+2985,2015-07-01,2.0,Ethiopia,Tigray,Mekele Special
+7063,2015-07-01,1.0,Ethiopia,SNNP,Mirab Omo
+2987,2015-07-01,2.0,Ethiopia,Somali,Nogob
+7064,2015-07-01,1.0,Ethiopia,Amhara,North Gondar
+7065,2015-07-01,1.0,Ethiopia,Amhara,North Shewa
+7927,2015-07-01,3.0,Ethiopia,Amhara,North Wello
+7067,2015-07-01,1.0,Ethiopia,Tigray,North Western
+7068,2015-07-01,1.0,Ethiopia,Gambela,Nuwer
+2993,2015-07-01,2.0,Ethiopia,Amhara,Oromia
+2994,2015-07-01,2.0,Ethiopia,Somali,Shabelle
+7071,2015-07-01,1.0,Ethiopia,SNNP,Sidama
+7931,2015-07-01,3.0,Ethiopia,SNNP,Siltie
+8700,2015-07-01,3.0,Ethiopia,Somali,Siti
+2998,2015-07-01,2.0,Ethiopia,Tigray,South Eastern
+2999,2015-07-01,2.0,Ethiopia,Amhara,South Gondar
+3000,2015-07-01,2.0,Ethiopia,SNNP,South Omo
+3001,2015-07-01,2.0,Ethiopia,Amhara,South Wello
+7077,2015-07-01,1.0,Ethiopia,Oromia,South West Shewa
+3002,2015-07-01,2.0,Ethiopia,Tigray,Southern
+7939,2015-07-01,3.0,Ethiopia,Amhara,Wag Hamra
+7940,2015-07-01,3.0,Ethiopia,Oromia,West Arsi
+7081,2015-07-01,1.0,Ethiopia,Oromia,West Guji
+7942,2015-07-01,3.0,Ethiopia,Oromia,West Hararge
+7083,2015-07-01,1.0,Ethiopia,Oromia,West Wellega
+7084,2015-07-01,1.0,Ethiopia,Tigray,Western
+7944,2015-07-01,3.0,Ethiopia,SNNP,Wolayita
+7086,2015-07-01,1.0,Ethiopia,SNNP,Yem Special
+3055,2015-07-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+3056,2015-07-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+8703,2015-07-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+3058,2015-07-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+3059,2015-07-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+2960,2015-07-01,2.0,Ethiopia,Somali,Doolo
+2982,2015-07-01,2.0,Ethiopia,Somali,Korahe
+7044,2015-07-01,1.0,Ethiopia,Oromia,Finfine Special
+7069,2015-07-01,1.0,Ethiopia,Addis Ababa,Region 14
+7079,2015-07-01,1.0,Ethiopia,Amhara,West Gojam
+3024,2015-07-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7051,2015-07-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7060,2015-07-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7066,2015-07-01,1.0,Ethiopia,Oromia,North Shewa
+7082,2015-07-01,1.0,Ethiopia,Oromia,West Shewa
+7028,2015-07-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7055,2015-07-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7062,2015-07-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7070,2015-07-01,1.0,Ethiopia,SNNP,Sheka
+7080,2015-07-01,1.0,Ethiopia,Amhara,West Gondar
+7029,2015-07-01,1.0,Ethiopia,Amhara,Awi
+3126,2015-10-01,2.0,Ethiopia,Somali,Afder
+3061,2015-10-01,1.0,Ethiopia,Gambela,Agnewak
+3062,2015-10-01,1.0,Ethiopia,SNNP,Alle
+3063,2015-10-01,1.0,Ethiopia,SNNP,Amaro
+3129,2015-10-01,2.0,Ethiopia,Oromia,Arsi
+3131,2015-10-01,2.0,Ethiopia,Oromia,Bale
+3067,2015-10-01,1.0,Ethiopia,SNNP,Basketo
+3068,2015-10-01,1.0,Ethiopia,SNNP,Bench Maji
+3132,2015-10-01,2.0,Ethiopia,Oromia,Borena
+3070,2015-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+3071,2015-10-01,1.0,Ethiopia,SNNP,Burji
+7954,2015-10-01,3.0,Ethiopia,Tigray,Central
+3073,2015-10-01,1.0,Ethiopia,Amhara,Central Gondar
+3136,2015-10-01,2.0,Ethiopia,Somali,Daawa
+3074,2015-10-01,1.0,Ethiopia,SNNP,Dawuro
+3075,2015-10-01,1.0,Ethiopia,SNNP,Derashe
+7958,2015-10-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+3077,2015-10-01,1.0,Ethiopia,Amhara,East Gojam
+7961,2015-10-01,3.0,Ethiopia,Oromia,East Hararge
+7962,2015-10-01,3.0,Ethiopia,Oromia,East Shewa
+3079,2015-10-01,1.0,Ethiopia,Oromia,East Wellega
+7963,2015-10-01,3.0,Ethiopia,Tigray,Eastern
+3144,2015-10-01,2.0,Ethiopia,Somali,Erer
+3080,2015-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+3146,2015-10-01,2.0,Ethiopia,Somali,Fafan
+7966,2015-10-01,3.0,Ethiopia,SNNP,Gamo
+3084,2015-10-01,1.0,Ethiopia,SNNP,Gedeo
+3085,2015-10-01,1.0,Ethiopia,SNNP,Gofa
+3086,2015-10-01,1.0,Ethiopia,Oromia,Guji
+3087,2015-10-01,1.0,Ethiopia,SNNP,Guraghe
+7969,2015-10-01,3.0,Ethiopia,SNNP,Hadiya
+7970,2015-10-01,3.0,Ethiopia,SNNP,Halaba Special
+7971,2015-10-01,3.0,Ethiopia,Harari,Harari
+3090,2015-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+3154,2015-10-01,2.0,Ethiopia,Somali,Jarar
+3092,2015-10-01,1.0,Ethiopia,Oromia,Jimma
+3093,2015-10-01,1.0,Ethiopia,SNNP,Kefa
+3095,2015-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+3156,2015-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+3097,2015-10-01,1.0,Ethiopia,SNNP,Konso
+3098,2015-10-01,1.0,Ethiopia,SNNP,Konta Special
+3158,2015-10-01,2.0,Ethiopia,Somali,Liban
+3100,2015-10-01,1.0,Ethiopia,Gambela,Mejenger
+7975,2015-10-01,3.0,Ethiopia,Tigray,Mekele Special
+3102,2015-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+3161,2015-10-01,2.0,Ethiopia,Somali,Nogob
+3103,2015-10-01,1.0,Ethiopia,Amhara,North Gondar
+3163,2015-10-01,2.0,Ethiopia,Amhara,North Shewa
+7978,2015-10-01,3.0,Ethiopia,Amhara,North Wello
+3106,2015-10-01,1.0,Ethiopia,Tigray,North Western
+3107,2015-10-01,1.0,Ethiopia,Gambela,Nuwer
+7981,2015-10-01,3.0,Ethiopia,Amhara,Oromia
+3169,2015-10-01,2.0,Ethiopia,Somali,Shabelle
+3111,2015-10-01,1.0,Ethiopia,SNNP,Sidama
+7984,2015-10-01,3.0,Ethiopia,SNNP,Siltie
+8710,2015-10-01,4.0,Ethiopia,Somali,Siti
+7986,2015-10-01,3.0,Ethiopia,Tigray,South Eastern
+3173,2015-10-01,2.0,Ethiopia,Amhara,South Gondar
+3114,2015-10-01,1.0,Ethiopia,SNNP,South Omo
+7989,2015-10-01,3.0,Ethiopia,Amhara,South Wello
+3116,2015-10-01,1.0,Ethiopia,Oromia,South West Shewa
+7991,2015-10-01,3.0,Ethiopia,Tigray,Southern
+7992,2015-10-01,3.0,Ethiopia,Amhara,Wag Hamra
+7993,2015-10-01,3.0,Ethiopia,Oromia,West Arsi
+3120,2015-10-01,1.0,Ethiopia,Oromia,West Guji
+7995,2015-10-01,3.0,Ethiopia,Oromia,West Hararge
+3122,2015-10-01,1.0,Ethiopia,Oromia,West Wellega
+3123,2015-10-01,1.0,Ethiopia,Tigray,Western
+3184,2015-10-01,2.0,Ethiopia,SNNP,Wolayita
+3125,2015-10-01,1.0,Ethiopia,SNNP,Yem Special
+7998,2015-10-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+7999,2015-10-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+8713,2015-10-01,4.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+8001,2015-10-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+8002,2015-10-01,3.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+3139,2015-10-01,2.0,Ethiopia,Somali,Doolo
+3157,2015-10-01,2.0,Ethiopia,Somali,Korahe
+3082,2015-10-01,1.0,Ethiopia,Oromia,Finfine Special
+3108,2015-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+3118,2015-10-01,1.0,Ethiopia,Amhara,West Gojam
+7959,2015-10-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+3089,2015-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+3099,2015-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+3164,2015-10-01,2.0,Ethiopia,Oromia,North Shewa
+3121,2015-10-01,1.0,Ethiopia,Oromia,West Shewa
+3064,2015-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+3094,2015-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+3101,2015-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+3110,2015-10-01,1.0,Ethiopia,SNNP,Sheka
+3119,2015-10-01,1.0,Ethiopia,Amhara,West Gondar
+3065,2015-10-01,1.0,Ethiopia,Amhara,Awi
+3257,2016-02-01,1.0,Ethiopia,Somali,Afder
+3189,2016-02-01,1.0,Ethiopia,Gambela,Agnewak
+3190,2016-02-01,1.0,Ethiopia,SNNP,Alle
+3191,2016-02-01,1.0,Ethiopia,SNNP,Amaro
+3332,2016-02-01,3.0,Ethiopia,Oromia,Arsi
+3277,2016-02-01,2.0,Ethiopia,Oromia,Bale
+3195,2016-02-01,1.0,Ethiopia,SNNP,Basketo
+3196,2016-02-01,1.0,Ethiopia,SNNP,Bench Maji
+3278,2016-02-01,2.0,Ethiopia,Oromia,Borena
+3198,2016-02-01,1.0,Ethiopia,Oromia,Buno Bedele
+3199,2016-02-01,1.0,Ethiopia,SNNP,Burji
+8370,2016-02-01,2.0,Ethiopia,Tigray,Central
+3200,2016-02-01,1.0,Ethiopia,Amhara,Central Gondar
+3282,2016-02-01,2.0,Ethiopia,Somali,Daawa
+3202,2016-02-01,1.0,Ethiopia,SNNP,Dawuro
+3203,2016-02-01,1.0,Ethiopia,SNNP,Derashe
+8400,2016-02-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+3205,2016-02-01,1.0,Ethiopia,Amhara,East Gojam
+8437,2016-02-01,4.0,Ethiopia,Oromia,East Hararge
+3342,2016-02-01,3.0,Ethiopia,Oromia,East Shewa
+3207,2016-02-01,1.0,Ethiopia,Oromia,East Wellega
+8373,2016-02-01,2.0,Ethiopia,Tigray,Eastern
+3289,2016-02-01,2.0,Ethiopia,Somali,Erer
+3208,2016-02-01,1.0,Ethiopia,Gambela,Etang Special woreda
+8374,2016-02-01,2.0,Ethiopia,Somali,Fafan
+3346,2016-02-01,3.0,Ethiopia,SNNP,Gamo
+3212,2016-02-01,1.0,Ethiopia,SNNP,Gedeo
+3213,2016-02-01,1.0,Ethiopia,SNNP,Gofa
+3214,2016-02-01,1.0,Ethiopia,Oromia,Guji
+3215,2016-02-01,1.0,Ethiopia,SNNP,Guraghe
+3297,2016-02-01,2.0,Ethiopia,SNNP,Hadiya
+3351,2016-02-01,3.0,Ethiopia,SNNP,Halaba Special
+3352,2016-02-01,3.0,Ethiopia,Harari,Harari
+3218,2016-02-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+3219,2016-02-01,1.0,Ethiopia,Somali,Jarar
+3220,2016-02-01,1.0,Ethiopia,Oromia,Jimma
+3221,2016-02-01,1.0,Ethiopia,SNNP,Kefa
+3223,2016-02-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+3267,2016-02-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+3225,2016-02-01,1.0,Ethiopia,SNNP,Konso
+3226,2016-02-01,1.0,Ethiopia,SNNP,Konta Special
+3228,2016-02-01,1.0,Ethiopia,Somali,Liban
+3230,2016-02-01,1.0,Ethiopia,Gambela,Mejenger
+8382,2016-02-01,2.0,Ethiopia,Tigray,Mekele Special
+3232,2016-02-01,1.0,Ethiopia,SNNP,Mirab Omo
+3269,2016-02-01,1.0,Ethiopia,Somali,Nogob
+3305,2016-02-01,2.0,Ethiopia,Amhara,North Gondar
+3358,2016-02-01,3.0,Ethiopia,Amhara,North Shewa
+3360,2016-02-01,3.0,Ethiopia,Amhara,North Wello
+3309,2016-02-01,2.0,Ethiopia,Tigray,North Western
+3238,2016-02-01,1.0,Ethiopia,Gambela,Nuwer
+3363,2016-02-01,3.0,Ethiopia,Amhara,Oromia
+3270,2016-02-01,1.0,Ethiopia,Somali,Shabelle
+3242,2016-02-01,1.0,Ethiopia,SNNP,Sidama
+3366,2016-02-01,3.0,Ethiopia,SNNP,Siltie
+8445,2016-02-01,4.0,Ethiopia,Somali,Siti
+8386,2016-02-01,2.0,Ethiopia,Tigray,South Eastern
+3244,2016-02-01,1.0,Ethiopia,Amhara,South Gondar
+3245,2016-02-01,1.0,Ethiopia,SNNP,South Omo
+3371,2016-02-01,3.0,Ethiopia,Amhara,South Wello
+3247,2016-02-01,1.0,Ethiopia,Oromia,South West Shewa
+8389,2016-02-01,2.0,Ethiopia,Tigray,Southern
+8449,2016-02-01,4.0,Ethiopia,Amhara,Wag Hamra
+3375,2016-02-01,3.0,Ethiopia,Oromia,West Arsi
+3251,2016-02-01,1.0,Ethiopia,Oromia,West Guji
+8450,2016-02-01,4.0,Ethiopia,Oromia,West Hararge
+3253,2016-02-01,1.0,Ethiopia,Oromia,West Wellega
+3254,2016-02-01,1.0,Ethiopia,Tigray,Western
+3325,2016-02-01,2.0,Ethiopia,SNNP,Wolayita
+3256,2016-02-01,1.0,Ethiopia,SNNP,Yem Special
+8427,2016-02-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8428,2016-02-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+8452,2016-02-01,4.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+8430,2016-02-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+8431,2016-02-01,3.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+3204,2016-02-01,1.0,Ethiopia,Somali,Doolo
+3227,2016-02-01,1.0,Ethiopia,Somali,Korahe
+3210,2016-02-01,1.0,Ethiopia,Oromia,Finfine Special
+3239,2016-02-01,1.0,Ethiopia,Addis Ababa,Region 14
+3249,2016-02-01,1.0,Ethiopia,Amhara,West Gojam
+8401,2016-02-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+3217,2016-02-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+3229,2016-02-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+3307,2016-02-01,2.0,Ethiopia,Oromia,North Shewa
+3252,2016-02-01,1.0,Ethiopia,Oromia,West Shewa
+3192,2016-02-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+3222,2016-02-01,1.0,Ethiopia,Oromia,Kelem Wellega
+3231,2016-02-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+3241,2016-02-01,1.0,Ethiopia,SNNP,Sheka
+3250,2016-02-01,1.0,Ethiopia,Amhara,West Gondar
+3193,2016-02-01,1.0,Ethiopia,Amhara,Awi
+3455,2016-06-01,1.0,Ethiopia,Somali,Afder
+3386,2016-06-01,1.0,Ethiopia,Gambela,Agnewak
+3387,2016-06-01,1.0,Ethiopia,SNNP,Alle
+3388,2016-06-01,1.0,Ethiopia,SNNP,Amaro
+3469,2016-06-01,2.0,Ethiopia,Oromia,Arsi
+3470,2016-06-01,2.0,Ethiopia,Oromia,Bale
+3392,2016-06-01,1.0,Ethiopia,SNNP,Basketo
+3393,2016-06-01,1.0,Ethiopia,SNNP,Bench Maji
+3471,2016-06-01,2.0,Ethiopia,Oromia,Borena
+3395,2016-06-01,1.0,Ethiopia,Oromia,Buno Bedele
+3396,2016-06-01,1.0,Ethiopia,SNNP,Burji
+8009,2016-06-01,2.0,Ethiopia,Tigray,Central
+3397,2016-06-01,1.0,Ethiopia,Amhara,Central Gondar
+3474,2016-06-01,2.0,Ethiopia,Somali,Daawa
+3398,2016-06-01,1.0,Ethiopia,SNNP,Dawuro
+3399,2016-06-01,1.0,Ethiopia,SNNP,Derashe
+8459,2016-06-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+3401,2016-06-01,1.0,Ethiopia,Amhara,East Gojam
+8461,2016-06-01,3.0,Ethiopia,Oromia,East Hararge
+8014,2016-06-01,2.0,Ethiopia,Oromia,East Shewa
+3404,2016-06-01,1.0,Ethiopia,Oromia,East Wellega
+8015,2016-06-01,2.0,Ethiopia,Tigray,Eastern
+3481,2016-06-01,2.0,Ethiopia,Somali,Erer
+3405,2016-06-01,1.0,Ethiopia,Gambela,Etang Special woreda
+3482,2016-06-01,2.0,Ethiopia,Somali,Fafan
+8017,2016-06-01,2.0,Ethiopia,SNNP,Gamo
+3484,2016-06-01,2.0,Ethiopia,SNNP,Gedeo
+3410,2016-06-01,1.0,Ethiopia,SNNP,Gofa
+3411,2016-06-01,1.0,Ethiopia,Oromia,Guji
+3412,2016-06-01,1.0,Ethiopia,SNNP,Guraghe
+3487,2016-06-01,2.0,Ethiopia,SNNP,Hadiya
+3528,2016-06-01,3.0,Ethiopia,SNNP,Halaba Special
+8466,2016-06-01,3.0,Ethiopia,Harari,Harari
+3416,2016-06-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+3460,2016-06-01,1.0,Ethiopia,Somali,Jarar
+3418,2016-06-01,1.0,Ethiopia,Oromia,Jimma
+3419,2016-06-01,1.0,Ethiopia,SNNP,Kefa
+3421,2016-06-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+3490,2016-06-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+3423,2016-06-01,1.0,Ethiopia,SNNP,Konso
+3424,2016-06-01,1.0,Ethiopia,SNNP,Konta Special
+3491,2016-06-01,2.0,Ethiopia,Somali,Liban
+3428,2016-06-01,1.0,Ethiopia,Gambela,Mejenger
+8025,2016-06-01,2.0,Ethiopia,Tigray,Mekele Special
+3430,2016-06-01,1.0,Ethiopia,SNNP,Mirab Omo
+3463,2016-06-01,1.0,Ethiopia,Somali,Nogob
+8026,2016-06-01,2.0,Ethiopia,Amhara,North Gondar
+8027,2016-06-01,2.0,Ethiopia,Amhara,North Shewa
+8029,2016-06-01,2.0,Ethiopia,Amhara,North Wello
+3496,2016-06-01,2.0,Ethiopia,Tigray,North Western
+3436,2016-06-01,1.0,Ethiopia,Gambela,Nuwer
+8471,2016-06-01,3.0,Ethiopia,Amhara,Oromia
+3464,2016-06-01,1.0,Ethiopia,Somali,Shabelle
+3440,2016-06-01,1.0,Ethiopia,SNNP,Sidama
+3540,2016-06-01,3.0,Ethiopia,SNNP,Siltie
+8472,2016-06-01,3.0,Ethiopia,Somali,Siti
+8035,2016-06-01,2.0,Ethiopia,Tigray,South Eastern
+8036,2016-06-01,2.0,Ethiopia,Amhara,South Gondar
+3443,2016-06-01,1.0,Ethiopia,SNNP,South Omo
+8038,2016-06-01,2.0,Ethiopia,Amhara,South Wello
+3445,2016-06-01,1.0,Ethiopia,Oromia,South West Shewa
+8040,2016-06-01,2.0,Ethiopia,Tigray,Southern
+8476,2016-06-01,3.0,Ethiopia,Amhara,Wag Hamra
+3545,2016-06-01,3.0,Ethiopia,Oromia,West Arsi
+3449,2016-06-01,1.0,Ethiopia,Oromia,West Guji
+8478,2016-06-01,3.0,Ethiopia,Oromia,West Hararge
+3451,2016-06-01,1.0,Ethiopia,Oromia,West Wellega
+3452,2016-06-01,1.0,Ethiopia,Tigray,Western
+3510,2016-06-01,2.0,Ethiopia,SNNP,Wolayita
+3454,2016-06-01,1.0,Ethiopia,SNNP,Yem Special
+8049,2016-06-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8050,2016-06-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+8481,2016-06-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+8052,2016-06-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+8053,2016-06-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+3400,2016-06-01,1.0,Ethiopia,Somali,Doolo
+3461,2016-06-01,1.0,Ethiopia,Somali,Korahe
+3407,2016-06-01,1.0,Ethiopia,Oromia,Finfine Special
+3437,2016-06-01,1.0,Ethiopia,Addis Ababa,Region 14
+3447,2016-06-01,1.0,Ethiopia,Amhara,West Gojam
+8460,2016-06-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+3415,2016-06-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+3427,2016-06-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+8028,2016-06-01,2.0,Ethiopia,Oromia,North Shewa
+3450,2016-06-01,1.0,Ethiopia,Oromia,West Shewa
+3389,2016-06-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+3420,2016-06-01,1.0,Ethiopia,Oromia,Kelem Wellega
+3429,2016-06-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+3439,2016-06-01,1.0,Ethiopia,SNNP,Sheka
+3448,2016-06-01,1.0,Ethiopia,Amhara,West Gondar
+3390,2016-06-01,1.0,Ethiopia,Amhara,Awi
+3679,2016-10-01,2.0,Ethiopia,Somali,Afder
+3550,2016-10-01,1.0,Ethiopia,Gambela,Agnewak
+8054,2016-10-01,1.0,Ethiopia,SNNP,Alle
+8055,2016-10-01,1.0,Ethiopia,SNNP,Amaro
+3552,2016-10-01,1.0,Ethiopia,Oromia,Arsi
+3684,2016-10-01,2.0,Ethiopia,Oromia,Bale
+3556,2016-10-01,1.0,Ethiopia,SNNP,Basketo
+3557,2016-10-01,1.0,Ethiopia,SNNP,Bench Maji
+3685,2016-10-01,2.0,Ethiopia,Oromia,Borena
+3559,2016-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+8058,2016-10-01,1.0,Ethiopia,SNNP,Burji
+3560,2016-10-01,1.0,Ethiopia,Tigray,Central
+3561,2016-10-01,1.0,Ethiopia,Amhara,Central Gondar
+3687,2016-10-01,2.0,Ethiopia,Somali,Daawa
+3562,2016-10-01,1.0,Ethiopia,SNNP,Dawuro
+8060,2016-10-01,1.0,Ethiopia,SNNP,Derashe
+3563,2016-10-01,1.0,Ethiopia,Dire Dawa,Dire Dawa rural
+3565,2016-10-01,1.0,Ethiopia,Amhara,East Gojam
+3690,2016-10-01,2.0,Ethiopia,Oromia,East Hararge
+3567,2016-10-01,1.0,Ethiopia,Oromia,East Shewa
+3568,2016-10-01,1.0,Ethiopia,Oromia,East Wellega
+3569,2016-10-01,1.0,Ethiopia,Tigray,Eastern
+3642,2016-10-01,2.0,Ethiopia,Somali,Erer
+3570,2016-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+3692,2016-10-01,2.0,Ethiopia,Somali,Fafan
+8062,2016-10-01,1.0,Ethiopia,SNNP,Gamo
+8063,2016-10-01,1.0,Ethiopia,SNNP,Gedeo
+3575,2016-10-01,1.0,Ethiopia,SNNP,Gofa
+3695,2016-10-01,2.0,Ethiopia,Oromia,Guji
+3577,2016-10-01,1.0,Ethiopia,SNNP,Guraghe
+3578,2016-10-01,1.0,Ethiopia,SNNP,Hadiya
+8068,2016-10-01,1.0,Ethiopia,SNNP,Halaba Special
+3580,2016-10-01,1.0,Ethiopia,Harari,Harari
+3582,2016-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+3648,2016-10-01,2.0,Ethiopia,Somali,Jarar
+3583,2016-10-01,1.0,Ethiopia,Oromia,Jimma
+3584,2016-10-01,1.0,Ethiopia,SNNP,Kefa
+3586,2016-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+3587,2016-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+3699,2016-10-01,2.0,Ethiopia,SNNP,Konso
+3588,2016-10-01,1.0,Ethiopia,SNNP,Konta Special
+3701,2016-10-01,2.0,Ethiopia,Somali,Liban
+3591,2016-10-01,1.0,Ethiopia,Gambela,Mejenger
+3592,2016-10-01,1.0,Ethiopia,Tigray,Mekele Special
+3594,2016-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+3654,2016-10-01,2.0,Ethiopia,Somali,Nogob
+3595,2016-10-01,1.0,Ethiopia,Amhara,North Gondar
+3596,2016-10-01,1.0,Ethiopia,Amhara,North Shewa
+3598,2016-10-01,1.0,Ethiopia,Amhara,North Wello
+3599,2016-10-01,1.0,Ethiopia,Tigray,North Western
+3600,2016-10-01,1.0,Ethiopia,Gambela,Nuwer
+3601,2016-10-01,1.0,Ethiopia,Amhara,Oromia
+3704,2016-10-01,2.0,Ethiopia,Somali,Shabelle
+3604,2016-10-01,1.0,Ethiopia,SNNP,Sidama
+8072,2016-10-01,1.0,Ethiopia,SNNP,Siltie
+7096,2016-10-01,3.0,Ethiopia,Somali,Siti
+3607,2016-10-01,1.0,Ethiopia,Tigray,South Eastern
+3608,2016-10-01,1.0,Ethiopia,Amhara,South Gondar
+3707,2016-10-01,2.0,Ethiopia,SNNP,South Omo
+3610,2016-10-01,1.0,Ethiopia,Amhara,South Wello
+3611,2016-10-01,1.0,Ethiopia,Oromia,South West Shewa
+3612,2016-10-01,1.0,Ethiopia,Tigray,Southern
+3670,2016-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+3614,2016-10-01,1.0,Ethiopia,Oromia,West Arsi
+3709,2016-10-01,2.0,Ethiopia,Oromia,West Guji
+3672,2016-10-01,2.0,Ethiopia,Oromia,West Hararge
+3620,2016-10-01,1.0,Ethiopia,Oromia,West Wellega
+3621,2016-10-01,1.0,Ethiopia,Tigray,Western
+3622,2016-10-01,1.0,Ethiopia,SNNP,Wolayita
+3623,2016-10-01,1.0,Ethiopia,SNNP,Yem Special
+3674,2016-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+3675,2016-10-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+7100,2016-10-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+3677,2016-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+3678,2016-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+3689,2016-10-01,2.0,Ethiopia,Somali,Doolo
+3700,2016-10-01,2.0,Ethiopia,Somali,Korahe
+3572,2016-10-01,1.0,Ethiopia,Oromia,Finfine Special
+3602,2016-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+3615,2016-10-01,1.0,Ethiopia,Amhara,West Gojam
+3564,2016-10-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+3581,2016-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+3590,2016-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+3597,2016-10-01,1.0,Ethiopia,Oromia,North Shewa
+3619,2016-10-01,1.0,Ethiopia,Oromia,West Shewa
+3553,2016-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+3585,2016-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+3593,2016-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+3603,2016-10-01,1.0,Ethiopia,SNNP,Sheka
+3616,2016-10-01,1.0,Ethiopia,Amhara,West Gondar
+3554,2016-10-01,1.0,Ethiopia,Amhara,Awi
+3840,2017-06-01,4.0,Ethiopia,Somali,Afder
+7102,2017-06-01,1.0,Ethiopia,Gambela,Agnewak
+3782,2017-06-01,3.0,Ethiopia,SNNP,Alle
+3783,2017-06-01,3.0,Ethiopia,SNNP,Amaro
+7103,2017-06-01,1.0,Ethiopia,Oromia,Arsi
+3716,2017-06-01,2.0,Ethiopia,Oromia,Bale
+7107,2017-06-01,1.0,Ethiopia,SNNP,Basketo
+7108,2017-06-01,1.0,Ethiopia,SNNP,Bench Maji
+3787,2017-06-01,3.0,Ethiopia,Oromia,Borena
+7110,2017-06-01,1.0,Ethiopia,Oromia,Buno Bedele
+3788,2017-06-01,3.0,Ethiopia,SNNP,Burji
+3720,2017-06-01,2.0,Ethiopia,Tigray,Central
+7112,2017-06-01,1.0,Ethiopia,Amhara,Central Gondar
+3791,2017-06-01,3.0,Ethiopia,Somali,Daawa
+3722,2017-06-01,2.0,Ethiopia,SNNP,Dawuro
+3792,2017-06-01,3.0,Ethiopia,SNNP,Derashe
+3793,2017-06-01,3.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7114,2017-06-01,1.0,Ethiopia,Amhara,East Gojam
+3726,2017-06-01,2.0,Ethiopia,Oromia,East Hararge
+3727,2017-06-01,2.0,Ethiopia,Oromia,East Shewa
+7116,2017-06-01,1.0,Ethiopia,Oromia,East Wellega
+3728,2017-06-01,2.0,Ethiopia,Tigray,Eastern
+3799,2017-06-01,3.0,Ethiopia,Somali,Erer
+7117,2017-06-01,1.0,Ethiopia,Gambela,Etang Special woreda
+3730,2017-06-01,2.0,Ethiopia,Somali,Fafan
+3801,2017-06-01,3.0,Ethiopia,SNNP,Gamo
+3802,2017-06-01,3.0,Ethiopia,SNNP,Gedeo
+3734,2017-06-01,2.0,Ethiopia,SNNP,Gofa
+3804,2017-06-01,3.0,Ethiopia,Oromia,Guji
+7122,2017-06-01,1.0,Ethiopia,SNNP,Guraghe
+7123,2017-06-01,1.0,Ethiopia,SNNP,Hadiya
+3807,2017-06-01,3.0,Ethiopia,SNNP,Halaba Special
+3739,2017-06-01,2.0,Ethiopia,Harari,Harari
+7126,2017-06-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+3843,2017-06-01,4.0,Ethiopia,Somali,Jarar
+7127,2017-06-01,1.0,Ethiopia,Oromia,Jimma
+7128,2017-06-01,1.0,Ethiopia,SNNP,Kefa
+7130,2017-06-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+3744,2017-06-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+3811,2017-06-01,3.0,Ethiopia,SNNP,Konso
+7132,2017-06-01,1.0,Ethiopia,SNNP,Konta Special
+3813,2017-06-01,3.0,Ethiopia,Somali,Liban
+7135,2017-06-01,1.0,Ethiopia,Gambela,Mejenger
+3748,2017-06-01,2.0,Ethiopia,Tigray,Mekele Special
+7137,2017-06-01,1.0,Ethiopia,SNNP,Mirab Omo
+3816,2017-06-01,3.0,Ethiopia,Somali,Nogob
+3751,2017-06-01,2.0,Ethiopia,Amhara,North Gondar
+7139,2017-06-01,1.0,Ethiopia,Amhara,North Shewa
+3754,2017-06-01,2.0,Ethiopia,Amhara,North Wello
+7141,2017-06-01,1.0,Ethiopia,Tigray,North Western
+7142,2017-06-01,1.0,Ethiopia,Gambela,Nuwer
+7143,2017-06-01,1.0,Ethiopia,Amhara,Oromia
+3821,2017-06-01,3.0,Ethiopia,Somali,Shabelle
+3759,2017-06-01,2.0,Ethiopia,SNNP,Sidama
+3760,2017-06-01,2.0,Ethiopia,SNNP,Siltie
+3761,2017-06-01,2.0,Ethiopia,Somali,Siti
+3825,2017-06-01,3.0,Ethiopia,Tigray,South Eastern
+7148,2017-06-01,1.0,Ethiopia,Amhara,South Gondar
+3827,2017-06-01,3.0,Ethiopia,SNNP,South Omo
+3765,2017-06-01,2.0,Ethiopia,Amhara,South Wello
+7151,2017-06-01,1.0,Ethiopia,Oromia,South West Shewa
+3767,2017-06-01,2.0,Ethiopia,Tigray,Southern
+3831,2017-06-01,3.0,Ethiopia,Amhara,Wag Hamra
+7152,2017-06-01,1.0,Ethiopia,Oromia,West Arsi
+3770,2017-06-01,2.0,Ethiopia,Oromia,West Guji
+3834,2017-06-01,3.0,Ethiopia,Oromia,West Hararge
+7158,2017-06-01,1.0,Ethiopia,Oromia,West Wellega
+7159,2017-06-01,1.0,Ethiopia,Tigray,Western
+3773,2017-06-01,2.0,Ethiopia,SNNP,Wolayita
+7160,2017-06-01,1.0,Ethiopia,SNNP,Yem Special
+3775,2017-06-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+3776,2017-06-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+3777,2017-06-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+3778,2017-06-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+3779,2017-06-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+3841,2017-06-01,4.0,Ethiopia,Somali,Doolo
+3844,2017-06-01,4.0,Ethiopia,Somali,Korahe
+7118,2017-06-01,1.0,Ethiopia,Oromia,Finfine Special
+7144,2017-06-01,1.0,Ethiopia,Addis Ababa,Region 14
+7153,2017-06-01,1.0,Ethiopia,Amhara,West Gojam
+3794,2017-06-01,3.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7125,2017-06-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7134,2017-06-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7140,2017-06-01,1.0,Ethiopia,Oromia,North Shewa
+7157,2017-06-01,1.0,Ethiopia,Oromia,West Shewa
+7104,2017-06-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7129,2017-06-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7136,2017-06-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7145,2017-06-01,1.0,Ethiopia,SNNP,Sheka
+7154,2017-06-01,1.0,Ethiopia,Amhara,West Gondar
+7105,2017-06-01,1.0,Ethiopia,Amhara,Awi
+3948,2017-10-01,3.0,Ethiopia,Somali,Afder
+7164,2017-10-01,1.0,Ethiopia,Gambela,Agnewak
+3849,2017-10-01,2.0,Ethiopia,SNNP,Alle
+3850,2017-10-01,2.0,Ethiopia,SNNP,Amaro
+7165,2017-10-01,1.0,Ethiopia,Oromia,Arsi
+7168,2017-10-01,1.0,Ethiopia,Oromia,Bale
+3853,2017-10-01,2.0,Ethiopia,SNNP,Basketo
+7169,2017-10-01,1.0,Ethiopia,SNNP,Bench Maji
+3930,2017-10-01,3.0,Ethiopia,Oromia,Borena
+7171,2017-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+3855,2017-10-01,2.0,Ethiopia,SNNP,Burji
+7172,2017-10-01,1.0,Ethiopia,Tigray,Central
+7173,2017-10-01,1.0,Ethiopia,Amhara,Central Gondar
+3932,2017-10-01,3.0,Ethiopia,Somali,Daawa
+7174,2017-10-01,1.0,Ethiopia,SNNP,Dawuro
+3860,2017-10-01,2.0,Ethiopia,SNNP,Derashe
+3861,2017-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7176,2017-10-01,1.0,Ethiopia,Amhara,East Gojam
+3863,2017-10-01,2.0,Ethiopia,Oromia,East Hararge
+7178,2017-10-01,1.0,Ethiopia,Oromia,East Shewa
+7179,2017-10-01,1.0,Ethiopia,Oromia,East Wellega
+7180,2017-10-01,1.0,Ethiopia,Tigray,Eastern
+3934,2017-10-01,3.0,Ethiopia,Somali,Erer
+7181,2017-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+3866,2017-10-01,2.0,Ethiopia,Somali,Fafan
+3867,2017-10-01,2.0,Ethiopia,SNNP,Gamo
+3868,2017-10-01,2.0,Ethiopia,SNNP,Gedeo
+3869,2017-10-01,2.0,Ethiopia,SNNP,Gofa
+3870,2017-10-01,2.0,Ethiopia,Oromia,Guji
+7187,2017-10-01,1.0,Ethiopia,SNNP,Guraghe
+7188,2017-10-01,1.0,Ethiopia,SNNP,Hadiya
+3872,2017-10-01,2.0,Ethiopia,SNNP,Halaba Special
+3873,2017-10-01,2.0,Ethiopia,Harari,Harari
+7192,2017-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+7241,2017-10-01,4.0,Ethiopia,Somali,Jarar
+7193,2017-10-01,1.0,Ethiopia,Oromia,Jimma
+7194,2017-10-01,1.0,Ethiopia,SNNP,Kefa
+7196,2017-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+7197,2017-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+3877,2017-10-01,2.0,Ethiopia,SNNP,Konso
+7198,2017-10-01,1.0,Ethiopia,SNNP,Konta Special
+3940,2017-10-01,3.0,Ethiopia,Somali,Liban
+7201,2017-10-01,1.0,Ethiopia,Gambela,Mejenger
+7202,2017-10-01,1.0,Ethiopia,Tigray,Mekele Special
+7204,2017-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+3954,2017-10-01,3.0,Ethiopia,Somali,Nogob
+7205,2017-10-01,1.0,Ethiopia,Amhara,North Gondar
+7206,2017-10-01,1.0,Ethiopia,Amhara,North Shewa
+7208,2017-10-01,1.0,Ethiopia,Amhara,North Wello
+7209,2017-10-01,1.0,Ethiopia,Tigray,North Western
+7210,2017-10-01,1.0,Ethiopia,Gambela,Nuwer
+7211,2017-10-01,1.0,Ethiopia,Amhara,Oromia
+3955,2017-10-01,3.0,Ethiopia,Somali,Shabelle
+7214,2017-10-01,1.0,Ethiopia,SNNP,Sidama
+7215,2017-10-01,1.0,Ethiopia,SNNP,Siltie
+3889,2017-10-01,2.0,Ethiopia,Somali,Siti
+7217,2017-10-01,1.0,Ethiopia,Tigray,South Eastern
+7218,2017-10-01,1.0,Ethiopia,Amhara,South Gondar
+3892,2017-10-01,2.0,Ethiopia,SNNP,South Omo
+7220,2017-10-01,1.0,Ethiopia,Amhara,South Wello
+7221,2017-10-01,1.0,Ethiopia,Oromia,South West Shewa
+7222,2017-10-01,1.0,Ethiopia,Tigray,Southern
+3895,2017-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+7224,2017-10-01,1.0,Ethiopia,Oromia,West Arsi
+3897,2017-10-01,2.0,Ethiopia,Oromia,West Guji
+7227,2017-10-01,1.0,Ethiopia,Oromia,West Hararge
+7229,2017-10-01,1.0,Ethiopia,Oromia,West Wellega
+7230,2017-10-01,1.0,Ethiopia,Tigray,Western
+7231,2017-10-01,1.0,Ethiopia,SNNP,Wolayita
+7232,2017-10-01,1.0,Ethiopia,SNNP,Yem Special
+3901,2017-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+3925,2017-10-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+3903,2017-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+3904,2017-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+3905,2017-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+7239,2017-10-01,4.0,Ethiopia,Somali,Doolo
+7242,2017-10-01,4.0,Ethiopia,Somali,Korahe
+7182,2017-10-01,1.0,Ethiopia,Oromia,Finfine Special
+7212,2017-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+7225,2017-10-01,1.0,Ethiopia,Amhara,West Gojam
+3862,2017-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7191,2017-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7200,2017-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7207,2017-10-01,1.0,Ethiopia,Oromia,North Shewa
+7228,2017-10-01,1.0,Ethiopia,Oromia,West Shewa
+7166,2017-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7195,2017-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7203,2017-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7213,2017-10-01,1.0,Ethiopia,SNNP,Sheka
+7226,2017-10-01,1.0,Ethiopia,Amhara,West Gondar
+7167,2017-10-01,1.0,Ethiopia,Amhara,Awi
+4053,2018-02-01,3.0,Ethiopia,Somali,Afder
+7248,2018-02-01,1.0,Ethiopia,Gambela,Agnewak
+4025,2018-02-01,3.0,Ethiopia,SNNP,Alle
+4026,2018-02-01,3.0,Ethiopia,SNNP,Amaro
+7249,2018-02-01,1.0,Ethiopia,Oromia,Arsi
+4028,2018-02-01,3.0,Ethiopia,Oromia,Bale
+3963,2018-02-01,2.0,Ethiopia,SNNP,Basketo
+7254,2018-02-01,1.0,Ethiopia,SNNP,Bench Maji
+8082,2018-02-01,2.0,Ethiopia,Oromia,Borena
+7255,2018-02-01,1.0,Ethiopia,Oromia,Buno Bedele
+4030,2018-02-01,3.0,Ethiopia,SNNP,Burji
+3966,2018-02-01,2.0,Ethiopia,Tigray,Central
+7257,2018-02-01,1.0,Ethiopia,Amhara,Central Gondar
+4031,2018-02-01,3.0,Ethiopia,Somali,Daawa
+3969,2018-02-01,2.0,Ethiopia,SNNP,Dawuro
+4032,2018-02-01,3.0,Ethiopia,SNNP,Derashe
+3970,2018-02-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7260,2018-02-01,1.0,Ethiopia,Amhara,East Gojam
+3973,2018-02-01,2.0,Ethiopia,Oromia,East Hararge
+7262,2018-02-01,1.0,Ethiopia,Oromia,East Shewa
+7263,2018-02-01,1.0,Ethiopia,Oromia,East Wellega
+3975,2018-02-01,2.0,Ethiopia,Tigray,Eastern
+4035,2018-02-01,3.0,Ethiopia,Somali,Erer
+7265,2018-02-01,1.0,Ethiopia,Gambela,Etang Special woreda
+3976,2018-02-01,2.0,Ethiopia,Somali,Fafan
+8088,2018-02-01,2.0,Ethiopia,SNNP,Gamo
+8089,2018-02-01,2.0,Ethiopia,SNNP,Gedeo
+8090,2018-02-01,2.0,Ethiopia,SNNP,Gofa
+3981,2018-02-01,2.0,Ethiopia,Oromia,Guji
+7269,2018-02-01,1.0,Ethiopia,SNNP,Guraghe
+7270,2018-02-01,1.0,Ethiopia,SNNP,Hadiya
+3984,2018-02-01,2.0,Ethiopia,SNNP,Halaba Special
+3985,2018-02-01,2.0,Ethiopia,Harari,Harari
+7274,2018-02-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+4059,2018-02-01,3.0,Ethiopia,Somali,Jarar
+7275,2018-02-01,1.0,Ethiopia,Oromia,Jimma
+7276,2018-02-01,1.0,Ethiopia,SNNP,Kefa
+7278,2018-02-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+3989,2018-02-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+4040,2018-02-01,3.0,Ethiopia,SNNP,Konso
+7280,2018-02-01,1.0,Ethiopia,SNNP,Konta Special
+4041,2018-02-01,3.0,Ethiopia,Somali,Liban
+7283,2018-02-01,1.0,Ethiopia,Gambela,Mejenger
+3994,2018-02-01,2.0,Ethiopia,Tigray,Mekele Special
+7285,2018-02-01,1.0,Ethiopia,SNNP,Mirab Omo
+4062,2018-02-01,3.0,Ethiopia,Somali,Nogob
+7286,2018-02-01,1.0,Ethiopia,Amhara,North Gondar
+7287,2018-02-01,1.0,Ethiopia,Amhara,North Shewa
+3999,2018-02-01,2.0,Ethiopia,Amhara,North Wello
+7290,2018-02-01,1.0,Ethiopia,Tigray,North Western
+7291,2018-02-01,1.0,Ethiopia,Gambela,Nuwer
+7292,2018-02-01,1.0,Ethiopia,Amhara,Oromia
+4064,2018-02-01,3.0,Ethiopia,Somali,Shabelle
+4002,2018-02-01,2.0,Ethiopia,SNNP,Sidama
+4003,2018-02-01,2.0,Ethiopia,SNNP,Siltie
+4004,2018-02-01,2.0,Ethiopia,Somali,Siti
+4005,2018-02-01,2.0,Ethiopia,Tigray,South Eastern
+4006,2018-02-01,2.0,Ethiopia,Amhara,South Gondar
+4007,2018-02-01,2.0,Ethiopia,SNNP,South Omo
+7302,2018-02-01,1.0,Ethiopia,Amhara,South Wello
+7303,2018-02-01,1.0,Ethiopia,Oromia,South West Shewa
+4010,2018-02-01,2.0,Ethiopia,Tigray,Southern
+4011,2018-02-01,2.0,Ethiopia,Amhara,Wag Hamra
+7306,2018-02-01,1.0,Ethiopia,Oromia,West Arsi
+4014,2018-02-01,2.0,Ethiopia,Oromia,West Guji
+4015,2018-02-01,2.0,Ethiopia,Oromia,West Hararge
+7311,2018-02-01,1.0,Ethiopia,Oromia,West Wellega
+7312,2018-02-01,1.0,Ethiopia,Tigray,Western
+4017,2018-02-01,2.0,Ethiopia,SNNP,Wolayita
+7313,2018-02-01,1.0,Ethiopia,SNNP,Yem Special
+4019,2018-02-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+4020,2018-02-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4021,2018-02-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+4022,2018-02-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4023,2018-02-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4033,2018-02-01,3.0,Ethiopia,Somali,Doolo
+4060,2018-02-01,3.0,Ethiopia,Somali,Korahe
+7266,2018-02-01,1.0,Ethiopia,Oromia,Finfine Special
+7293,2018-02-01,1.0,Ethiopia,Addis Ababa,Region 14
+7307,2018-02-01,1.0,Ethiopia,Amhara,West Gojam
+3971,2018-02-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7273,2018-02-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7282,2018-02-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7288,2018-02-01,1.0,Ethiopia,Oromia,North Shewa
+7310,2018-02-01,1.0,Ethiopia,Oromia,West Shewa
+7250,2018-02-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7277,2018-02-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7284,2018-02-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7295,2018-02-01,1.0,Ethiopia,SNNP,Sheka
+7308,2018-02-01,1.0,Ethiopia,Amhara,West Gondar
+7251,2018-02-01,1.0,Ethiopia,Amhara,Awi
+4127,2018-06-01,2.0,Ethiopia,Somali,Afder
+7325,2018-06-01,1.0,Ethiopia,Gambela,Agnewak
+4066,2018-06-01,2.0,Ethiopia,SNNP,Alle
+4067,2018-06-01,2.0,Ethiopia,SNNP,Amaro
+7328,2018-06-01,1.0,Ethiopia,Oromia,Arsi
+4129,2018-06-01,2.0,Ethiopia,Oromia,Bale
+7332,2018-06-01,1.0,Ethiopia,SNNP,Basketo
+7333,2018-06-01,1.0,Ethiopia,SNNP,Bench Maji
+4070,2018-06-01,2.0,Ethiopia,Oromia,Borena
+7335,2018-06-01,1.0,Ethiopia,Oromia,Buno Bedele
+4166,2018-06-01,3.0,Ethiopia,SNNP,Burji
+4130,2018-06-01,2.0,Ethiopia,Tigray,Central
+7337,2018-06-01,1.0,Ethiopia,Amhara,Central Gondar
+4169,2018-06-01,3.0,Ethiopia,Somali,Daawa
+7339,2018-06-01,1.0,Ethiopia,SNNP,Dawuro
+4075,2018-06-01,2.0,Ethiopia,SNNP,Derashe
+4076,2018-06-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7341,2018-06-01,1.0,Ethiopia,Amhara,East Gojam
+4172,2018-06-01,3.0,Ethiopia,Oromia,East Hararge
+7342,2018-06-01,1.0,Ethiopia,Oromia,East Shewa
+7343,2018-06-01,1.0,Ethiopia,Oromia,East Wellega
+4134,2018-06-01,2.0,Ethiopia,Tigray,Eastern
+4135,2018-06-01,2.0,Ethiopia,Somali,Erer
+7344,2018-06-01,1.0,Ethiopia,Gambela,Etang Special woreda
+4083,2018-06-01,2.0,Ethiopia,Somali,Fafan
+7346,2018-06-01,1.0,Ethiopia,SNNP,Gamo
+4175,2018-06-01,3.0,Ethiopia,SNNP,Gedeo
+7348,2018-06-01,1.0,Ethiopia,SNNP,Gofa
+7349,2018-06-01,1.0,Ethiopia,Oromia,Guji
+7350,2018-06-01,1.0,Ethiopia,SNNP,Guraghe
+7351,2018-06-01,1.0,Ethiopia,SNNP,Hadiya
+4090,2018-06-01,2.0,Ethiopia,SNNP,Halaba Special
+4091,2018-06-01,2.0,Ethiopia,Harari,Harari
+7354,2018-06-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+4178,2018-06-01,3.0,Ethiopia,Somali,Jarar
+7355,2018-06-01,1.0,Ethiopia,Oromia,Jimma
+7356,2018-06-01,1.0,Ethiopia,SNNP,Kefa
+7358,2018-06-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+7359,2018-06-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+4095,2018-06-01,2.0,Ethiopia,SNNP,Konso
+7361,2018-06-01,1.0,Ethiopia,SNNP,Konta Special
+4140,2018-06-01,2.0,Ethiopia,Somali,Liban
+7364,2018-06-01,1.0,Ethiopia,Gambela,Mejenger
+4141,2018-06-01,2.0,Ethiopia,Tigray,Mekele Special
+7366,2018-06-01,1.0,Ethiopia,SNNP,Mirab Omo
+4142,2018-06-01,2.0,Ethiopia,Somali,Nogob
+4183,2018-06-01,3.0,Ethiopia,Amhara,North Gondar
+7368,2018-06-01,1.0,Ethiopia,Amhara,North Shewa
+4101,2018-06-01,2.0,Ethiopia,Amhara,North Wello
+7370,2018-06-01,1.0,Ethiopia,Tigray,North Western
+7371,2018-06-01,1.0,Ethiopia,Gambela,Nuwer
+7372,2018-06-01,1.0,Ethiopia,Amhara,Oromia
+4146,2018-06-01,2.0,Ethiopia,Somali,Shabelle
+7376,2018-06-01,1.0,Ethiopia,SNNP,Sidama
+4106,2018-06-01,2.0,Ethiopia,SNNP,Siltie
+4147,2018-06-01,2.0,Ethiopia,Somali,Siti
+4108,2018-06-01,2.0,Ethiopia,Tigray,South Eastern
+4109,2018-06-01,2.0,Ethiopia,Amhara,South Gondar
+7379,2018-06-01,1.0,Ethiopia,SNNP,South Omo
+4111,2018-06-01,2.0,Ethiopia,Amhara,South Wello
+7381,2018-06-01,1.0,Ethiopia,Oromia,South West Shewa
+4113,2018-06-01,2.0,Ethiopia,Tigray,Southern
+4192,2018-06-01,3.0,Ethiopia,Amhara,Wag Hamra
+7382,2018-06-01,1.0,Ethiopia,Oromia,West Arsi
+4118,2018-06-01,2.0,Ethiopia,Oromia,West Guji
+4119,2018-06-01,2.0,Ethiopia,Oromia,West Hararge
+7388,2018-06-01,1.0,Ethiopia,Oromia,West Wellega
+7389,2018-06-01,1.0,Ethiopia,Tigray,Western
+7390,2018-06-01,1.0,Ethiopia,SNNP,Wolayita
+7391,2018-06-01,1.0,Ethiopia,SNNP,Yem Special
+4155,2018-06-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+4156,2018-06-01,2.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4124,2018-06-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+4158,2018-06-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4126,2018-06-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4170,2018-06-01,3.0,Ethiopia,Somali,Doolo
+4179,2018-06-01,3.0,Ethiopia,Somali,Korahe
+7345,2018-06-01,1.0,Ethiopia,Oromia,Finfine Special
+7373,2018-06-01,1.0,Ethiopia,Addis Ababa,Region 14
+7383,2018-06-01,1.0,Ethiopia,Amhara,West Gojam
+4077,2018-06-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7353,2018-06-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7363,2018-06-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7369,2018-06-01,1.0,Ethiopia,Oromia,North Shewa
+7387,2018-06-01,1.0,Ethiopia,Oromia,West Shewa
+7329,2018-06-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7357,2018-06-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7365,2018-06-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7375,2018-06-01,1.0,Ethiopia,SNNP,Sheka
+7384,2018-06-01,1.0,Ethiopia,Amhara,West Gondar
+7330,2018-06-01,1.0,Ethiopia,Amhara,Awi
+4280,2018-10-01,2.0,Ethiopia,Somali,Afder
+4197,2018-10-01,1.0,Ethiopia,Gambela,Agnewak
+4198,2018-10-01,1.0,Ethiopia,SNNP,Alle
+4199,2018-10-01,1.0,Ethiopia,SNNP,Amaro
+4200,2018-10-01,1.0,Ethiopia,Oromia,Arsi
+4285,2018-10-01,2.0,Ethiopia,Oromia,Bale
+4204,2018-10-01,1.0,Ethiopia,SNNP,Basketo
+4205,2018-10-01,1.0,Ethiopia,SNNP,Bench Maji
+4286,2018-10-01,2.0,Ethiopia,Oromia,Borena
+4207,2018-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+8114,2018-10-01,3.0,Ethiopia,SNNP,Burji
+4209,2018-10-01,1.0,Ethiopia,Tigray,Central
+4210,2018-10-01,1.0,Ethiopia,Amhara,Central Gondar
+8115,2018-10-01,3.0,Ethiopia,Somali,Daawa
+4211,2018-10-01,1.0,Ethiopia,SNNP,Dawuro
+4212,2018-10-01,1.0,Ethiopia,SNNP,Derashe
+4213,2018-10-01,1.0,Ethiopia,Dire Dawa,Dire Dawa rural
+4215,2018-10-01,1.0,Ethiopia,Amhara,East Gojam
+8117,2018-10-01,3.0,Ethiopia,Oromia,East Hararge
+4217,2018-10-01,1.0,Ethiopia,Oromia,East Shewa
+4218,2018-10-01,1.0,Ethiopia,Oromia,East Wellega
+4219,2018-10-01,1.0,Ethiopia,Tigray,Eastern
+4293,2018-10-01,2.0,Ethiopia,Somali,Erer
+4220,2018-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+4294,2018-10-01,2.0,Ethiopia,Somali,Fafan
+4222,2018-10-01,1.0,Ethiopia,SNNP,Gamo
+8123,2018-10-01,3.0,Ethiopia,SNNP,Gedeo
+4224,2018-10-01,1.0,Ethiopia,SNNP,Gofa
+4225,2018-10-01,1.0,Ethiopia,Oromia,Guji
+4226,2018-10-01,1.0,Ethiopia,SNNP,Guraghe
+4227,2018-10-01,1.0,Ethiopia,SNNP,Hadiya
+4228,2018-10-01,1.0,Ethiopia,SNNP,Halaba Special
+4229,2018-10-01,1.0,Ethiopia,Harari,Harari
+4231,2018-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+8126,2018-10-01,3.0,Ethiopia,Somali,Jarar
+4232,2018-10-01,1.0,Ethiopia,Oromia,Jimma
+4233,2018-10-01,1.0,Ethiopia,SNNP,Kefa
+4235,2018-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+4236,2018-10-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+4237,2018-10-01,1.0,Ethiopia,SNNP,Konso
+4238,2018-10-01,1.0,Ethiopia,SNNP,Konta Special
+4302,2018-10-01,2.0,Ethiopia,Somali,Liban
+4241,2018-10-01,1.0,Ethiopia,Gambela,Mejenger
+4242,2018-10-01,1.0,Ethiopia,Tigray,Mekele Special
+4244,2018-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+4305,2018-10-01,2.0,Ethiopia,Somali,Nogob
+4245,2018-10-01,1.0,Ethiopia,Amhara,North Gondar
+4246,2018-10-01,1.0,Ethiopia,Amhara,North Shewa
+4248,2018-10-01,1.0,Ethiopia,Amhara,North Wello
+4249,2018-10-01,1.0,Ethiopia,Tigray,North Western
+4250,2018-10-01,1.0,Ethiopia,Gambela,Nuwer
+4251,2018-10-01,1.0,Ethiopia,Amhara,Oromia
+4309,2018-10-01,2.0,Ethiopia,Somali,Shabelle
+4255,2018-10-01,1.0,Ethiopia,SNNP,Sidama
+4256,2018-10-01,1.0,Ethiopia,SNNP,Siltie
+4311,2018-10-01,2.0,Ethiopia,Somali,Siti
+4258,2018-10-01,1.0,Ethiopia,Tigray,South Eastern
+4259,2018-10-01,1.0,Ethiopia,Amhara,South Gondar
+4260,2018-10-01,1.0,Ethiopia,SNNP,South Omo
+4261,2018-10-01,1.0,Ethiopia,Amhara,South Wello
+4262,2018-10-01,1.0,Ethiopia,Oromia,South West Shewa
+4263,2018-10-01,1.0,Ethiopia,Tigray,Southern
+4264,2018-10-01,1.0,Ethiopia,Amhara,Wag Hamra
+4265,2018-10-01,1.0,Ethiopia,Oromia,West Arsi
+4314,2018-10-01,2.0,Ethiopia,Oromia,West Guji
+4315,2018-10-01,2.0,Ethiopia,Oromia,West Hararge
+4271,2018-10-01,1.0,Ethiopia,Oromia,West Wellega
+4272,2018-10-01,1.0,Ethiopia,Tigray,Western
+4273,2018-10-01,1.0,Ethiopia,SNNP,Wolayita
+4274,2018-10-01,1.0,Ethiopia,SNNP,Yem Special
+4317,2018-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8141,2018-10-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4319,2018-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+4320,2018-10-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4321,2018-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+8116,2018-10-01,3.0,Ethiopia,Somali,Doolo
+4301,2018-10-01,2.0,Ethiopia,Somali,Korahe
+4221,2018-10-01,1.0,Ethiopia,Oromia,Finfine Special
+4252,2018-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+4266,2018-10-01,1.0,Ethiopia,Amhara,West Gojam
+4214,2018-10-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+4230,2018-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+4240,2018-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+4247,2018-10-01,1.0,Ethiopia,Oromia,North Shewa
+4270,2018-10-01,1.0,Ethiopia,Oromia,West Shewa
+4201,2018-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+4234,2018-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+4243,2018-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+4254,2018-10-01,1.0,Ethiopia,SNNP,Sheka
+4267,2018-10-01,1.0,Ethiopia,Amhara,West Gondar
+4202,2018-10-01,1.0,Ethiopia,Amhara,Awi
+4475,2019-02-01,3.0,Ethiopia,Somali,Afder
+4323,2019-02-01,1.0,Ethiopia,Gambela,Agnewak
+4324,2019-02-01,1.0,Ethiopia,SNNP,Alle
+4478,2019-02-01,3.0,Ethiopia,SNNP,Amaro
+4326,2019-02-01,1.0,Ethiopia,Oromia,Arsi
+4481,2019-02-01,3.0,Ethiopia,Oromia,Bale
+4330,2019-02-01,1.0,Ethiopia,SNNP,Basketo
+4331,2019-02-01,1.0,Ethiopia,SNNP,Bench Maji
+4482,2019-02-01,3.0,Ethiopia,Oromia,Borena
+4333,2019-02-01,1.0,Ethiopia,Oromia,Buno Bedele
+4406,2019-02-01,2.0,Ethiopia,SNNP,Burji
+4407,2019-02-01,2.0,Ethiopia,Tigray,Central
+4335,2019-02-01,1.0,Ethiopia,Amhara,Central Gondar
+4485,2019-02-01,3.0,Ethiopia,Somali,Daawa
+4337,2019-02-01,1.0,Ethiopia,SNNP,Dawuro
+4338,2019-02-01,1.0,Ethiopia,SNNP,Derashe
+4411,2019-02-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+4339,2019-02-01,1.0,Ethiopia,Amhara,East Gojam
+4489,2019-02-01,3.0,Ethiopia,Oromia,East Hararge
+4340,2019-02-01,1.0,Ethiopia,Oromia,East Shewa
+4341,2019-02-01,1.0,Ethiopia,Oromia,East Wellega
+4418,2019-02-01,2.0,Ethiopia,Tigray,Eastern
+4419,2019-02-01,2.0,Ethiopia,Somali,Erer
+4343,2019-02-01,1.0,Ethiopia,Gambela,Etang Special woreda
+4494,2019-02-01,3.0,Ethiopia,Somali,Fafan
+4345,2019-02-01,1.0,Ethiopia,SNNP,Gamo
+4496,2019-02-01,3.0,Ethiopia,SNNP,Gedeo
+4424,2019-02-01,2.0,Ethiopia,SNNP,Gofa
+4497,2019-02-01,3.0,Ethiopia,Oromia,Guji
+4349,2019-02-01,1.0,Ethiopia,SNNP,Guraghe
+4427,2019-02-01,2.0,Ethiopia,SNNP,Hadiya
+4428,2019-02-01,2.0,Ethiopia,SNNP,Halaba Special
+4429,2019-02-01,2.0,Ethiopia,Harari,Harari
+4352,2019-02-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+4502,2019-02-01,3.0,Ethiopia,Somali,Jarar
+4353,2019-02-01,1.0,Ethiopia,Oromia,Jimma
+4354,2019-02-01,1.0,Ethiopia,SNNP,Kefa
+4356,2019-02-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+4437,2019-02-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+4506,2019-02-01,3.0,Ethiopia,SNNP,Konso
+4359,2019-02-01,1.0,Ethiopia,SNNP,Konta Special
+4508,2019-02-01,3.0,Ethiopia,Somali,Liban
+4362,2019-02-01,1.0,Ethiopia,Gambela,Mejenger
+4442,2019-02-01,2.0,Ethiopia,Tigray,Mekele Special
+4364,2019-02-01,1.0,Ethiopia,SNNP,Mirab Omo
+4445,2019-02-01,2.0,Ethiopia,Somali,Nogob
+4365,2019-02-01,1.0,Ethiopia,Amhara,North Gondar
+4366,2019-02-01,1.0,Ethiopia,Amhara,North Shewa
+4368,2019-02-01,1.0,Ethiopia,Amhara,North Wello
+4369,2019-02-01,1.0,Ethiopia,Tigray,North Western
+4370,2019-02-01,1.0,Ethiopia,Gambela,Nuwer
+4371,2019-02-01,1.0,Ethiopia,Amhara,Oromia
+4513,2019-02-01,3.0,Ethiopia,Somali,Shabelle
+4453,2019-02-01,2.0,Ethiopia,SNNP,Sidama
+4376,2019-02-01,1.0,Ethiopia,SNNP,Siltie
+4455,2019-02-01,2.0,Ethiopia,Somali,Siti
+4456,2019-02-01,2.0,Ethiopia,Tigray,South Eastern
+4378,2019-02-01,1.0,Ethiopia,Amhara,South Gondar
+4458,2019-02-01,2.0,Ethiopia,SNNP,South Omo
+4459,2019-02-01,2.0,Ethiopia,Amhara,South Wello
+4381,2019-02-01,1.0,Ethiopia,Oromia,South West Shewa
+4382,2019-02-01,1.0,Ethiopia,Tigray,Southern
+4461,2019-02-01,2.0,Ethiopia,Amhara,Wag Hamra
+4384,2019-02-01,1.0,Ethiopia,Oromia,West Arsi
+4465,2019-02-01,2.0,Ethiopia,Oromia,West Guji
+4466,2019-02-01,2.0,Ethiopia,Oromia,West Hararge
+4390,2019-02-01,1.0,Ethiopia,Oromia,West Wellega
+4391,2019-02-01,1.0,Ethiopia,Tigray,Western
+4468,2019-02-01,2.0,Ethiopia,SNNP,Wolayita
+4393,2019-02-01,1.0,Ethiopia,SNNP,Yem Special
+4470,2019-02-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+4527,2019-02-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4472,2019-02-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+4529,2019-02-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4474,2019-02-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4488,2019-02-01,3.0,Ethiopia,Somali,Doolo
+4507,2019-02-01,3.0,Ethiopia,Somali,Korahe
+4344,2019-02-01,1.0,Ethiopia,Oromia,Finfine Special
+4372,2019-02-01,1.0,Ethiopia,Addis Ababa,Region 14
+4385,2019-02-01,1.0,Ethiopia,Amhara,West Gojam
+4412,2019-02-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+4351,2019-02-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+4361,2019-02-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+4367,2019-02-01,1.0,Ethiopia,Oromia,North Shewa
+4389,2019-02-01,1.0,Ethiopia,Oromia,West Shewa
+4327,2019-02-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+4355,2019-02-01,1.0,Ethiopia,Oromia,Kelem Wellega
+4363,2019-02-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+4374,2019-02-01,1.0,Ethiopia,SNNP,Sheka
+4386,2019-02-01,1.0,Ethiopia,Amhara,West Gondar
+4328,2019-02-01,1.0,Ethiopia,Amhara,Awi
+4600,2019-06-01,3.0,Ethiopia,Somali,Afder
+7425,2019-06-01,1.0,Ethiopia,Gambela,Agnewak
+4531,2019-06-01,2.0,Ethiopia,SNNP,Alle
+4532,2019-06-01,2.0,Ethiopia,SNNP,Amaro
+7427,2019-06-01,1.0,Ethiopia,Oromia,Arsi
+4605,2019-06-01,3.0,Ethiopia,Oromia,Bale
+7431,2019-06-01,1.0,Ethiopia,SNNP,Basketo
+7432,2019-06-01,1.0,Ethiopia,SNNP,Bench Maji
+4606,2019-06-01,3.0,Ethiopia,Oromia,Borena
+7433,2019-06-01,1.0,Ethiopia,Oromia,Buno Bedele
+4537,2019-06-01,2.0,Ethiopia,SNNP,Burji
+7434,2019-06-01,1.0,Ethiopia,Tigray,Central
+7435,2019-06-01,1.0,Ethiopia,Amhara,Central Gondar
+4611,2019-06-01,3.0,Ethiopia,Somali,Daawa
+7436,2019-06-01,1.0,Ethiopia,SNNP,Dawuro
+4542,2019-06-01,2.0,Ethiopia,SNNP,Derashe
+4543,2019-06-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7438,2019-06-01,1.0,Ethiopia,Amhara,East Gojam
+4614,2019-06-01,3.0,Ethiopia,Oromia,East Hararge
+4547,2019-06-01,2.0,Ethiopia,Oromia,East Shewa
+7440,2019-06-01,1.0,Ethiopia,Oromia,East Wellega
+4548,2019-06-01,2.0,Ethiopia,Tigray,Eastern
+4618,2019-06-01,3.0,Ethiopia,Somali,Erer
+7442,2019-06-01,1.0,Ethiopia,Gambela,Etang Special woreda
+4549,2019-06-01,2.0,Ethiopia,Somali,Fafan
+4550,2019-06-01,2.0,Ethiopia,SNNP,Gamo
+4620,2019-06-01,3.0,Ethiopia,SNNP,Gedeo
+4552,2019-06-01,2.0,Ethiopia,SNNP,Gofa
+4621,2019-06-01,3.0,Ethiopia,Oromia,Guji
+7448,2019-06-01,1.0,Ethiopia,SNNP,Guraghe
+4555,2019-06-01,2.0,Ethiopia,SNNP,Hadiya
+4556,2019-06-01,2.0,Ethiopia,SNNP,Halaba Special
+4557,2019-06-01,2.0,Ethiopia,Harari,Harari
+7451,2019-06-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+4626,2019-06-01,3.0,Ethiopia,Somali,Jarar
+7452,2019-06-01,1.0,Ethiopia,Oromia,Jimma
+7453,2019-06-01,1.0,Ethiopia,SNNP,Kefa
+7455,2019-06-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+4563,2019-06-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+4564,2019-06-01,2.0,Ethiopia,SNNP,Konso
+7457,2019-06-01,1.0,Ethiopia,SNNP,Konta Special
+4631,2019-06-01,3.0,Ethiopia,Somali,Liban
+7460,2019-06-01,1.0,Ethiopia,Gambela,Mejenger
+4567,2019-06-01,2.0,Ethiopia,Tigray,Mekele Special
+7462,2019-06-01,1.0,Ethiopia,SNNP,Mirab Omo
+4635,2019-06-01,3.0,Ethiopia,Somali,Nogob
+4570,2019-06-01,2.0,Ethiopia,Amhara,North Gondar
+7464,2019-06-01,1.0,Ethiopia,Amhara,North Shewa
+4573,2019-06-01,2.0,Ethiopia,Amhara,North Wello
+7467,2019-06-01,1.0,Ethiopia,Tigray,North Western
+7468,2019-06-01,1.0,Ethiopia,Gambela,Nuwer
+7469,2019-06-01,1.0,Ethiopia,Amhara,Oromia
+4640,2019-06-01,3.0,Ethiopia,Somali,Shabelle
+4577,2019-06-01,2.0,Ethiopia,SNNP,Sidama
+7473,2019-06-01,1.0,Ethiopia,SNNP,Siltie
+4579,2019-06-01,2.0,Ethiopia,Somali,Siti
+4580,2019-06-01,2.0,Ethiopia,Tigray,South Eastern
+7475,2019-06-01,1.0,Ethiopia,Amhara,South Gondar
+4582,2019-06-01,2.0,Ethiopia,SNNP,South Omo
+4583,2019-06-01,2.0,Ethiopia,Amhara,South Wello
+7478,2019-06-01,1.0,Ethiopia,Oromia,South West Shewa
+7479,2019-06-01,1.0,Ethiopia,Tigray,Southern
+4649,2019-06-01,3.0,Ethiopia,Amhara,Wag Hamra
+7481,2019-06-01,1.0,Ethiopia,Oromia,West Arsi
+4589,2019-06-01,2.0,Ethiopia,Oromia,West Guji
+4652,2019-06-01,3.0,Ethiopia,Oromia,West Hararge
+7486,2019-06-01,1.0,Ethiopia,Oromia,West Wellega
+7487,2019-06-01,1.0,Ethiopia,Tigray,Western
+4593,2019-06-01,2.0,Ethiopia,SNNP,Wolayita
+7489,2019-06-01,1.0,Ethiopia,SNNP,Yem Special
+4595,2019-06-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+4656,2019-06-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4597,2019-06-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+4598,2019-06-01,2.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4599,2019-06-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4613,2019-06-01,3.0,Ethiopia,Somali,Doolo
+4630,2019-06-01,3.0,Ethiopia,Somali,Korahe
+7443,2019-06-01,1.0,Ethiopia,Oromia,Finfine Special
+7470,2019-06-01,1.0,Ethiopia,Addis Ababa,Region 14
+7482,2019-06-01,1.0,Ethiopia,Amhara,West Gojam
+4544,2019-06-01,2.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7450,2019-06-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7459,2019-06-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7465,2019-06-01,1.0,Ethiopia,Oromia,North Shewa
+7485,2019-06-01,1.0,Ethiopia,Oromia,West Shewa
+7428,2019-06-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7454,2019-06-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7461,2019-06-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7471,2019-06-01,1.0,Ethiopia,SNNP,Sheka
+7483,2019-06-01,1.0,Ethiopia,Amhara,West Gondar
+7429,2019-06-01,1.0,Ethiopia,Amhara,Awi
+4659,2019-10-01,2.0,Ethiopia,Somali,Afder
+7500,2019-10-01,1.0,Ethiopia,Gambela,Agnewak
+4661,2019-10-01,2.0,Ethiopia,SNNP,Alle
+4662,2019-10-01,2.0,Ethiopia,SNNP,Amaro
+7502,2019-10-01,1.0,Ethiopia,Oromia,Arsi
+4735,2019-10-01,3.0,Ethiopia,Oromia,Bale
+7506,2019-10-01,1.0,Ethiopia,SNNP,Basketo
+7507,2019-10-01,1.0,Ethiopia,SNNP,Bench Maji
+4666,2019-10-01,2.0,Ethiopia,Oromia,Borena
+7509,2019-10-01,1.0,Ethiopia,Oromia,Buno Bedele
+4668,2019-10-01,2.0,Ethiopia,SNNP,Burji
+7511,2019-10-01,1.0,Ethiopia,Tigray,Central
+7512,2019-10-01,1.0,Ethiopia,Amhara,Central Gondar
+4738,2019-10-01,3.0,Ethiopia,Somali,Daawa
+7513,2019-10-01,1.0,Ethiopia,SNNP,Dawuro
+4673,2019-10-01,2.0,Ethiopia,SNNP,Derashe
+4674,2019-10-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7517,2019-10-01,1.0,Ethiopia,Amhara,East Gojam
+4740,2019-10-01,3.0,Ethiopia,Oromia,East Hararge
+7519,2019-10-01,1.0,Ethiopia,Oromia,East Shewa
+7520,2019-10-01,1.0,Ethiopia,Oromia,East Wellega
+4681,2019-10-01,2.0,Ethiopia,Tigray,Eastern
+4743,2019-10-01,3.0,Ethiopia,Somali,Erer
+7522,2019-10-01,1.0,Ethiopia,Gambela,Etang Special woreda
+4683,2019-10-01,2.0,Ethiopia,Somali,Fafan
+7525,2019-10-01,1.0,Ethiopia,SNNP,Gamo
+4685,2019-10-01,2.0,Ethiopia,SNNP,Gedeo
+7527,2019-10-01,1.0,Ethiopia,SNNP,Gofa
+4747,2019-10-01,3.0,Ethiopia,Oromia,Guji
+7529,2019-10-01,1.0,Ethiopia,SNNP,Guraghe
+7530,2019-10-01,1.0,Ethiopia,SNNP,Hadiya
+4690,2019-10-01,2.0,Ethiopia,SNNP,Halaba Special
+4691,2019-10-01,2.0,Ethiopia,Harari,Harari
+7534,2019-10-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+4692,2019-10-01,2.0,Ethiopia,Somali,Jarar
+7536,2019-10-01,1.0,Ethiopia,Oromia,Jimma
+7537,2019-10-01,1.0,Ethiopia,SNNP,Kefa
+7539,2019-10-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+4695,2019-10-01,2.0,Ethiopia,SNNP,Kembata Tibaro
+4696,2019-10-01,2.0,Ethiopia,SNNP,Konso
+7542,2019-10-01,1.0,Ethiopia,SNNP,Konta Special
+4751,2019-10-01,3.0,Ethiopia,Somali,Liban
+7546,2019-10-01,1.0,Ethiopia,Gambela,Mejenger
+7547,2019-10-01,1.0,Ethiopia,Tigray,Mekele Special
+7549,2019-10-01,1.0,Ethiopia,SNNP,Mirab Omo
+4753,2019-10-01,3.0,Ethiopia,Somali,Nogob
+7550,2019-10-01,1.0,Ethiopia,Amhara,North Gondar
+7551,2019-10-01,1.0,Ethiopia,Amhara,North Shewa
+7553,2019-10-01,1.0,Ethiopia,Amhara,North Wello
+7554,2019-10-01,1.0,Ethiopia,Tigray,North Western
+7555,2019-10-01,1.0,Ethiopia,Gambela,Nuwer
+7556,2019-10-01,1.0,Ethiopia,Amhara,Oromia
+4709,2019-10-01,2.0,Ethiopia,Somali,Shabelle
+7560,2019-10-01,1.0,Ethiopia,SNNP,Sidama
+7561,2019-10-01,1.0,Ethiopia,SNNP,Siltie
+4712,2019-10-01,2.0,Ethiopia,Somali,Siti
+7563,2019-10-01,1.0,Ethiopia,Tigray,South Eastern
+4714,2019-10-01,2.0,Ethiopia,Amhara,South Gondar
+4715,2019-10-01,2.0,Ethiopia,SNNP,South Omo
+7566,2019-10-01,1.0,Ethiopia,Amhara,South Wello
+7567,2019-10-01,1.0,Ethiopia,Oromia,South West Shewa
+4718,2019-10-01,2.0,Ethiopia,Tigray,Southern
+4719,2019-10-01,2.0,Ethiopia,Amhara,Wag Hamra
+7570,2019-10-01,1.0,Ethiopia,Oromia,West Arsi
+4721,2019-10-01,2.0,Ethiopia,Oromia,West Guji
+4722,2019-10-01,2.0,Ethiopia,Oromia,West Hararge
+7576,2019-10-01,1.0,Ethiopia,Oromia,West Wellega
+7577,2019-10-01,1.0,Ethiopia,Tigray,Western
+7578,2019-10-01,1.0,Ethiopia,SNNP,Wolayita
+7579,2019-10-01,1.0,Ethiopia,SNNP,Yem Special
+4726,2019-10-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+4763,2019-10-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4728,2019-10-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+4765,2019-10-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4730,2019-10-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4676,2019-10-01,2.0,Ethiopia,Somali,Doolo
+4697,2019-10-01,2.0,Ethiopia,Somali,Korahe
+7524,2019-10-01,1.0,Ethiopia,Oromia,Finfine Special
+7557,2019-10-01,1.0,Ethiopia,Addis Ababa,Region 14
+7571,2019-10-01,1.0,Ethiopia,Amhara,West Gojam
+7516,2019-10-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7533,2019-10-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7545,2019-10-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7552,2019-10-01,1.0,Ethiopia,Oromia,North Shewa
+7575,2019-10-01,1.0,Ethiopia,Oromia,West Shewa
+7503,2019-10-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7538,2019-10-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7548,2019-10-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7559,2019-10-01,1.0,Ethiopia,SNNP,Sheka
+7572,2019-10-01,1.0,Ethiopia,Amhara,West Gondar
+7504,2019-10-01,1.0,Ethiopia,Amhara,Awi
+4766,2020-02-01,2.0,Ethiopia,Somali,Afder
+7677,2020-02-01,1.0,Ethiopia,Gambela,Agnewak
+4854,2020-02-01,3.0,Ethiopia,SNNP,Alle
+8162,2020-02-01,3.0,Ethiopia,SNNP,Amaro
+7622,2020-02-01,1.0,Ethiopia,Oromia,Arsi
+4802,2020-02-01,2.0,Ethiopia,Oromia,Bale
+8572,2020-02-01,1.0,Ethiopia,SNNP,Basketo
+7626,2020-02-01,1.0,Ethiopia,SNNP,Bench Maji
+4770,2020-02-01,2.0,Ethiopia,Oromia,Borena
+7627,2020-02-01,1.0,Ethiopia,Oromia,Buno Bedele
+4860,2020-02-01,3.0,Ethiopia,SNNP,Burji
+7628,2020-02-01,1.0,Ethiopia,Tigray,Central
+7629,2020-02-01,1.0,Ethiopia,Amhara,Central Gondar
+4861,2020-02-01,3.0,Ethiopia,Somali,Daawa
+4773,2020-02-01,2.0,Ethiopia,SNNP,Dawuro
+4863,2020-02-01,3.0,Ethiopia,SNNP,Derashe
+8487,2020-02-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7631,2020-02-01,1.0,Ethiopia,Amhara,East Gojam
+4866,2020-02-01,3.0,Ethiopia,Oromia,East Hararge
+7632,2020-02-01,1.0,Ethiopia,Oromia,East Shewa
+7633,2020-02-01,1.0,Ethiopia,Oromia,East Wellega
+8609,2020-02-01,3.0,Ethiopia,Tigray,Eastern
+4868,2020-02-01,3.0,Ethiopia,Somali,Erer
+7635,2020-02-01,1.0,Ethiopia,Gambela,Etang Special woreda
+8495,2020-02-01,2.0,Ethiopia,Somali,Fafan
+4870,2020-02-01,3.0,Ethiopia,SNNP,Gamo
+4871,2020-02-01,3.0,Ethiopia,SNNP,Gedeo
+4777,2020-02-01,2.0,Ethiopia,SNNP,Gofa
+4873,2020-02-01,3.0,Ethiopia,Oromia,Guji
+7640,2020-02-01,1.0,Ethiopia,SNNP,Guraghe
+4780,2020-02-01,2.0,Ethiopia,SNNP,Hadiya
+4781,2020-02-01,2.0,Ethiopia,SNNP,Halaba Special
+8496,2020-02-01,2.0,Ethiopia,Harari,Harari
+7643,2020-02-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+8497,2020-02-01,2.0,Ethiopia,Somali,Jarar
+7644,2020-02-01,1.0,Ethiopia,Oromia,Jimma
+7645,2020-02-01,1.0,Ethiopia,SNNP,Kefa
+7647,2020-02-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+4878,2020-02-01,3.0,Ethiopia,SNNP,Kembata Tibaro
+4879,2020-02-01,3.0,Ethiopia,SNNP,Konso
+7648,2020-02-01,1.0,Ethiopia,SNNP,Konta Special
+4826,2020-02-01,2.0,Ethiopia,Somali,Liban
+7651,2020-02-01,1.0,Ethiopia,Gambela,Mejenger
+7602,2020-02-01,1.0,Ethiopia,Tigray,Mekele Special
+7653,2020-02-01,1.0,Ethiopia,SNNP,Mirab Omo
+4828,2020-02-01,2.0,Ethiopia,Somali,Nogob
+8502,2020-02-01,2.0,Ethiopia,Amhara,North Gondar
+7655,2020-02-01,1.0,Ethiopia,Amhara,North Shewa
+8505,2020-02-01,2.0,Ethiopia,Amhara,North Wello
+7657,2020-02-01,1.0,Ethiopia,Tigray,North Western
+7606,2020-02-01,1.0,Ethiopia,Gambela,Nuwer
+8507,2020-02-01,2.0,Ethiopia,Amhara,Oromia
+4833,2020-02-01,2.0,Ethiopia,Somali,Shabelle
+8158,2020-02-01,2.0,Ethiopia,SNNP,Sidama
+4791,2020-02-01,2.0,Ethiopia,SNNP,Siltie
+8509,2020-02-01,2.0,Ethiopia,Somali,Siti
+8510,2020-02-01,2.0,Ethiopia,Tigray,South Eastern
+7663,2020-02-01,1.0,Ethiopia,Amhara,South Gondar
+4792,2020-02-01,2.0,Ethiopia,SNNP,South Omo
+8512,2020-02-01,2.0,Ethiopia,Amhara,South Wello
+7666,2020-02-01,1.0,Ethiopia,Oromia,South West Shewa
+8513,2020-02-01,2.0,Ethiopia,Tigray,Southern
+4842,2020-02-01,2.0,Ethiopia,Amhara,Wag Hamra
+7667,2020-02-01,1.0,Ethiopia,Oromia,West Arsi
+4897,2020-02-01,3.0,Ethiopia,Oromia,West Guji
+4898,2020-02-01,3.0,Ethiopia,Oromia,West Hararge
+7673,2020-02-01,1.0,Ethiopia,Oromia,West Wellega
+7674,2020-02-01,1.0,Ethiopia,Tigray,Western
+4796,2020-02-01,2.0,Ethiopia,SNNP,Wolayita
+7675,2020-02-01,1.0,Ethiopia,SNNP,Yem Special
+4848,2020-02-01,2.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+8619,2020-02-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+7700,2020-02-01,1.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+8620,2020-02-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+8522,2020-02-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4810,2020-02-01,2.0,Ethiopia,Somali,Doolo
+4825,2020-02-01,2.0,Ethiopia,Somali,Korahe
+7636,2020-02-01,1.0,Ethiopia,Oromia,Finfine Special
+7659,2020-02-01,1.0,Ethiopia,Addis Ababa,Region 14
+7668,2020-02-01,1.0,Ethiopia,Amhara,West Gojam
+7591,2020-02-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7642,2020-02-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7650,2020-02-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7656,2020-02-01,1.0,Ethiopia,Oromia,North Shewa
+7672,2020-02-01,1.0,Ethiopia,Oromia,West Shewa
+7623,2020-02-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7646,2020-02-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7652,2020-02-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7660,2020-02-01,1.0,Ethiopia,SNNP,Sheka
+7669,2020-02-01,1.0,Ethiopia,Amhara,West Gondar
+7624,2020-02-01,1.0,Ethiopia,Amhara,Awi
+4975,2020-06-01,3.0,Ethiopia,Somali,Afder
+4902,2020-06-01,2.0,Ethiopia,Gambela,Agnewak
+4903,2020-06-01,2.0,Ethiopia,SNNP,Alle
+4977,2020-06-01,3.0,Ethiopia,SNNP,Amaro
+7710,2020-06-01,1.0,Ethiopia,Oromia,Arsi
+4980,2020-06-01,3.0,Ethiopia,Oromia,Bale
+7714,2020-06-01,1.0,Ethiopia,SNNP,Basketo
+7715,2020-06-01,1.0,Ethiopia,SNNP,Bench Maji
+4981,2020-06-01,3.0,Ethiopia,Oromia,Borena
+7717,2020-06-01,1.0,Ethiopia,Oromia,Buno Bedele
+4982,2020-06-01,3.0,Ethiopia,SNNP,Burji
+8177,2020-06-01,2.0,Ethiopia,Tigray,Central
+7720,2020-06-01,1.0,Ethiopia,Amhara,Central Gondar
+4985,2020-06-01,3.0,Ethiopia,Somali,Daawa
+7721,2020-06-01,1.0,Ethiopia,SNNP,Dawuro
+4916,2020-06-01,2.0,Ethiopia,SNNP,Derashe
+8179,2020-06-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7724,2020-06-01,1.0,Ethiopia,Amhara,East Gojam
+8183,2020-06-01,2.0,Ethiopia,Oromia,East Hararge
+4992,2020-06-01,3.0,Ethiopia,Oromia,East Shewa
+7727,2020-06-01,1.0,Ethiopia,Oromia,East Wellega
+4993,2020-06-01,3.0,Ethiopia,Tigray,Eastern
+4923,2020-06-01,2.0,Ethiopia,Somali,Erer
+7729,2020-06-01,1.0,Ethiopia,Gambela,Etang Special woreda
+4925,2020-06-01,2.0,Ethiopia,Somali,Fafan
+4926,2020-06-01,2.0,Ethiopia,SNNP,Gamo
+8188,2020-06-01,2.0,Ethiopia,SNNP,Gedeo
+7734,2020-06-01,1.0,Ethiopia,SNNP,Gofa
+4998,2020-06-01,3.0,Ethiopia,Oromia,Guji
+7736,2020-06-01,1.0,Ethiopia,SNNP,Guraghe
+4930,2020-06-01,2.0,Ethiopia,SNNP,Hadiya
+5001,2020-06-01,3.0,Ethiopia,SNNP,Halaba Special
+5002,2020-06-01,3.0,Ethiopia,Harari,Harari
+7741,2020-06-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+5003,2020-06-01,3.0,Ethiopia,Somali,Jarar
+7743,2020-06-01,1.0,Ethiopia,Oromia,Jimma
+7744,2020-06-01,1.0,Ethiopia,SNNP,Kefa
+7746,2020-06-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+8529,2020-06-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+4938,2020-06-01,2.0,Ethiopia,SNNP,Konso
+7749,2020-06-01,1.0,Ethiopia,SNNP,Konta Special
+5007,2020-06-01,3.0,Ethiopia,Somali,Liban
+7752,2020-06-01,1.0,Ethiopia,Gambela,Mejenger
+7753,2020-06-01,1.0,Ethiopia,Tigray,Mekele Special
+7755,2020-06-01,1.0,Ethiopia,SNNP,Mirab Omo
+5011,2020-06-01,3.0,Ethiopia,Somali,Nogob
+5012,2020-06-01,3.0,Ethiopia,Amhara,North Gondar
+4946,2020-06-01,2.0,Ethiopia,Amhara,North Shewa
+8194,2020-06-01,2.0,Ethiopia,Amhara,North Wello
+7760,2020-06-01,1.0,Ethiopia,Tigray,North Western
+7761,2020-06-01,1.0,Ethiopia,Gambela,Nuwer
+5017,2020-06-01,3.0,Ethiopia,Amhara,Oromia
+5018,2020-06-01,3.0,Ethiopia,Somali,Shabelle
+7766,2020-06-01,1.0,Ethiopia,SNNP,Sidama
+4954,2020-06-01,2.0,Ethiopia,SNNP,Siltie
+5021,2020-06-01,3.0,Ethiopia,Somali,Siti
+8198,2020-06-01,2.0,Ethiopia,Tigray,South Eastern
+7770,2020-06-01,1.0,Ethiopia,Amhara,South Gondar
+4958,2020-06-01,2.0,Ethiopia,SNNP,South Omo
+4959,2020-06-01,2.0,Ethiopia,Amhara,South Wello
+7773,2020-06-01,1.0,Ethiopia,Oromia,South West Shewa
+8202,2020-06-01,2.0,Ethiopia,Tigray,Southern
+8570,2020-06-01,3.0,Ethiopia,Amhara,Wag Hamra
+7776,2020-06-01,1.0,Ethiopia,Oromia,West Arsi
+8205,2020-06-01,2.0,Ethiopia,Oromia,West Guji
+5032,2020-06-01,3.0,Ethiopia,Oromia,West Hararge
+7782,2020-06-01,1.0,Ethiopia,Oromia,West Wellega
+7783,2020-06-01,1.0,Ethiopia,Tigray,Western
+4969,2020-06-01,2.0,Ethiopia,SNNP,Wolayita
+7785,2020-06-01,1.0,Ethiopia,SNNP,Yem Special
+5034,2020-06-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+5035,2020-06-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+4972,2020-06-01,2.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+5037,2020-06-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+4974,2020-06-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+4989,2020-06-01,3.0,Ethiopia,Somali,Doolo
+5006,2020-06-01,3.0,Ethiopia,Somali,Korahe
+7731,2020-06-01,1.0,Ethiopia,Oromia,Finfine Special
+7763,2020-06-01,1.0,Ethiopia,Addis Ababa,Region 14
+7777,2020-06-01,1.0,Ethiopia,Amhara,West Gojam
+7723,2020-06-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7740,2020-06-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7751,2020-06-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7758,2020-06-01,1.0,Ethiopia,Oromia,North Shewa
+7781,2020-06-01,1.0,Ethiopia,Oromia,West Shewa
+7711,2020-06-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7745,2020-06-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7754,2020-06-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7765,2020-06-01,1.0,Ethiopia,SNNP,Sheka
+7778,2020-06-01,1.0,Ethiopia,Amhara,West Gondar
+7712,2020-06-01,1.0,Ethiopia,Amhara,Awi
+5113,2020-08-01,3.0,Ethiopia,Somali,Afder
+5040,2020-08-01,2.0,Ethiopia,Gambela,Agnewak
+5041,2020-08-01,2.0,Ethiopia,SNNP,Alle
+5115,2020-08-01,3.0,Ethiopia,SNNP,Amaro
+7794,2020-08-01,1.0,Ethiopia,Oromia,Arsi
+5118,2020-08-01,3.0,Ethiopia,Oromia,Bale
+7798,2020-08-01,1.0,Ethiopia,SNNP,Basketo
+7799,2020-08-01,1.0,Ethiopia,SNNP,Bench Maji
+5119,2020-08-01,3.0,Ethiopia,Oromia,Borena
+7801,2020-08-01,1.0,Ethiopia,Oromia,Buno Bedele
+5120,2020-08-01,3.0,Ethiopia,SNNP,Burji
+8217,2020-08-01,2.0,Ethiopia,Tigray,Central
+7804,2020-08-01,1.0,Ethiopia,Amhara,Central Gondar
+5123,2020-08-01,3.0,Ethiopia,Somali,Daawa
+7805,2020-08-01,1.0,Ethiopia,SNNP,Dawuro
+5054,2020-08-01,2.0,Ethiopia,SNNP,Derashe
+8219,2020-08-01,2.0,Ethiopia,Dire Dawa,Dire Dawa rural
+7808,2020-08-01,1.0,Ethiopia,Amhara,East Gojam
+8223,2020-08-01,2.0,Ethiopia,Oromia,East Hararge
+5130,2020-08-01,3.0,Ethiopia,Oromia,East Shewa
+7811,2020-08-01,1.0,Ethiopia,Oromia,East Wellega
+5131,2020-08-01,3.0,Ethiopia,Tigray,Eastern
+5061,2020-08-01,2.0,Ethiopia,Somali,Erer
+7813,2020-08-01,1.0,Ethiopia,Gambela,Etang Special woreda
+5063,2020-08-01,2.0,Ethiopia,Somali,Fafan
+5064,2020-08-01,2.0,Ethiopia,SNNP,Gamo
+8228,2020-08-01,2.0,Ethiopia,SNNP,Gedeo
+7818,2020-08-01,1.0,Ethiopia,SNNP,Gofa
+5136,2020-08-01,3.0,Ethiopia,Oromia,Guji
+7820,2020-08-01,1.0,Ethiopia,SNNP,Guraghe
+5068,2020-08-01,2.0,Ethiopia,SNNP,Hadiya
+5139,2020-08-01,3.0,Ethiopia,SNNP,Halaba Special
+5140,2020-08-01,3.0,Ethiopia,Harari,Harari
+7825,2020-08-01,1.0,Ethiopia,Oromia,Ilu Aba Bora
+5141,2020-08-01,3.0,Ethiopia,Somali,Jarar
+7827,2020-08-01,1.0,Ethiopia,Oromia,Jimma
+7828,2020-08-01,1.0,Ethiopia,SNNP,Kefa
+7830,2020-08-01,1.0,Ethiopia,Benishangul Gumz,Kemashi
+8540,2020-08-01,1.0,Ethiopia,SNNP,Kembata Tibaro
+5076,2020-08-01,2.0,Ethiopia,SNNP,Konso
+7833,2020-08-01,1.0,Ethiopia,SNNP,Konta Special
+5145,2020-08-01,3.0,Ethiopia,Somali,Liban
+7836,2020-08-01,1.0,Ethiopia,Gambela,Mejenger
+7837,2020-08-01,1.0,Ethiopia,Tigray,Mekele Special
+7839,2020-08-01,1.0,Ethiopia,SNNP,Mirab Omo
+5150,2020-08-01,3.0,Ethiopia,Somali,Nogob
+5151,2020-08-01,3.0,Ethiopia,Amhara,North Gondar
+5084,2020-08-01,2.0,Ethiopia,Amhara,North Shewa
+8234,2020-08-01,2.0,Ethiopia,Amhara,North Wello
+7844,2020-08-01,1.0,Ethiopia,Tigray,North Western
+7845,2020-08-01,1.0,Ethiopia,Gambela,Nuwer
+5156,2020-08-01,3.0,Ethiopia,Amhara,Oromia
+5157,2020-08-01,3.0,Ethiopia,Somali,Shabelle
+7850,2020-08-01,1.0,Ethiopia,SNNP,Sidama
+5092,2020-08-01,2.0,Ethiopia,SNNP,Siltie
+5160,2020-08-01,3.0,Ethiopia,Somali,Siti
+8238,2020-08-01,2.0,Ethiopia,Tigray,South Eastern
+7854,2020-08-01,1.0,Ethiopia,Amhara,South Gondar
+5096,2020-08-01,2.0,Ethiopia,SNNP,South Omo
+5097,2020-08-01,2.0,Ethiopia,Amhara,South Wello
+7857,2020-08-01,1.0,Ethiopia,Oromia,South West Shewa
+8242,2020-08-01,2.0,Ethiopia,Tigray,Southern
+7883,2020-08-01,3.0,Ethiopia,Amhara,Wag Hamra
+7860,2020-08-01,1.0,Ethiopia,Oromia,West Arsi
+8245,2020-08-01,2.0,Ethiopia,Oromia,West Guji
+5171,2020-08-01,3.0,Ethiopia,Oromia,West Hararge
+7866,2020-08-01,1.0,Ethiopia,Oromia,West Wellega
+7867,2020-08-01,1.0,Ethiopia,Tigray,Western
+5107,2020-08-01,2.0,Ethiopia,SNNP,Wolayita
+7869,2020-08-01,1.0,Ethiopia,SNNP,Yem Special
+5173,2020-08-01,3.0,Ethiopia,Afar,Zone 1 (Awsi Rasu)
+5174,2020-08-01,3.0,Ethiopia,Afar,Zone 2 (Kilbet Rasu)
+5175,2020-08-01,3.0,Ethiopia,Afar,Zone 3 (Gabi Rasu)
+5176,2020-08-01,3.0,Ethiopia,Afar,Zone 4 (Fantana Rasu)
+5112,2020-08-01,2.0,Ethiopia,Afar,Zone 5 (Hari Rasu)
+5127,2020-08-01,3.0,Ethiopia,Somali,Doolo
+5144,2020-08-01,3.0,Ethiopia,Somali,Korahe
+7815,2020-08-01,1.0,Ethiopia,Oromia,Finfine Special
+7847,2020-08-01,1.0,Ethiopia,Addis Ababa,Region 14
+7861,2020-08-01,1.0,Ethiopia,Amhara,West Gojam
+7807,2020-08-01,1.0,Ethiopia,Dire Dawa,Dire Dawa urban
+7824,2020-08-01,1.0,Ethiopia,Oromia,Horo Gudru Wellega
+7835,2020-08-01,1.0,Ethiopia,Benishangul Gumz,Mao Komo Special
+7842,2020-08-01,1.0,Ethiopia,Oromia,North Shewa
+7865,2020-08-01,1.0,Ethiopia,Oromia,West Shewa
+7795,2020-08-01,1.0,Ethiopia,Benishangul Gumz,Asosa
+7829,2020-08-01,1.0,Ethiopia,Oromia,Kelem Wellega
+7838,2020-08-01,1.0,Ethiopia,Benishangul Gumz,Metekel
+7849,2020-08-01,1.0,Ethiopia,SNNP,Sheka
+7862,2020-08-01,1.0,Ethiopia,Amhara,West Gondar
+7796,2020-08-01,1.0,Ethiopia,Amhara,Awi
