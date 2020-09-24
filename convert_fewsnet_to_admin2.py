@@ -147,61 +147,61 @@ def main():
     Set all variables, run the function for the different forecasts, and save as csv
     """
 
-    DATES = ["200907"]
-    #     [
-    #     "200907",
-    #     "200910",
-    #     "201001",
-    #     "201004",
-    #     "201007",
-    #     "201010",
-    #     "201101",
-    #     "201104",
-    #     "201107",
-    #     "201110",
-    #     "201201",
-    #     "201204",
-    #     "201207", #no data for Malawi
-    #     "201210",
-    #     "201301",
-    #     "201304",
-    #     "201307",
-    #     "201310",
-    #     "201401",
-    #     "201404",
-    #     "201407",
-    #     "201410",
-    #     "201501",
-    #     "201504",
-    #     "201507",
-    #     "201510",
-    #     "201602",
-    #     "201606",
-    #     "201610",
-    #     "201706",
-    #     "201710",
-    #     "201802",
-    #     "201806",
-    #     "201810",
-    #     # "201812", #no data for ethiopia
-    #     "201902",
-    #     "201906",
-    #     "201910",
-    #     "202002",
-    #     # "202003",
-    #     # "202004",
-    #     # "202005",
-    #     "202006",
-    #     # "202007",
-    #     "202008"
-    # ]
+    DATES = [
+        "200907",
+        "200910",
+        "201001",
+        "201004",
+        "201007",
+        "201010",
+        "201101",
+        "201104",
+        "201107",
+        "201110",
+        "201201",
+        "201204",
+        # "201207", #no data for Malawi
+        "201210",
+        "201301",
+        "201304",
+        "201307",
+        "201310",
+        "201401",
+        "201404",
+        "201407",
+        "201410",
+        "201501",
+        "201504",
+        "201507",
+        "201510",
+        "201602",
+        "201606",
+        "201610",
+        "201702",
+        "201706",
+        "201710",
+        "201802",
+        "201806",
+        "201810",
+        "201812",  # no data for ethiopia
+        "201902",
+        "201906",
+        "201910",
+        "202002",
+        # "202003",
+        # "202004",
+        # "202005",
+        "202006",
+        # "202007",
+        "202008",
+    ]
     STATUS_LIST = ["CS", "ML1", "ML2"]
-    COUNTRY = "ethiopia"  # "malawi"  #
-    REGION = "east-africa"  # "southern-africa"  #
-    REGIONCODE = "EA"  # "SA"  #
+    COUNTRY = "malawi"  # "ethiopia"  #
+    REGION = "southern-africa"  # "east-africa"  #
+    REGIONCODE = "SA"  # "EA"  #
     PATH = "Data/FewsNetRaw/"
     PATH_RESULT = f"{COUNTRY}/Data/FewsNetAdmin2/"  # OldShp/"
-    ADMIN2_SHP = "ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"  # "mwi_adm_nso_20181016_shp/mwi_admbnda_adm2_nso_20181016.shp"  #  # 'ET_Admin2_2014/ET_Admin2_2014.shp'
+    ADMIN2_SHP = "mwi_adm_nso_20181016_shp/mwi_admbnda_adm2_nso_20181016.shp"  # "ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"  #  # 'ET_Admin2_2014/ET_Admin2_2014.shp'
     ADMIN2_PATH = f"{COUNTRY}/Data/{ADMIN2_SHP}"
 
     for STATUS in STATUS_LIST:
