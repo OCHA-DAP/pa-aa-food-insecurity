@@ -58,7 +58,7 @@ def load_popdata(
 
 
 def create_histpopdict(
-    df_data, histpop_path="Data/Worldbank_TotalPopulation.csv", country="Ethiopia"
+    df_data, country, histpop_path="Data/Worldbank_TotalPopulation.csv"
 ):
     df_histpop = pd.read_csv(histpop_path, header=2)
     df_histpop.set_index("Country Name", inplace=True)
@@ -85,7 +85,7 @@ def get_adjusted(row, perc_dict):
         return int(row["Total"] * adjustment)
 
 
-def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
+def merge_ipcpop(df_ipc, df_pop, country, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
     df_ipcp = df_ipc.merge(
         df_pop[[pop_adm1c, pop_adm2c, "Total"]],
         how="left",
@@ -94,7 +94,7 @@ def merge_ipcpop(df_ipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
     )
 
     # dict to indicate relative increase in population over the years
-    pop_dict = create_histpopdict(df_ipcp)
+    pop_dict = create_histpopdict(df_ipcp, country=country)
     # estimate percentage of population at given year in relation to the national population given by the subnational population file
     pop_tot_subn = df_ipcp[df_ipcp.date == df_ipcp.date.unique()[0]]["Total"].sum()
     perc_dict = {k: v / pop_tot_subn for k, v in pop_dict.items()}
@@ -165,7 +165,7 @@ def get_trigger_increase(row, level, perc):
 
 
 def main():
-    COUNTRY = "ethiopia"  # "malawi"  #
+    COUNTRY = "malawi"  # "ethiopia"  #
     RESULT_FOLDER = f"{COUNTRY}/Data/FewsNetPopulation/"
     fnfolder = f"{COUNTRY}/Data/FewsNetAdmin2/"
     START_DATE = "20090701"
@@ -174,13 +174,13 @@ def main():
     ml1_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML1.csv"
     ml2_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML2.csv"
 
-    POP_FILE = "eth_admpop_adm2_2020.csv"  # "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"  #
+    POP_FILE = "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"  # "eth_admpop_adm2_2020.csv"  #
     POP_PATH = f"{COUNTRY}/Data/{POP_FILE}"
-    pop_adm1c = "admin1Name_en"  # "ADM1_EN"  #
-    pop_adm2c = "admin2Name_en"  # "ADM2_EN32"  #
+    pop_adm1c = "ADM1_EN"  # "admin1Name_en"  #
+    pop_adm2c = "ADM2_EN32"  # "admin2Name_en"  #
     ipc_adm1c = "ADM1_EN"  # "ADMIN1" #
     ipc_adm2c = "ADM2_EN"  # "ADMIN2" #
-    POP_COL = "Total"  # "p2019pop"  #
+    POP_COL = "p2019pop"  # "Total"  #
     # mapping from population data to ipc data in Admin2 names (so names that don't correspond)
     admin2_mapping = {
         "Etang Special": "Etang Special woreda",
@@ -214,7 +214,13 @@ def main():
         admin1_mapping=admin1_mapping,
     )
     df_ipcpop = merge_ipcpop(
-        df_allipc, df_pop, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c
+        df_allipc,
+        df_pop,
+        COUNTRY.capitalize(),
+        pop_adm1c,
+        pop_adm2c,
+        ipc_adm1c,
+        ipc_adm2c,
     )
     df_ipcpop.to_csv(
         f"{RESULT_FOLDER}{COUNTRY}_admin2_fewsnet_population_{START_DATE}_{END_DATE}.csv"
