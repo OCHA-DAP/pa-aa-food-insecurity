@@ -19,6 +19,7 @@ import geopandas as gpd
 import pandas as pd
 import os
 import numpy as np
+from utils import parse_args, parse_yaml
 
 
 def shapefiles_to_df(path, status, dates, region, regionabb):
@@ -36,6 +37,7 @@ def shapefiles_to_df(path, status, dates, region, regionabb):
     """
     df = gpd.GeoDataFrame()
     for d in dates:
+        # path to fewsnet data
         shape = path + region + d + "/" + regionabb + "_" + d + "_" + status + ".shp"
         if os.path.exists(shape):
             gdf = gpd.read_file(shape)
@@ -71,6 +73,7 @@ def merge_admin2(df, path_admin, status, adm0c, adm1c, adm2c):
 def return_max_cs(date, df, dfadcol, status, adm0c, adm1c, adm2c):
     """
     Return the IPC value that is assigned to the largest area (in m2) for the given Admin Level 2 region
+    It is discussable if this is the best approach to select the IPC admin2 level. One could also try to work with more local population estimates
     Args:
         date: string with the date of the FewsNet analysis
         df: DataFrame that contains the geometrys per IPC level per Admin2 (output from merge_admin2)
@@ -103,11 +106,11 @@ def gen_csml1m2(
     bound_path,
     status,
     dates,
-    adm0c="ADM0_EN",
-    adm1c="ADM1_EN",
-    adm2c="ADM2_EN",
-    region="east-africa",
-    regionabb="EA",
+    adm0c,
+    adm1c,
+    adm2c,
+    region,
+    regionabb,
 ):
     """
     Generate a DataFrame with the IPC level per Admin 2 Level, defined by the level that covers the largest area
@@ -142,83 +145,39 @@ def gen_csml1m2(
     return new_df
 
 
-def main():
+def main(country_iso3, config_file="config.yml"):
     """
     Set all variables, run the function for the different forecasts, and save as csv
     """
+    parameters = parse_yaml(config_file)[country_iso3]
 
-    DATES = [
-        "200907",
-        "200910",
-        "201001",
-        "201004",
-        "201007",
-        "201010",
-        "201101",
-        "201104",
-        "201107",
-        "201110",
-        "201201",
-        "201204",
-        # "201207", #no data for Malawi
-        "201210",
-        "201301",
-        "201304",
-        "201307",
-        "201310",
-        "201401",
-        "201404",
-        "201407",
-        "201410",
-        "201501",
-        "201504",
-        "201507",
-        "201510",
-        "201602",
-        "201606",
-        "201610",
-        "201702",
-        "201706",
-        "201710",
-        "201802",
-        "201806",
-        "201810",
-        "201812",  # no data for ethiopia
-        "201902",
-        "201906",
-        "201910",
-        "202002",
-        # "202003",
-        # "202004",
-        # "202005",
-        "202006",
-        # "202007",
-        "202008",
-    ]
+    country = parameters["country_name"]
+    region = parameters["region"]
+    regioncode = parameters["regioncode"]
+    admin2_shp = parameters["path_admin2_shp"]
+    adm0c = parameters["adm0c_bound"]
+    adm1c = parameters["adm1c_bound"]
+    adm2c = parameters["adm2c_bound"]
+    PATH_FEWSNET = "Data/FewsNetRaw/"
+    PATH_RESULT = f"{country}/Data/FewsNetAdmin2/"
+    ADMIN2_PATH = f"{country}/Data/{admin2_shp}"
     STATUS_LIST = ["CS", "ML1", "ML2"]
-    COUNTRY = "malawi"  # "ethiopia"  #
-    REGION = "southern-africa"  # "east-africa"  #
-    REGIONCODE = "SA"  # "EA"  #
-    PATH = "Data/FewsNetRaw/"
-    PATH_RESULT = f"{COUNTRY}/Data/FewsNetAdmin2/"  # OldShp/"
-    ADMIN2_SHP = "mwi_adm_nso_20181016_shp/mwi_admbnda_adm2_nso_20181016.shp"  # "ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"  #  # 'ET_Admin2_2014/ET_Admin2_2014.shp'
-    ADMIN2_PATH = f"{COUNTRY}/Data/{ADMIN2_SHP}"
 
     for STATUS in STATUS_LIST:
         df = gen_csml1m2(
-            PATH,
+            PATH_FEWSNET,
             ADMIN2_PATH,
             STATUS,
-            DATES,
-            adm0c="ADM0_EN",
-            adm1c="ADM1_EN",
-            adm2c="ADM2_EN",
-            region=REGION,
-            regionabb=REGIONCODE,
+            parameters["fewsnet_dates"],
+            adm0c,
+            adm1c,
+            adm2c,
+            region,
+            regioncode,
         )
         df.to_csv(
             PATH_RESULT
-            + COUNTRY
+            + country
             + "_admin2_fewsnet_"
             + df.date.min().strftime("%Y%m%d")
             + "_"
@@ -230,4 +189,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    main(args.country_iso3.upper())

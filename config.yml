@@ -1,0 +1,41 @@
+# country specific parameters
+ETH:
+  country_name: "ethiopia"
+  region: "east-africa"
+  regioncode: "EA"
+  path_admin2_shp: "ET_Admin2_OCHA_2019/eth_admbnda_adm2_csa_bofed_20190827.shp"
+  fewsnet_dates: ["200907","200910","201001","201004","201007","201010","201101","201104","201107","201110","201201",
+  "201204","201207","201210","201301","201304","201307","201310","201401","201404","201407","201410","201501","201504",
+  "201507","201510","201602","201606","201610","201702","201706","201710","201802","201806","201810",
+  "201902","201906","201910","202002","202006","202008"]
+  adm0c_bound: "ADM0_EN"
+  adm1c_bound: "ADM1_EN"
+  adm2c_bound: "ADM2_EN"
+  pop_filename: "eth_admpop_adm2_2020.csv"
+  pop_col: "Total"
+  adm1c_pop: "admin1Name_en"
+  adm2c_pop: "admin2Name_en"
+  admin1_mapping: {}
+  admin2_mapping: {"Etang Special": "Etang Special woreda","Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)"}
+  start_date: "20090701"
+  end_date: "20200801"
+MWI:
+  country_name: "malawi"
+  region: "southern-africa"
+  regioncode: "SA"
+  path_admin2_shp: "mwi_adm_nso_20181016_shp/mwi_admbnda_adm2_nso_20181016.shp"
+  fewsnet_dates: ["200907","200910","201001","201004","201007","201010","201101","201104","201107","201110","201201",
+  "201204","201210","201301","201304","201307","201310","201401","201404","201407","201410","201501","201504",
+  "201507","201510","201602","201606","201610","201702","201706","201710","201802","201806","201810","201812",
+  "201902","201906","201910","202002","202006","202008"]
+  adm0c_bound: "ADM0_EN"
+  adm1c_bound: "ADM1_EN"
+  adm2c_bound: "ADM2_EN"
+  pop_filename: "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"
+  pop_col: "p2019pop"
+  adm1c_pop: "ADM1_EN"
+  adm2c_pop: "ADM2_EN32"
+  admin1_mapping: {}
+  admin2_mapping: {}
+  start_date: "20090701"
+  end_date: "20200801"

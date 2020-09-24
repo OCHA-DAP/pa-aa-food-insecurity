@@ -7,6 +7,9 @@
 #Mac DSStore
 .DS_Store
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
 #personal folders
 TestData
 Experiments

@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import warnings
+from utils import parse_args, parse_yaml
 
 
 def get_new_name(name, n_dict):
@@ -139,97 +140,55 @@ def aggr_admin1(df, adm1c):
     return df_adm
 
 
-def get_trigger(row, status, level, perc):
-    # range till 6 cause 5 is max level
-    cols = [f"{status}_{l}" for l in range(level, 6)]
-    if np.isnan(row[f"pop_{status}"]):
-        return np.nan
-    if row[cols].sum() >= row[f"pop_{status}"] / (100 / perc):
-        return 1
-    else:
-        return 0
+def main(country_iso3, config_file="config.yml"):
+    parameters = parse_yaml(config_file)[country_iso3]
+    country = parameters["country_name"]
 
+    RESULT_FOLDER = f"{country}/Data/FewsNetPopulation/"
+    fnfolder = f"{country}/Data/FewsNetAdmin2/"
+    start_date = parameters["start_date"]
+    end_date = parameters["end_date"]
+    cs_path = f"{fnfolder}{country}_admin2_fewsnet_{start_date}_{end_date}_CS.csv"
+    ml1_path = f"{fnfolder}{country}_admin2_fewsnet_{start_date}_{end_date}_ML1.csv"
+    ml2_path = f"{fnfolder}{country}_admin2_fewsnet_{start_date}_{end_date}_ML2.csv"
 
-def get_trigger_increase(row, level, perc):
-    # range till 6 cause 5 is max level
-    cols_ml1 = [f"ML1_{l}" for l in range(level, 6)]
-    cols_cs = [f"CS_{l}" for l in range(level, 6)]
-    if row[["pop_CS", "pop_ML1"]].isnull().values.any():
-        return np.nan
-    if row[cols_ml1].sum() == 0:
-        return 0
-    if row[cols_ml1].sum() >= row[cols_cs].sum() * (1 + (perc / 100)):
-        return 1
-    else:
-        return 0
-
-
-def main():
-    COUNTRY = "malawi"  # "ethiopia"  #
-    RESULT_FOLDER = f"{COUNTRY}/Data/FewsNetPopulation/"
-    fnfolder = f"{COUNTRY}/Data/FewsNetAdmin2/"
-    START_DATE = "20090701"
-    END_DATE = "20200801"
-    cs_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_CS.csv"
-    ml1_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML1.csv"
-    ml2_path = f"{fnfolder}{COUNTRY}_admin2_fewsnet_{START_DATE}_{END_DATE}_ML2.csv"
-
-    POP_FILE = "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv"  # "eth_admpop_adm2_2020.csv"  #
-    POP_PATH = f"{COUNTRY}/Data/{POP_FILE}"
-    pop_adm1c = "ADM1_EN"  # "admin1Name_en"  #
-    pop_adm2c = "ADM2_EN32"  # "admin2Name_en"  #
-    ipc_adm1c = "ADM1_EN"  # "ADMIN1" #
-    ipc_adm2c = "ADM2_EN"  # "ADMIN2" #
-    POP_COL = "p2019pop"  # "Total"  #
-    # mapping from population data to ipc data in Admin2 names (so names that don't correspond)
-    admin2_mapping = {
-        "Etang Special": "Etang Special woreda",
-        "Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)",
-    }
-    # admin2_mapping = None
-    admin1_mapping = None
-
-    # Ethiopia other shapefile
-    # admin2_mapping = {'Zone 1 (Awsi Rasu)': 'Awusi', 'Zone 2 (Kilbet Rasu)': 'Kilbati', 'Zone 3 (Gabi Rasu)': 'Gabi',
-    #                   'Zone 4  (Fantana Rasu)': 'Fanti', 'Zone 5 (Hari Rasu)': 'Khari', 'Central': 'Central Tigray',
-    #                   'Eastern': 'East Tigray', 'North Western': 'Northwest Tigray',
-    #                   'South Eastern': 'Southeast Tigray',
-    #                   'Western': 'West Tigray', 'Southern': 'South Tigray', 'Mejenger': 'Mezhenger', 'Nuwer':
-    #                       'Nuer', 'Etang Special': 'Itang', 'Agnewak': 'Agniwak', 'Dire Dawa rural': 'Dire Dawa',
-    #                   'Dire Dawa urban': 'Dire Dawa', 'North Wello': 'North Wollo', 'Wag Hamra': 'Wag Himra',
-    #                   'Liban': 'Liben', 'Siti': 'Sitti', 'Shabelle': 'Shebelle', 'Doolo': 'Dollo',
-    #                   'Mao Komo': 'Mao-Komo',
-    #                   'Halaba Special': 'Alaba', 'Gamo': 'Gamo Gofa', 'Gofa': 'Gamo Gofa', 'Guraghe': 'Gurage',
-    #                   'Kefa': 'Keffa', 'Dawuro': 'Dawro', 'Ilu Aba Bora': 'Ilubabor'}
-    #
-    # admin1_mapping = {'SNNP': 'SNNPR'}
+    pop_file = parameters["pop_filename"]
+    POP_PATH = f"{country}/Data/{pop_file}"
+    pop_adm1c = parameters["adm1c_pop"]
+    pop_adm2c = parameters["adm2c_pop"]
+    ipc_adm1c = parameters["adm1c_bound"]
+    ipc_adm2c = parameters["adm2c_bound"]
+    pop_col = parameters["pop_col"]
+    admin1_mapping = parameters["admin1_mapping"]
+    admin2_mapping = parameters["admin2_mapping"]
 
     df_allipc = merge_ipcstatus(cs_path, ml1_path, ml2_path, ipc_adm1c, ipc_adm2c)
     df_pop = load_popdata(
         POP_PATH,
         pop_adm1c,
         pop_adm2c,
-        POP_COL,
+        pop_col,
         admin2_mapping=admin2_mapping,
         admin1_mapping=admin1_mapping,
     )
     df_ipcpop = merge_ipcpop(
         df_allipc,
         df_pop,
-        COUNTRY.capitalize(),
+        country.capitalize(),
         pop_adm1c,
         pop_adm2c,
         ipc_adm1c,
         ipc_adm2c,
     )
     df_ipcpop.to_csv(
-        f"{RESULT_FOLDER}{COUNTRY}_admin2_fewsnet_population_{START_DATE}_{END_DATE}.csv"
+        f"{RESULT_FOLDER}{country}_admin2_fewsnet_population_{start_date}_{end_date}.csv"
     )
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
     df_adm1.to_csv(
-        f"{RESULT_FOLDER}{COUNTRY}_admin1_fewsnet_population_{START_DATE}_{END_DATE}.csv"
+        f"{RESULT_FOLDER}{country}_admin1_fewsnet_population_{start_date}_{end_date}.csv"
     )
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    main(args.country_iso3.upper())
