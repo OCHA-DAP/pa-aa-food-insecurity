@@ -1,20 +1,3 @@
-"""
-This script takes the FEWSNET IPC shapefiles provided by on fews.net and overlays them with an admin2 shapefile, in order
-to provide an IPC value for each admin2 district. In the case where there are multiple values per district, the IPC value
-with the maximum area is selected.
-
-The configurations are set up inside the script. For usability, they should eventually be set up in a config file or
-passed externally.
-
-In FEWSNET IPC, there are 3 possible categories of maps - 'CS' (Current State), 'ML1' (3 months projection), 'ML2' (6 months projection).
-Any one of these is compatible with the script.
-
-Possible IPC values range from 1 (least severe) to 5 (most severe, famine).
-
-"""
-
-# Imports
-
 import geopandas as gpd
 import pandas as pd
 import os
@@ -147,6 +130,15 @@ def gen_csml1m2(
 
 def main(country_iso3, config_file="config.yml"):
     """
+    This script takes the FEWSNET IPC shapefiles provided by on fews.net and overlays them with an admin2 shapefile, in order
+    to provide an IPC value for each admin2 district. In the case where there are multiple values per district, the IPC value
+    with the maximum area is selected.
+
+    In FEWSNET IPC, there are 3 possible categories of maps - 'CS' (Current State), 'ML1' (3 months projection), 'ML2' (6 months projection).
+    Any one of these is compatible with the script.
+
+    Possible IPC values range from 1 (least severe) to 5 (most severe, famine).
+
     Set all variables, run the function for the different forecasts, and save as csv
     """
     parameters = parse_yaml(config_file)[country_iso3]
