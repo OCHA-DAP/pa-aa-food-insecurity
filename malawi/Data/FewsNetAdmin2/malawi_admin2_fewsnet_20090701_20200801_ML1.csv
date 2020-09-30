@@ -30,7 +30,7 @@
 28,2009-07-01,1.0,Malawi,Southern,Thyolo
 29,2009-07-01,1.0,Malawi,Southern,Zomba
 30,2009-07-01,1.0,Malawi,Southern,Zomba City
-3147,2009-07-01,,Malawi,Northern,Likoma
+3033,2009-07-01,,Malawi,Northern,Likoma
 40,2009-10-01,1.0,Malawi,Southern,Balaka
 41,2009-10-01,1.0,Malawi,Southern,Blantyre
 42,2009-10-01,1.0,Malawi,Southern,Blantyre City
@@ -62,7 +62,7 @@
 68,2009-10-01,1.0,Malawi,Southern,Thyolo
 69,2009-10-01,1.0,Malawi,Southern,Zomba
 70,2009-10-01,1.0,Malawi,Southern,Zomba City
-3257,2009-10-01,,Malawi,Northern,Likoma
+3143,2009-10-01,,Malawi,Northern,Likoma
 88,2010-01-01,1.0,Malawi,Southern,Balaka
 89,2010-01-01,1.0,Malawi,Southern,Blantyre
 90,2010-01-01,1.0,Malawi,Southern,Blantyre City
@@ -94,11 +94,11 @@
 116,2010-01-01,1.0,Malawi,Southern,Thyolo
 117,2010-01-01,1.0,Malawi,Southern,Zomba
 118,2010-01-01,1.0,Malawi,Southern,Zomba City
-3319,2010-01-01,,Malawi,Northern,Likoma
+3205,2010-01-01,,Malawi,Northern,Likoma
 162,2010-04-01,2.0,Malawi,Southern,Balaka
 163,2010-04-01,2.0,Malawi,Southern,Blantyre
 164,2010-04-01,2.0,Malawi,Southern,Blantyre City
-2228,2010-04-01,3.0,Malawi,Southern,Chikwawa
+2133,2010-04-01,3.0,Malawi,Southern,Chikwawa
 135,2010-04-01,1.0,Malawi,Southern,Chiradzulu
 136,2010-04-01,1.0,Malawi,Northern,Chitipa
 137,2010-04-01,1.0,Malawi,Central,Dedza
@@ -117,7 +117,7 @@
 171,2010-04-01,2.0,Malawi,Southern,Neno
 151,2010-04-01,1.0,Malawi,Northern,Nkhata Bay
 152,2010-04-01,1.0,Malawi,Central,Nkhotakota
-2231,2010-04-01,3.0,Malawi,Southern,Nsanje
+2136,2010-04-01,3.0,Malawi,Southern,Nsanje
 154,2010-04-01,1.0,Malawi,Central,Ntcheu
 155,2010-04-01,1.0,Malawi,Central,Ntchisi
 156,2010-04-01,1.0,Malawi,Southern,Phalombe
@@ -126,7 +126,7 @@
 159,2010-04-01,1.0,Malawi,Southern,Thyolo
 160,2010-04-01,1.0,Malawi,Southern,Zomba
 161,2010-04-01,1.0,Malawi,Southern,Zomba City
-3320,2010-04-01,,Malawi,Northern,Likoma
+3206,2010-04-01,,Malawi,Northern,Likoma
 226,2010-07-01,3.0,Malawi,Southern,Balaka
 209,2010-07-01,2.0,Malawi,Southern,Blantyre
 210,2010-07-01,2.0,Malawi,Southern,Blantyre City
@@ -158,7 +158,7 @@
 205,2010-07-01,1.0,Malawi,Southern,Thyolo
 206,2010-07-01,1.0,Malawi,Southern,Zomba
 207,2010-07-01,1.0,Malawi,Southern,Zomba City
-3321,2010-07-01,,Malawi,Northern,Likoma
+3207,2010-07-01,,Malawi,Northern,Likoma
 271,2010-10-01,2.0,Malawi,Southern,Balaka
 272,2010-10-01,2.0,Malawi,Southern,Blantyre
 273,2010-10-01,2.0,Malawi,Southern,Blantyre City
@@ -190,7 +190,7 @@
 285,2010-10-01,2.0,Malawi,Southern,Thyolo
 269,2010-10-01,1.0,Malawi,Southern,Zomba
 270,2010-10-01,1.0,Malawi,Southern,Zomba City
-3322,2010-10-01,,Malawi,Northern,Likoma
+3208,2010-10-01,,Malawi,Northern,Likoma
 319,2011-01-01,2.0,Malawi,Southern,Balaka
 320,2011-01-01,2.0,Malawi,Southern,Blantyre
 321,2011-01-01,2.0,Malawi,Southern,Blantyre City
@@ -222,7 +222,7 @@
 332,2011-01-01,2.0,Malawi,Southern,Thyolo
 317,2011-01-01,1.0,Malawi,Southern,Zomba
 318,2011-01-01,1.0,Malawi,Southern,Zomba City
-3323,2011-01-01,,Malawi,Northern,Likoma
+3209,2011-01-01,,Malawi,Northern,Likoma
 365,2011-04-01,2.0,Malawi,Southern,Balaka
 366,2011-04-01,2.0,Malawi,Southern,Blantyre
 337,2011-04-01,1.0,Malawi,Southern,Blantyre City
@@ -231,7 +231,7 @@
 340,2011-04-01,1.0,Malawi,Northern,Chitipa
 341,2011-04-01,1.0,Malawi,Central,Dedza
 342,2011-04-01,1.0,Malawi,Central,Dowa
-3172,2011-04-01,3.0,Malawi,Northern,Karonga
+3058,2011-04-01,3.0,Malawi,Northern,Karonga
 344,2011-04-01,1.0,Malawi,Central,Kasungu
 345,2011-04-01,1.0,Malawi,Central,Lilongwe
 346,2011-04-01,1.0,Malawi,Central,Lilongwe City
@@ -254,7 +254,7 @@
 362,2011-04-01,1.0,Malawi,Southern,Thyolo
 363,2011-04-01,1.0,Malawi,Southern,Zomba
 364,2011-04-01,1.0,Malawi,Southern,Zomba City
-3324,2011-04-01,,Malawi,Northern,Likoma
+3210,2011-04-01,,Malawi,Northern,Likoma
 380,2011-07-01,1.0,Malawi,Southern,Balaka
 381,2011-07-01,1.0,Malawi,Southern,Blantyre
 382,2011-07-01,1.0,Malawi,Southern,Blantyre City
@@ -286,7 +286,7 @@
 408,2011-07-01,1.0,Malawi,Southern,Thyolo
 409,2011-07-01,1.0,Malawi,Southern,Zomba
 410,2011-07-01,1.0,Malawi,Southern,Zomba City
-3325,2011-07-01,,Malawi,Northern,Likoma
+3211,2011-07-01,,Malawi,Northern,Likoma
 441,2011-10-01,2.0,Malawi,Southern,Balaka
 442,2011-10-01,2.0,Malawi,Southern,Blantyre
 443,2011-10-01,2.0,Malawi,Southern,Blantyre City
@@ -318,7 +318,7 @@
 438,2011-10-01,1.0,Malawi,Southern,Thyolo
 439,2011-10-01,1.0,Malawi,Southern,Zomba
 440,2011-10-01,1.0,Malawi,Southern,Zomba City
-3326,2011-10-01,,Malawi,Northern,Likoma
+3212,2011-10-01,,Malawi,Northern,Likoma
 488,2012-01-01,2.0,Malawi,Southern,Balaka
 489,2012-01-01,2.0,Malawi,Southern,Blantyre
 490,2012-01-01,2.0,Malawi,Southern,Blantyre City
@@ -350,7 +350,7 @@
 485,2012-01-01,1.0,Malawi,Southern,Thyolo
 486,2012-01-01,1.0,Malawi,Southern,Zomba
 487,2012-01-01,1.0,Malawi,Southern,Zomba City
-3327,2012-01-01,,Malawi,Northern,Likoma
+3213,2012-01-01,,Malawi,Northern,Likoma
 535,2012-04-01,2.0,Malawi,Southern,Balaka
 536,2012-04-01,2.0,Malawi,Southern,Blantyre
 537,2012-04-01,2.0,Malawi,Southern,Blantyre City
@@ -382,12 +382,12 @@
 549,2012-04-01,2.0,Malawi,Southern,Thyolo
 550,2012-04-01,2.0,Malawi,Southern,Zomba
 534,2012-04-01,1.0,Malawi,Southern,Zomba City
-3328,2012-04-01,,Malawi,Northern,Likoma
+3214,2012-04-01,,Malawi,Northern,Likoma
 572,2012-10-01,2.0,Malawi,Southern,Balaka
 573,2012-10-01,2.0,Malawi,Southern,Blantyre
-2234,2012-10-01,3.0,Malawi,Southern,Blantyre City
+2139,2012-10-01,3.0,Malawi,Southern,Blantyre City
 574,2012-10-01,2.0,Malawi,Southern,Chikwawa
-2236,2012-10-01,3.0,Malawi,Southern,Chiradzulu
+2141,2012-10-01,3.0,Malawi,Southern,Chiradzulu
 553,2012-10-01,1.0,Malawi,Northern,Chitipa
 554,2012-10-01,1.0,Malawi,Central,Dedza
 555,2012-10-01,1.0,Malawi,Central,Dowa
@@ -395,7 +395,7 @@
 557,2012-10-01,1.0,Malawi,Central,Kasungu
 559,2012-10-01,1.0,Malawi,Central,Lilongwe
 560,2012-10-01,1.0,Malawi,Central,Lilongwe City
-3158,2012-10-01,2.0,Malawi,Southern,Machinga
+3044,2012-10-01,2.0,Malawi,Southern,Machinga
 561,2012-10-01,1.0,Malawi,Southern,Mangochi
 562,2012-10-01,1.0,Malawi,Central,Mchinji
 581,2012-10-01,2.0,Malawi,Southern,Mulanje
@@ -411,14 +411,14 @@
 588,2012-10-01,2.0,Malawi,Southern,Phalombe
 570,2012-10-01,1.0,Malawi,Northern,Rumphi
 589,2012-10-01,2.0,Malawi,Central,Salima
-2240,2012-10-01,3.0,Malawi,Southern,Thyolo
+2145,2012-10-01,3.0,Malawi,Southern,Thyolo
 591,2012-10-01,2.0,Malawi,Southern,Zomba
 592,2012-10-01,2.0,Malawi,Southern,Zomba City
 558,2012-10-01,1.0,Malawi,Northern,Likoma
 621,2013-01-01,2.0,Malawi,Southern,Balaka
 622,2013-01-01,2.0,Malawi,Southern,Blantyre
 623,2013-01-01,2.0,Malawi,Southern,Blantyre City
-2267,2013-01-01,3.0,Malawi,Southern,Chikwawa
+2172,2013-01-01,3.0,Malawi,Southern,Chikwawa
 625,2013-01-01,2.0,Malawi,Southern,Chiradzulu
 595,2013-01-01,1.0,Malawi,Northern,Chitipa
 596,2013-01-01,1.0,Malawi,Central,Dedza
@@ -510,7 +510,7 @@
 703,2013-07-01,1.0,Malawi,Southern,Thyolo
 733,2013-07-01,2.0,Malawi,Southern,Zomba
 705,2013-07-01,1.0,Malawi,Southern,Zomba City
-3329,2013-07-01,,Malawi,Northern,Likoma
+3215,2013-07-01,,Malawi,Northern,Likoma
 789,2013-10-01,2.0,Malawi,Southern,Balaka
 763,2013-10-01,1.0,Malawi,Southern,Blantyre
 737,2013-10-01,1.0,Malawi,Southern,Blantyre City
@@ -545,36 +545,36 @@
 745,2013-10-01,1.0,Malawi,Northern,Likoma
 818,2014-01-01,2.0,Malawi,Southern,Balaka
 819,2014-01-01,2.0,Malawi,Southern,Blantyre
-2353,2014-01-01,1.0,Malawi,Southern,Blantyre City
+2258,2014-01-01,1.0,Malawi,Southern,Blantyre City
 821,2014-01-01,2.0,Malawi,Southern,Chikwawa
-2355,2014-01-01,1.0,Malawi,Southern,Chiradzulu
-2356,2014-01-01,1.0,Malawi,Northern,Chitipa
-3263,2014-01-01,3.0,Malawi,Central,Dedza
+2260,2014-01-01,1.0,Malawi,Southern,Chiradzulu
+2261,2014-01-01,1.0,Malawi,Northern,Chitipa
+3149,2014-01-01,3.0,Malawi,Central,Dedza
 825,2014-01-01,2.0,Malawi,Central,Dowa
 826,2014-01-01,2.0,Malawi,Northern,Karonga
 827,2014-01-01,2.0,Malawi,Central,Kasungu
-2362,2014-01-01,1.0,Malawi,Central,Lilongwe
-2363,2014-01-01,1.0,Malawi,Central,Lilongwe City
+2267,2014-01-01,1.0,Malawi,Central,Lilongwe
+2268,2014-01-01,1.0,Malawi,Central,Lilongwe City
 830,2014-01-01,2.0,Malawi,Southern,Machinga
 831,2014-01-01,2.0,Malawi,Southern,Mangochi
-2366,2014-01-01,1.0,Malawi,Central,Mchinji
+2271,2014-01-01,1.0,Malawi,Central,Mchinji
 833,2014-01-01,2.0,Malawi,Southern,Mulanje
 834,2014-01-01,2.0,Malawi,Southern,Mwanza
 835,2014-01-01,2.0,Malawi,Northern,Mzimba
 836,2014-01-01,2.0,Malawi,Northern,Mzuzu City
 837,2014-01-01,2.0,Malawi,Southern,Neno
-2370,2014-01-01,1.0,Malawi,Northern,Nkhata Bay
-2371,2014-01-01,1.0,Malawi,Central,Nkhotakota
+2275,2014-01-01,1.0,Malawi,Northern,Nkhata Bay
+2276,2014-01-01,1.0,Malawi,Central,Nkhotakota
 840,2014-01-01,2.0,Malawi,Southern,Nsanje
 841,2014-01-01,2.0,Malawi,Central,Ntcheu
 842,2014-01-01,2.0,Malawi,Central,Ntchisi
 843,2014-01-01,2.0,Malawi,Southern,Phalombe
-2396,2014-01-01,1.0,Malawi,Northern,Rumphi
+2301,2014-01-01,1.0,Malawi,Northern,Rumphi
 845,2014-01-01,2.0,Malawi,Central,Salima
 846,2014-01-01,2.0,Malawi,Southern,Thyolo
 847,2014-01-01,2.0,Malawi,Southern,Zomba
 848,2014-01-01,2.0,Malawi,Southern,Zomba City
-2361,2014-01-01,1.0,Malawi,Northern,Likoma
+2266,2014-01-01,1.0,Malawi,Northern,Likoma
 849,2014-04-01,1.0,Malawi,Southern,Balaka
 850,2014-04-01,1.0,Malawi,Southern,Blantyre
 851,2014-04-01,1.0,Malawi,Southern,Blantyre City
@@ -674,7 +674,7 @@
 1030,2015-01-01,2.0,Malawi,Southern,Balaka
 1004,2015-01-01,1.0,Malawi,Southern,Blantyre
 973,2015-01-01,1.0,Malawi,Southern,Blantyre City
-2455,2015-01-01,3.0,Malawi,Southern,Chikwawa
+2360,2015-01-01,3.0,Malawi,Southern,Chikwawa
 975,2015-01-01,1.0,Malawi,Southern,Chiradzulu
 976,2015-01-01,1.0,Malawi,Northern,Chitipa
 977,2015-01-01,1.0,Malawi,Central,Dedza
@@ -693,10 +693,10 @@
 1010,2015-01-01,1.0,Malawi,Southern,Neno
 992,2015-01-01,1.0,Malawi,Northern,Nkhata Bay
 993,2015-01-01,1.0,Malawi,Central,Nkhotakota
-2458,2015-01-01,3.0,Malawi,Southern,Nsanje
+2363,2015-01-01,3.0,Malawi,Southern,Nsanje
 995,2015-01-01,1.0,Malawi,Central,Ntcheu
 996,2015-01-01,1.0,Malawi,Central,Ntchisi
-2459,2015-01-01,3.0,Malawi,Southern,Phalombe
+2364,2015-01-01,3.0,Malawi,Southern,Phalombe
 998,2015-01-01,1.0,Malawi,Northern,Rumphi
 1027,2015-01-01,2.0,Malawi,Central,Salima
 1000,2015-01-01,1.0,Malawi,Southern,Thyolo
@@ -704,7 +704,7 @@
 1002,2015-01-01,1.0,Malawi,Southern,Zomba City
 981,2015-01-01,1.0,Malawi,Northern,Likoma
 1074,2015-04-01,2.0,Malawi,Southern,Balaka
-2481,2015-04-01,1.0,Malawi,Southern,Blantyre
+2386,2015-04-01,1.0,Malawi,Southern,Blantyre
 1044,2015-04-01,1.0,Malawi,Southern,Blantyre City
 1076,2015-04-01,2.0,Malawi,Southern,Chikwawa
 1046,2015-04-01,1.0,Malawi,Southern,Chiradzulu
@@ -807,7 +807,7 @@
 1232,2016-02-01,1.0,Malawi,Northern,Chitipa
 1233,2016-02-01,1.0,Malawi,Central,Dedza
 1234,2016-02-01,1.0,Malawi,Central,Dowa
-2531,2016-02-01,1.0,Malawi,Northern,Karonga
+2436,2016-02-01,1.0,Malawi,Northern,Karonga
 1236,2016-02-01,1.0,Malawi,Central,Kasungu
 1237,2016-02-01,1.0,Malawi,Central,Lilongwe
 1238,2016-02-01,1.0,Malawi,Central,Lilongwe City
@@ -819,59 +819,59 @@
 1244,2016-02-01,1.0,Malawi,Northern,Mzimba
 1245,2016-02-01,1.0,Malawi,Northern,Mzuzu City
 1246,2016-02-01,1.0,Malawi,Southern,Neno
-2543,2016-02-01,1.0,Malawi,Northern,Nkhata Bay
-2544,2016-02-01,1.0,Malawi,Central,Nkhotakota
+2448,2016-02-01,1.0,Malawi,Northern,Nkhata Bay
+2449,2016-02-01,1.0,Malawi,Central,Nkhotakota
 1249,2016-02-01,1.0,Malawi,Southern,Nsanje
 1250,2016-02-01,1.0,Malawi,Central,Ntcheu
-3312,2016-02-01,2.0,Malawi,Central,Ntchisi
+3198,2016-02-01,2.0,Malawi,Central,Ntchisi
 1252,2016-02-01,1.0,Malawi,Southern,Phalombe
-2548,2016-02-01,1.0,Malawi,Northern,Rumphi
+2453,2016-02-01,1.0,Malawi,Northern,Rumphi
 1254,2016-02-01,1.0,Malawi,Central,Salima
 1255,2016-02-01,1.0,Malawi,Southern,Thyolo
 1256,2016-02-01,1.0,Malawi,Southern,Zomba
 1257,2016-02-01,1.0,Malawi,Southern,Zomba City
-2533,2016-02-01,1.0,Malawi,Northern,Likoma
+2438,2016-02-01,1.0,Malawi,Northern,Likoma
 1258,2016-06-01,3.0,Malawi,Southern,Balaka
 1259,2016-06-01,3.0,Malawi,Southern,Blantyre
-2551,2016-06-01,1.0,Malawi,Southern,Blantyre City
+2456,2016-06-01,1.0,Malawi,Southern,Blantyre City
 1261,2016-06-01,3.0,Malawi,Southern,Chikwawa
-2553,2016-06-01,1.0,Malawi,Southern,Chiradzulu
-2554,2016-06-01,1.0,Malawi,Northern,Chitipa
-2555,2016-06-01,1.0,Malawi,Central,Dedza
-2556,2016-06-01,1.0,Malawi,Central,Dowa
-2557,2016-06-01,1.0,Malawi,Northern,Karonga
-2558,2016-06-01,1.0,Malawi,Central,Kasungu
-2559,2016-06-01,1.0,Malawi,Central,Lilongwe
-2560,2016-06-01,1.0,Malawi,Central,Lilongwe City
+2458,2016-06-01,1.0,Malawi,Southern,Chiradzulu
+2459,2016-06-01,1.0,Malawi,Northern,Chitipa
+2460,2016-06-01,1.0,Malawi,Central,Dedza
+2461,2016-06-01,1.0,Malawi,Central,Dowa
+2462,2016-06-01,1.0,Malawi,Northern,Karonga
+2463,2016-06-01,1.0,Malawi,Central,Kasungu
+2464,2016-06-01,1.0,Malawi,Central,Lilongwe
+2465,2016-06-01,1.0,Malawi,Central,Lilongwe City
 1264,2016-06-01,3.0,Malawi,Southern,Machinga
 1265,2016-06-01,3.0,Malawi,Southern,Mangochi
-2563,2016-06-01,1.0,Malawi,Central,Mchinji
+2468,2016-06-01,1.0,Malawi,Central,Mchinji
 1266,2016-06-01,3.0,Malawi,Southern,Mulanje
-3045,2016-06-01,2.0,Malawi,Southern,Mwanza
-2566,2016-06-01,1.0,Malawi,Northern,Mzimba
-2567,2016-06-01,1.0,Malawi,Northern,Mzuzu City
+2931,2016-06-01,2.0,Malawi,Southern,Mwanza
+2471,2016-06-01,1.0,Malawi,Northern,Mzimba
+2472,2016-06-01,1.0,Malawi,Northern,Mzuzu City
 1268,2016-06-01,3.0,Malawi,Southern,Neno
-2569,2016-06-01,1.0,Malawi,Northern,Nkhata Bay
-2570,2016-06-01,1.0,Malawi,Central,Nkhotakota
+2474,2016-06-01,1.0,Malawi,Northern,Nkhata Bay
+2475,2016-06-01,1.0,Malawi,Central,Nkhotakota
 1269,2016-06-01,3.0,Malawi,Southern,Nsanje
 1270,2016-06-01,3.0,Malawi,Central,Ntcheu
-2572,2016-06-01,1.0,Malawi,Central,Ntchisi
-2573,2016-06-01,1.0,Malawi,Southern,Phalombe
-2574,2016-06-01,1.0,Malawi,Northern,Rumphi
-3051,2016-06-01,2.0,Malawi,Central,Salima
+2477,2016-06-01,1.0,Malawi,Central,Ntchisi
+2478,2016-06-01,1.0,Malawi,Southern,Phalombe
+2479,2016-06-01,1.0,Malawi,Northern,Rumphi
+2937,2016-06-01,2.0,Malawi,Central,Salima
 1272,2016-06-01,3.0,Malawi,Southern,Thyolo
-2577,2016-06-01,1.0,Malawi,Southern,Zomba
-2578,2016-06-01,1.0,Malawi,Southern,Zomba City
-2601,2016-06-01,,Malawi,Northern,Likoma
+2482,2016-06-01,1.0,Malawi,Southern,Zomba
+2483,2016-06-01,1.0,Malawi,Southern,Zomba City
+2506,2016-06-01,,Malawi,Northern,Likoma
 1274,2016-10-01,3.0,Malawi,Southern,Balaka
 1275,2016-10-01,3.0,Malawi,Southern,Blantyre
 1276,2016-10-01,3.0,Malawi,Southern,Blantyre City
 1277,2016-10-01,3.0,Malawi,Southern,Chikwawa
 1278,2016-10-01,3.0,Malawi,Southern,Chiradzulu
-3228,2016-10-01,1.0,Malawi,Northern,Chitipa
+3114,2016-10-01,1.0,Malawi,Northern,Chitipa
 1279,2016-10-01,3.0,Malawi,Central,Dedza
 1280,2016-10-01,3.0,Malawi,Central,Dowa
-3229,2016-10-01,1.0,Malawi,Northern,Karonga
+3115,2016-10-01,1.0,Malawi,Northern,Karonga
 1281,2016-10-01,3.0,Malawi,Central,Kasungu
 1282,2016-10-01,3.0,Malawi,Central,Lilongwe
 1283,2016-10-01,3.0,Malawi,Central,Lilongwe City
@@ -880,30 +880,30 @@
 1286,2016-10-01,3.0,Malawi,Central,Mchinji
 1287,2016-10-01,3.0,Malawi,Southern,Mulanje
 1288,2016-10-01,3.0,Malawi,Southern,Mwanza
-3232,2016-10-01,1.0,Malawi,Northern,Mzimba
-3233,2016-10-01,1.0,Malawi,Northern,Mzuzu City
+3118,2016-10-01,1.0,Malawi,Northern,Mzimba
+3119,2016-10-01,1.0,Malawi,Northern,Mzuzu City
 1290,2016-10-01,3.0,Malawi,Southern,Neno
-3234,2016-10-01,1.0,Malawi,Northern,Nkhata Bay
-3235,2016-10-01,1.0,Malawi,Central,Nkhotakota
+3120,2016-10-01,1.0,Malawi,Northern,Nkhata Bay
+3121,2016-10-01,1.0,Malawi,Central,Nkhotakota
 1292,2016-10-01,3.0,Malawi,Southern,Nsanje
 1293,2016-10-01,3.0,Malawi,Central,Ntcheu
-3317,2016-10-01,2.0,Malawi,Central,Ntchisi
+3203,2016-10-01,2.0,Malawi,Central,Ntchisi
 1295,2016-10-01,3.0,Malawi,Southern,Phalombe
-3237,2016-10-01,1.0,Malawi,Northern,Rumphi
+3123,2016-10-01,1.0,Malawi,Northern,Rumphi
 1296,2016-10-01,3.0,Malawi,Central,Salima
 1297,2016-10-01,3.0,Malawi,Southern,Thyolo
 1298,2016-10-01,3.0,Malawi,Southern,Zomba
 1299,2016-10-01,3.0,Malawi,Southern,Zomba City
-3231,2016-10-01,1.0,Malawi,Northern,Likoma
+3117,2016-10-01,1.0,Malawi,Northern,Likoma
 1328,2017-02-01,2.0,Malawi,Southern,Balaka
 1329,2017-02-01,2.0,Malawi,Southern,Blantyre
 1330,2017-02-01,2.0,Malawi,Southern,Blantyre City
 1331,2017-02-01,2.0,Malawi,Southern,Chikwawa
 1332,2017-02-01,2.0,Malawi,Southern,Chiradzulu
-3244,2017-02-01,1.0,Malawi,Northern,Chitipa
+3130,2017-02-01,1.0,Malawi,Northern,Chitipa
 1333,2017-02-01,2.0,Malawi,Central,Dedza
 1334,2017-02-01,2.0,Malawi,Central,Dowa
-3245,2017-02-01,1.0,Malawi,Northern,Karonga
+3131,2017-02-01,1.0,Malawi,Northern,Karonga
 1335,2017-02-01,2.0,Malawi,Central,Kasungu
 1336,2017-02-01,2.0,Malawi,Central,Lilongwe
 1337,2017-02-01,2.0,Malawi,Central,Lilongwe City
@@ -912,21 +912,21 @@
 1340,2017-02-01,2.0,Malawi,Central,Mchinji
 1341,2017-02-01,2.0,Malawi,Southern,Mulanje
 1342,2017-02-01,2.0,Malawi,Southern,Mwanza
-3248,2017-02-01,1.0,Malawi,Northern,Mzimba
-3249,2017-02-01,1.0,Malawi,Northern,Mzuzu City
+3134,2017-02-01,1.0,Malawi,Northern,Mzimba
+3135,2017-02-01,1.0,Malawi,Northern,Mzuzu City
 1344,2017-02-01,2.0,Malawi,Southern,Neno
-3250,2017-02-01,1.0,Malawi,Northern,Nkhata Bay
-3251,2017-02-01,1.0,Malawi,Central,Nkhotakota
+3136,2017-02-01,1.0,Malawi,Northern,Nkhata Bay
+3137,2017-02-01,1.0,Malawi,Central,Nkhotakota
 1346,2017-02-01,2.0,Malawi,Southern,Nsanje
 1347,2017-02-01,2.0,Malawi,Central,Ntcheu
 1348,2017-02-01,2.0,Malawi,Central,Ntchisi
 1349,2017-02-01,2.0,Malawi,Southern,Phalombe
-3253,2017-02-01,1.0,Malawi,Northern,Rumphi
+3139,2017-02-01,1.0,Malawi,Northern,Rumphi
 1350,2017-02-01,2.0,Malawi,Central,Salima
 1351,2017-02-01,2.0,Malawi,Southern,Thyolo
 1352,2017-02-01,2.0,Malawi,Southern,Zomba
 1353,2017-02-01,2.0,Malawi,Southern,Zomba City
-3247,2017-02-01,1.0,Malawi,Northern,Likoma
+3133,2017-02-01,1.0,Malawi,Northern,Likoma
 1382,2017-06-01,1.0,Malawi,Southern,Balaka
 1383,2017-06-01,1.0,Malawi,Southern,Blantyre
 1384,2017-06-01,1.0,Malawi,Southern,Blantyre City
@@ -935,7 +935,7 @@
 1387,2017-06-01,1.0,Malawi,Northern,Chitipa
 1388,2017-06-01,1.0,Malawi,Central,Dedza
 1389,2017-06-01,1.0,Malawi,Central,Dowa
-3067,2017-06-01,2.0,Malawi,Northern,Karonga
+2953,2017-06-01,2.0,Malawi,Northern,Karonga
 1391,2017-06-01,1.0,Malawi,Central,Kasungu
 1393,2017-06-01,1.0,Malawi,Central,Lilongwe
 1394,2017-06-01,1.0,Malawi,Central,Lilongwe City
@@ -949,7 +949,7 @@
 1402,2017-06-01,1.0,Malawi,Southern,Neno
 1403,2017-06-01,1.0,Malawi,Northern,Nkhata Bay
 1404,2017-06-01,1.0,Malawi,Central,Nkhotakota
-3068,2017-06-01,2.0,Malawi,Southern,Nsanje
+2954,2017-06-01,2.0,Malawi,Southern,Nsanje
 1406,2017-06-01,1.0,Malawi,Central,Ntcheu
 1407,2017-06-01,1.0,Malawi,Central,Ntchisi
 1408,2017-06-01,1.0,Malawi,Southern,Phalombe
@@ -995,7 +995,7 @@
 1514,2018-02-01,1.0,Malawi,Southern,Blantyre
 1515,2018-02-01,1.0,Malawi,Southern,Blantyre City
 1516,2018-02-01,1.0,Malawi,Southern,Chikwawa
-2683,2018-02-01,1.0,Malawi,Southern,Chiradzulu
+2588,2018-02-01,1.0,Malawi,Southern,Chiradzulu
 1518,2018-02-01,1.0,Malawi,Northern,Chitipa
 1519,2018-02-01,1.0,Malawi,Central,Dedza
 1520,2018-02-01,1.0,Malawi,Central,Dowa
@@ -1013,7 +1013,7 @@
 1533,2018-02-01,1.0,Malawi,Southern,Neno
 1534,2018-02-01,1.0,Malawi,Northern,Nkhata Bay
 1535,2018-02-01,1.0,Malawi,Central,Nkhotakota
-2685,2018-02-01,1.0,Malawi,Southern,Nsanje
+2590,2018-02-01,1.0,Malawi,Southern,Nsanje
 1537,2018-02-01,1.0,Malawi,Central,Ntcheu
 1538,2018-02-01,1.0,Malawi,Central,Ntchisi
 1539,2018-02-01,1.0,Malawi,Southern,Phalombe
@@ -1055,259 +1055,227 @@
 1603,2018-06-01,1.0,Malawi,Southern,Zomba
 1604,2018-06-01,1.0,Malawi,Southern,Zomba City
 1583,2018-06-01,1.0,Malawi,Northern,Likoma
-1682,2018-10-01,3.0,Malawi,Southern,Balaka
-1683,2018-10-01,3.0,Malawi,Southern,Blantyre
-1661,2018-10-01,2.0,Malawi,Southern,Blantyre City
-1684,2018-10-01,3.0,Malawi,Southern,Chikwawa
-1663,2018-10-01,2.0,Malawi,Southern,Chiradzulu
-1635,2018-10-01,1.0,Malawi,Northern,Chitipa
-1636,2018-10-01,1.0,Malawi,Central,Dedza
-1665,2018-10-01,2.0,Malawi,Central,Dowa
-1637,2018-10-01,1.0,Malawi,Northern,Karonga
-1666,2018-10-01,2.0,Malawi,Central,Kasungu
-1667,2018-10-01,2.0,Malawi,Central,Lilongwe
-1668,2018-10-01,2.0,Malawi,Central,Lilongwe City
-1687,2018-10-01,3.0,Malawi,Southern,Machinga
-1670,2018-10-01,2.0,Malawi,Southern,Mangochi
-1671,2018-10-01,2.0,Malawi,Central,Mchinji
-1689,2018-10-01,3.0,Malawi,Southern,Mulanje
-1645,2018-10-01,1.0,Malawi,Southern,Mwanza
-1646,2018-10-01,1.0,Malawi,Northern,Mzimba
-1647,2018-10-01,1.0,Malawi,Northern,Mzuzu City
-1691,2018-10-01,3.0,Malawi,Southern,Neno
-1649,2018-10-01,1.0,Malawi,Northern,Nkhata Bay
-1650,2018-10-01,1.0,Malawi,Central,Nkhotakota
-1693,2018-10-01,3.0,Malawi,Southern,Nsanje
-1652,2018-10-01,1.0,Malawi,Central,Ntcheu
-1677,2018-10-01,2.0,Malawi,Central,Ntchisi
-1695,2018-10-01,3.0,Malawi,Southern,Phalombe
-1655,2018-10-01,1.0,Malawi,Northern,Rumphi
-1678,2018-10-01,2.0,Malawi,Central,Salima
-1679,2018-10-01,2.0,Malawi,Southern,Thyolo
-1698,2018-10-01,3.0,Malawi,Southern,Zomba
-1681,2018-10-01,2.0,Malawi,Southern,Zomba City
-1639,2018-10-01,1.0,Malawi,Northern,Likoma
-1756,2018-12-01,3.0,Malawi,Southern,Balaka
-1757,2018-12-01,3.0,Malawi,Southern,Blantyre
-1758,2018-12-01,3.0,Malawi,Southern,Blantyre City
-1759,2018-12-01,3.0,Malawi,Southern,Chikwawa
-1760,2018-12-01,3.0,Malawi,Southern,Chiradzulu
-3075,2018-12-01,1.0,Malawi,Northern,Chitipa
-1733,2018-12-01,2.0,Malawi,Central,Dedza
-1734,2018-12-01,2.0,Malawi,Central,Dowa
-1735,2018-12-01,2.0,Malawi,Northern,Karonga
-1736,2018-12-01,2.0,Malawi,Central,Kasungu
-1737,2018-12-01,2.0,Malawi,Central,Lilongwe
-1738,2018-12-01,2.0,Malawi,Central,Lilongwe City
-1764,2018-12-01,3.0,Malawi,Southern,Machinga
-1765,2018-12-01,3.0,Malawi,Southern,Mangochi
-1741,2018-12-01,2.0,Malawi,Central,Mchinji
-1766,2018-12-01,3.0,Malawi,Southern,Mulanje
-3084,2018-12-01,1.0,Malawi,Southern,Mwanza
-1743,2018-12-01,2.0,Malawi,Northern,Mzimba
-1744,2018-12-01,2.0,Malawi,Northern,Mzuzu City
-1768,2018-12-01,3.0,Malawi,Southern,Neno
-3088,2018-12-01,1.0,Malawi,Northern,Nkhata Bay
-1747,2018-12-01,2.0,Malawi,Central,Nkhotakota
-1770,2018-12-01,3.0,Malawi,Southern,Nsanje
-1749,2018-12-01,2.0,Malawi,Central,Ntcheu
-1750,2018-12-01,2.0,Malawi,Central,Ntchisi
-1773,2018-12-01,3.0,Malawi,Southern,Phalombe
-3093,2018-12-01,1.0,Malawi,Northern,Rumphi
-1774,2018-12-01,3.0,Malawi,Central,Salima
-1753,2018-12-01,2.0,Malawi,Southern,Thyolo
-1776,2018-12-01,3.0,Malawi,Southern,Zomba
-1755,2018-12-01,2.0,Malawi,Southern,Zomba City
-3078,2018-12-01,1.0,Malawi,Northern,Likoma
-1832,2019-02-01,2.0,Malawi,Southern,Balaka
-1833,2019-02-01,2.0,Malawi,Southern,Blantyre
-1834,2019-02-01,2.0,Malawi,Southern,Blantyre City
-1835,2019-02-01,2.0,Malawi,Southern,Chikwawa
-1836,2019-02-01,2.0,Malawi,Southern,Chiradzulu
-3100,2019-02-01,1.0,Malawi,Northern,Chitipa
-1810,2019-02-01,1.0,Malawi,Central,Dedza
-1811,2019-02-01,1.0,Malawi,Central,Dowa
-3124,2019-02-01,2.0,Malawi,Northern,Karonga
-1812,2019-02-01,1.0,Malawi,Central,Kasungu
-1813,2019-02-01,1.0,Malawi,Central,Lilongwe
-1814,2019-02-01,1.0,Malawi,Central,Lilongwe City
-1840,2019-02-01,2.0,Malawi,Southern,Machinga
-1841,2019-02-01,2.0,Malawi,Southern,Mangochi
-1817,2019-02-01,1.0,Malawi,Central,Mchinji
-1842,2019-02-01,2.0,Malawi,Southern,Mulanje
-3109,2019-02-01,1.0,Malawi,Southern,Mwanza
-1819,2019-02-01,1.0,Malawi,Northern,Mzimba
-1820,2019-02-01,1.0,Malawi,Northern,Mzuzu City
-1844,2019-02-01,2.0,Malawi,Southern,Neno
-3113,2019-02-01,1.0,Malawi,Northern,Nkhata Bay
-1823,2019-02-01,1.0,Malawi,Central,Nkhotakota
-1846,2019-02-01,2.0,Malawi,Southern,Nsanje
-1825,2019-02-01,1.0,Malawi,Central,Ntcheu
-1826,2019-02-01,1.0,Malawi,Central,Ntchisi
-1849,2019-02-01,2.0,Malawi,Southern,Phalombe
-3118,2019-02-01,1.0,Malawi,Northern,Rumphi
-1850,2019-02-01,2.0,Malawi,Central,Salima
-1829,2019-02-01,1.0,Malawi,Southern,Thyolo
-1852,2019-02-01,2.0,Malawi,Southern,Zomba
-1831,2019-02-01,1.0,Malawi,Southern,Zomba City
-3103,2019-02-01,1.0,Malawi,Northern,Likoma
-1914,2019-06-01,2.0,Malawi,Southern,Balaka
-1915,2019-06-01,2.0,Malawi,Southern,Blantyre
-1884,2019-06-01,1.0,Malawi,Southern,Blantyre City
-1916,2019-06-01,2.0,Malawi,Southern,Chikwawa
-1886,2019-06-01,1.0,Malawi,Southern,Chiradzulu
-1887,2019-06-01,1.0,Malawi,Northern,Chitipa
-1888,2019-06-01,1.0,Malawi,Central,Dedza
-1889,2019-06-01,1.0,Malawi,Central,Dowa
-1920,2019-06-01,2.0,Malawi,Northern,Karonga
-1891,2019-06-01,1.0,Malawi,Central,Kasungu
-1893,2019-06-01,1.0,Malawi,Central,Lilongwe
-1894,2019-06-01,1.0,Malawi,Central,Lilongwe City
-1921,2019-06-01,2.0,Malawi,Southern,Machinga
-1896,2019-06-01,1.0,Malawi,Southern,Mangochi
-1897,2019-06-01,1.0,Malawi,Central,Mchinji
-1898,2019-06-01,1.0,Malawi,Southern,Mulanje
-1899,2019-06-01,1.0,Malawi,Southern,Mwanza
-1900,2019-06-01,1.0,Malawi,Northern,Mzimba
-1901,2019-06-01,1.0,Malawi,Northern,Mzuzu City
-1925,2019-06-01,2.0,Malawi,Southern,Neno
-1903,2019-06-01,1.0,Malawi,Northern,Nkhata Bay
-1904,2019-06-01,1.0,Malawi,Central,Nkhotakota
-1926,2019-06-01,2.0,Malawi,Southern,Nsanje
-1906,2019-06-01,1.0,Malawi,Central,Ntcheu
-1907,2019-06-01,1.0,Malawi,Central,Ntchisi
-1928,2019-06-01,2.0,Malawi,Southern,Phalombe
-1909,2019-06-01,1.0,Malawi,Northern,Rumphi
-1910,2019-06-01,1.0,Malawi,Central,Salima
-1911,2019-06-01,1.0,Malawi,Southern,Thyolo
-1931,2019-06-01,2.0,Malawi,Southern,Zomba
-1913,2019-06-01,1.0,Malawi,Southern,Zomba City
-1892,2019-06-01,1.0,Malawi,Northern,Likoma
-1993,2019-10-01,3.0,Malawi,Southern,Balaka
-1994,2019-10-01,3.0,Malawi,Southern,Blantyre
-1963,2019-10-01,1.0,Malawi,Southern,Blantyre City
-1995,2019-10-01,3.0,Malawi,Southern,Chikwawa
-1965,2019-10-01,1.0,Malawi,Southern,Chiradzulu
-1966,2019-10-01,1.0,Malawi,Northern,Chitipa
-1967,2019-10-01,1.0,Malawi,Central,Dedza
-1968,2019-10-01,1.0,Malawi,Central,Dowa
-1998,2019-10-01,3.0,Malawi,Northern,Karonga
-1970,2019-10-01,1.0,Malawi,Central,Kasungu
-1972,2019-10-01,1.0,Malawi,Central,Lilongwe
-1973,2019-10-01,1.0,Malawi,Central,Lilongwe City
-1999,2019-10-01,3.0,Malawi,Southern,Machinga
-1975,2019-10-01,1.0,Malawi,Southern,Mangochi
-1976,2019-10-01,1.0,Malawi,Central,Mchinji
-1977,2019-10-01,1.0,Malawi,Southern,Mulanje
-1978,2019-10-01,1.0,Malawi,Southern,Mwanza
-1979,2019-10-01,1.0,Malawi,Northern,Mzimba
-1980,2019-10-01,1.0,Malawi,Northern,Mzuzu City
-1981,2019-10-01,1.0,Malawi,Southern,Neno
-1982,2019-10-01,1.0,Malawi,Northern,Nkhata Bay
-1983,2019-10-01,1.0,Malawi,Central,Nkhotakota
-2004,2019-10-01,3.0,Malawi,Southern,Nsanje
-1985,2019-10-01,1.0,Malawi,Central,Ntcheu
-1986,2019-10-01,1.0,Malawi,Central,Ntchisi
-2006,2019-10-01,3.0,Malawi,Southern,Phalombe
-1988,2019-10-01,1.0,Malawi,Northern,Rumphi
-1989,2019-10-01,1.0,Malawi,Central,Salima
-1990,2019-10-01,1.0,Malawi,Southern,Thyolo
-2009,2019-10-01,3.0,Malawi,Southern,Zomba
-1992,2019-10-01,1.0,Malawi,Southern,Zomba City
-1971,2019-10-01,1.0,Malawi,Northern,Likoma
-2071,2020-02-01,2.0,Malawi,Southern,Balaka
-2072,2020-02-01,2.0,Malawi,Southern,Blantyre
-2041,2020-02-01,1.0,Malawi,Southern,Blantyre City
-2073,2020-02-01,2.0,Malawi,Southern,Chikwawa
-2043,2020-02-01,1.0,Malawi,Southern,Chiradzulu
-2044,2020-02-01,1.0,Malawi,Northern,Chitipa
-2045,2020-02-01,1.0,Malawi,Central,Dedza
-2046,2020-02-01,1.0,Malawi,Central,Dowa
-2076,2020-02-01,2.0,Malawi,Northern,Karonga
-2048,2020-02-01,1.0,Malawi,Central,Kasungu
-2050,2020-02-01,1.0,Malawi,Central,Lilongwe
-2051,2020-02-01,1.0,Malawi,Central,Lilongwe City
-2077,2020-02-01,2.0,Malawi,Southern,Machinga
-2053,2020-02-01,1.0,Malawi,Southern,Mangochi
-2054,2020-02-01,1.0,Malawi,Central,Mchinji
-2055,2020-02-01,1.0,Malawi,Southern,Mulanje
-2056,2020-02-01,1.0,Malawi,Southern,Mwanza
-2057,2020-02-01,1.0,Malawi,Northern,Mzimba
-2058,2020-02-01,1.0,Malawi,Northern,Mzuzu City
-2059,2020-02-01,1.0,Malawi,Southern,Neno
-2060,2020-02-01,1.0,Malawi,Northern,Nkhata Bay
-2061,2020-02-01,1.0,Malawi,Central,Nkhotakota
-2082,2020-02-01,2.0,Malawi,Southern,Nsanje
-2063,2020-02-01,1.0,Malawi,Central,Ntcheu
-2064,2020-02-01,1.0,Malawi,Central,Ntchisi
-2084,2020-02-01,2.0,Malawi,Southern,Phalombe
-2066,2020-02-01,1.0,Malawi,Northern,Rumphi
-2067,2020-02-01,1.0,Malawi,Central,Salima
-2068,2020-02-01,1.0,Malawi,Southern,Thyolo
-2087,2020-02-01,2.0,Malawi,Southern,Zomba
-2070,2020-02-01,1.0,Malawi,Southern,Zomba City
-2049,2020-02-01,1.0,Malawi,Northern,Likoma
-2117,2020-06-01,1.0,Malawi,Southern,Balaka
-2118,2020-06-01,1.0,Malawi,Southern,Blantyre
-2841,2020-06-01,3.0,Malawi,Southern,Blantyre City
-2120,2020-06-01,1.0,Malawi,Southern,Chikwawa
-2121,2020-06-01,1.0,Malawi,Southern,Chiradzulu
-2122,2020-06-01,1.0,Malawi,Northern,Chitipa
-2123,2020-06-01,1.0,Malawi,Central,Dedza
-2124,2020-06-01,1.0,Malawi,Central,Dowa
-2125,2020-06-01,1.0,Malawi,Northern,Karonga
-2126,2020-06-01,1.0,Malawi,Central,Kasungu
-2128,2020-06-01,1.0,Malawi,Central,Lilongwe
-2844,2020-06-01,3.0,Malawi,Central,Lilongwe City
-2130,2020-06-01,1.0,Malawi,Southern,Machinga
-2131,2020-06-01,1.0,Malawi,Southern,Mangochi
-2132,2020-06-01,1.0,Malawi,Central,Mchinji
-2133,2020-06-01,1.0,Malawi,Southern,Mulanje
-2134,2020-06-01,1.0,Malawi,Southern,Mwanza
-2135,2020-06-01,1.0,Malawi,Northern,Mzimba
-2846,2020-06-01,3.0,Malawi,Northern,Mzuzu City
-2137,2020-06-01,1.0,Malawi,Southern,Neno
-2138,2020-06-01,1.0,Malawi,Northern,Nkhata Bay
-2139,2020-06-01,1.0,Malawi,Central,Nkhotakota
-2140,2020-06-01,1.0,Malawi,Southern,Nsanje
-2141,2020-06-01,1.0,Malawi,Central,Ntcheu
-2142,2020-06-01,1.0,Malawi,Central,Ntchisi
-2143,2020-06-01,1.0,Malawi,Southern,Phalombe
-2144,2020-06-01,1.0,Malawi,Northern,Rumphi
-2145,2020-06-01,1.0,Malawi,Central,Salima
-2146,2020-06-01,1.0,Malawi,Southern,Thyolo
-2147,2020-06-01,1.0,Malawi,Southern,Zomba
-2850,2020-06-01,3.0,Malawi,Southern,Zomba City
-2127,2020-06-01,1.0,Malawi,Northern,Likoma
-2172,2020-08-01,1.0,Malawi,Southern,Balaka
-2173,2020-08-01,1.0,Malawi,Southern,Blantyre
-2871,2020-08-01,3.0,Malawi,Southern,Blantyre City
-2175,2020-08-01,1.0,Malawi,Southern,Chikwawa
-2176,2020-08-01,1.0,Malawi,Southern,Chiradzulu
-2177,2020-08-01,1.0,Malawi,Northern,Chitipa
-2178,2020-08-01,1.0,Malawi,Central,Dedza
-2179,2020-08-01,1.0,Malawi,Central,Dowa
-2180,2020-08-01,1.0,Malawi,Northern,Karonga
-2181,2020-08-01,1.0,Malawi,Central,Kasungu
-2183,2020-08-01,1.0,Malawi,Central,Lilongwe
-2874,2020-08-01,3.0,Malawi,Central,Lilongwe City
-2185,2020-08-01,1.0,Malawi,Southern,Machinga
-2186,2020-08-01,1.0,Malawi,Southern,Mangochi
-2187,2020-08-01,1.0,Malawi,Central,Mchinji
-2188,2020-08-01,1.0,Malawi,Southern,Mulanje
-2189,2020-08-01,1.0,Malawi,Southern,Mwanza
-2190,2020-08-01,1.0,Malawi,Northern,Mzimba
-2876,2020-08-01,3.0,Malawi,Northern,Mzuzu City
-2192,2020-08-01,1.0,Malawi,Southern,Neno
-2193,2020-08-01,1.0,Malawi,Northern,Nkhata Bay
-2194,2020-08-01,1.0,Malawi,Central,Nkhotakota
-2195,2020-08-01,1.0,Malawi,Southern,Nsanje
-2196,2020-08-01,1.0,Malawi,Central,Ntcheu
-2197,2020-08-01,1.0,Malawi,Central,Ntchisi
-2198,2020-08-01,1.0,Malawi,Southern,Phalombe
-2199,2020-08-01,1.0,Malawi,Northern,Rumphi
-2200,2020-08-01,1.0,Malawi,Central,Salima
-2201,2020-08-01,1.0,Malawi,Southern,Thyolo
-2202,2020-08-01,1.0,Malawi,Southern,Zomba
-2880,2020-08-01,3.0,Malawi,Southern,Zomba City
-2182,2020-08-01,1.0,Malawi,Northern,Likoma
+1661,2018-12-01,3.0,Malawi,Southern,Balaka
+1662,2018-12-01,3.0,Malawi,Southern,Blantyre
+1663,2018-12-01,3.0,Malawi,Southern,Blantyre City
+1664,2018-12-01,3.0,Malawi,Southern,Chikwawa
+1665,2018-12-01,3.0,Malawi,Southern,Chiradzulu
+2961,2018-12-01,1.0,Malawi,Northern,Chitipa
+1638,2018-12-01,2.0,Malawi,Central,Dedza
+1639,2018-12-01,2.0,Malawi,Central,Dowa
+1640,2018-12-01,2.0,Malawi,Northern,Karonga
+1641,2018-12-01,2.0,Malawi,Central,Kasungu
+1642,2018-12-01,2.0,Malawi,Central,Lilongwe
+1643,2018-12-01,2.0,Malawi,Central,Lilongwe City
+1669,2018-12-01,3.0,Malawi,Southern,Machinga
+1670,2018-12-01,3.0,Malawi,Southern,Mangochi
+1646,2018-12-01,2.0,Malawi,Central,Mchinji
+1671,2018-12-01,3.0,Malawi,Southern,Mulanje
+2970,2018-12-01,1.0,Malawi,Southern,Mwanza
+1648,2018-12-01,2.0,Malawi,Northern,Mzimba
+1649,2018-12-01,2.0,Malawi,Northern,Mzuzu City
+1673,2018-12-01,3.0,Malawi,Southern,Neno
+2974,2018-12-01,1.0,Malawi,Northern,Nkhata Bay
+1652,2018-12-01,2.0,Malawi,Central,Nkhotakota
+1675,2018-12-01,3.0,Malawi,Southern,Nsanje
+1654,2018-12-01,2.0,Malawi,Central,Ntcheu
+1655,2018-12-01,2.0,Malawi,Central,Ntchisi
+1678,2018-12-01,3.0,Malawi,Southern,Phalombe
+2979,2018-12-01,1.0,Malawi,Northern,Rumphi
+1679,2018-12-01,3.0,Malawi,Central,Salima
+1658,2018-12-01,2.0,Malawi,Southern,Thyolo
+1681,2018-12-01,3.0,Malawi,Southern,Zomba
+1660,2018-12-01,2.0,Malawi,Southern,Zomba City
+2964,2018-12-01,1.0,Malawi,Northern,Likoma
+1737,2019-02-01,2.0,Malawi,Southern,Balaka
+1738,2019-02-01,2.0,Malawi,Southern,Blantyre
+1739,2019-02-01,2.0,Malawi,Southern,Blantyre City
+1740,2019-02-01,2.0,Malawi,Southern,Chikwawa
+1741,2019-02-01,2.0,Malawi,Southern,Chiradzulu
+2986,2019-02-01,1.0,Malawi,Northern,Chitipa
+1715,2019-02-01,1.0,Malawi,Central,Dedza
+1716,2019-02-01,1.0,Malawi,Central,Dowa
+3010,2019-02-01,2.0,Malawi,Northern,Karonga
+1717,2019-02-01,1.0,Malawi,Central,Kasungu
+1718,2019-02-01,1.0,Malawi,Central,Lilongwe
+1719,2019-02-01,1.0,Malawi,Central,Lilongwe City
+1745,2019-02-01,2.0,Malawi,Southern,Machinga
+1746,2019-02-01,2.0,Malawi,Southern,Mangochi
+1722,2019-02-01,1.0,Malawi,Central,Mchinji
+1747,2019-02-01,2.0,Malawi,Southern,Mulanje
+2995,2019-02-01,1.0,Malawi,Southern,Mwanza
+1724,2019-02-01,1.0,Malawi,Northern,Mzimba
+1725,2019-02-01,1.0,Malawi,Northern,Mzuzu City
+1749,2019-02-01,2.0,Malawi,Southern,Neno
+2999,2019-02-01,1.0,Malawi,Northern,Nkhata Bay
+1728,2019-02-01,1.0,Malawi,Central,Nkhotakota
+1751,2019-02-01,2.0,Malawi,Southern,Nsanje
+1730,2019-02-01,1.0,Malawi,Central,Ntcheu
+1731,2019-02-01,1.0,Malawi,Central,Ntchisi
+1754,2019-02-01,2.0,Malawi,Southern,Phalombe
+3004,2019-02-01,1.0,Malawi,Northern,Rumphi
+1755,2019-02-01,2.0,Malawi,Central,Salima
+1734,2019-02-01,1.0,Malawi,Southern,Thyolo
+1757,2019-02-01,2.0,Malawi,Southern,Zomba
+1736,2019-02-01,1.0,Malawi,Southern,Zomba City
+2989,2019-02-01,1.0,Malawi,Northern,Likoma
+1819,2019-06-01,2.0,Malawi,Southern,Balaka
+1820,2019-06-01,2.0,Malawi,Southern,Blantyre
+1789,2019-06-01,1.0,Malawi,Southern,Blantyre City
+1821,2019-06-01,2.0,Malawi,Southern,Chikwawa
+1791,2019-06-01,1.0,Malawi,Southern,Chiradzulu
+1792,2019-06-01,1.0,Malawi,Northern,Chitipa
+1793,2019-06-01,1.0,Malawi,Central,Dedza
+1794,2019-06-01,1.0,Malawi,Central,Dowa
+1825,2019-06-01,2.0,Malawi,Northern,Karonga
+1796,2019-06-01,1.0,Malawi,Central,Kasungu
+1798,2019-06-01,1.0,Malawi,Central,Lilongwe
+1799,2019-06-01,1.0,Malawi,Central,Lilongwe City
+1826,2019-06-01,2.0,Malawi,Southern,Machinga
+1801,2019-06-01,1.0,Malawi,Southern,Mangochi
+1802,2019-06-01,1.0,Malawi,Central,Mchinji
+1803,2019-06-01,1.0,Malawi,Southern,Mulanje
+1804,2019-06-01,1.0,Malawi,Southern,Mwanza
+1805,2019-06-01,1.0,Malawi,Northern,Mzimba
+1806,2019-06-01,1.0,Malawi,Northern,Mzuzu City
+1830,2019-06-01,2.0,Malawi,Southern,Neno
+1808,2019-06-01,1.0,Malawi,Northern,Nkhata Bay
+1809,2019-06-01,1.0,Malawi,Central,Nkhotakota
+1831,2019-06-01,2.0,Malawi,Southern,Nsanje
+1811,2019-06-01,1.0,Malawi,Central,Ntcheu
+1812,2019-06-01,1.0,Malawi,Central,Ntchisi
+1833,2019-06-01,2.0,Malawi,Southern,Phalombe
+1814,2019-06-01,1.0,Malawi,Northern,Rumphi
+1815,2019-06-01,1.0,Malawi,Central,Salima
+1816,2019-06-01,1.0,Malawi,Southern,Thyolo
+1836,2019-06-01,2.0,Malawi,Southern,Zomba
+1818,2019-06-01,1.0,Malawi,Southern,Zomba City
+1797,2019-06-01,1.0,Malawi,Northern,Likoma
+1898,2019-10-01,3.0,Malawi,Southern,Balaka
+1899,2019-10-01,3.0,Malawi,Southern,Blantyre
+1868,2019-10-01,1.0,Malawi,Southern,Blantyre City
+1900,2019-10-01,3.0,Malawi,Southern,Chikwawa
+1870,2019-10-01,1.0,Malawi,Southern,Chiradzulu
+1871,2019-10-01,1.0,Malawi,Northern,Chitipa
+1872,2019-10-01,1.0,Malawi,Central,Dedza
+1873,2019-10-01,1.0,Malawi,Central,Dowa
+1903,2019-10-01,3.0,Malawi,Northern,Karonga
+1875,2019-10-01,1.0,Malawi,Central,Kasungu
+1877,2019-10-01,1.0,Malawi,Central,Lilongwe
+1878,2019-10-01,1.0,Malawi,Central,Lilongwe City
+1904,2019-10-01,3.0,Malawi,Southern,Machinga
+1880,2019-10-01,1.0,Malawi,Southern,Mangochi
+1881,2019-10-01,1.0,Malawi,Central,Mchinji
+1882,2019-10-01,1.0,Malawi,Southern,Mulanje
+1883,2019-10-01,1.0,Malawi,Southern,Mwanza
+1884,2019-10-01,1.0,Malawi,Northern,Mzimba
+1885,2019-10-01,1.0,Malawi,Northern,Mzuzu City
+1886,2019-10-01,1.0,Malawi,Southern,Neno
+1887,2019-10-01,1.0,Malawi,Northern,Nkhata Bay
+1888,2019-10-01,1.0,Malawi,Central,Nkhotakota
+1909,2019-10-01,3.0,Malawi,Southern,Nsanje
+1890,2019-10-01,1.0,Malawi,Central,Ntcheu
+1891,2019-10-01,1.0,Malawi,Central,Ntchisi
+1911,2019-10-01,3.0,Malawi,Southern,Phalombe
+1893,2019-10-01,1.0,Malawi,Northern,Rumphi
+1894,2019-10-01,1.0,Malawi,Central,Salima
+1895,2019-10-01,1.0,Malawi,Southern,Thyolo
+1914,2019-10-01,3.0,Malawi,Southern,Zomba
+1897,2019-10-01,1.0,Malawi,Southern,Zomba City
+1876,2019-10-01,1.0,Malawi,Northern,Likoma
+1976,2020-02-01,2.0,Malawi,Southern,Balaka
+1977,2020-02-01,2.0,Malawi,Southern,Blantyre
+1946,2020-02-01,1.0,Malawi,Southern,Blantyre City
+1978,2020-02-01,2.0,Malawi,Southern,Chikwawa
+1948,2020-02-01,1.0,Malawi,Southern,Chiradzulu
+1949,2020-02-01,1.0,Malawi,Northern,Chitipa
+1950,2020-02-01,1.0,Malawi,Central,Dedza
+1951,2020-02-01,1.0,Malawi,Central,Dowa
+1981,2020-02-01,2.0,Malawi,Northern,Karonga
+1953,2020-02-01,1.0,Malawi,Central,Kasungu
+1955,2020-02-01,1.0,Malawi,Central,Lilongwe
+1956,2020-02-01,1.0,Malawi,Central,Lilongwe City
+1982,2020-02-01,2.0,Malawi,Southern,Machinga
+1958,2020-02-01,1.0,Malawi,Southern,Mangochi
+1959,2020-02-01,1.0,Malawi,Central,Mchinji
+1960,2020-02-01,1.0,Malawi,Southern,Mulanje
+1961,2020-02-01,1.0,Malawi,Southern,Mwanza
+1962,2020-02-01,1.0,Malawi,Northern,Mzimba
+1963,2020-02-01,1.0,Malawi,Northern,Mzuzu City
+1964,2020-02-01,1.0,Malawi,Southern,Neno
+1965,2020-02-01,1.0,Malawi,Northern,Nkhata Bay
+1966,2020-02-01,1.0,Malawi,Central,Nkhotakota
+1987,2020-02-01,2.0,Malawi,Southern,Nsanje
+1968,2020-02-01,1.0,Malawi,Central,Ntcheu
+1969,2020-02-01,1.0,Malawi,Central,Ntchisi
+1989,2020-02-01,2.0,Malawi,Southern,Phalombe
+1971,2020-02-01,1.0,Malawi,Northern,Rumphi
+1972,2020-02-01,1.0,Malawi,Central,Salima
+1973,2020-02-01,1.0,Malawi,Southern,Thyolo
+1992,2020-02-01,2.0,Malawi,Southern,Zomba
+1975,2020-02-01,1.0,Malawi,Southern,Zomba City
+1954,2020-02-01,1.0,Malawi,Northern,Likoma
+2022,2020-06-01,1.0,Malawi,Southern,Balaka
+2023,2020-06-01,1.0,Malawi,Southern,Blantyre
+2727,2020-06-01,3.0,Malawi,Southern,Blantyre City
+2025,2020-06-01,1.0,Malawi,Southern,Chikwawa
+2026,2020-06-01,1.0,Malawi,Southern,Chiradzulu
+2027,2020-06-01,1.0,Malawi,Northern,Chitipa
+2028,2020-06-01,1.0,Malawi,Central,Dedza
+2029,2020-06-01,1.0,Malawi,Central,Dowa
+2030,2020-06-01,1.0,Malawi,Northern,Karonga
+2031,2020-06-01,1.0,Malawi,Central,Kasungu
+2033,2020-06-01,1.0,Malawi,Central,Lilongwe
+2730,2020-06-01,3.0,Malawi,Central,Lilongwe City
+2035,2020-06-01,1.0,Malawi,Southern,Machinga
+2036,2020-06-01,1.0,Malawi,Southern,Mangochi
+2037,2020-06-01,1.0,Malawi,Central,Mchinji
+2038,2020-06-01,1.0,Malawi,Southern,Mulanje
+2039,2020-06-01,1.0,Malawi,Southern,Mwanza
+2040,2020-06-01,1.0,Malawi,Northern,Mzimba
+2732,2020-06-01,3.0,Malawi,Northern,Mzuzu City
+2042,2020-06-01,1.0,Malawi,Southern,Neno
+2043,2020-06-01,1.0,Malawi,Northern,Nkhata Bay
+2044,2020-06-01,1.0,Malawi,Central,Nkhotakota
+2045,2020-06-01,1.0,Malawi,Southern,Nsanje
+2046,2020-06-01,1.0,Malawi,Central,Ntcheu
+2047,2020-06-01,1.0,Malawi,Central,Ntchisi
+2048,2020-06-01,1.0,Malawi,Southern,Phalombe
+2049,2020-06-01,1.0,Malawi,Northern,Rumphi
+2050,2020-06-01,1.0,Malawi,Central,Salima
+2051,2020-06-01,1.0,Malawi,Southern,Thyolo
+2052,2020-06-01,1.0,Malawi,Southern,Zomba
+2736,2020-06-01,3.0,Malawi,Southern,Zomba City
+2032,2020-06-01,1.0,Malawi,Northern,Likoma
+2077,2020-08-01,1.0,Malawi,Southern,Balaka
+2078,2020-08-01,1.0,Malawi,Southern,Blantyre
+2757,2020-08-01,3.0,Malawi,Southern,Blantyre City
+2080,2020-08-01,1.0,Malawi,Southern,Chikwawa
+2081,2020-08-01,1.0,Malawi,Southern,Chiradzulu
+2082,2020-08-01,1.0,Malawi,Northern,Chitipa
+2083,2020-08-01,1.0,Malawi,Central,Dedza
+2084,2020-08-01,1.0,Malawi,Central,Dowa
+2085,2020-08-01,1.0,Malawi,Northern,Karonga
+2086,2020-08-01,1.0,Malawi,Central,Kasungu
+2088,2020-08-01,1.0,Malawi,Central,Lilongwe
+2760,2020-08-01,3.0,Malawi,Central,Lilongwe City
+2090,2020-08-01,1.0,Malawi,Southern,Machinga
+2091,2020-08-01,1.0,Malawi,Southern,Mangochi
+2092,2020-08-01,1.0,Malawi,Central,Mchinji
+2093,2020-08-01,1.0,Malawi,Southern,Mulanje
+2094,2020-08-01,1.0,Malawi,Southern,Mwanza
+2095,2020-08-01,1.0,Malawi,Northern,Mzimba
+2762,2020-08-01,3.0,Malawi,Northern,Mzuzu City
+2097,2020-08-01,1.0,Malawi,Southern,Neno
+2098,2020-08-01,1.0,Malawi,Northern,Nkhata Bay
+2099,2020-08-01,1.0,Malawi,Central,Nkhotakota
+2100,2020-08-01,1.0,Malawi,Southern,Nsanje
+2101,2020-08-01,1.0,Malawi,Central,Ntcheu
+2102,2020-08-01,1.0,Malawi,Central,Ntchisi
+2103,2020-08-01,1.0,Malawi,Southern,Phalombe
+2104,2020-08-01,1.0,Malawi,Northern,Rumphi
+2105,2020-08-01,1.0,Malawi,Central,Salima
+2106,2020-08-01,1.0,Malawi,Southern,Thyolo
+2107,2020-08-01,1.0,Malawi,Southern,Zomba
+2766,2020-08-01,3.0,Malawi,Southern,Zomba City
+2087,2020-08-01,1.0,Malawi,Northern,Likoma

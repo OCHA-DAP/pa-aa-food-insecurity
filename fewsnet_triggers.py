@@ -5,6 +5,15 @@ from utils import parse_args, parse_yaml
 
 
 def get_new_name(name, n_dict):
+    """
+    Return the values of a dict if name is in the keys of the dict
+    Args:
+        name: string of interest
+        n_dict: dict with possibly "name" as key
+
+    Returns:
+
+    """
     if name in n_dict.keys():
         return n_dict[name]
     else:
@@ -13,6 +22,7 @@ def get_new_name(name, n_dict):
 
 def merge_ipcstatus(cs_path, ml1_path, ml2_path, adm1c, adm2c):
     """
+    Merge the three types of IPC projections (CS, ML1, ML2) to one dataframe
     Args:
         cs_path: path to file with fewsnet data for current situation (CS)
         ml1_path: path to file with fewsnet data for short-term forecast (ML1)
@@ -42,6 +52,19 @@ def merge_ipcstatus(cs_path, ml1_path, ml2_path, adm1c, adm2c):
 def load_popdata(
     pop_path, pop_adm1c, pop_adm2c, pop_col, admin2_mapping=None, admin1_mapping=None
 ):
+    """
+
+    Args:
+        pop_path: path to csv with population counts per admin2 region
+        pop_adm1c: column name of the admin1 level name, in population data
+        pop_adm2c: column name of the admin1 level name, in population data
+        pop_col: column name that contains the population count
+        admin2_mapping: dict of admin2level names that don't correspond in FewsNet and population data. Keys are FewsNet names, values population
+        admin1_mapping: dict of admin1level names that don't correspond in FewsNet and population data. Keys are FewsNet names, values population
+
+    Returns:
+        df_pop: DataFrame with population per admin2/admin1 combination that corresponds with FewsNet names
+    """
     # import population data (not clear where data comes from)
     df_pop = pd.read_csv(pop_path)
     # remove whitespace at end of string
@@ -61,6 +84,16 @@ def load_popdata(
 def create_histpopdict(
     df_data, country, histpop_path="Data/Worldbank_TotalPopulation.csv"
 ):
+    """
+    Retrieve the historical national population for the years that are present in df_data
+    Args:
+        df_data: DataFrame of interest
+        country: Country of interest
+        histpop_path: path to csv with historical national population
+
+    Returns:
+        dict with national population for each year
+    """
     df_histpop = pd.read_csv(histpop_path, header=2)
     df_histpop.set_index("Country Name", inplace=True)
     df_histpopc = df_histpop.loc[country]
@@ -78,6 +111,9 @@ def create_histpopdict(
 
 
 def get_adjusted(row, perc_dict):
+    """
+    Compute the subnational population, adjusted to the country's national population of that year
+    """
     year = str(row["date"].year)
     adjustment = perc_dict[year]
     if pd.isna(row["Total"]):
@@ -87,6 +123,20 @@ def get_adjusted(row, perc_dict):
 
 
 def merge_ipcpop(df_ipc, df_pop, country, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_adm2c):
+    """
+
+    Args:
+        df_ipc: DataFrame with IPC data
+        df_pop: DataFrame with subnational population data
+        country: Name of country of interest
+        pop_adm1c: column name of the admin1 level name, in population data
+        pop_adm2c: column name of the admin1 level name, in population data
+        ipc_adm1c:  column name of the admin1 level name, in IPC data
+        ipc_adm2c:  column name of the admin2 level name, in IPC data
+
+    Returns:
+        df_ipcp: DataFrame with IPC level and population per admin2 region, where the population is adjusted to historical national averages
+    """
     df_ipcp = df_ipc.merge(
         df_pop[[pop_adm1c, pop_adm2c, "Total"]],
         how="left",
@@ -125,6 +175,15 @@ def merge_ipcpop(df_ipc, df_pop, country, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_a
 
 
 def aggr_admin1(df, adm1c):
+    """
+    Aggregate dataframe to admin1 level
+    Args:
+        df: DataFrame of interest
+        adm1c: column name of the admin1 level name in df
+
+    Returns:
+        df_adm: dataframe with number of people in each IPC class per Admin1 region
+    """
     cols_ipc = [f"{s}_{l}" for s in ["CS", "ML1", "ML2"] for l in range(1, 6)]
     df_adm = (
         df[["date", "Total", "adjusted_population", adm1c] + cols_ipc]
@@ -141,6 +200,13 @@ def aggr_admin1(df, adm1c):
 
 
 def main(country_iso3, config_file="config.yml"):
+    """
+    This script takes as input FewsNet IPC levels on Admin2 level, merges these with population data, and aggregates to Admin1
+    Results are saved to CSVs
+    Args:
+        country_iso3: ISO3 code of country of interest
+        config_file: path to config file with country specific variables
+    """
     parameters = parse_yaml(config_file)[country_iso3]
     country = parameters["country_name"]
 
