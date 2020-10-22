@@ -3,7 +3,11 @@
 Drought-related food insecurity in Chad, Somalia, Ethiopia and Malawi. 
 
 ## Getting started
-
+If using Anaconda, set-up an environment and install the packages from `environment.yml`. 
+   ``` bash
+   conda env create --file environment.yml --name aafi
+   conda activate aafi
+   ```
 
 ### Computation for existing country
 FewsNet
