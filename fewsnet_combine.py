@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import warnings
 from utils import parse_args, parse_yaml
+from pathlib import Path
 
 
 def get_new_name(name, n_dict):
@@ -210,7 +211,9 @@ def main(country_iso3, config_file="config.yml"):
     parameters = parse_yaml(config_file)[country_iso3]
     country = parameters["country_name"]
 
-    RESULT_FOLDER = f"{country}/Data/FewsNetPopulation/"
+    RESULT_FOLDER = f"{country}/Data/FewsNetCombined/"
+    # create output dir if it doesn't exist yet
+    Path(RESULT_FOLDER).mkdir(parents=True, exist_ok=True)
     fnfolder = f"{country}/Data/FewsNetAdmin2/"
     start_date = parameters["start_date"]
     end_date = parameters["end_date"]
@@ -247,11 +250,11 @@ def main(country_iso3, config_file="config.yml"):
         ipc_adm2c,
     )
     df_ipcpop.to_csv(
-        f"{RESULT_FOLDER}{country}_admin2_fewsnet_population_{start_date}_{end_date}.csv"
+        f"{RESULT_FOLDER}{country}_admin2_fewsnet_combined_{start_date}_{end_date}.csv"
     )
     df_adm1 = aggr_admin1(df_ipcpop, ipc_adm1c)
     df_adm1.to_csv(
-        f"{RESULT_FOLDER}{country}_admin1_fewsnet_population_{start_date}_{end_date}.csv"
+        f"{RESULT_FOLDER}{country}_admin1_fewsnet_combined_{start_date}_{end_date}.csv"
     )
 
 

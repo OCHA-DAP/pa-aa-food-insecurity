@@ -11,7 +11,7 @@ ETH:
   adm0c_bound: "ADM0_EN"
   adm1c_bound: "ADM1_EN"
   adm2c_bound: "ADM2_EN"
-  pop_filename: "eth_admpop_adm2_2020.csv"
+  pop_filename: "Population_OCHA_2020/eth_admpop_adm2_2020.csv"
   pop_col: "Total"
   adm1c_pop: "admin1Name_en"
   adm2c_pop: "admin2Name_en"
@@ -24,10 +24,6 @@ MWI:
   region: "southern-africa"
   regioncode: "SA"
   path_admin2_shp: "mwi_adm_nso_20181016_shp/mwi_admbnda_adm2_nso_20181016.shp"
-#  fewsnet_dates: ["200907","200910","201001","201004","201007","201010","201101","201104","201107","201110","201201",
-#  "201204","201210","201301","201304","201307","201310","201401","201404","201407","201410","201501","201504",
-#  "201507","201510","201602","201606","201610","201702","201706","201710","201802","201806","201810","201812",
-#  "201902","201906","201910","202002","202006","202008"]
   #no data available for 2018-10 but there is for 2018-12
   #no data availabele for 2012-07. Removing here cause else assigning values due to borders and different shapefiles
   fewsnet_dates: [ "200907","200910","201001","201004","201007","201010","201101","201104","201107","201110","201201",

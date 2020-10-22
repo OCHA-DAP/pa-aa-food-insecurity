@@ -3,6 +3,7 @@ import pandas as pd
 import os
 import numpy as np
 from utils import parse_args, parse_yaml
+from pathlib import Path
 
 
 def shapefiles_to_df(path, status, dates, region, regionabb):
@@ -154,6 +155,9 @@ def main(country_iso3, config_file="config.yml"):
     PATH_RESULT = f"{country}/Data/FewsNetAdmin2/"
     ADMIN2_PATH = f"{country}/Data/{admin2_shp}"
     STATUS_LIST = ["CS", "ML1", "ML2"]
+
+    # create output dir if it doesn't exist yet
+    Path(PATH_RESULT).mkdir(parents=True, exist_ok=True)
 
     for STATUS in STATUS_LIST:
         df = gen_csml1m2(
