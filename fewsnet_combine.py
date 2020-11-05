@@ -1,8 +1,11 @@
 import pandas as pd
 import numpy as np
 import warnings
-from utils import parse_args, parse_yaml
+from utils import parse_args, parse_yaml, config_logger
 from pathlib import Path
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def get_new_name(name, n_dict):
@@ -66,7 +69,7 @@ def load_popdata(
     Returns:
         df_pop: DataFrame with population per admin2/admin1 combination that corresponds with FewsNet names
     """
-    # import population data (not clear where data comes from)
+    # import population data
     df_pop = pd.read_csv(pop_path)
     # remove whitespace at end of string
     df_pop[pop_adm2c] = df_pop[pop_adm2c].str.rstrip()
@@ -78,6 +81,12 @@ def load_popdata(
         df_pop[pop_adm1c] = df_pop[pop_adm1c].apply(
             lambda x: get_new_name(x, admin1_mapping)
         )
+    no_popdata = df_pop.loc[df_pop[pop_col].isin([0, np.nan]), pop_adm2c].values
+    if len(no_popdata) > 0:
+        logger.warning(f"No population data for {', '.join(no_popdata)}")
+    # 0 is here treated as missing data, since it is not realistic that a region has no population and will make calculations later on easier
+    df_pop[pop_col] = df_pop[pop_col].replace(0, np.nan)
+
     df_pop.rename(columns={pop_col: "Total"}, inplace=True)
     return df_pop
 
@@ -171,6 +180,7 @@ def merge_ipcpop(df_ipc, df_pop, country, pop_adm1c, pop_adm2c, ipc_adm1c, ipc_a
         df_ipcp[f"pop_{status}"] = df_ipcp[[f"{status}_{i}" for i in range(1, 6)]].sum(
             axis=1, min_count=1
         )
+        df_ipcp[f"pop_{status}"] = df_ipcp[f"pop_{status}"].replace(0, np.nan)
 
     return df_ipcp
 
@@ -260,4 +270,5 @@ def main(country_iso3, config_file="config.yml"):
 
 if __name__ == "__main__":
     args = parse_args()
+    config_logger(level="warning")
     main(args.country_iso3.upper())
