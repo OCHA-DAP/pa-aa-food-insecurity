@@ -26,7 +26,9 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
     # seems ipc file columns are always on line 11
     df_ipc = pd.read_excel(ipc_path, header=[11])
     # remove rows with nan date
-    df_ipc = df_ipc[df_ipc["date"].notnull()]
+    df_ipc = df_ipc[
+        (df_ipc["date"].notnull()) & (df_ipc[f"ADMIN{admin_level}"].notnull())
+    ]
 
     # replace values in ipc df
     # mainly about differently spelled admin regions
@@ -37,12 +39,27 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
     if len(df_ipc[f"ADMIN{admin_level}"].dropna().unique()) == 0:
         logger.warning(f"No admin {admin_level} regions found in the IPC file")
 
+    # TODO: implement other adm levels
+    if admin_level == 1:
+        df_ipc_agg = df_ipc.groupby(["ADMIN1", "date"], as_index=False).sum()
+        ipc_cols = [
+            f"{status}_{i}" for status in ["CS", "ML1", "ML2"] for i in [1, 2, 3, 4, 5]
+        ]
+        pop_cols = [f"pop_{status}" for status in ["CS", "ML1", "ML2"]]
+        # print(df_ipc_agg)
+        # print(df_ipc_agg.columns)
+        df_ipc_agg = df_ipc_agg[["ADMIN1", "date"] + ipc_cols + pop_cols]
+        # TODO: implement getting population per admin region, already implemented in proces_fewsnet.py
+        df_ipc_agg["pop_ADMIN1"] = np.nan
+    else:
+        df_ipc_agg = df_ipc.copy()
+
     shp_admc = parameters[f"shp_adm{admin_level}c"]
     boundaries = gpd.read_file(shp_path)
 
     # Check that admin level names in the IPC data are all reasonable
     misspelled_names = np.setdiff1d(
-        list(df_ipc[f"ADMIN{admin_level}"].dropna()),
+        list(df_ipc_agg[f"ADMIN{admin_level}"].dropna()),
         list(boundaries[shp_admc].dropna()),
     )
     if misspelled_names.size > 0:
@@ -51,7 +68,7 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
             f"in the boundaries file: {misspelled_names}"
         )
 
-    return df_ipc
+    return df_ipc_agg
 
 
 def main(country_iso3, config_file="config.yml"):
