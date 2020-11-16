@@ -27,6 +27,7 @@ ETH:
   replace_dict:
     Oromiya: Oromia
     SNNPR: SNNP
+  processed_globalipc_path: "ethiopia/Data/GlobalIPCProcessed/ethiopia_globalipc_processed.csv"
 
 MWI:
   country_name: "malawi"
