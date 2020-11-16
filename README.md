@@ -2,17 +2,29 @@
 
 Drought-related food insecurity in Chad, Somalia, Ethiopia and Malawi. 
 
+## Getting started
+If using Anaconda, set-up an environment and install the packages from `environment.yml`. 
+   ``` bash
+   conda env create --file environment.yml --name aafi
+   conda activate aafi
+   ```
+
 ### Computation for existing country
-1. Run `convert_fewsnet_to_admin2.py` giving the country iso3 as arg
-2. Run `fewsnet_triggers.py` giving the country iso3 as arg
+FewsNet
+1. Run `convert_fewsnet_to_admin2.py [Country ISO code]` this will return the IPC level per admin2 for the current situation (CS), projections up to four months ahead (ML1) and projections up to 8 months ahead (ML2)
+2. Run `fewsnet_combined.py [Country ISO code]` this will return the IPC level per admin2 together with the population, plus the population per IPC level per admin1
+
 3. Do your analysis. The jupyter notebooks in `ethiopia/` can guide as examples
 
 ### Adding a new country
+FewsNet
 1. Make sure the regional FewsNet data is included in Data/FewsNetRaw. Can be downloaded from https://fews.net/fews-data/333
-2. Create the folder structure "country_name" -- "Data" -- "FewsNetAdmin2", "FewsNetPopulation"
-3. Download a shapefile of the regional boundaries and place this directory/file in "country_name" -- "Data" . Can use the one provided by FewsNet (https://fews.net/fews-data/334) or often also availble from UN OCHA (search on data.humdata.org)
-4. Download regional population data for one year. Often available by UN OCHA on data.humdata.org
-5. Add the country-specific variables to `config.yml`
+2. Download a shapefile of the regional boundaries and place this directory/file in "country_name" -- "Data" . Can for example use the one provided by UN OCHA (search on data.humdata.org) or FewsNet (https://fews.net/fews-data/334)  
+3. Download regional population data for one year. Often available by UN OCHA on data.humdata.org
+4. Add the country-specific variables to `config.yml`
+GlobalIPC
+1. Download data from http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/
+2. Change column names to be compatible with the ipynb notebooks. An example can be found in `ethiopia/Data/GlobalIPC_newcolumnnames.xlsx`
 
 ## Ethiopia
 Required data
@@ -20,7 +32,7 @@ Required data
 - Admin2 boundaries: Use UN population boundaries https://data.humdata.org/dataset/ethiopia-cod-ab# or FewsNet boundaries https://fews.net/fews-data/334?tid=26
 - Current population. Given the name, it seems it is downloaded from https://data.humdata.org/dataset/ethiopia-population-data-_-admin-level-0-3 . 
 - Historical population. For now using country totals, can be retrieved from https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ET More detailed data exists at https://www.worldpop.org/project/categories?id=3
-- Livelihood zones. Download from https://fews.net/fews-data/335
+<!--- - Livelihood zones. Download from https://fews.net/fews-data/335 --->
 
 
 ## Development
