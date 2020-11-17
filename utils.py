@@ -6,6 +6,7 @@ import coloredlogs
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("country_iso3", help="Country ISO3")
+    parser.add_argument("-a", "--admin_level", default=1)
     return parser.parse_args()
 
 
