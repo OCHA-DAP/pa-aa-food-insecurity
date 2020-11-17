@@ -43,9 +43,9 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
     if admin_level == 1:
         df_ipc_agg = df_ipc.groupby(["ADMIN1", "date"], as_index=False).sum()
         ipc_cols = [
-            f"{status}_{i}" for status in ["CS", "ML1", "ML2"] for i in [1, 2, 3, 4, 5]
+            f"{period}_{i}" for period in ["CS", "ML1", "ML2"] for i in [1, 2, 3, 4, 5]
         ]
-        pop_cols = [f"pop_{status}" for status in ["CS", "ML1", "ML2"]]
+        pop_cols = [f"pop_{period}" for period in ["CS", "ML1", "ML2"]]
         # print(df_ipc_agg)
         # print(df_ipc_agg.columns)
         df_ipc_agg = df_ipc_agg[["ADMIN1", "date"] + ipc_cols + pop_cols]
@@ -81,10 +81,10 @@ def main(country_iso3, config_file="config.yml"):
     parameters = parse_yaml(config_file)[country_iso3]
     country = parameters["country_name"]
     admin2_shp = parameters["path_admin2_shp"]
-    globalipc_file = parameters["ipc_path"]
+    GLOBALIPC_PATH = parameters["ipc_path"]
 
     SHP_PATH = f"{country}/Data/{admin2_shp}"
-    IPC_PATH = f"{country}/Data/{globalipc_file}"
+    IPC_PATH = f"{country}/Data/{GLOBALIPC_PATH}"
     RESULT_FOLDER = f"{country}/Data/GlobalIPCProcessed/"
     # create output dir if it doesn't exist yet
     Path(RESULT_FOLDER).mkdir(parents=True, exist_ok=True)

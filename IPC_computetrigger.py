@@ -18,32 +18,35 @@ def add_columns(df, source):
 
     df["Source"] = source
 
+    # TODO: these are column names used by FewsNet, already change in process_fewsnet
     df = df.rename(columns={"adjusted_population": "pop_Country", "ADM1_EN": "ADMIN1"})
 
-    # calculate percentage of population per status and level
-    for status in ["CS", "ML1", "ML2"]:
+    # calculate percentage of population per analysis period and level
+    for period in ["CS", "ML1", "ML2"]:
+        # IPC level goes up to 5, so define range up to 6
         for i in range(1, 6):
-            c = f"{status}_{i}"
-            df[f"perc_{c}"] = df[c] / df[f"pop_{status}"] * 100
+            c = f"{period}_{i}"
+            df[f"perc_{c}"] = df[c] / df[f"pop_{period}"] * 100
         # get pop and perc in IPC3+ and IPC2-
-        df[f"{status}_3p"] = df[[f"{status}_{i}" for i in range(3, 6)]].sum(axis=1)
-        df[f"perc_{status}_3p"] = df[f"{status}_3p"] / df[f"pop_{status}"] * 100
-        df[f"{status}_2m"] = df[[f"{status}_{i}" for i in range(1, 3)]].sum(axis=1)
-        df[f"perc_{status}_2m"] = df[f"{status}_2m"] / df[f"pop_{status}"] * 100
+        # 3p = IPC level 3 or higher, 2m = IPC level 2 or lower
+        df[f"{period}_3p"] = df[[f"{period}_{i}" for i in range(3, 6)]].sum(axis=1)
+        df[f"perc_{period}_3p"] = df[f"{period}_3p"] / df[f"pop_{period}"] * 100
+        df[f"{period}_2m"] = df[[f"{period}_{i}" for i in range(1, 3)]].sum(axis=1)
+        df[f"perc_{period}_2m"] = df[f"{period}_2m"] / df[f"pop_{period}"] * 100
     df["perc_inc_ML2_3p"] = df["perc_ML2_3p"] - df["perc_CS_3p"]
     df["perc_inc_ML1_3p"] = df["perc_ML1_3p"] - df["perc_CS_3p"]
     return df
 
 
-def get_trigger(row, status, level, perc):
+def get_trigger(row, period, level, perc):
     """
-    Return 1 if percentage of population in row for status in level "level" or higher, equals or larger than perc
+    Return 1 if percentage of population in row for period in level "level" or higher, equals or larger than perc
     """
     # range till 6 cause 5 is max level
-    cols = [f"{status}_{l}" for l in range(level, 6)]
-    if np.isnan(row[f"pop_{status}"]):
+    cols = [f"{period}_{l}" for l in range(level, 6)]
+    if np.isnan(row[f"pop_{period}"]):
         return np.nan
-    if round(row[cols].sum() / row[f"pop_{status}"] * 100) >= perc:
+    if round(row[cols].sum() / row[f"pop_{period}"] * 100) >= perc:
         return 1
     else:
         return 0
@@ -72,19 +75,19 @@ def get_trigger_increase_rel(row, level, perc):
         return 0
 
 
-def get_trigger_increase(row, status, level, perc):
+def get_trigger_increase(row, period, level, perc):
     """
-    Return 1 if for row percentage in >="level" at status minus percentage in >="level" currently (CS) is expected to be larger than perc
-    For Global IPC the population analysed in ML2 is sometimes different than in CS. That is why we work dirrectly with percentages and not anymore with (pop status level+ - pop CS level+) / pop CS
+    Return 1 if for "row", if the expected increase in the percentage of the population in "level" or higher at time "period" compared to currently (CS) is expected to be larger than "perc"
+    For Global IPC the population analysed in ML2 is sometimes different than in CS. That is why we work dirrectly with percentages and not anymore with (pop period level+ - pop CS level+) / pop CS
     """
     # range till 6 cause 5 is max level
-    cols_perc_ml = [f"perc_{status}_{l}" for l in range(level, 6)]
+    cols_perc_proj = [f"perc_{period}_{l}" for l in range(level, 6)]
     cols_perc_cs = [f"perc_CS_{l}" for l in range(level, 6)]
-    if row[["pop_CS", f"pop_{status}"]].isnull().values.any():
+    if row[["pop_CS", f"pop_{period}"]].isnull().values.any():
         return np.nan
-    if row[cols_perc_ml].sum() == 0:
+    if row[cols_perc_proj].sum() == 0:
         return 0
-    if round(row[cols_perc_ml].sum() - row[cols_perc_cs].sum()) >= perc:
+    if round(row[cols_perc_proj].sum() - row[cols_perc_cs].sum()) >= perc:
         return 1
     else:
         return 0
@@ -119,20 +122,22 @@ def main(country_iso3, config_file="config.yml"):
     parameters = parse_yaml(config_file)[country_iso3]
     country = parameters["country_name"]
     admin_level = parameters["admin_level"]
+    # the processed_fews_path and processed_globalipc_path are expected to be a csv with a row per date - admin unit and including {period}_{i} columns for period in ["CS","ML1",ML2"] and i in [1,2,3,4,5]
     processed_fews_path = parameters["processed_fews_path"]
     processed_globalipc_path = parameters["processed_globalipc_path"]
 
+    # 3p = IPC level 3 or higher, 2m = IPC level 2 or lower
     ipc_cols = [
-        f"{status}_{i}"
-        for status in ["CS", "ML1", "ML2"]
+        f"{period}_{i}"
+        for period in ["CS", "ML1", "ML2"]
         for i in [1, 2, 3, 4, 5, "3p", "2m"]
     ] + [
-        f"perc_{status}_{i}"
-        for status in ["CS", "ML1", "ML2"]
+        f"perc_{period}_{i}"
+        for period in ["CS", "ML1", "ML2"]
         for i in [1, 2, 3, 4, 5, "3p", "2m"]
     ]
     pop_cols = [
-        f"pop_{status}" for status in ["CS", "ML1", "ML2", f"ADMIN{admin_level}"]
+        f"pop_{period}" for period in ["CS", "ML1", "ML2", f"ADMIN{admin_level}"]
     ]
 
     # initialize dataframes such that can later check if they are filled with data
