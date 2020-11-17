@@ -9,7 +9,7 @@ from utils import parse_args, parse_yaml, config_logger
 logger = logging.getLogger(__name__)
 
 
-def read_ipcglobal(parameters, ipc_path, shp_path):
+def read_ipcglobal(parameters, ipc_path, shp_path, admin_level):
     """
     Process ipc data and do some checks
     Args:
@@ -21,7 +21,6 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
         df_ipc: DataFrame with processed ipc data
     """
 
-    admin_level = parameters["admin_level"]
     # TODO: now assuming column names are already changed in the excel file. Might want to add something to change them automatically but fileformat is rather hard
     # seems ipc file columns are always on line 11
     df_ipc = pd.read_excel(ipc_path, header=[11])
@@ -42,17 +41,21 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
     # TODO: implement other adm levels
     if admin_level == 1:
         df_ipc_agg = df_ipc.groupby(["ADMIN1", "date"], as_index=False).sum()
-        ipc_cols = [
-            f"{status}_{i}" for status in ["CS", "ML1", "ML2"] for i in [1, 2, 3, 4, 5]
-        ]
-        pop_cols = [f"pop_{status}" for status in ["CS", "ML1", "ML2"]]
-        # print(df_ipc_agg)
-        # print(df_ipc_agg.columns)
-        df_ipc_agg = df_ipc_agg[["ADMIN1", "date"] + ipc_cols + pop_cols]
-        # TODO: implement getting population per admin region, already implemented in proces_fewsnet.py
-        df_ipc_agg["pop_ADMIN1"] = np.nan
+    elif admin_level == 2:
+        df_ipc_agg = df_ipc.groupby(["date", "ADMIN1", "ADMIN2"], as_index=False).sum()
     else:
         df_ipc_agg = df_ipc.copy()
+
+    ipc_cols = [
+        f"{status}_{i}" for status in ["CS", "ML1", "ML2"] for i in [1, 2, 3, 4, 5]
+    ]
+    pop_cols = [f"pop_{status}" for status in ["CS", "ML1", "ML2"]]
+    # TODO: add ADMIN0
+    adm_cols = [f"ADMIN{a}" for a in range(1, int(admin_level) + 1)]
+
+    df_ipc_agg = df_ipc_agg[["date"] + adm_cols + ipc_cols + pop_cols]
+    # TODO: implement getting population per admin region, already implemented in proces_fewsnet.py
+    df_ipc_agg[f"pop_ADMIN{admin_level}"] = np.nan
 
     shp_admc = parameters[f"shp_adm{admin_level}c"]
     boundaries = gpd.read_file(shp_path)
@@ -71,7 +74,7 @@ def read_ipcglobal(parameters, ipc_path, shp_path):
     return df_ipc_agg
 
 
-def main(country_iso3, config_file="config.yml"):
+def main(country_iso3, admin_level, config_file="config.yml"):
     """
     Define variables and save output
     Args:
@@ -89,11 +92,11 @@ def main(country_iso3, config_file="config.yml"):
     # create output dir if it doesn't exist yet
     Path(RESULT_FOLDER).mkdir(parents=True, exist_ok=True)
 
-    df_ipc = read_ipcglobal(parameters, IPC_PATH, SHP_PATH)
-    df_ipc.to_csv(f"{RESULT_FOLDER}{country}_globalipc_processed.csv")
+    df_ipc = read_ipcglobal(parameters, IPC_PATH, SHP_PATH, admin_level)
+    df_ipc.to_csv(f"{RESULT_FOLDER}{country}_globalipc_ADMIN{admin_level}.csv")
 
 
 if __name__ == "__main__":
     args = parse_args()
     config_logger(level="warning")
-    main(args.country_iso3.upper())
+    main(args.country_iso3.upper(), args.admin_level)
