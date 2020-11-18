@@ -9,9 +9,9 @@ ETH:
   "201204","201207","201210","201301","201304","201307","201310","201401","201404","201407","201410","201501","201504",
   "201507","201510","201602","201606","201610","201702","201706","201710","201802","201806","201810",
   "201902","201906","201910","202002","202006","202008","202009","202010"]
-  adm0c_bound: "ADM0_EN"
-  adm1c_bound: "ADM1_EN"
-  adm2c_bound: "ADM2_EN"
+  shp_adm0c: "ADM0_EN"
+  shp_adm1c: "ADM1_EN"
+  shp_adm2c: "ADM2_EN"
   pop_filename: "Population_OCHA_2020/eth_admpop_adm2_2020.csv" #downloaded from https://data.humdata.org/dataset/ethiopia-population-data-_-admin-level-0-3
   pop_col: "Total"
   adm1c_pop: "admin1Name_en"
@@ -20,6 +20,13 @@ ETH:
   admin2_mapping: {"Etang Special": "Etang Special woreda","Zone 4  (Fantana Rasu)": "Zone 4 (Fantana Rasu)"}
   start_date: "20090701"
   end_date: "20201001"
+  processed_fews_path: "ethiopia/Data/FewsNetCombined/ethiopia_admin1_fewsnet_combined_20090701_20201001.csv"
+  ipc_path: "GlobalIPC/GlobalIPC_newcolumnnames.xlsx"
+  replace_dict:
+    Oromiya: Oromia
+    SNNPR: SNNP
+  processed_globalipc_path: "ethiopia/Data/GlobalIPCProcessed/ethiopia_globalipc_processed.csv"
+
 MWI:
   country_name: "malawi"
   iso2_code: "MW"
@@ -32,9 +39,9 @@ MWI:
                    "201204","201210","201301","201304","201307","201310","201401","201404","201407","201410","201501","201504",
                    "201507","201510","201602","201606","201610","201702","201706","201710","201802","201806","201812",
                    "201902","201906","201910","202002","202006","202008","202010"]
-  adm0c_bound: "ADM0_EN"
-  adm1c_bound: "ADM1_EN"
-  adm2c_bound: "ADM2_EN"
+  shp_adm0c: "ADM0_EN"
+  shp_adm1c: "ADM1_EN"
+  shp_adm2c: "ADM2_EN"
   pop_filename: "Population_OCHA_2018/mwi_pop_adm2_32_districts.csv" #downloaded from https://data.humdata.org/search?q=malawi+population&ext_search_source=main-nav
   pop_col: "p2019pop"
   adm1c_pop: "ADM1_EN"
