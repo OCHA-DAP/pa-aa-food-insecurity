@@ -21,7 +21,10 @@ def population_region(df, pop_path):
     Returns:
         df: GeoPandas DataFrame with the population per region
     """
-    # get total population per admin
+    # calculate population per "geometry"
+    # in pop_path, the value per cell is the population of that cell, so we want the sum of them
+    # in the calculation a cell is considered to belong to an area if the center of that cell is inside the area.
+    # see https://pythonhosted.org/rasterstats/manual.html#rasterization-strategy
     df_pop = df.copy()
     df_pop["pop"] = pd.DataFrame(
         zonal_stats(vectors=df["geometry"], raster=pop_path, stats="sum")
@@ -50,16 +53,9 @@ def merge_fewsnet_population(fews_path, adm_path, pop_path, date, period, adm1c,
     # overlay takes really long to compute, but could not find a better method
     df_fewsadm = gpd.overlay(df_adm, df_fews, how="intersection")
 
-    # calculate population per area resulting from the overlay
-    # in pop_path, the value per cell is the population of that cell, so we want the sum of them
-    # in the calculation a cell is considered to belong to an area if the center of that cell is inside the area.
-    # see https://pythonhosted.org/rasterstats/manual.html#rasterization-strategy
     df_fewsadm = df_fewsadm.merge(
         population_region(df_fewsadm, pop_path)[[adm2c, "pop"]], on=adm2c
     )
-    df_fewsadm["pop2"] = pd.DataFrame(
-        zonal_stats(vectors=df_fewsadm["geometry"], raster=pop_path, stats="sum")
-    )["sum"]
     # convert the period values (1 to 5) to str
     df_fewsadm[period] = df_fewsadm[period].astype(int).astype(str)
     df_g = df_fewsadm.groupby([adm1c, adm2c, period], as_index=False).sum()
@@ -67,6 +63,8 @@ def merge_fewsnet_population(fews_path, adm_path, pop_path, date, period, adm1c,
     df_gp = df_g.pivot(index=[adm1c, adm2c], columns=period, values="pop")
     df_gp = df_gp.add_prefix(f"{period}_")
     df_gp.columns.name = None
+    # not all IPC levels will be present in all admin regions, so fill those with zeroes
+    df_gp = df_gp.replace(np.nan, 0)
     df_gp = df_gp.reset_index()
     df_gp["date"] = pd.to_datetime(date, format="%Y%m")
     return df_gp
@@ -151,11 +149,18 @@ def combine_fewsnet_projections(
             ]
             df_comb = pd.concat(df_listind, axis=1).reset_index()
 
-            # add ipc_cols that are not present in the data (commonly level 5 columns)
+            # add ipc level columns that are not present in the data (commonly level 5 columns)
             ipc_cols = [f"{period}_{i}" for period in period_list for i in range(1, 6)]
             for i in ipc_cols:
                 if i not in df_comb.columns:
-                    df_comb[i] = np.nan
+                    df_comb[i] = 0
+
+            # calculate total population of every admin, to use for comparison of population given by intersection of admin shape and fewsnet
+            df_adm = gpd.read_file(admin_path)
+            population_region(df_adm, pop_path)[[shp_adm2c, "pop"]]
+            df_pop_check = df_comb.merge(
+                population_region(df_adm, pop_path)[[shp_adm2c, "pop"]], on=shp_adm2c
+            )
 
             # calculate population per period over all IPC levels
             for period in period_list:
@@ -170,20 +175,30 @@ def combine_fewsnet_projections(
                     axis=1, min_count=1
                 )
 
-            # there can be a slight disperancy between the fewsnet and admin shapefile. Since we take the intersection, some areas might then be lost
-            # here we calculate the total population based on the admin shape, and compare it to the total population of the overlay of the admin and fewsnet shapefiles
-            # if the disperancy is larger than 1 percent, we raise a warning
-            df_adm = gpd.read_file(admin_path)
-            df_pop_check = df_comb.merge(
-                population_region(df_adm, pop_path)[[shp_adm2c, "pop"]], on=shp_adm2c
-            )
-            pop_diff = (
-                (df_pop_check["pop"].sum() - df_comb[f"pop_Total_CS"].sum())
-                / df_comb[f"pop_Total_CS"].sum()
-                * 100
-            )
-            if pop_diff > 1:
-                logger.warning(f"Population for date {d} differs with {pop_diff:.2f}%")
+                # there can be a slight disperancy between the fewsnet and admin shapefile. Since we take the intersection, some areas might then be lost
+                # here we calculate the total population based on the admin shape, and compare it to the total population of the overlay of the admin and fewsnet shapefiles
+                # if the disperancy causes more than 5% of the population to be excluded, raise a warning
+                pop_admfews = (
+                    df_comb[f"pop_Total_{period}"].sum()
+                    / df_pop_check["pop"].sum()
+                    * 100
+                )
+
+                if pop_admfews < 95:
+                    logger.warning(
+                        f"For date {d} and period {d} only {pop_admfews:.2f}% of the country's population is included in the region covered by the FewsNet shapefile"
+                    )
+
+                # it can also be the case that FewsNet and Admin shapefile cover the same region
+                # but that FewsNet hasn't assigned a phase to a large part of the population
+                # if more than 50% doesn't have a phase assigned, raise a warning
+                perc_ipcclass = (
+                    df_comb[f"pop_{period}"].sum() / df_pop_check["pop"].sum() * 100
+                )
+                if perc_ipcclass < 50:
+                    logger.warning(
+                        f"For period {period} and date {d} only {perc_ipcclass:.2f}% of the population is assigned to an IPC class"
+                    )
 
             df = df.append(df_comb, ignore_index=True)
 
@@ -211,7 +226,9 @@ def combine_fewsnet_projections(
 
 def main(country_iso3, config_file="config.yml"):
     """
-    Define parameters and call functions
+    This script computes the population per IPC phase per data - admin2 region combination.
+    The IPC phase is retrieved from the FewsNet data, which publishes their data in shapefiles, of three periods namely current situation (CS), near-term projection (ML1) and mid-term projection (ML2)
+    The IPC phases range from 1 to 5, and missing values are indicated by 99.
     Args:
         country_iso3: string with iso3 code
         config_file: path to config file
