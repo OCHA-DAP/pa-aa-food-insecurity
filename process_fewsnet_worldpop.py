@@ -11,27 +11,6 @@ from tqdm import tqdm
 logger = logging.getLogger(__name__)
 
 
-def population_region(df, pop_path):
-    """
-    Calculate population per geometry in df
-    Args:
-        df: GeoPandas DataFrame with the regions of interest
-        pop_path: path to the population raster file
-
-    Returns:
-        df: GeoPandas DataFrame with the population per region
-    """
-    # calculate population per "geometry"
-    # in pop_path, the value per cell is the population of that cell, so we want the sum of them
-    # in the calculation a cell is considered to belong to an area if the center of that cell is inside the area.
-    # see https://pythonhosted.org/rasterstats/manual.html#rasterization-strategy
-    df_pop = df.copy()
-    df_pop["pop"] = pd.DataFrame(
-        zonal_stats(vectors=df["geometry"], raster=pop_path, stats="sum")
-    )["sum"]
-    return df_pop
-
-
 def merge_fewsnet_population(fews_path, adm_path, pop_path, date, period, adm1c, adm2c):
     """
     Compute the population per IPC phase per adm2 region for the data defined in fews_path
@@ -53,9 +32,14 @@ def merge_fewsnet_population(fews_path, adm_path, pop_path, date, period, adm1c,
     # overlay takes really long to compute, but could not find a better method
     df_fewsadm = gpd.overlay(df_adm, df_fews, how="intersection")
 
-    df_fewsadm = df_fewsadm.merge(
-        population_region(df_fewsadm, pop_path)[[adm2c, "pop"]], on=adm2c
-    )
+    # calculate population per "geometry"
+    # in pop_path, the value per cell is the population of that cell, so we want the sum of them
+    # in the calculation a cell is considered to belong to an area if the center of that cell is inside the area.
+    # see https://pythonhosted.org/rasterstats/manual.html#rasterization-strategy
+    df_fewsadm["pop"] = pd.DataFrame(
+        zonal_stats(vectors=df_fewsadm["geometry"], raster=pop_path, stats="sum")
+    )["sum"]
+
     # convert the period values (1 to 5) to str
     df_fewsadm[period] = df_fewsadm[period].astype(int).astype(str)
     df_g = df_fewsadm.groupby([adm1c, adm2c, period], as_index=False).sum()
@@ -157,10 +141,9 @@ def combine_fewsnet_projections(
 
             # calculate total population of every admin, to use for comparison of population given by intersection of admin shape and fewsnet
             df_adm = gpd.read_file(admin_path)
-            population_region(df_adm, pop_path)[[shp_adm2c, "pop"]]
-            df_pop_check = df_comb.merge(
-                population_region(df_adm, pop_path)[[shp_adm2c, "pop"]], on=shp_adm2c
-            )
+            df_adm["pop"] = pd.DataFrame(
+                zonal_stats(vectors=df_adm["geometry"], raster=pop_path, stats="sum")
+            )["sum"]
 
             # calculate population per period over all IPC levels
             for period in period_list:
@@ -179,9 +162,7 @@ def combine_fewsnet_projections(
                 # here we calculate the total population based on the admin shape, and compare it to the total population of the overlay of the admin and fewsnet shapefiles
                 # if the disperancy causes more than 5% of the population to be excluded, raise a warning
                 pop_admfews = (
-                    df_comb[f"pop_Total_{period}"].sum()
-                    / df_pop_check["pop"].sum()
-                    * 100
+                    df_comb[f"pop_Total_{period}"].sum() / df_adm["pop"].sum() * 100
                 )
 
                 if pop_admfews < 95:
@@ -193,7 +174,7 @@ def combine_fewsnet_projections(
                 # but that FewsNet hasn't assigned a phase to a large part of the population
                 # if more than 50% doesn't have a phase assigned, raise a warning
                 perc_ipcclass = (
-                    df_comb[f"pop_{period}"].sum() / df_pop_check["pop"].sum() * 100
+                    df_comb[f"pop_{period}"].sum() / df_adm["pop"].sum() * 100
                 )
                 if perc_ipcclass < 50:
                     logger.warning(
