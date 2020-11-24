@@ -12,6 +12,7 @@ Else install the requirements with
    ``` bash
    pip install -r requirements.txt
    ```
+If an error occurs you might have to install spatialindex, with brew `brew install spatialindex`
 
 ### Computation for existing country
 1. Run `process_fewsnet.py [Country ISO code]` this will return two csv's with the IPC phases of the FewsNet data for  for the current situation (CS), projections up to four months ahead (ML1) and projections up to 8 months ahead (ML2). One IPC phase is assigned per admin2 together with the population, per admin1 the population per IPC phase is returned, based on the admin2 results.  
