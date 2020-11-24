@@ -8,23 +8,27 @@ If using Anaconda, set-up an environment and install the packages from `environm
    conda env create --file environment.yml --name aafi
    conda activate aafi
    ```
+Else install the requirements with 
+   ``` bash
+   pip install -r requirements.txt
+   ```
 
 ### Computation for existing country
-FewsNet
-1. Run `convert_fewsnet_to_admin2.py [Country ISO code]` this will return the IPC level per admin2 for the current situation (CS), projections up to four months ahead (ML1) and projections up to 8 months ahead (ML2)
-2. Run `fewsnet_combined.py [Country ISO code]` this will return the IPC level per admin2 together with the population, plus the population per IPC level per admin1
-
-3. Do your analysis. The jupyter notebooks in `ethiopia/` can guide as examples
+1. Run `process_fewsnet.py [Country ISO code]` this will return two csv's with the IPC phases of the FewsNet data for  for the current situation (CS), projections up to four months ahead (ML1) and projections up to 8 months ahead (ML2). One IPC phase is assigned per admin2 together with the population, per admin1 the population per IPC phase is returned, based on the admin2 results.  
+2. Run `process_globalipc.py [Country ISO code]` this will return two csv's with the IPC phases of the GlobalIPC data per admin2 and admin1. For each spatial level the population per IPC phase is returned. 
+3. Run `IPC_computetrigger.py[Country ISO code]` this will return a csv with processed columns, including if defined triggers are met. The FewsNet and GlobalIPC data are combined in this script, if they are both present
+3. Do further analysis. The jupyter notebooks in `ethiopia/` can guide as examples
 
 ### Adding a new country
-FewsNet
-1. Make sure the regional FewsNet data is included in Data/FewsNetRaw. Can be downloaded from https://fews.net/fews-data/333
-2. Download a shapefile of the regional boundaries and place this directory/file in "country_name" -- "Data" . Can for example use the one provided by UN OCHA (search on data.humdata.org) or FewsNet (https://fews.net/fews-data/334)  
-3. Download regional population data for one year. Often available by UN OCHA on data.humdata.org
-4. Add the country-specific variables to `config.yml`
-GlobalIPC
-1. Download data from http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/
-2. Change column names to be compatible with the ipynb notebooks. An example can be found in `ethiopia/Data/GlobalIPC_newcolumnnames.xlsx`
+##### General
+1. Download a shapefile of the regional boundaries and place this directory/file in "country_name" -- "Data" . Can for example use the one provided by UN OCHA (search on [data.humdata.org](data.humdata.org)) or [FewsNet](https://fews.net/fews-data/334)  
+2. Download regional population data for one year. Often available by UN OCHA on [data.humdata.org](data.humdata.org)
+3. Add the country-specific variables to `config.yml`
+##### FewsNet
+1. Make sure the [regional IPC FewsNet data](https://fews.net/fews-data/333) is included in Data/FewsNetRaw.
+##### GlobalIPC
+1. Download data from [http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/](http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/)
+2. Change column names to be compatible with `process_globalipc.py`. An example can be found in `ethiopia/Data/GlobalIPC_newcolumnnames.xlsx`
 
 ## Ethiopia
 Required data
