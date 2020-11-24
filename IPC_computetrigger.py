@@ -108,23 +108,26 @@ def compute_trigger(df):
         lambda x: get_trigger_increase(x, "ML2", 3, 5), axis=1
     )
 
-    df["trigger_ML1"] = (df["threshold_ML1_4_20"]) | (
+    df["trigger_ML1"] = (df["threshold_ML1_4_20"] == 1) | (
         (df["threshold_ML1_3_30"] == 1) & (df["threshold_ML1_3_5i"] == 1)
     )
-    df["trigger_ML2"] = (df["threshold_ML2_4_20"]) | (
+    df["trigger_ML2"] = (df["threshold_ML2_4_20"] == 1) | (
         (df["threshold_ML2_3_30"] == 1) & (df["threshold_ML2_3_5i"] == 1)
     )
     return df
 
 
-def main(country_iso3, config_file="config.yml"):
-    # TODO: now admin_level is defined by the config, prob better to make it an input arg
+def main(country_iso3, admin_level, config_file="config.yml"):
     parameters = parse_yaml(config_file)[country_iso3]
     country = parameters["country_name"]
-    admin_level = parameters["admin_level"]
-    # the processed_fews_path and processed_globalipc_path are expected to be a csv with a row per date - admin unit and including {period}_{i} columns for period in ["CS","ML1",ML2"] and i in [1,2,3,4,5]
-    processed_fews_path = parameters["processed_fews_path"]
-    processed_globalipc_path = parameters["processed_globalipc_path"]
+    start_date = parameters["start_date"]
+    end_date = parameters["end_date"]
+    FEWS_PROCESSED_FOLDER = f"{country}/Data/FewsNetCombined/"
+    GIPC_PROCESSED_FOLDER = f"{country}/Data/GlobalIPCProcessed/"
+    processed_fews_path = f"{FEWS_PROCESSED_FOLDER}{country}_admin{admin_level}_fewsnet_combined_{start_date}_{end_date}.csv"
+    processed_globalipc_path = (
+        f"{GIPC_PROCESSED_FOLDER}{country}_globalipc_ADMIN{admin_level}.csv"
+    )
 
     # 3p = IPC level 3 or higher, 2m = IPC level 2 or lower
     ipc_cols = [
@@ -140,6 +143,9 @@ def main(country_iso3, config_file="config.yml"):
         f"pop_{period}" for period in ["CS", "ML1", "ML2", f"ADMIN{admin_level}"]
     ]
 
+    # TODO: implement ADMIN0 in preprocess scripts, and select it here as well
+    adm_cols = [f"ADMIN{a}" for a in range(1, int(admin_level) + 1)]
+
     # initialize dataframes such that can later check if they are filled with data
     df_fewss = None
     df_gipcs = None
@@ -150,20 +156,17 @@ def main(country_iso3, config_file="config.yml"):
         df_fews = df_fews.rename(
             columns={
                 parameters["shp_adm1c"]: "ADMIN1",
+                parameters["shp_adm2c"]: "ADMIN2",
                 "adjusted_population": f"pop_ADMIN{admin_level}",
             }
         )
         df_fews = add_columns(df_fews, "FewsNet")
-        df_fewss = df_fews[
-            ["date", "Source", f"ADMIN{admin_level}"] + pop_cols + ipc_cols
-        ]
+        df_fewss = df_fews[["date", "Source"] + adm_cols + pop_cols + ipc_cols]
 
     if os.path.exists(processed_globalipc_path):
         df_gipc = pd.read_csv(processed_globalipc_path, index_col=0)
         df_gipc = add_columns(df_gipc, "GlobalIPC")
-        df_gipcs = df_gipc[
-            ["date", "Source", f"ADMIN{admin_level}"] + pop_cols + ipc_cols
-        ]
+        df_gipcs = df_gipc[["date", "Source"] + adm_cols + pop_cols + ipc_cols]
 
     if df_fewss is not None and df_gipcs is not None:
         df_comb = pd.concat([df_fewss, df_gipcs])
@@ -185,10 +188,12 @@ def main(country_iso3, config_file="config.yml"):
 
     RESULT_FOLDER = f"{country}/Data/IPC_trigger/"
     Path(RESULT_FOLDER).mkdir(parents=True, exist_ok=True)
-    df_comb_trig.to_csv(f"{RESULT_FOLDER}trigger_results.csv", index=False)
+    df_comb_trig.to_csv(
+        f"{RESULT_FOLDER}trigger_results_admin{admin_level}.csv", index=False
+    )
 
 
 if __name__ == "__main__":
     args = parse_args()
     config_logger(level="warning")
-    main(args.country_iso3.upper())
+    main(args.country_iso3.upper(), args.admin_level)

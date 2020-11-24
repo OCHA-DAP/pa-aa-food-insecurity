@@ -22,8 +22,6 @@ ETH:
   end_date: "20201001"
   processed_fews_path: "ethiopia/Data/FewsNetCombined/ethiopia_admin1_fewsnet_combined_20090701_20201001.csv"
   ipc_path: "GlobalIPC/GlobalIPC_newcolumnnames.xlsx"
-  #level we want to do the analysis at
-  admin_level: 1
   replace_dict:
     Oromiya: Oromia
     SNNPR: SNNP
@@ -52,4 +50,3 @@ MWI:
   admin2_mapping: {}
   start_date: "20090701"
   end_date: "20201001"
-  admin_level: 1

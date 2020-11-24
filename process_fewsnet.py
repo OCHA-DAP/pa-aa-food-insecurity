@@ -367,6 +367,9 @@ def merge_ipcpop(df_ipc, df_pop, country, pop_adm1c, pop_adm2c, shp_adm1c, shp_a
         )
         df_ipcp[f"pop_{period}"] = df_ipcp[f"pop_{period}"].replace(0, np.nan)
 
+    # TODO: sort values and test
+    # df_ipcp=df_ipcp.sort_values(by=["date",shp_adm1c,shp_adm2c])
+
     return df_ipcp
 
 
