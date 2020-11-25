@@ -22,22 +22,23 @@ If an error occurs you might have to install spatialindex, with brew `brew insta
 
 ### Adding a new country
 ##### General
-1. Download a shapefile of the regional boundaries and place this directory/file in "country_name" -- "Data" . Can for example use the one provided by UN OCHA (search on [data.humdata.org](data.humdata.org)) or [FewsNet](https://fews.net/fews-data/334)  
-2. Download regional population data for one year. Often available by UN OCHA on [data.humdata.org](data.humdata.org)
+1. Download the shapefiles of the country, one on admin2 and one on admin1 level. Place the files in `country_name/Data` and set the specific path in the `config.yml`. Generally shapefiles can be found on the [Humanitarian Data Exchange](data.humdata.org)) or [FewsNet](https://fews.net/fews-data/334)  
+2. Download regional population data for one year and place it in `country_name/Data`. Often available by UN OCHA on the [Humanitarian Data Exchange](data.humdata.org)
 3. Add the country-specific variables to `config.yml`
 ##### FewsNet
-1. Make sure the [regional IPC FewsNet data](https://fews.net/fews-data/333) is included in Data/FewsNetRaw.
+1. Download [all FewsNet IPC classifications](https://fews.net/fews-data/333) that covers the country of interest and place it in `Data/FewsNetRaw`. Check if FewsNet publishes regional classifications that include your country of interest and/or country specific classifications. Both should be included and will be automatically masked to the country shapefile by the code.
 ##### GlobalIPC
-1. Download data from [http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/](http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/)
+1. Download the excel with country IPC classifications from [the IPC Global tracking tool](http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/) and save it to `country_name/Data`.
 2. Change column names to be compatible with `process_globalipc.py`. An example can be found in `ethiopia/Data/GlobalIPC_newcolumnnames.xlsx`
 
+<!---
 ## Ethiopia
 Required data
 - IPC factors (current and predictions). Using historical data from 2009. Can be downloaded from https://fews.net/fews-data/333
 - Admin2 boundaries: Use UN population boundaries https://data.humdata.org/dataset/ethiopia-cod-ab# or FewsNet boundaries https://fews.net/fews-data/334?tid=26
 - Current population. Given the name, it seems it is downloaded from https://data.humdata.org/dataset/ethiopia-population-data-_-admin-level-0-3 . 
 - Historical population. For now using country totals, can be retrieved from https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ET More detailed data exists at https://www.worldpop.org/project/categories?id=3
-<!--- - Livelihood zones. Download from https://fews.net/fews-data/335 --->
+ - Livelihood zones. Download from https://fews.net/fews-data/335 --->
 
 
 ## Development
