@@ -26,7 +26,10 @@ If an error occurs you might have to install spatialindex, with brew `brew insta
 2. Download regional population data for one year and place it in `country_name/Data`. Often available by UN OCHA on the [Humanitarian Data Exchange](data.humdata.org)
 3. Add the country-specific variables to `config.yml`
 ##### FewsNet
-1. Download [all FewsNet IPC classifications](https://fews.net/fews-data/333) that covers the country of interest and place it in `Data/FewsNetRaw`. Check if FewsNet publishes regional classifications that include your country of interest and/or country specific classifications. Both should be included and will be automatically masked to the country shapefile by the code.
+1. Download [all FewsNet IPC classifications](https://fews.net/fews-data/333) that covers the country of interest and place it in `Data/FewsNetRaw`. 
+Check if FewsNet publishes regional classifications that include your country of interest and/or country specific classifications. 
+Both should be included and will be automatically masked to the country shapefile by the code.
+Don't change the folder and file names since they are assumed to have the same naming as how they are published on the FewsNet website.
 ##### GlobalIPC
 1. Download the excel with country IPC classifications from [the IPC Global tracking tool](http://www.ipcinfo.org/ipc-country-analysis/population-tracking-tool/en/) and save it to `country_name/Data`.
 2. Change column names to be compatible with `process_globalipc.py`. An example can be found in `ethiopia/Data/GlobalIPC_newcolumnnames.xlsx`
