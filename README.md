@@ -1,4 +1,7 @@
-# pa-aa-pilots
+# [NOT MAINTAINED ANYMORE] OCHA Food insecurity pilots
+
+**NOTE: this repository is not maintained anymore and therfore archived. 
+All active development takes place in [pa-anticipatory-action](https://github.com/OCHA-DAP/pa-anticipatory-action), so please refer to that repository**
 
 Drought-related food insecurity in Chad, Somalia, Ethiopia and Malawi. 
 
@@ -23,8 +26,11 @@ If an error occurs you might have to install spatialindex, with brew `brew insta
 ### Adding a new country
 ##### General
 1. Download the shapefiles of the country, one on admin2 and one on admin1 level. Place the files in `country_name/Data` and set the specific path in the `config.yml`. Generally shapefiles can be found on the [Humanitarian Data Exchange](data.humdata.org)) or [FewsNet](https://fews.net/fews-data/334)  
-2. Download regional population data for one year and place it in `country_name/Data`. Often available by UN OCHA on the [Humanitarian Data Exchange](data.humdata.org)
-3. Add the country-specific variables to `config.yml`
+2. Add the country-specific variables to `config.yml`
+
+3a. If using `process_fewsnet.py`, download regional population data for one year and place it in `country_name/Data`. Often available by UN OCHA on the [Humanitarian Data Exchange](data.humdata.org)
+3b. If using `process_fewsnet_worldpop.py`, download WorldPop's raster population data for all years to be included and save them in `country_name/Data/WorldPop`. The script expects to find the 1km, UNAdjusted files there.
+
 ##### FewsNet
 1. Download [all FewsNet IPC classifications](https://fews.net/fews-data/333) that covers the country of interest and place it in `Data/FewsNetRaw`. 
 Check if FewsNet publishes regional classifications that include your country of interest and/or country specific classifications. 
